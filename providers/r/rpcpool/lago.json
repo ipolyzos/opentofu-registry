@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lago_2.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_darwin_amd64.zip",
+          "shasum": "049a34bcf06083566a3bbbbb0bd43a0ee9aa999bfc7ee02643effdc9006b7a6e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lago_2.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_darwin_arm64.zip",
+          "shasum": "eb669b0c3eb4236b59c34cdad1bcdf77bc6855cc4ce5a953209f93a96f2117e7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lago_2.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_freebsd_386.zip",
+          "shasum": "eecf96bb7a23ec2af895f20941ac86137b36755f0ea24b50d7887b376592b727"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lago_2.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_freebsd_amd64.zip",
+          "shasum": "376eadc7bdc5b8de3f360dc2579a8a60cd784fb468fe3d39070b2702caeca03d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lago_2.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_freebsd_arm.zip",
+          "shasum": "04301fcf1543b277153e09ee2c1f0c11030a2252d68b95905077b6f6b873d4af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lago_2.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_freebsd_arm64.zip",
+          "shasum": "7705da7f338e3186760dd19bf92f34eaa409fa307a7ebf610dcbae3b734cc942"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lago_2.2.0_linux_386.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_linux_386.zip",
+          "shasum": "a1de4b76412268ab2044b22efdd6358dcbff48e9cc270df09ace6e0d6bc8b892"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lago_2.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_linux_amd64.zip",
+          "shasum": "e92bb828da02d9643dbba330052ef3deac0afc799e5768a0fb6b42efd6e795a1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lago_2.2.0_linux_arm.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_linux_arm.zip",
+          "shasum": "8359c04fceb0be659ab5a31216a068ca8b366af3c6899672d295dafee3bf526f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lago_2.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_linux_arm64.zip",
+          "shasum": "b607d70cd2e2f1fb33f7025cef656d4a582fad5725a97763ba04930cfb09b399"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lago_2.2.0_windows_386.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_windows_386.zip",
+          "shasum": "ebd10a3d26b321490f2806d6f6f4af67981599341c9c898c8015bb22f00b8b2c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lago_2.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_windows_amd64.zip",
+          "shasum": "9ea8288e8bb0aaf36fa65fb35f016087d7169d934bb29f0ebc4aadc7530abad3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lago_2.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/rpcpool/terraform-provider-lago/releases/download/v2.2.0/terraform-provider-lago_2.2.0_windows_arm64.zip",
+          "shasum": "b8b53e41e11a109dca50951934e1f2d9b334151101f0f8273541fab96a009c69"
+        }
+      ]
+    },
+    {
       "version": "2.1.0",
       "protocols": [
         "6.0"
