@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apptrust_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_darwin_amd64.zip",
+          "shasum": "6808d9b7481f9624e0080d7c9c35b6aec6c70b4a1af2d980494ee750ef230bd9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apptrust_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_darwin_arm64.zip",
+          "shasum": "b286fd0d490de5d022b0aa4b1f74ba795ef56830ba1750b5eb8ddede64ac9602"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-apptrust_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_freebsd_386.zip",
+          "shasum": "e90c3247758b2b1098eb1af9ce4c7a9976057690ad112eca39a3721d3b50fdae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-apptrust_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_freebsd_amd64.zip",
+          "shasum": "8b06607ab11a0fedfb6ee06ccafa657e2ddfb6a7248baf5eb51b39390be3b3cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-apptrust_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_freebsd_arm.zip",
+          "shasum": "2b38ff17fec8c87a34079149527a32ee22a56b17ba9d6af610f56d006e82f36d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-apptrust_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_freebsd_arm64.zip",
+          "shasum": "e61db40a3f5ae06f7d9191262a6eb5360765cd767eaf7de0057c8be7fa187522"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-apptrust_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_linux_386.zip",
+          "shasum": "47d9f4259ef38a2d709e2866c8fb0a3be4c7cfc48173ecf03ee87a9d0e26a0fa"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apptrust_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_linux_amd64.zip",
+          "shasum": "5e99d06cfd15eba10a582d705d9524fc0a0a666fba7cc2fe2cf67aa034ebf6f2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-apptrust_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_linux_arm.zip",
+          "shasum": "d8918accc228b024086c9299a5734eada2f42212eab345e797e4d961c68f7e5d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apptrust_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_linux_arm64.zip",
+          "shasum": "5a7bfd7681d85583c9dc15d13140340ca308bd04d6b43d47d7981e8eb45f6e2d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-apptrust_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_windows_386.zip",
+          "shasum": "ac20f84d201b1107b07500dc6d9535a5a8a4791f49b268241d3e16d55740d6ba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-apptrust_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_windows_amd64.zip",
+          "shasum": "9f5dc6f96c533bc70af986da73fff0586a91f1faf455fb8c52f5dc8e348bb634"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-apptrust_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_windows_arm.zip",
+          "shasum": "43d5f9f735b4b0da83217fe325d66ab6c7d245b310f20dc03351b9b4e2fa04d9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-apptrust_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-apptrust/releases/download/v1.0.1/terraform-provider-apptrust_1.0.1_windows_arm64.zip",
+          "shasum": "dad9df75402988d50b915b2d740549196f8a9015e1f915c3ae0b8d86fcac9e53"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "6.0"
