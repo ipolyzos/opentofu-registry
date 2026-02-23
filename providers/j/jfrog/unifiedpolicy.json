@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_darwin_amd64.zip",
+          "shasum": "17085719586298d9ed340fbf8f8319c43c8828ed1f2ebb7ea50b82961a335e6d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_darwin_arm64.zip",
+          "shasum": "544c153f46906036c9ed204be78dc6fbf9d91691f21861f0e9204ee0c2b662d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_freebsd_386.zip",
+          "shasum": "972a63ebd179837d1e382c43dd31291b7694ef9481efc804f28e943a0214af63"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_freebsd_amd64.zip",
+          "shasum": "20c386d04e1d5cac6bf9059a921e28e7aa4fbef424f8bf12844b8f17146c8bdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_freebsd_arm.zip",
+          "shasum": "e355ad8569ec5a1b79df53e2e114e133ff05e7efaf732622c1812c28b765cc50"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_freebsd_arm64.zip",
+          "shasum": "53cba23de694e2f5b3208b406b7cabc65a7dbee161e55697f3b2dce55073aa3b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_linux_386.zip",
+          "shasum": "4aa808d5f622ccb8e8be237dfdaa1a2d38075acad0d675794814d33fbec5b2b4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_linux_amd64.zip",
+          "shasum": "e5fa53f029bd52cfc8715003286f955348319641e67984a1f81645331f84d053"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_linux_arm.zip",
+          "shasum": "0b155e42c7721e8c207fe8b8256542456e62c1a4c4a2c360794e0c0d75b73084"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_linux_arm64.zip",
+          "shasum": "2e58f867e781489ca8ab87225c89c5c2dc44b062abac66483a457edb9b311292"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_windows_386.zip",
+          "shasum": "a251e57941524e141db804436dbceacecf34acbc4ba4173c1cf066208c3d7918"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_windows_amd64.zip",
+          "shasum": "90660112715f78d96b74370eb528f239ade889719e1f706738bc654a6e671aea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_windows_arm.zip",
+          "shasum": "1ea577885f2ef2aef4742ef9cffd73dbca60ab4e7056a856c11ecaa13c06602d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-unifiedpolicy_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-unifiedpolicy/releases/download/v1.0.1/terraform-provider-unifiedpolicy_1.0.1_windows_arm64.zip",
+          "shasum": "d24304497bfdfdd129d196281756e7a0450aa81b31a84d13d7eff8e565dc4d50"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "6.0"
