@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.4.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-outscale_1.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_darwin_amd64.zip",
+          "shasum": "2fa57569c41f904af939a29a261c4a60b0628d17989cd7b9a0a38e5b12f9e7f6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-outscale_1.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_darwin_arm64.zip",
+          "shasum": "3fcbc36a3eb665ddac6ff19d5c84c675c21510d208586927767402648a180194"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-outscale_1.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_freebsd_386.zip",
+          "shasum": "f6e67c0d8b0f7d985d5979cbaf653057bf6b6b4c1f1cb6e98a88eb9fba02b193"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-outscale_1.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_freebsd_amd64.zip",
+          "shasum": "e87a6424bc67831a0fd71cfe5925241cfc1a5fe41af8613c4930ab1ed0faa413"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-outscale_1.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_freebsd_arm.zip",
+          "shasum": "eaacf37a9fa8179118df59da165883118b83e2c06c9b50cad598820913d35f1f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-outscale_1.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_freebsd_arm64.zip",
+          "shasum": "2de7375a6350ae6d5f58aed4a1b73c1ab5de169c9f55653576238d9a0769a0c5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-outscale_1.4.0_linux_386.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_linux_386.zip",
+          "shasum": "4aafc326533842a32acce99ad9267c5de7b2b354e3c9eddf94374de1d3806c73"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-outscale_1.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_linux_amd64.zip",
+          "shasum": "42ba4213bc4d94b0825f9e13ba70d19a3b43ea5ddd77994bdd1487051d09e1a3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-outscale_1.4.0_linux_arm.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_linux_arm.zip",
+          "shasum": "6684f5a597b5d8415293f41fa4da08e62c1172d5b41f9fb626a7b584fb52d25c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-outscale_1.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_linux_arm64.zip",
+          "shasum": "1f5993a644e54f2b1367095d5af6b1c7b892dd21861526b0cfeb010f965e14c8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-outscale_1.4.0_windows_386.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_windows_386.zip",
+          "shasum": "02629e21cc24b69a338e2b9c781985106de9c728fce7a48f89c07f240456f22f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-outscale_1.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_windows_amd64.zip",
+          "shasum": "b1c2d92fe8c60e21df546c6333a901f2ed93707e15b82c4fda1287e27ca98b05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-outscale_1.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/outscale/terraform-provider-outscale/releases/download/v1.4.0/terraform-provider-outscale_1.4.0_windows_arm64.zip",
+          "shasum": "82bb2310452c88cc2c10dc7c6c1a708bcf6b99a9fed97d0f34899e3be73bc4fd"
+        }
+      ]
+    },
+    {
       "version": "1.3.2",
       "protocols": [
         "5.0"
