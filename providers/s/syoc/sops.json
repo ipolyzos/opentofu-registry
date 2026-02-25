@@ -1,6 +1,79 @@
 {
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_darwin_amd64.zip",
+          "shasum": "d81a830c2422f08bf569ec51de897ddbd95f827a4117c34199f5bb8df416fa7b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_darwin_arm64.zip",
+          "shasum": "0090f11a845990f1d754402a7d633c93c3b63f8840461511350f0d1409b91df6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sops_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_freebsd_386.zip",
+          "shasum": "61585482717a703c8a1eff2f06d8d0901254a32dc0045a7675a7b71d29b9a263"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_freebsd_amd64.zip",
+          "shasum": "cbe60479ed1b3bd95f9d7ba643d845dc2b1456a7105f62163bd22a920450e6a4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sops_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_linux_386.zip",
+          "shasum": "d1a481db9885d25ffc125782ec1dcf26c02ededd1e60180717843fc91b452e59"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_linux_amd64.zip",
+          "shasum": "ae43aa2eac3f66c802779f1b37106c5e043e513175b5d0b5e48e75b38bb062f5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_linux_arm64.zip",
+          "shasum": "9bb16d94f4aeefcbdf42a3ff2b9fc89aaf1ed2b75704d8d06debbea85482d2f7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sops_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_windows_386.zip",
+          "shasum": "9f7dacfc6618aeb067eabf5ef4049ddeaadbc6fb0621090928769215bf002f5c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/syoc/terraform-provider-sops/releases/download/v0.1.2/terraform-provider-sops_0.1.2_windows_amd64.zip",
+          "shasum": "897344008119d21fdd51cc9e9562d0c732c035f39249e194fa4e33d08855c8d4"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
