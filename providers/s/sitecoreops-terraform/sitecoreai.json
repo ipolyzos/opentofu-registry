@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_darwin_amd64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_darwin_amd64.zip",
+          "shasum": "b995056f4c035115b8aa2e51f781510648a33475b20025ba05cc9826a33dcf34"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_darwin_arm64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_darwin_arm64.zip",
+          "shasum": "ed663dec88ff653fb8799471678609aca57c9151ebb2dffb31f86142648d666b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sitecoreai_0.1.6_freebsd_386.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_freebsd_386.zip",
+          "shasum": "8956b7f586c5ee1bf71a246d05b0e849b486aa9010e6e8f17d95f2d9b3525e38"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_freebsd_amd64.zip",
+          "shasum": "b469714b08c58612c387d9a1087a6fef9417eb9b7e281872f57530ae6916564d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sitecoreai_0.1.6_freebsd_arm.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_freebsd_arm.zip",
+          "shasum": "bb70048dce63deeac3d8a0029a8bd9b7bb078078eb155201ee23e4184bd33d1b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_freebsd_arm64.zip",
+          "shasum": "f1fa4de34c6217d69daca47fb728611980d91c02c312b2ae79e38416309f421e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sitecoreai_0.1.6_linux_386.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_linux_386.zip",
+          "shasum": "ac72875d891a55b1c5547db65aa11502926aa65e4e6357160bf277ab57c81d38"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_linux_amd64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_linux_amd64.zip",
+          "shasum": "77295097b294cbe40294505b94f6a93e0bbb5ef24be26980269746199d0dd358"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sitecoreai_0.1.6_linux_arm.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_linux_arm.zip",
+          "shasum": "7497ac9317823d52e8ce777de1e7ec4e6e22006c32048f862f76e1ac653279eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_linux_arm64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_linux_arm64.zip",
+          "shasum": "05d9c40d991d6874c3835bfb21edce31f724069a35c7669ec5994b33095bdb59"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sitecoreai_0.1.6_windows_386.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_windows_386.zip",
+          "shasum": "0b9ac85f6ba2fd505417f88b18971537aff1011da42d433372aa7ea34f0b1eb9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_windows_amd64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_windows_amd64.zip",
+          "shasum": "8063b2544360727bc5cbf1ca867cd9862b2beadb094c6766d33f01abf3f435f5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitecoreai_0.1.6_windows_arm64.zip",
+          "download_url": "https://github.com/sitecoreops-terraform/terraform-provider-sitecoreai/releases/download/v0.1.6/terraform-provider-sitecoreai_0.1.6_windows_arm64.zip",
+          "shasum": "d06d1591b266326f1f386920f26f4bc0070bf6de60f540e3e14564b6f9053797"
+        }
+      ]
+    },
+    {
       "version": "0.1.5",
       "protocols": [
         "6.0"
