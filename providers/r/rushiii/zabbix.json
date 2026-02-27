@@ -1,6 +1,51 @@
 {
   "versions": [
     {
+      "version": "0.1.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_0.1.10_darwin_amd64.zip",
+          "download_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_darwin_amd64.zip",
+          "shasum": "7a500a247f8c6c81315a44811de0a7b24f199d3637db201e793714c070bdbeaa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_0.1.10_darwin_arm64.zip",
+          "download_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_darwin_arm64.zip",
+          "shasum": "317d1a3c29b8046ddae22ce0cbccc9d1304a395c37419db372e2f2052106a42c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_0.1.10_linux_amd64.zip",
+          "download_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_linux_amd64.zip",
+          "shasum": "2cd1be045bfbae1ffd21d9998b200ccc727e6211211665f154537b6a40b0e60d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_0.1.10_linux_arm64.zip",
+          "download_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_linux_arm64.zip",
+          "shasum": "9390ef2d0e5ccf5a8477b524ebbe6a5bc53c0030b190df5e252746c1108b04c1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_0.1.10_windows_amd64.zip",
+          "download_url": "https://github.com/rushiii/terraform-provider-zabbix/releases/download/v0.1.10/terraform-provider-zabbix_0.1.10_windows_amd64.zip",
+          "shasum": "991c9583f017795b2818397b874c7a34ee36dee6e41f95b841a72ab3158f7ebe"
+        }
+      ]
+    },
+    {
       "version": "0.1.9",
       "protocols": [
         "5.0"
