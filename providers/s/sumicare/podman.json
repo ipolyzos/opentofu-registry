@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-podman_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_darwin_amd64.zip",
+          "shasum": "ebfad39a78af85d7a1372903a735f8bdc42517372db8db031aef584b64bb4c50"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-podman_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_darwin_arm64.zip",
+          "shasum": "305ffed4de351e582eea041c39e2f070bd2d7ef575584392f861fa47bda2bb72"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-podman_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_freebsd_386.zip",
+          "shasum": "541bac2e24bc9b0ef0c3fba45aa5d3b382c085b82ed79e92644480afaded5ecd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-podman_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_freebsd_amd64.zip",
+          "shasum": "631ce7a9ffd108701e4ccd3867675254279b278da573d9785c038418cd9b515a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-podman_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_freebsd_arm.zip",
+          "shasum": "69f44401025778a00de4179857f07a559709bf61ab9ef36a1e03f071b1742518"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-podman_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_freebsd_arm64.zip",
+          "shasum": "c263b4649632665660527648ad0e9419d349d08827db3a84f9bd43b7c078ab8d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-podman_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_linux_386.zip",
+          "shasum": "d3d7fe8843348e3780a05bc6b6055f8b1021a87d551673611d6522f47ca22a5a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-podman_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_linux_amd64.zip",
+          "shasum": "29a6bcfe40a70ce62d535adb56579127348dac8796d5a9dc4b1411c00504d8d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-podman_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_linux_arm.zip",
+          "shasum": "6f184319e52fb1eb979abbac505605a7005fc02188d5df8862f277872ef910f5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-podman_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_linux_arm64.zip",
+          "shasum": "abda1a9fc12e254f7304d51c1968be967021cf12387bb9c52ca45c3bde1ad5d3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-podman_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_windows_386.zip",
+          "shasum": "eab7859e9329b258b6bee3dccadc6a85feff35ae327603d82d750e053cb1d1c4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-podman_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_windows_amd64.zip",
+          "shasum": "32a2f365e08df37c2d5c3ee31967d5aebd9dc298240392edd7f349706287f6e2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-podman_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/sumicare/terraform-provider-podman/releases/download/v1.0.1/terraform-provider-podman_1.0.1_windows_arm64.zip",
+          "shasum": "d493d4b021f19268f51ef921eb091c9ad5e8d5eb61649357516d3ea73fe05abc"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "6.0"
