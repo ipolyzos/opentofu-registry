@@ -1,6 +1,51 @@
 {
   "versions": [
     {
+      "version": "0.1.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lockwave_0.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_darwin_amd64.zip",
+          "shasum": "ad76bb0ca0a7b68c0ea3f9c9ca23aafec5452faf9f1d2a5d64a753042b90a1d6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lockwave_0.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_darwin_arm64.zip",
+          "shasum": "d815b6353ff915a395baf782f3b220ee78a27c5f3ac2cc1d4b858380877b76d2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lockwave_0.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_linux_amd64.zip",
+          "shasum": "1b142a284c4db5d17681a0fbdd6a722e760b301f0035f984315421cbc4a7f058"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lockwave_0.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_linux_arm64.zip",
+          "shasum": "927e92479635a0061d7ae027a76227550b1185260e63018843582afd9fbb6a78"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lockwave_0.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/lockwave-io/terraform-provider-lockwave/releases/download/v0.1.3/terraform-provider-lockwave_0.1.3_windows_amd64.zip",
+          "shasum": "86d117222e5d6e78b8b0188c8bc377a6ee265c81f9b5297613b550c12e12e848"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
