@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.1-preview.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_darwin_amd64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_darwin_amd64.zip",
+          "shasum": "b7a76d644dbf23cf9e37d9a775324bdeebb0a425ee5bc9f8b55a7c7badc96d96"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_darwin_arm64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_darwin_arm64.zip",
+          "shasum": "c525aaf7ad6389c649a2f2d74bb47e2a3a6922695a0714c7a2665727e3bf38b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_386.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_386.zip",
+          "shasum": "ec80bf9adeafffd19d22992104bc2e3e09f24b7e38aafebab891753e5ac0c343"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_amd64.zip",
+          "shasum": "e1a7a216454a3c738a075e6e22907767b66d19805486ef3dce4a6383eb224a2d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_arm.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_arm.zip",
+          "shasum": "7d453e697b67f3230ca5af9d679699f9a010de6679372bd59c24644460d42d14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_freebsd_arm64.zip",
+          "shasum": "34168af1bb5bdcec466aa2eff857996cff00d4e9f593b7d5596a0aeb87a9e1c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_linux_386.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_linux_386.zip",
+          "shasum": "3f3a9b6c44fa4c5a86a41fa02d3f619175b5cbfaf8fa64abf5383e1649c5faa0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_linux_amd64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_linux_amd64.zip",
+          "shasum": "bb27f8bf678b781e11ee1dbffcb08a19807113319ee13d10730b0efd235a6ac7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_linux_arm.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_linux_arm.zip",
+          "shasum": "131ff1594036889d53cf1564b415435f2c39c00e207dffb90a1f15c9a7e032d1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_linux_arm64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_linux_arm64.zip",
+          "shasum": "7922292e38bed6ec499229c8578574acce50722649a6559da06c00579813abc8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_windows_386.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_windows_386.zip",
+          "shasum": "e469d67fd4ac1b8b106a13b155b25d48b96b46ef59cc786c149ceda63d3cd104"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_windows_amd64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_windows_amd64.zip",
+          "shasum": "e4aa5c13323b1c7de44ab66e4280d68611a24ff745bd3443b408da5f1b4315a8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bcadmincenter_0.0.1-preview.5_windows_arm64.zip",
+          "download_url": "https://github.com/axiansinfoma/terraform-provider-bcadmincenter/releases/download/v0.0.1-preview.5/terraform-provider-bcadmincenter_0.0.1-preview.5_windows_arm64.zip",
+          "shasum": "c666b783206c3cf5f4c26a21bd23d622546e4eb0024d299c8e8e347c299ee0f2"
+        }
+      ]
+    },
+    {
       "version": "0.0.1-preview.4",
       "protocols": [
         "6.0"
