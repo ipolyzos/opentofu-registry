@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-level27_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_darwin_amd64.zip",
+          "shasum": "7a80fe381d21e16ba456f10d671ec4132c8f319618088e63c552928f72a4f16a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-level27_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_darwin_arm64.zip",
+          "shasum": "6e124b17211970ea6a32b23e1817bde5e73488b3057c3c352a5e39933013e3a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-level27_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_freebsd_386.zip",
+          "shasum": "7b114e88c85d46dac71dbf3f5560331835b6a4756b1031f32a047a2d9694b8c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-level27_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_freebsd_amd64.zip",
+          "shasum": "1ff550b78d180cbce9736ec374c95107c3d828cc7f857f56dad39bf43ee8234d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-level27_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_freebsd_arm.zip",
+          "shasum": "22e5d2d69955c57625f2f9c1c734534f0cf67064a6ce8ba4e14dea8bc5496406"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-level27_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_freebsd_arm64.zip",
+          "shasum": "ad8fad9aba29c823cedd5a19c2c7308662e2fa7fd7cd99827a6de4cbd07594a7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-level27_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_linux_386.zip",
+          "shasum": "b353e54b56e4b26537ce710c21472cd4b510f2b9b3a0a04f5682b2e4ef7b3b2e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-level27_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_linux_amd64.zip",
+          "shasum": "d560e81613872b239287af1243c6b62bbaef77d8e78e03b145a52fcd7c7cd45f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-level27_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_linux_arm.zip",
+          "shasum": "9f4711c770868aa863cc32a5e836f3b40e28c46dcf2923f32a609fffa5d15ef3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-level27_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_linux_arm64.zip",
+          "shasum": "0cabe9e19926d17e312e63070ee4f73ef6d21778bbbfeb211985a9a288e3e435"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-level27_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_windows_386.zip",
+          "shasum": "09996665e0ddaa1171abee7b1aaad20dced155b7711d0995e6469ec3a990a7b0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-level27_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_windows_amd64.zip",
+          "shasum": "edf4f33e3000cf0d9b549bec104146f2f7f086d8bbddda74ec0f29b46d30707d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-level27_0.1.2_windows_arm.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_windows_arm.zip",
+          "shasum": "923ed8e16aec36a400c95de52c497165526da7d52de845dfbffd6e1a780a4961"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-level27_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/level27/terraform-provider-level27/releases/download/v0.1.2/terraform-provider-level27_0.1.2_windows_arm64.zip",
+          "shasum": "24cb49840de11de7b07bb2573063ae14fdaff2e35f5bf3b256dfff3d739648b8"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
