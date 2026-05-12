@@ -1,6 +1,81 @@
 {
   "versions": [
     {
+      "version": "15.0.0-rc.4",
+      "protocols": [
+        "4.0",
+        "5.0",
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_darwin_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_darwin_amd64.zip",
+          "shasum": "5d8b29cbed4f493821eafc8e76bb97eba29c146fa2013342e43f9e6bd6a6e3b5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_darwin_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_darwin_arm64.zip",
+          "shasum": "a203820726b51c70b40523cf12657643c6ab52f9bb67d75cc1b19d539468b326"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_freebsd_amd64.zip",
+          "shasum": "cab8dfbf47e72eeee73442d6dfd7dfb0361dd40aeb2196c59a21b689995df94b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_freebsd_arm.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_freebsd_arm.zip",
+          "shasum": "9d8d38333a8b59f4268b550d2dabc966a14e710bcab092b9883180111e2f3b78"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_freebsd_arm64.zip",
+          "shasum": "48aff3f84f705461130ea0508620fc77e2c8d699cad1bad47767494a6d7ea6e1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_linux_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_linux_amd64.zip",
+          "shasum": "8827e388e1473df7892c7964283260eccee00c678774a53570f7a61fb978c97b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_linux_arm.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_linux_arm.zip",
+          "shasum": "a1deb98a64fedc0c66a08a097e38a1288149d8913b5d52cdc36a731b31a13ea0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_linux_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_linux_arm64.zip",
+          "shasum": "081c52d5486baa0f06031c2ba57dd008c5be1c501b3e9906acbc09cffe89be8c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_15.0.0-rc.4_windows_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v15.0.0-rc.4/terraform-provider-rancher2_15.0.0-rc.4_windows_amd64.zip",
+          "shasum": "887a545ea079bff7ee0d9d5cc7b63dfbf64ceaa44d8381fee68c1470750ea716"
+        }
+      ]
+    },
+    {
       "version": "15.0.0-rc.3",
       "protocols": [
         "4.0",
