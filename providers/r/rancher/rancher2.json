@@ -2326,6 +2326,81 @@
       ]
     },
     {
+      "version": "13.5.0",
+      "protocols": [
+        "4.0",
+        "5.0",
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_13.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_darwin_amd64.zip",
+          "shasum": "3299543b008b9a707aece2a2d1d46ea4337b1ca9c22aa5f776235d7b215ffe2d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_13.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_darwin_arm64.zip",
+          "shasum": "54c0a361d7399094f40eae68ee0309e4c226545be66a69b2b98353cbe5946d0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_13.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_freebsd_amd64.zip",
+          "shasum": "63b70cdf48f42cef2b9c6264bf573207d8a465c3840bfbed46f95bb29ea694e1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rancher2_13.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_freebsd_arm.zip",
+          "shasum": "3bac039f372ac0c43b167c2f8b6696bbe98cadcbf56ae4b3300d9a442ad3229b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_13.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_freebsd_arm64.zip",
+          "shasum": "613fe372754d183e4657767b5ba88261cbeeabfb477ebb6d72a922d2718efb6d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_13.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_linux_amd64.zip",
+          "shasum": "9e557959d4b8ee09777b2070acaab1718698e5e5b38ae38b4026c44714774d29"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rancher2_13.5.0_linux_arm.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_linux_arm.zip",
+          "shasum": "9185d191cb10b9afcfd14eb9d825c6f08a155f8ad77c90385234c120737c56e6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rancher2_13.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_linux_arm64.zip",
+          "shasum": "06b5c1e0246f0239b61a789a0ba16ef273c45b8c38d1bec89d6158f755792050"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rancher2_13.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/rancher/terraform-provider-rancher2/releases/download/v13.5.0/terraform-provider-rancher2_13.5.0_windows_amd64.zip",
+          "shasum": "0051c1ccff481e9d81b5f00661f4a7c5b750472ed65516576d08c89be0c7549d"
+        }
+      ]
+    },
+    {
       "version": "13.5.0-rc.1",
       "protocols": [
         "4.0",
