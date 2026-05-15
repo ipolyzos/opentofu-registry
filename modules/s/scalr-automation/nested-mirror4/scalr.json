@@ -49,6 +49,9 @@
       "version": "0.0.1-tofu-tests-changelog"
     },
     {
+      "version": "0.0.1-nochangelog"
+    },
+    {
       "version": "0.0.1-e2e-tax-clear-close"
     },
     {
@@ -101,6 +104,9 @@
     },
     {
       "version": "0.0.1-dashboard-ws"
+    },
+    {
+      "version": "0.0.1-changelog"
     },
     {
       "version": "0.0.1-auto-uca6lc0ncm48luo"
