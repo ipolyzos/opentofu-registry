@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.21.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach_1.21.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_darwin_amd64.zip",
+          "shasum": "0692f79faf0d7c460a907ee800a781bc3f326e24455c93cc657f6c8b63c858eb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach_1.21.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_darwin_arm64.zip",
+          "shasum": "20644a289ca875c2a11295aee15516a6b025c63beda8bd3e839659e4a9be27ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach_1.21.0_freebsd_386.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_freebsd_386.zip",
+          "shasum": "48429d03872e51e5bb645aac1ba5658920af698a6fb2d9b961924ab8a1e88f9a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach_1.21.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_freebsd_amd64.zip",
+          "shasum": "c1c37676d7a06ee335ddf4ebe0ac164cb40838e4f5665259888e82746b9969e4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach_1.21.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_freebsd_arm.zip",
+          "shasum": "701c40ee9dab341ceae8fbb70e2d38b0ea4b3b4617de235484e988df94b85847"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach_1.21.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_freebsd_arm64.zip",
+          "shasum": "a5f45e9e1dafde5d476b7d6577c8499bbcbde7899ef5eddbdb4963d8ec53de46"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach_1.21.0_linux_386.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_linux_386.zip",
+          "shasum": "bcb41e12e685165eb75d5bbbf688bd3d315a0c81c2609dd99f3d47d9d89468f6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach_1.21.0_linux_amd64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_linux_amd64.zip",
+          "shasum": "127fa73759cdbff35d2774699aa03328a61f90892b0930236ad99a30ac5d3451"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach_1.21.0_linux_arm.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_linux_arm.zip",
+          "shasum": "edfec0c157dc790ab891d2853c9a39b9e063d94b6cdc7fbc9686c339269dda4b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach_1.21.0_linux_arm64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_linux_arm64.zip",
+          "shasum": "fb57adf08b4664451be857f0f3d0e7b6ad876a09947c8c871805db9d6db5d982"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cockroach_1.21.0_windows_386.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_windows_386.zip",
+          "shasum": "a239fef0ba5f6cf20174af4cf2c5871e2a95cf3913b9003ea318b416a88ad2ed"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cockroach_1.21.0_windows_amd64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_windows_amd64.zip",
+          "shasum": "5dd825b3c126aeb6555efb4bf9a58d3653cd2b4fc1c95d56a53e34829a61d3fc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cockroach_1.21.0_windows_arm.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_windows_arm.zip",
+          "shasum": "a434d752d52356815a8eea29ac6d2e89342f3004ceca5d0e787fd7f5b2effd4d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cockroach_1.21.0_windows_arm64.zip",
+          "download_url": "https://github.com/cockroachdb/terraform-provider-cockroach/releases/download/v1.21.0/terraform-provider-cockroach_1.21.0_windows_arm64.zip",
+          "shasum": "198ff0cc872fa1e404a542613548df6ec3370d46aab01af435796ec0bc94e31c"
+        }
+      ]
+    },
+    {
       "version": "1.20.0",
       "protocols": [
         "6.0"
