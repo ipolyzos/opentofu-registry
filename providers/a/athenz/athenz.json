@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.0.51",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-athenz_1.0.51_darwin_amd64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_darwin_amd64.zip",
+          "shasum": "45bbb2f39a63f2b69f0000027cd491ba431a99abe778c9f1427c7411e308e32b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-athenz_1.0.51_darwin_arm64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_darwin_arm64.zip",
+          "shasum": "ceb6997427c2f8d6891084ab21d609ed649323de1b8b59a4f3d67d7094714f03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-athenz_1.0.51_freebsd_386.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_freebsd_386.zip",
+          "shasum": "598cd5063b82af3696b4ca87abe68ba113ad1eaa0335f28b4fa805f082b5bea9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-athenz_1.0.51_freebsd_amd64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_freebsd_amd64.zip",
+          "shasum": "0671b35e71f34b2dbe863ba50c4577806f5f0a8bc06b03fa160988da598dd733"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-athenz_1.0.51_freebsd_arm.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_freebsd_arm.zip",
+          "shasum": "0317e08e5bf0419804f800cb996874a86477353362b9355ec6a3e10f32753e1e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-athenz_1.0.51_freebsd_arm64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_freebsd_arm64.zip",
+          "shasum": "2b8326562fa32f5c8e01584a0dcf55238bb55073f0818e5f35531412fdf4f565"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-athenz_1.0.51_linux_386.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_linux_386.zip",
+          "shasum": "aeb1a0ac5239f83f08f742cfb458b0cf1f5382e3805bc119972e191c7df6a2ad"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-athenz_1.0.51_linux_amd64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_linux_amd64.zip",
+          "shasum": "600b480223c7e9f06320f4f5edefc22e3857a3e796395f7abd6c8ebd1f28e95a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-athenz_1.0.51_linux_arm.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_linux_arm.zip",
+          "shasum": "2deb9b031ce8a1fb8ced9a4c7ffa47cc2ab4e589112925ac8c62a8870a35faac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-athenz_1.0.51_linux_arm64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_linux_arm64.zip",
+          "shasum": "54e9aae97d9d9d316b52c38e7d91760876e2f9af33f0af51bea08ae07a414b9c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-athenz_1.0.51_windows_386.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_windows_386.zip",
+          "shasum": "4343138988ac18a26c7f2168249c16512c624836149896be9aecff9591ae9a15"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-athenz_1.0.51_windows_amd64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_windows_amd64.zip",
+          "shasum": "e7c44c58fd10efeb0a887ebdb9a789a4e5b38bc7232adae193ebcfcbc099874a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-athenz_1.0.51_windows_arm64.zip",
+          "download_url": "https://github.com/athenz/terraform-provider-athenz/releases/download/v1.0.51/terraform-provider-athenz_1.0.51_windows_arm64.zip",
+          "shasum": "fdebd217812b9f2e6fb1f922ccdd0c86335215dead66b23d3102a9d7dbac96c4"
+        }
+      ]
+    },
+    {
       "version": "1.0.51-ec3a8c7",
       "protocols": [
         "5.0"
