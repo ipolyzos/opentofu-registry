@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.0.12",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-signoz_0.0.12_darwin_amd64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_darwin_amd64.zip",
+          "shasum": "07321ca27f4260bf08f84c38dae110b733ec1fc6af3281e4bec70d137edaaec9",
+          "h1": "h1:HTENhqTgGk9eCvQFpnikkGuIyXrcBbj43pFp3A0S/ZI=",
+          "size": 15341361
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-signoz_0.0.12_darwin_arm64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_darwin_arm64.zip",
+          "shasum": "e133ca17a8a3ecf82cc77fcb1a0ca479885474f17d18ccf1750dc3a9c5f5af8c",
+          "h1": "h1:EwIjj8r5OL54/V+ycpHlryB8nNRiTRX+HD63THcuP9Y=",
+          "size": 14243526
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-signoz_0.0.12_freebsd_386.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_freebsd_386.zip",
+          "shasum": "9d979f1c2cc3451c9f0345871f097fe6814a11c283cd25b4f179bb3274554ca6",
+          "h1": "h1:3VBjjhK8e++8Dnesq6n4tAQe3c6TDM0I7uv8xNZWWr8=",
+          "size": 13791102
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-signoz_0.0.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_freebsd_amd64.zip",
+          "shasum": "97085834ca9554baba5feea673836de298194b3d1f753b2838a030258c5cda71",
+          "h1": "h1:1Xz21AbZ1bhKXnURbeD62gf789+4a/T+4MQVCCHycBY=",
+          "size": 14920327
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-signoz_0.0.12_freebsd_arm.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_freebsd_arm.zip",
+          "shasum": "180cb092b4b4d287f2e328b6ee1405686dc758adb4cc64475f611854d0648ea8",
+          "h1": "h1:Q26cfhaGflIuOzAwoBExCyIsNoibzm5aHFX5zKfnGVA=",
+          "size": 13860804
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-signoz_0.0.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_freebsd_arm64.zip",
+          "shasum": "af5142eb1a5f276fa05288a5a711a90d4e5a480230e4d236fc771a4b2ac62b31",
+          "h1": "h1:8S6YY+m4CvsCTzJPh/H10/aZWO1UPOqgwOmpOee/N3w=",
+          "size": 13460471
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-signoz_0.0.12_linux_386.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_linux_386.zip",
+          "shasum": "b5262733c3a7723405e7a00d1ab793e3086defce9eefa4a7f9bdf15b17707cea",
+          "h1": "h1:y3aqY/zW5f4t24z1G+vxD3wklubob4+fiKHS3KJocXc=",
+          "size": 13839080
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-signoz_0.0.12_linux_amd64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_linux_amd64.zip",
+          "shasum": "6a450731ed2189227179e8ae46b1f12b82f2e3ad3bf2a5e05eaddf69989b0084",
+          "h1": "h1:e9prsFP8i0bh8N/fKk0E37YHyBiiq6bE0ZJnTi7bYnY=",
+          "size": 14953826
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-signoz_0.0.12_linux_arm.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_linux_arm.zip",
+          "shasum": "c66994f278a48c275b1c053550e5d5832248c88be69518178b86559c09b04017",
+          "h1": "h1:6fsKQeCrHzfsupAxRgMC9NYpTkzctrDFh92a2p5npyE=",
+          "size": 13889610
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-signoz_0.0.12_linux_arm64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_linux_arm64.zip",
+          "shasum": "d8225529b1b53830af402528ead692d4244c981cff28b501d4f3c3386c5339f8",
+          "h1": "h1:XEy/rEhfTvOo7LnmkI1bhGHtFoa/rYhRRjkQo7bhdGI=",
+          "size": 13493610
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-signoz_0.0.12_windows_386.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_windows_386.zip",
+          "shasum": "0ba64993520238fe8d78b25ef1a7f838e3eb35e6b28186e6a3cc5781c44ec305",
+          "h1": "h1:tJIbgESNA47K7NNM2roXqZysBHzbEayg+rOcl5/MqII=",
+          "size": 14572504
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-signoz_0.0.12_windows_amd64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_windows_amd64.zip",
+          "shasum": "f22c63462587b8c50b0d0d786936eb0943f5fedabf731623c3cba1631854e2d9",
+          "h1": "h1:M7hIAseXkQ9LZeVxgQS79S4rm50C5SuPPijnzQ2kWiE=",
+          "size": 15379399
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-signoz_0.0.12_windows_arm64.zip",
+          "download_url": "https://github.com/signoz/terraform-provider-signoz/releases/download/v0.0.12/terraform-provider-signoz_0.0.12_windows_arm64.zip",
+          "shasum": "da24d27a668d515aef06ed3bdc67de65258ffcca0c7bad482f73e953b730c14c",
+          "h1": "h1:QjZVB7GHqqZKEgUEZgSm+aOiWD8h9ynCzF82LsgAmqI=",
+          "size": 13630946
+        }
+      ],
+      "discovered": "2026-06-15T16:45:30.045996542Z"
+    },
+    {
       "version": "0.0.11",
       "protocols": [
         "6.0"
