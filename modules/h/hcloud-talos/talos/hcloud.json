@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "v3.4.11",
+      "commit": "44e3e4b0a13f5786ec81f0fd6d01f4c9dba70315",
+      "discovered": "2026-06-15T23:09:48.249992034Z"
+    },
+    {
+      "version": "v3.4.10",
+      "commit": "5922cb4b079dc159ca125f67a7579c7df4042912",
+      "discovered": "2026-06-15T23:09:48.249993476Z"
+    },
+    {
+      "version": "v3.4.9",
+      "commit": "e89941d9ec2976585204f1a2c6268241e7d4c047",
+      "discovered": "2026-06-15T23:09:48.249994658Z"
+    },
+    {
       "version": "v3.4.8",
       "commit": "3111c9bd887c433b674e0ce0ecd2426cd6336c89",
       "discovered": "2026-06-03T05:26:41.03223922Z"
