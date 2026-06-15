@@ -1,6 +1,152 @@
 {
   "versions": [
     {
+      "version": "0.112.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_darwin_amd64.zip",
+          "shasum": "a07981a4b002c42d8d068a0c5d6880ef011aed51b5d54ddd0270d5800a85f4df",
+          "h1": "h1:gWTvTpU9nvn596J2ApTwprvfIPRIOTH4uX0jdq79+Kw=",
+          "size": 12673414
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.112.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_darwin_arm64.zip",
+          "shasum": "7c65b6354c4057f6b053f4759a64a21f4c8937954e1c923d4a6f179547c43ec2",
+          "h1": "h1:X1ZjYA1/+Yii3J43lBciM1zr7f4wMU6pt5mCSiNOZqs=",
+          "size": 11829169
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.112.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_freebsd_386.zip",
+          "shasum": "f8497e79b9bc0b32a7f274608b763d9fa6860f941bd5f517ac8ba39c7bcbdd76",
+          "h1": "h1:ePWcL112zxbzw7WQU0YYCMaKIj1E+2wpgiKdQU5SM3c=",
+          "size": 11454932
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_freebsd_amd64.zip",
+          "shasum": "ec3a02a3c255b611f68232b4a02ab5b40c7ee1f5a26c2d38e5cb5c60c8e349a3",
+          "h1": "h1:9JpGE1ZlRXwcWOTcVnqH99ZHwj7aCkm/XdyhGOmwkaA=",
+          "size": 12332977
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hcp_0.112.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_freebsd_arm.zip",
+          "shasum": "cabfd24398c70322fa54a4a216a272749d3a8ad44f1b255c789b45c5b79e4806",
+          "h1": "h1:jOwHTiYZXHQW6+54ZKy8nC8Efy3AZ7ohWZFdLAWFUlU=",
+          "size": 11432901
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.112.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_linux_386.zip",
+          "shasum": "ad3fbfeec2f3255fe6311865c06da4fdd55210baed9fa379032797b949db6bfc",
+          "h1": "h1:0AHwICSrpJEdS3ZfGvBvDAHOpacMIe0rQJwX1aIfiL4=",
+          "size": 11483148
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_linux_amd64.zip",
+          "shasum": "01e70fad1e7b132e666487d8121ab4f92475a506dedaca9dd5b7fb1321cfab7c",
+          "h1": "h1:4xgREToPBgO+HsaFSLj1QUeNjZClD2VPip5TgbP5azE=",
+          "size": 12367677
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hcp_0.112.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_linux_arm.zip",
+          "shasum": "abe025e3a7cd8c4023aa13f9b6744c7a17751aed09aa0ba12be04abf55644279",
+          "h1": "h1:LAu3fRHRHEYg8mWpmnYKixIvoIDeAdDF7WHvwNIdpng=",
+          "size": 11463788
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.112.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_linux_arm64.zip",
+          "shasum": "0717dc932e6a67c8072720d62d53c534717f46c1d3945d22406e7a52a66d0430",
+          "h1": "h1:CunoFgZJydwDnP6Jz5Xqz4H6nTJeo9TZODT5XaUf/c4=",
+          "size": 11177552
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.112.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_windows_386.zip",
+          "shasum": "de459b2245fbad16a15f9dd514d6fc0819c6953aff4f6aee9a0f7d39062759bb",
+          "h1": "h1:UQKTvG0YpaLJfxssB7l6xdfMvvlQb3JPqfS/HAxR7Bs=",
+          "size": 12102782
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_windows_amd64.zip",
+          "shasum": "6c6d0383618fb3bd12aafb8d2a61230bac83d2c2986785d65a7f17f0e7f2a680",
+          "h1": "h1:+2I/W5aJKnZf6EE3xOCtS13i2ywTdG7yQKwjp5mereY=",
+          "size": 12756225
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hcp_0.112.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_windows_arm64.zip",
+          "shasum": "8ecd1cae713e63b021544704aa445141786cb8491bb1819fc244bbee78f062cb",
+          "h1": "h1:+Z9ed4qLoCapFAiAKgeWgcw/PZP6CjQfSrQdF9KbDDo=",
+          "size": 11285028
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-hcp_0.112.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_openbsd_386.zip",
+          "shasum": "859b7ef4372cc55694c85f8b4e551737445a0533668f1f83f4204e228826417e",
+          "h1": "h1:+zQcpTyGIOBkUKQCi1EdRS0Oec2XFS4iazEax0Tozmg=",
+          "size": 11453076
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_openbsd_amd64.zip",
+          "shasum": "a84ff8d0e00e484b6e3a312d0468ff97828c6384b406e010486f889c41ebb445",
+          "h1": "h1:4pUbOk1ikAnAtqCkMXzsAVDHEPueIazRdtR3ps+wKeo=",
+          "size": 12332482
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-hcp_0.112.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-hcp/releases/download/v0.112.0/terraform-provider-hcp_0.112.0_solaris_amd64.zip",
+          "shasum": "197cfb782b9aa17539fa800dbf0ebcdb53c3c64b385c0fbf51448bfe0d2eafa8",
+          "h1": "h1:F0MJhqw/cgBhn7/6vNZ7NTYYY3z+gonX1ibycAJsoFw=",
+          "size": 12334172
+        }
+      ],
+      "discovered": "2026-06-15T18:18:14.084694214Z"
+    },
+    {
       "version": "0.111.0",
       "protocols": [
         "5.0"
@@ -12268,18 +12414,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.112.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-15T15:00:40.87584555Z"
-    },
-    {
-      "version": "0.112.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-15T16:44:54.572749374Z"
     }
   ],
   "warnings": [
