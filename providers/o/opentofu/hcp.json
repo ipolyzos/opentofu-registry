@@ -12275,6 +12275,11 @@
       "version": "0.112.0",
       "message": "checksums not found in release",
       "utc_time": "2026-06-15T15:00:40.87584555Z"
+    },
+    {
+      "version": "0.112.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-15T16:44:54.572749374Z"
     }
   ],
   "warnings": [
