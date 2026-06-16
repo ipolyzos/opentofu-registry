@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-youtrack_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_darwin_amd64.zip",
+          "shasum": "e4f3ec961070a66c7efc8c6da21955eed2d7d5626f7e981c19e9235e987d2b2a",
+          "h1": "h1:ynkB3mDM+Pgzbu1svjUvxcbL5YCWIfYYhYdIpQYeqFE=",
+          "size": 7051677
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-youtrack_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_darwin_arm64.zip",
+          "shasum": "4c768c0b168c012187423d7ac3bef271cb38c3d30f34f7ee8aeaca7cdb0d0954",
+          "h1": "h1:ih6jZEMmNgcS53t4jEBZFjPkeiZTjOWGBMtbqipm67A=",
+          "size": 6565033
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-youtrack_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_freebsd_386.zip",
+          "shasum": "91ed4b66ecddcc4d672540c8eb41ac0f34cf552afc80c53358f9520c723e8178",
+          "h1": "h1:cf/HFSEtSc6AFyjukW2eoZpols+i1qIF+hDlucjuGs8=",
+          "size": 6473598
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-youtrack_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_freebsd_amd64.zip",
+          "shasum": "b4af94788d8c19c5918d407d9f6583a7c5df27b6bae15bee9056794eae5fa88b",
+          "h1": "h1:h0+juWHY0UN1XLNR9btizRWUsrxHLuMdAf7XvKYeU/8=",
+          "size": 6846419
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-youtrack_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_freebsd_arm.zip",
+          "shasum": "1b218e809f63e439ab2cdf9bba946aacd0934c7f5771de432dd7a77bcfcbd77b",
+          "h1": "h1:CSGTm4nbSrf45BaaFAWLP6ZwGskH4Or31HFtzGtAunI=",
+          "size": 6445548
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-youtrack_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_freebsd_arm64.zip",
+          "shasum": "c4e63c1533ad20c45d877739cb11b7c64c9e2da9129100707fc2f6d3f6206b6f",
+          "h1": "h1:Asn1dboj4UwyYacnQaTGQYKTNt9CB8GVo9lmnYWGhGk=",
+          "size": 6214699
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-youtrack_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_linux_386.zip",
+          "shasum": "7f05e4d01d7b5981a102af78f19829f72a47435b335191b7244438d15c4ea455",
+          "h1": "h1:ZqqXuaNkNc+FK0QD01nYww4FLf+B/FeuJc3lqhUhR/s=",
+          "size": 6506914
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-youtrack_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_linux_amd64.zip",
+          "shasum": "abc856ac3776f43bca7c8d66c124739542fbd7c7d820ad1cc9d77674a0057a16",
+          "h1": "h1:rNBXKgxQSQJCY5lBmAngA+KhPnhnu0vaUNIEYByAhz8=",
+          "size": 6871390
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-youtrack_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_linux_arm.zip",
+          "shasum": "f54984a0eb8091349ec5c23aabf32f7a3ec7d32b98839a42b4c1a0c121ea197b",
+          "h1": "h1:iwuhaUbveuxUE/CzLmag3Y5kJ8q9afRL3t3TqJArjrI=",
+          "size": 6470072
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-youtrack_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_linux_arm64.zip",
+          "shasum": "4643c49401959b66784a4facffbc6779fdea8977011e618fb61e7dd417b16237",
+          "h1": "h1:08bQTeskgiLpZlzvWRls2RhT6rGMeE/cY8/UvuBwg2I=",
+          "size": 6238494
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-youtrack_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_windows_386.zip",
+          "shasum": "a861e41197f96b04657eb72772672d21a9dc05107f448215a1c272a72f479870",
+          "h1": "h1:KDvT28z2dMZN6wSUMll7KqsKOXIFB4Uzl1xgOE+GOMo=",
+          "size": 6810647
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-youtrack_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_windows_amd64.zip",
+          "shasum": "a43c0137b1cf7ca0ee901024ac2b9022f35b87a81a4f1612a4708c6b659d3d8e",
+          "h1": "h1:QofYFj6LLyLcjDEFbwDpwrr57ZWqymFBfQojnkRNag0=",
+          "size": 7076385
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-youtrack_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/elcait/terraform-provider-youtrack/releases/download/v1.0.2/terraform-provider-youtrack_1.0.2_windows_arm64.zip",
+          "shasum": "759c6097eca0d4304f3564c26c440b147e0b64445ab8849331d9d87012973d8a",
+          "h1": "h1:wfCne/Ac4WFPZ/8g4FEk7G/W8Plz8YpsXRSiWXCvT5o=",
+          "size": 6324582
+        }
+      ],
+      "discovered": "2026-06-16T11:58:20.431485639Z"
+    },
+    {
       "version": "1.0.1",
       "protocols": [
         "6.0"
