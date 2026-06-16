@@ -1,6 +1,190 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_darwin_amd64.zip",
+          "shasum": "8cf086ee85753934649679e82038f54534517303c05e753631cebd5b7af78575",
+          "h1": "h1:6iqJlaWNmfi/+qBqkYmTmOz8yUJVHaz1wx52/OFjEak=",
+          "size": 6822948
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pocketid_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_darwin_arm64.zip",
+          "shasum": "919d07ec85d5cff0e919af09b4370a3f02e62b5c725e6e7cf0cbc49e9dc83afe",
+          "h1": "h1:3FvuQUgW+LHFhuJsQ0g1erEIX6qi4J6rw5551sYHCxI=",
+          "size": 6353386
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_freebsd_386.zip",
+          "shasum": "249575deb6b7d83245433e2710443ace16d247e5bea311e2d66bcacb16d9dc1a",
+          "h1": "h1:oACa7S/hsKhPfsEDeW6jJg3IEPV63cOpeoEwyXLY4Lc=",
+          "size": 6278320
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_freebsd_amd64.zip",
+          "shasum": "7d5ca13eb00ebf59becf3eabebf26f33922d1fc740a9c7c8395f91c021882154",
+          "h1": "h1:NhtmyjvTKbOTlfrYdYf0DyOEF3sXVsH2X4j3QI/tP3A=",
+          "size": 6629960
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_linux_386.zip",
+          "shasum": "cf71da07fc2bd62aa7a0e5f7e265da13f22088285839c3c7d3030dd38d31d29b",
+          "h1": "h1:tyJJIgstvSzhnEmeSAdiAS9ekLQjMRQw/FefB32Lfjw=",
+          "size": 6307084
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_linux_amd64.zip",
+          "shasum": "7a699b3a281e364171120cf58686c7f08d2da446f2dc2396bdeaf671aef6bce3",
+          "h1": "h1:V9lCAqUoOvawhGSjNN4vGXiryfq4KpnPMN2r7MTj9Og=",
+          "size": 6657259
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pocketid_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_linux_arm64.zip",
+          "shasum": "56228e0825cf1fa848a55ffcb3c58fd5b503683c0916559c8107cbc314cd5366",
+          "h1": "h1:25R1eSDr/5DvX5ZCwAgpByZhyShSx8zkCUlBW+r1VPQ=",
+          "size": 6051500
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_windows_386.zip",
+          "shasum": "a8f23a0612eb4e490fd5cb68e274f8b33978a3d264c6eddd3b359ac868deee53",
+          "h1": "h1:LhATiAjciDoYCbCmXgUd/TJzeB8nzMf+I4aR9ZHMJOM=",
+          "size": 6593431
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v2.0.0/terraform-provider-pocketid_2.0.0_windows_amd64.zip",
+          "shasum": "68b5b9b8aca6e0c139d05dd990bb7ecc2fb685644d3980c2423220806de98f6a",
+          "h1": "h1:zC2a/Wi+/zg5MTSdI+jPnABdzGdkRCpDPdDtfWonNYo=",
+          "size": 6851722
+        }
+      ],
+      "discovered": "2026-06-16T11:58:55.967969772Z"
+    },
+    {
+      "version": "0.1.8",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_0.1.8_darwin_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_darwin_amd64.zip",
+          "shasum": "b38102909409a397b00a75ed9a1132c0c7b56409f0e944371223efef23ba66fc",
+          "h1": "h1:ICHDvMdrpbGNDoPcNUISjwv5P073lWG1tce6YvYRe7g=",
+          "size": 6821471
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pocketid_0.1.8_darwin_arm64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_darwin_arm64.zip",
+          "shasum": "2a83b036470bc0cf5b25e5a1480f8b2265deb8fff259ad009a0842482e09856f",
+          "h1": "h1:8tlR6Ha+g7+6ywWuV03Qz1KnAcs19408n5zDTnnVVR8=",
+          "size": 6354760
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_0.1.8_freebsd_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_freebsd_386.zip",
+          "shasum": "a01d0006cef6699d0724e7116e70ae19a40946969bd676a85005c901881f4855",
+          "h1": "h1:5R6PfzIpsw+eREyyK8wqd8FOK5dAvSkYqMIvxlzK9IA=",
+          "size": 6276907
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_0.1.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_freebsd_amd64.zip",
+          "shasum": "8b4fec2505b3f9cd4c75937e2d48d11ff2395551b6c3bd0acbfed312525b52ec",
+          "h1": "h1:qhJQDZYiHaZ/ByfY18f+e+gp+b7gQriIk4WCtECgiTo=",
+          "size": 6629942
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_0.1.8_linux_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_linux_386.zip",
+          "shasum": "f3d8347db182afbbca0bc922f1e8c1cc1c695d40a8ce3657dd6751173096ac88",
+          "h1": "h1:tBIEJw2zvIJ7WyIbLHTK36Dwr7Aokm4ovJZKSEjgz3o=",
+          "size": 6306716
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_0.1.8_linux_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_linux_amd64.zip",
+          "shasum": "0b2759bc42f3299180037934b16824e49ff8f9e8464f1c4ddea0fef21f62d836",
+          "h1": "h1:42lUdXZN1lNIs7dxojZaPOVGvoCKDh/mzToF1wpvqPg=",
+          "size": 6657774
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pocketid_0.1.8_linux_arm64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_linux_arm64.zip",
+          "shasum": "c4878fb6e12c0efd3782088293b0fce457089553dc1c4ed6bf1de6190bdf25e5",
+          "h1": "h1:0c7VYCmHYq/xWFKvlRUq6Yq9zOG9f+qS9eqBEA0dh8w=",
+          "size": 6052341
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pocketid_0.1.8_windows_386.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_windows_386.zip",
+          "shasum": "3ed5d5f26bf7c2f0996bf3b063d6e303fa1bf54fbb1ae9d7310612140ad0c86b",
+          "h1": "h1:qqgm38HufgYkW4SzHwRZmgwDlAxlBsdkZUaVC26FJ9A=",
+          "size": 6593607
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pocketid_0.1.8_windows_amd64.zip",
+          "download_url": "https://github.com/trozz/terraform-provider-pocketid/releases/download/v0.1.8/terraform-provider-pocketid_0.1.8_windows_amd64.zip",
+          "shasum": "af37c11d86b75002dd4e802b0f44855f9e82a57a854e73addd8289cb975acac1",
+          "h1": "h1:O8+D95WNmM/sJn5IGaS7WCBdXKs4aexPa2nz0bqEU4Q=",
+          "size": 6852592
+        }
+      ],
+      "discovered": "2026-06-16T11:58:55.968073393Z"
+    },
+    {
       "version": "0.1.7",
       "protocols": [
         "6.0"
@@ -502,6 +686,16 @@
     }
   ],
   "versions_errors": [
+    {
+      "version": "0.1.9-dev.20260616115227+15c215e",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-16T11:58:56.704358093Z"
+    },
+    {
+      "version": "0.1.8-dev.20260616101401+ca2f4b7",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-16T11:58:56.567218391Z"
+    },
     {
       "version": "0.1.8-dev.20260427102050+29ac939",
       "message": "checksums not found in release",
