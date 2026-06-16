@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-xelon_1.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_darwin_amd64.zip",
+          "shasum": "7995ba049b3e74908664145b1e0032d7835410186848a2d1b4cf540eb8f433e8",
+          "h1": "h1:6JH9fmSnWECFfhAy9rgyKko8sH66iSyVsmPkG77+LVo=",
+          "size": 7152169
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-xelon_1.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_darwin_arm64.zip",
+          "shasum": "5b226dea3b9adf0ae6cd6c5b40566e0e816f2b62c5884b1220ff1905b42095b2",
+          "h1": "h1:DkuBRrQzoFoe9JlyNMKLRc0QHCJXVpKT9s7rCSRkM9c=",
+          "size": 6646740
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-xelon_1.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_freebsd_386.zip",
+          "shasum": "aa7f957d5084fd598d36fc0597249b853fd11a75473f83d2125e54ea6ab569c0",
+          "h1": "h1:3CPn7gXCZB4+3WFeb4RK3XC2CcSUJYldL1+/t8yrK/Q=",
+          "size": 6562070
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-xelon_1.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_freebsd_amd64.zip",
+          "shasum": "f7a3de06bea2b629a94e17d880cbd2a3b5f0bf27a7801304baa786619a7a2d1b",
+          "h1": "h1:AqnDn8uJdcNGEkD+HIRlkG1D70BcLEjIivp/FIZwQd4=",
+          "size": 6942768
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-xelon_1.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_freebsd_arm.zip",
+          "shasum": "6f3c66e9ebdd261ab4b012d8f7a62fd6d5c6118ffe6f0ebba5ced2bebf033d11",
+          "h1": "h1:K4AUdwWydvjirIv0Dah4YGOiqBRrdd/JyWwdVWr0h7I=",
+          "size": 6540738
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-xelon_1.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_freebsd_arm64.zip",
+          "shasum": "ede35af39c395bec3e0a95b241f51f39d673aa18905cc8483aaff282b9e1ac04",
+          "h1": "h1:mw+nCHaxAS0uvKW/EwFK6VjuRwwyRLUuMNIc1vNEK20=",
+          "size": 6289252
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-xelon_1.5.1_linux_386.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_linux_386.zip",
+          "shasum": "1c2b2b0f1b22c4779b81789f10d0ccc96ee08099b7ce02f469739b5274953ed2",
+          "h1": "h1:Fu7VcMZd/KWjlu5cGJiUo1gyIp1Qq3ceU2j8Ec5oq3A=",
+          "size": 6596923
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-xelon_1.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_linux_amd64.zip",
+          "shasum": "95bda006fd988b724a76d8cacd9b79851e78d8f815131680036d42f78f368254",
+          "h1": "h1:DVddRY/W/JqAgOgEr5xfqMeWRtc981DS5fktcesE1ig=",
+          "size": 6963619
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-xelon_1.5.1_linux_arm.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_linux_arm.zip",
+          "shasum": "30463d0b17ab6a442c371af05dde6abc1abfd0a2b5e238da77d76a5b5ee07461",
+          "h1": "h1:yNlLyd1XO/42JRe2tZSTMiI1KuEZf4imjO4XyxYIVXk=",
+          "size": 6565783
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-xelon_1.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_linux_arm64.zip",
+          "shasum": "9438ff9b560627a3aafef35c6385d7e6b39bf8b1b99067e5a2a1aa005f1c4660",
+          "h1": "h1:+fJZQaq+ZhAq7vYmulTBsD2WzXIWlQ65Ht20WKnj3kY=",
+          "size": 6317287
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-xelon_1.5.1_windows_386.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_windows_386.zip",
+          "shasum": "46308edbb0df2b54be60f3e46daaa0027c9b9eb01508158eec292259ecb15c88",
+          "h1": "h1:+E+WGZFEb8VmqRqnSYynNADrS9SxiZ9nOhmqH/bjyN8=",
+          "size": 6904778
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-xelon_1.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_windows_amd64.zip",
+          "shasum": "8c157855e0b648d8b34b4370f1cd69a3523523c7c32eb6949a9720bcc8838772",
+          "h1": "h1:wOy1QDXzwXFUL268/zlyoFG/zchidcfko3JhzBf0s4U=",
+          "size": 7171767
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-xelon_1.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/xelon-ag/terraform-provider-xelon/releases/download/v1.5.1/terraform-provider-xelon_1.5.1_windows_arm64.zip",
+          "shasum": "2d9e3883dc3b2edfc1a7b95a802ca90aafc24b4c086a2fcaf425ff910f7123b6",
+          "h1": "h1:aOi0lJrmVtGJdWAWqlAefKrsCnv/WoYBanc6UjmkFLk=",
+          "size": 6400824
+        }
+      ],
+      "discovered": "2026-06-16T17:25:34.804448667Z"
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
