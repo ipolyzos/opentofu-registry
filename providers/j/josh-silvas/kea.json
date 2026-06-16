@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.3.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.3.5_darwin_amd64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_darwin_amd64.zip",
+          "shasum": "df1f4f6a867a0dae27276271ba52c4c4ca47e6caac54b3965e4bcb7fc681b387",
+          "h1": "h1:t7LM2mfBXqs93K8ll+jrEgtayaX7G+LToTGboRWTJEo=",
+          "size": 5665336
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.3.5_darwin_arm64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_darwin_arm64.zip",
+          "shasum": "53373e2fcdb27811c3987fe3244d39ed9c1a69e728461b768a634453c6730a6a",
+          "h1": "h1:MOOyIQtuUC+AWFuAd54WNDahIIv5DsA0qUzAqDDYQQ8=",
+          "size": 5478855
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.3.5_freebsd_386.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_freebsd_386.zip",
+          "shasum": "f6483b3ae9efcb0e6fe520a1362ad654bcd7b99a293e4c8443c8d20e37ddbd36",
+          "h1": "h1:0YZ7k7XfGyKfbcCVtBAxBLysEgDFdfZHgDQztrlKOSk=",
+          "size": 5082844
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.3.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_freebsd_amd64.zip",
+          "shasum": "7296a6804e9b5404918ea33604311b77bce28fca7f1006bbf3aec17e0ce49757",
+          "h1": "h1:HxwqpXxeZa9QUvdggEyFE/EfiCEC3oJZJYraocbN3Nc=",
+          "size": 5393741
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kea_0.3.5_freebsd_arm.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_freebsd_arm.zip",
+          "shasum": "5006f71685edabfbd51eb8ca71fb9eaaddf328ad524339bbd97dd72b4fdd00c3",
+          "h1": "h1:GtPShOh+O0D0FgDhxriTvtsEMXnx+fy5ILlIwcK4psA=",
+          "size": 5072707
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.3.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_freebsd_arm64.zip",
+          "shasum": "45aca0630f358acf65fc14d1d07673b5ce29a0bd8a8a86a1ae1f486e365fffcb",
+          "h1": "h1:rCjBqWEKy0qaqyHjw+lZ6hTAlT6FHSgUzwyDRh7WITs=",
+          "size": 4976996
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.3.5_linux_386.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_linux_386.zip",
+          "shasum": "26086edf751eb16e4d81934f6ce1b7be19d127c0491cc60b63e3e131f3e669d1",
+          "h1": "h1:GvLECtshsLCIMVq+96wRRS9UviduZR0PUMaVnmYS+6s=",
+          "size": 5088850
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.3.5_linux_amd64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_linux_amd64.zip",
+          "shasum": "24ba3c4d3e4446cf2c166c02fefeb91eaf838ad2edcd6fccac6afe019244418f",
+          "h1": "h1:qvkpdKjW8TNMXlAyJ9QvX35qQa7Z3t3/Rj29ylSvxG0=",
+          "size": 5395137
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kea_0.3.5_linux_arm.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_linux_arm.zip",
+          "shasum": "b9d388412950c748eb60eb2472c200e21a66df9aede7279b2fa900a4fcd7462d",
+          "h1": "h1:Q6sJr67xrr/4gIPSRBRhPlDUNt5dbKiWWkBVMb7Vo6Y=",
+          "size": 5075334
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.3.5_linux_arm64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_linux_arm64.zip",
+          "shasum": "e117a550bc8321bde51954a6d94b4c340bd3aae7f1c914ab4a76e297eb47f3ba",
+          "h1": "h1:xeHukJjnKz8oWsYpQYm/Nm5tSS7vw1yD/eDcXKaF3LY=",
+          "size": 4982058
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.3.5_windows_386.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_windows_386.zip",
+          "shasum": "e06aae526ef669b4ea04945eeb92b5bd51d73018cca08560c54641585834852b",
+          "h1": "h1:1Tb2aB5djky9YH98EJ4j3I8CfX6nZPV0tG8qcasTu7c=",
+          "size": 5332346
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.3.5_windows_amd64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_windows_amd64.zip",
+          "shasum": "7a230312ef72cfce9fcd9fb5be4c19c4f011fb41264c77a9731830cf25b32a7e",
+          "h1": "h1:+t+GfJ54vVB3Z6an9/p+LhGn1PMTJ7vbFlA7eFdoQGM=",
+          "size": 5569631
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-kea_0.3.5_windows_arm.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_windows_arm.zip",
+          "shasum": "15d6080314f4a211a797dcb8e37f91f7b5f2ddb8d1290de372646f3e0f953943",
+          "h1": "h1:KgnJo+G4zLK1SswOpkUHKFfu4ZztWS1c8Lb/PcGNWbM=",
+          "size": 5211813
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.3.5_windows_arm64.zip",
+          "download_url": "https://github.com/josh-silvas/terraform-provider-kea/releases/download/v0.3.5/terraform-provider-kea_0.3.5_windows_arm64.zip",
+          "shasum": "d9ec48b0e9474a1dd35e983c6c689e0fb043b3355444df6344ef94fb9a637424",
+          "h1": "h1:GVuK8NVr6/c5fGpbff1GxPl5tEh1oXzbKNRV5JKIwDM=",
+          "size": 5058238
+        }
+      ],
+      "discovered": "2026-06-16T06:06:25.088028386Z"
+    },
+    {
       "version": "0.3.4",
       "protocols": [
         "6.0"
