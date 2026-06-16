@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "0.1.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rarecloud_0.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_darwin_amd64.zip",
+          "shasum": "da98e46b5194cc4803e3e43482361fff93af84fe578e878ed0c7e0731e275075",
+          "h1": "h1:1zXaZNavL/6uDgrCSdS8Uc9H24OmA7BaAr2QaZJh2Ng=",
+          "size": 6012723
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rarecloud_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_darwin_arm64.zip",
+          "shasum": "6cff9f4787a5864a336a85cf0d5eedfbb09b957d711a16d73538e3e0eb1b7d59",
+          "h1": "h1:a1kLlTnDbexeAxfxFsR5VP7ymTfwMMW4EY4efkjbG+4=",
+          "size": 5686589
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rarecloud_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_linux_amd64.zip",
+          "shasum": "1bbf42ea5e1602dabc280c676ee5c02e84a2aa6ecd3accf4e52745eee454ce22",
+          "h1": "h1:tU287cifDvT0g212VsVnSpgvckwuUTXmlJY9ZE0CB0o=",
+          "size": 5858151
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rarecloud_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_linux_arm64.zip",
+          "shasum": "a8f6ee8fe3a6aff6e9251676fe207b0edac61fadc6c714d67cf1c9aad3360d4e",
+          "h1": "h1:qwmbfSF3E5H6WGQ1TijLrAUz9snQdlkfQncgqZitzzo=",
+          "size": 5417472
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rarecloud_0.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/rarecloudio/terraform-provider-rarecloud/releases/download/v0.1.1/terraform-provider-rarecloud_0.1.1_windows_amd64.zip",
+          "shasum": "987fb2495f372a07f2a4b7dc16b3882f5eee711d183dc23039333385699dab60",
+          "h1": "h1:4+tA5p8Mk1xLW0v1D1fdy0QcXb/59Owb3TXDpgoz3EA=",
+          "size": 6037864
+        }
+      ],
+      "discovered": "2026-06-16T02:38:36.345345098Z"
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "6.0"
