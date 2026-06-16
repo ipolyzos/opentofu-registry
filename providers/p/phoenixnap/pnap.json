@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.33.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pnap_0.33.0_darwin_amd64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_darwin_amd64.zip",
+          "shasum": "5a1a1ea537f342132f92dcd8bbb5917cb26c4ad7e1efe1b7fc1d06fb6828be68",
+          "h1": "h1:OoGRHblKZp1namOqoQGeGhw3LO25Ei6sjg93H+Tke44=",
+          "size": 7808358
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pnap_0.33.0_darwin_arm64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_darwin_arm64.zip",
+          "shasum": "280df73e1560b67e0e7007f62cf2bfa6212f011f9b6d67356e0fa86c75ac5ed3",
+          "h1": "h1:jNRmw5xRlrF1oE0lZl7Cj9KAjcv+fm+uRvY6MYLB33c=",
+          "size": 7327524
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pnap_0.33.0_freebsd_386.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_freebsd_386.zip",
+          "shasum": "67200da2d467f7bc1a216d71209cc160f846fbcad11c37315e155fdcaafb610b",
+          "h1": "h1:+W+gfjrp6sN4OajOH6omXk28Y9akKN+Kedz+x5n82tY=",
+          "size": 7067263
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pnap_0.33.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_freebsd_amd64.zip",
+          "shasum": "59e11aa608fa8354f46fd986bc64e699423d7e6aa55360527e224279aff3b893",
+          "h1": "h1:r/dZz9o9R9q//cM48FGmT1MHx5EW0I0UUofplgkvdmQ=",
+          "size": 7623801
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pnap_0.33.0_freebsd_arm.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_freebsd_arm.zip",
+          "shasum": "803c221e8078251270a787e764532c45c9d06dcdd800bb9c233f1fad10775cfd",
+          "h1": "h1:CY50las7IHG94/MZCq9slmyPEehXtz0TRaY1vu9dLbQ=",
+          "size": 7078894
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pnap_0.33.0_linux_386.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_linux_386.zip",
+          "shasum": "499f492f102f092f0514764e594a728f08d4bdae4b311364fec0e78913149f7f",
+          "h1": "h1:t7V/M2uNZP/0d5WQ9uwE//HCUQVnzCMKEPInImnIaiI=",
+          "size": 7089103
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pnap_0.33.0_linux_amd64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_linux_amd64.zip",
+          "shasum": "040351ad3ef82e5954260058ee5aba7ecb255eb7058b3678641c539e893c47bb",
+          "h1": "h1:dHwE+UYuSqgEro2UXWmDkMsDHbKanq12krmXsywAJxQ=",
+          "size": 7639819
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pnap_0.33.0_linux_arm.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_linux_arm.zip",
+          "shasum": "abe3d8a3a91e6247470b3a39b3c68216b8437e1312d299a6ea6ba669bc706858",
+          "h1": "h1:dk3mKmh4slTzjFQCxhFGWKLnalPw1+sPy2d7E4m+yiE=",
+          "size": 7097346
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pnap_0.33.0_linux_arm64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_linux_arm64.zip",
+          "shasum": "02c76478b7157ecf4d9f17b8128c7163e924726f1be8787a69c113bdce0a357b",
+          "h1": "h1:HzYhE8Sn7J5MjMEvmnwB3TMH7XPoQJpHGS9k21Dq840=",
+          "size": 7002365
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pnap_0.33.0_windows_386.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_windows_386.zip",
+          "shasum": "95f5da2309c312e427b050cd95e7d8174bac6d901750b12afe714f097f79b9a7",
+          "h1": "h1:yf2Wym0fkxYz/BzjgxbSYklBvQuyetw48NYYYZcdlVk=",
+          "size": 7401038
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pnap_0.33.0_windows_amd64.zip",
+          "download_url": "https://github.com/phoenixnap/terraform-provider-pnap/releases/download/v0.33.0/terraform-provider-pnap_0.33.0_windows_amd64.zip",
+          "shasum": "0cba5edea69f9297b38d501d204be7bf9e2bafacbd4958acaae1313cefa341ee",
+          "h1": "h1:ADhsPi0V9fYW8awNRVgbvuqUIZCsx/z6vGPHhD+uQ3w=",
+          "size": 7824361
+        }
+      ],
+      "discovered": "2026-06-16T17:25:49.637136361Z"
+    },
+    {
       "version": "0.32.0",
       "protocols": [
         "5.0"
