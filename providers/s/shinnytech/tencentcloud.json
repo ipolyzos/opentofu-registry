@@ -41,6 +41,26 @@
       "discovered": "2026-04-21T00:00:00Z"
     },
     {
+      "version": "1.82.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/shinnytech/terraform-provider-tencentcloud/releases/download/1.82.6/terraform-provider-tencentcloud_1.82.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/shinnytech/terraform-provider-tencentcloud/releases/download/1.82.6/terraform-provider-tencentcloud_1.82.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tencentcloud_1.82.6_linux_amd64.zip",
+          "download_url": "https://github.com/shinnytech/terraform-provider-tencentcloud/releases/download/1.82.6/terraform-provider-tencentcloud_1.82.6_linux_amd64.zip",
+          "shasum": "149607bb1a71853278f228a51e27cebd4a6db8fadcceeb6e0b6189ecd77983bb",
+          "h1": "h1:R620rAunICJefXTaiStT/Kl8n8MKQZ9DMU4sQpJ06mQ=",
+          "size": 53215121
+        }
+      ],
+      "discovered": "2026-06-16T10:13:54.887405675Z"
+    },
+    {
       "version": "1.82.5",
       "protocols": [
         "5.0"
