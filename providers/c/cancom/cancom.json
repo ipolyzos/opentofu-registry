@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_darwin_amd64.zip",
+          "shasum": "7dfa5b5ea60144959698bacc4432ed89fdbfcaface6096812d8458eea636df1c",
+          "h1": "h1:6zORPttNms9Y9ZERTLYzUHvbyTpVhrUh2Fr3TlS6n8E=",
+          "size": 6318715
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_darwin_arm64.zip",
+          "shasum": "be12255cf477c7655a6e6de1479d7fe55463e639b21659ce767ee50d87564c91",
+          "h1": "h1:eVUyp4K3dVBO0ZsZqq0mvuWpjI08SDj94Ap7qKf/wA0=",
+          "size": 6058635
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_freebsd_386.zip",
+          "shasum": "3c89d29f98741f42f6b77b3e6f21adcb08b35a9fe4c0ef2e6b838b5298c12b2f",
+          "h1": "h1:uEu4BJ3VEur/aRy65cqtICadmv5Hrrb6Ur/wBHoY2jE=",
+          "size": 5721496
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_freebsd_amd64.zip",
+          "shasum": "0b3c5fa084156f8499879d4a8bfe46102efb5f6b1d522394999d1c3d09ab4365",
+          "h1": "h1:xFbIHNm1hxV8Qak63tI+vi7acRS7AnK0qEdWUcWRNMY=",
+          "size": 6039450
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_freebsd_arm.zip",
+          "shasum": "0a4528697f07dacd6cc86fe84e83d8c8a90313c44ff1d74d6866aca00c4689fe",
+          "h1": "h1:k2KAuGdDPbNgvod7bWvzI0FqHsTRl6XrTW1wESa306w=",
+          "size": 5709765
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_freebsd_arm64.zip",
+          "shasum": "adda25487b8d46380f1d99ecfda8db1986752bca70f3eee4345d69820a346604",
+          "h1": "h1:Hj6B87THh0lMEuQ+oDHrS3UMnEUJweMFfCMHZQURxvI=",
+          "size": 5537192
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_linux_386.zip",
+          "shasum": "59dbda401ec3d9c886f1ce84fa666b2030e5af3c76a2c9d7d6824ff21654212e",
+          "h1": "h1:g9YMwaXYI6C+Owp8wnDWMvprDV9VLZ40D2NOM/1DwmY=",
+          "size": 5732005
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_linux_amd64.zip",
+          "shasum": "fc899de0383c9482ff321207df77d3c864472e8595ada23a9889cfa75dd65698",
+          "h1": "h1:hBTAmwqJki5LXCe9PNLku6xGLbmg6zel8Fi0Gozjk4k=",
+          "size": 6039219
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_linux_arm.zip",
+          "shasum": "4bc940f3527e2cc284838ec67b190bf7b9d0c612e809ea79c3e85e15a985c01d",
+          "h1": "h1:To5ehaPkk+c54gZeTMBM9wbEirWzYcxnxQJKKzfUGjA=",
+          "size": 5711315
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_linux_arm64.zip",
+          "shasum": "8d31d744709cade82d3baefdbc772800154c053b249dc141b46425b6b4b22d18",
+          "h1": "h1:94VHnV85BC/OEW79RNCObxKxnsT5et7LIH++o1fIS4U=",
+          "size": 5540619
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cancom_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_windows_386.zip",
+          "shasum": "1b7449d4d4a04c2f45b2eb8e334a7e1bea53dff6bc1a1015b42ec5516f309c16",
+          "h1": "h1:PRZA5P97CxLBHx/h6Nx/MlcSHxk3rFc0YJio4TxSNhA=",
+          "size": 6001778
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cancom_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_windows_amd64.zip",
+          "shasum": "a37f2f7c7aa4e9749f5e7208a2f9edc629ede676726ee4897dd3f1d188f8f735",
+          "h1": "h1:8Ac3WdLFYjQuUVOkdVzviYSKTIQ/oBIuuaT01EJ1K4o=",
+          "size": 6221972
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cancom_0.2.0_windows_arm.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_windows_arm.zip",
+          "shasum": "ac2f23a61acb349b164671c06f26f909b3cb2081ee7776b59d43ac0a5a276930",
+          "h1": "h1:B1a4U33cYdiboaJ29FwwqNckcKZxBzxKSKeiABhfBrY=",
+          "size": 5856425
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cancom_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/cancom/terraform-provider-cancom/releases/download/v0.2.0/terraform-provider-cancom_0.2.0_windows_arm64.zip",
+          "shasum": "2487b7591fd969353c04fcdb3e0dc5cbcfb7d32924a6f42ba1352d5db2515918",
+          "h1": "h1:X7Pk3jMLO7vvYZcZ6aEiUv1kNXAyTTEJHv3sOlAuzk0=",
+          "size": 5622171
+        }
+      ],
+      "discovered": "2026-06-17T08:56:56.240543728Z"
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "5.0"
