@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.3.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-environment_1.3.9_darwin_amd64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_darwin_amd64.zip",
+          "shasum": "a800e8425f3fb10bbb222e73e2f32693f87626ef287fa8518a5c050af25e8442",
+          "h1": "h1:MSamCONk7NJZYermogIwnQtLxU+E+E60L5ghtOWW0kc=",
+          "size": 6714740
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-environment_1.3.9_darwin_arm64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_darwin_arm64.zip",
+          "shasum": "cefca28dd7f59445b4a109617603cc48f78df4196079d9a87136b2c8e938a000",
+          "h1": "h1:R2r1Tyo3+rLff4OUEN6pCgpsUZg00TBtcL2gbbHOeEo=",
+          "size": 6235018
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-environment_1.3.9_freebsd_386.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_freebsd_386.zip",
+          "shasum": "169fdbdcc8a404610b4a6edb45035fe51c72ec4dec9aefa2d40b74f020e58c9b",
+          "h1": "h1:PsjrDyur4MLBrPllPoLaDfD7orm8BlL2+K2hPSAHgZE=",
+          "size": 6213842
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-environment_1.3.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_freebsd_amd64.zip",
+          "shasum": "5ccaca0cf79acd0ee7b7b637754bb6786ad2edf3c3f48efa8a2728c03aa99acf",
+          "h1": "h1:jcgMvVYRVmwsaitxzbbtWTw1DskrdeCvoGdcvRcvXHU=",
+          "size": 6540335
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-environment_1.3.9_freebsd_arm.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_freebsd_arm.zip",
+          "shasum": "6e53929d7415f5bfb2844208cf05cdf3598e1412ff29c5d36a1628fe33205925",
+          "h1": "h1:Zypi8otEOgLkELfilM7iumTkw6LNuOXQkBXeSLn1W9Q=",
+          "size": 6193420
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-environment_1.3.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_freebsd_arm64.zip",
+          "shasum": "5b3a3920839a09be62b137ef3640ba3cd9910e889d455846ca0e3bbaa02fecef",
+          "h1": "h1:tk+DHY06hmpJrqxmUi8jRhRQRaUEvEpHI6gZYuFaGyA=",
+          "size": 5930113
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-environment_1.3.9_linux_386.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_linux_386.zip",
+          "shasum": "c4d6962179bfac0b9a0697f8834d3ad668a8789513590f9a12a60a37d1a01cd1",
+          "h1": "h1:kzN6RzX52OvH8Wcug/3GLEh7Pi/B8Hs4/8gzMrra0iI=",
+          "size": 6242822
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-environment_1.3.9_linux_amd64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_linux_amd64.zip",
+          "shasum": "9698b71ba3c49490088a14a0e5f558d3e51678735b2e343387dfab32de323dfb",
+          "h1": "h1:/+v3jiYrHicgmk0QIP8Q06SimsGJ6S8ZRKchCT16Lx0=",
+          "size": 6565984
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-environment_1.3.9_linux_arm.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_linux_arm.zip",
+          "shasum": "18d72c8a97024b80c49d3d420e7a63a7409e85e529c861fe336dec57e013e860",
+          "h1": "h1:NoX2T2DaE5Tjx4RLhhEfx/M4sPzqMOJtWPTXwH5LjyA=",
+          "size": 6214670
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-environment_1.3.9_linux_arm64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_linux_arm64.zip",
+          "shasum": "0c56fd261619a1934e6a7f94488a61ed7b4a652fb8cc1d9480f72c1b0c74bf21",
+          "h1": "h1:N6t0Hs8WVvrogcB2wZHeH5WIpuv7Myd/vFzbRfe0+No=",
+          "size": 5955331
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-environment_1.3.9_windows_386.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_windows_386.zip",
+          "shasum": "92292e4fb002c5a7201d38ac9810ef7cbb76382840d1b510e2bf67dfeda7e1c7",
+          "h1": "h1:ZoceqOR/JZrF+975TfLJECqRPOrrEXu0nYR2WE3PGv4=",
+          "size": 6534925
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-environment_1.3.9_windows_amd64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_windows_amd64.zip",
+          "shasum": "fd7de148e28c2b4adda73fbf0f6d2c7b60677aa6d60c49dd345aadfa1b559e93",
+          "h1": "h1:76uG4IDtGedv52HEyzHVk9yrTNDqsIDtraTVOXhzKuM=",
+          "size": 6760436
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-environment_1.3.9_windows_arm64.zip",
+          "download_url": "https://github.com/eppo/terraform-provider-environment/releases/download/v1.3.9/terraform-provider-environment_1.3.9_windows_arm64.zip",
+          "shasum": "c4424b2a091c6ab373b2662fa1ef91b80515eb9554bb7744ea9d40b44c2d6111",
+          "h1": "h1:xt/mjRt6WLgb2RP4zIzPTKcjcAsqmC5tw0tcQZBGP5w=",
+          "size": 6039674
+        }
+      ],
+      "discovered": "2026-06-17T00:00:06.225940312Z"
+    },
+    {
       "version": "1.3.8",
       "protocols": [
         "6.0"
