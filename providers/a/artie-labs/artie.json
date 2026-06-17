@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "2.3.36",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-artie_2.3.36_darwin_amd64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_darwin_amd64.zip",
+          "shasum": "b2236d3915142aa044648f1f7ce7e593b9dc7c84d67a17bd799d7ead226bd43d",
+          "h1": "h1:sDbaO4MhdVQxB3vOwq0c9m03DEEmFyb3tKabqZNeLKc=",
+          "size": 6965088
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-artie_2.3.36_darwin_arm64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_darwin_arm64.zip",
+          "shasum": "64b6dee42f20c14905f666896e047394f4edf4e4dd7b93606264b7d175595f1b",
+          "h1": "h1:4+94Cg8KrjI1xZhHV083Vy9JUOs7hTEjLrP6EQ5QsEA=",
+          "size": 6491472
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-artie_2.3.36_freebsd_386.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_freebsd_386.zip",
+          "shasum": "b283cf730aba7c36bdef481a3cb5898c6192e171ef414d86cde6ab007ba8987e",
+          "h1": "h1:wvPHXK2CpUK5jupNplslm0dHzy5YPfwDShONibiKerk=",
+          "size": 6404845
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-artie_2.3.36_freebsd_amd64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_freebsd_amd64.zip",
+          "shasum": "ccd1000496c1ad2cc1d0583f29d7e70157c6f06f1bf41831f80dfb7f6c23a7e1",
+          "h1": "h1:4RQv1voQAKI/f9d9ZawZNtoDgKcXdcjo03nnpPVHU4s=",
+          "size": 6769256
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-artie_2.3.36_freebsd_arm.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_freebsd_arm.zip",
+          "shasum": "1030e139dd50aa628688b1cc398d33560c87e452242700a29ae3bf3222c2bd4c",
+          "h1": "h1:jBNB9TeQ5HsGHAHLWcf/5j3hqSl2iG1tEA45xL8Qgwc=",
+          "size": 6371694
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-artie_2.3.36_freebsd_arm64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_freebsd_arm64.zip",
+          "shasum": "83162cd06b1c5d2d0476ca71281605e3bf845ecfb898b159c67d833d3b58d33f",
+          "h1": "h1:FEhaSJO+DTW4ZYUlgvppIIMuV25doWHMchZie00/ock=",
+          "size": 6154795
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-artie_2.3.36_linux_386.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_linux_386.zip",
+          "shasum": "78dc969e4d6e4ce74b6fdedcd1317f5460d72e2e41ace620b60cd39172053936",
+          "h1": "h1:lGI8vJnEH53jNdV/gsdAbT3jcIYHSL5XoHVvAebA2Bc=",
+          "size": 6434601
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-artie_2.3.36_linux_amd64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_linux_amd64.zip",
+          "shasum": "4f9e8e0807577d85cfa5896b3707672ff64348cbf71c14f7f1f390310d86aa73",
+          "h1": "h1:/GTwiRHV3Ha9I2YSQAJaue+pbqpkyvtjFrAHIamBJHs=",
+          "size": 6791110
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-artie_2.3.36_linux_arm.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_linux_arm.zip",
+          "shasum": "3d0fd492111a38cf1778c3204f3ecf1db412655f5bfc5962f4c3e2fe5b03b182",
+          "h1": "h1:2G7lIwbGWj5lC8uw4tUls5vn2wbuRpaHishSZGHP/TY=",
+          "size": 6394141
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-artie_2.3.36_linux_arm64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_linux_arm64.zip",
+          "shasum": "75eabc28eee195b8e94015bc203fd270920a2fd2a1c90fd6368ed94e622fb4d8",
+          "h1": "h1:3VqDynjiMC1jum6E97sIy4mzO4utof5yt17eOrnSC3E=",
+          "size": 6180174
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-artie_2.3.36_windows_386.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_windows_386.zip",
+          "shasum": "8e7a9a186f6ab6a51d4b923891c6e02bef33b0e2c77fd98a291542388b19d1b8",
+          "h1": "h1:xHxnM8L3R5iMtajxDqqHZz+7PIeao29bZe7ufSzSErc=",
+          "size": 6724167
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-artie_2.3.36_windows_amd64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_windows_amd64.zip",
+          "shasum": "4ad630584d53232a030377333f15151d5d423c08b77d9eba3a4621e4468e7feb",
+          "h1": "h1:gBYCL9R/57w5Ks9UmFhxvc3MxBoct56RfSXOUPDPjcs=",
+          "size": 6998288
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-artie_2.3.36_windows_arm.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_windows_arm.zip",
+          "shasum": "1bb4e40ac69de400023d33004b97d0d4a06600fdc130a356d38091919f8eae7d",
+          "h1": "h1:FPacommAPSyunCMxLXwPqKnDN3x7zZt6yaH2oRP/nGE=",
+          "size": 6550357
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-artie_2.3.36_windows_arm64.zip",
+          "download_url": "https://github.com/artie-labs/terraform-provider-artie/releases/download/v2.3.36/terraform-provider-artie_2.3.36_windows_arm64.zip",
+          "shasum": "2d9bba70bb7ecd32fc750799e3b0e81f44bc09fab8f9138a5c9883d070b1b376",
+          "h1": "h1:sondX2gl775uhz9dXbaVe0UDbqEXEi9egwgS7raBipI=",
+          "size": 6263084
+        }
+      ],
+      "discovered": "2026-06-17T01:23:50.048718154Z"
+    },
+    {
       "version": "2.3.35",
       "protocols": [
         "6.0"
@@ -13389,13 +13526,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "2.3.36",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-17T00:00:39.931243098Z"
     }
   ]
 }
