@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.0.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_3.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_darwin_amd64.zip",
+          "shasum": "3f59990c535a6bb3798ddff720c15cd48107ecc8eabb0e4e3059ea6f5fd6ce65",
+          "h1": "h1:Z3s7WyJd8NrC2fZp45oqYcUe/mkjui9auW3FCF1TutY=",
+          "size": 7374843
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_3.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_darwin_arm64.zip",
+          "shasum": "915b08f10318bdfef08c487481db299f9cb60cacb1476c517a039997f03fd383",
+          "h1": "h1:cwjWTFBZFiC+ezxbERn9H/BbG9GFFhVThXeicGh4JSI=",
+          "size": 6860157
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_3.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_freebsd_386.zip",
+          "shasum": "8d2ce72b081444dfa67de9b625349e4c93882cfc0686d366aea5b4af226496da",
+          "h1": "h1:yfKnrOs4YstVUXRN54JstWzLvz8q47Yd0ZNSuukYyRI=",
+          "size": 6783866
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_3.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_freebsd_amd64.zip",
+          "shasum": "21bea3fcfc7fc855aa96de5989df471317862b250478524b3c4b5e0b1a399760",
+          "h1": "h1:FtRy4XaWO30HDn2Q2tmvWzAZkL3OzOxEVJ0F9WJUXPg=",
+          "size": 7161100
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-entitle_3.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_freebsd_arm.zip",
+          "shasum": "64a23cbcbb26e6e479651628efd96371e0c7291663aa70073766903143d08445",
+          "h1": "h1:bcURYBHrmj5caJMYja0VOIk1U3HzStbUy9PgCziVHsg=",
+          "size": 6760706
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_3.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_freebsd_arm64.zip",
+          "shasum": "9c8628f2f31e3da7093afa1a2303e3163f3170f713acc858b60d67edbd412404",
+          "h1": "h1:51HmRyp/B/Ok5ZGnT6jBF0ME6kVfEmB+j4ysN+c93KI=",
+          "size": 6492347
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_3.0.2_linux_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_linux_386.zip",
+          "shasum": "200b16257cb89ceaa595303f7e3c51db70cdd8be30467fc7f5801ba91f2ebc91",
+          "h1": "h1:OXxk8CQ9jENTMeR0fDAst6jUjhKNhiurVuViSaWqvHE=",
+          "size": 6815327
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_3.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_linux_amd64.zip",
+          "shasum": "0ab89eeb1e5709b46a65855ad13f865dff547a2f9d9d32a0360bfdade7a58070",
+          "h1": "h1:W4UePTsQytupLWyvpkNQ+I6WwMym8KunmTLEx/gkHd0=",
+          "size": 7185414
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-entitle_3.0.2_linux_arm.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_linux_arm.zip",
+          "shasum": "a3c2de5225e219cbc7baac8c9c30ee5aeb7f86df5ae43d1ec2038497183eadb5",
+          "h1": "h1:y8OiLLS1L+5HolMEpjS+kt5yHxO7j9QKQF9lviDkpGc=",
+          "size": 6786839
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_3.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_linux_arm64.zip",
+          "shasum": "37e81db57f962c5f07094db46902c992901d2afd08bbb3aed9a708110a2e2c6c",
+          "h1": "h1:27nW+9ZWEyvaXfgBNbjqda+FONfb2sThut6BE/xr3P0=",
+          "size": 6519281
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_3.0.2_windows_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_windows_386.zip",
+          "shasum": "f21781ecfd9c904247dfbe4a3e52572512371f48ab843f7ccca09c3940f850fe",
+          "h1": "h1:ZcT6P0WviS03CW1N/HGyHCHsUbpaa4yf05K806PpmNA=",
+          "size": 7132444
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_3.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_windows_amd64.zip",
+          "shasum": "b52882dd57a3f51a72c110bf33533df1939836ed7ff1abe7b23585c20b963ec1",
+          "h1": "h1:92t4fmbKRVTJ25AgemywmMHGLrkzm2hvEMi5F2jysxI=",
+          "size": 7400037
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_3.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v3.0.2/terraform-provider-entitle_3.0.2_windows_arm64.zip",
+          "shasum": "d3fbbf8cd796db498f385db4f7fa9208f116bdd70cc7717b41f8b04573980d70",
+          "h1": "h1:ZfkwDcE+vAPj488T30VhTWjvd+LP2cNzisXH6DYCBgQ=",
+          "size": 6606233
+        }
+      ],
+      "discovered": "2026-06-17T12:08:41.225168356Z"
+    },
+    {
       "version": "3.0.1",
       "protocols": [
         "6.0"
@@ -2149,16 +2277,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "3.0.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-17T08:56:30.22078327Z"
-    },
-    {
-      "version": "3.0.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-17T10:31:24.546625488Z"
-    },
     {
       "version": "2.1.0",
       "message": "checksums not found in release",
