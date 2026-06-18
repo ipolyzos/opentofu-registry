@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_darwin_amd64.zip",
+          "shasum": "6d65e9e847da720e38a30b8b2fda7fa4f0d0d544c7da1bcd8cd1022e004d8d74",
+          "h1": "h1:NnKNFW6gMJ6xz/IlaAqd4fBP788qc+VmYunW7mxD27A=",
+          "size": 14467438
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_darwin_arm64.zip",
+          "shasum": "7eb82168ea8dbefcb985df7435025f4098dca3a4cce343ebf019c38c70d8893a",
+          "h1": "h1:3S+FVHhEcKprWJ2QUEgT/UbxEODhHCHdqHS6UDU0ZeI=",
+          "size": 13353246
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-teleportconnect_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_freebsd_386.zip",
+          "shasum": "b5b08d0348f24b69f05b3faa5767e544b5aff3f1665dda9eae6733e168c5ce24",
+          "h1": "h1:a97DchGJX57wHVJey+xR1qo3c3bJYu83ZgG0db12rwI=",
+          "size": 13107888
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_freebsd_amd64.zip",
+          "shasum": "da74409efb972c52788b3680b62d560fb938b04722cf81cd4124549175d33b97",
+          "h1": "h1:3ObF94xFUr6LDlwnCcgLhTUMDm19DqMeewlWvRa461k=",
+          "size": 14062761
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-teleportconnect_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_freebsd_arm.zip",
+          "shasum": "4b10ab386db393d60e0c446f3740ec442ebf393854cf0c7e1c5dadf6a2fc9a85",
+          "h1": "h1:j1cC//+H5zo8c/rfiMkoUq28k3ExQxdLAJMSnPyruYI=",
+          "size": 13228380
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_freebsd_arm64.zip",
+          "shasum": "78643bd053ce551f11b3f319f8b184fef2ed1efcbee7202e158aefaee00025d9",
+          "h1": "h1:Zh/1Y5gmqHzAS60g1j2CtteizIGGZcOwihylH4jsKfQ=",
+          "size": 12572780
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-teleportconnect_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_linux_386.zip",
+          "shasum": "ccce05d0e63b9a1ee1b23c673ae28b5162037e8faf8fd6d0649345c59512b88f",
+          "h1": "h1:q4HoZMC2ugWoIDqgMDq68ZqN7DdnRJwEliJIujbugwQ=",
+          "size": 13120427
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_linux_amd64.zip",
+          "shasum": "78ac01f78d14c85ad1c026da4b23a32d5b79c94dc70d70a5bf160bf55a6453d8",
+          "h1": "h1:/rFUAHgzWYYoqdT4hbGNubXQe5WNaU5J62sQ8LS2WzU=",
+          "size": 14055243
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-teleportconnect_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_linux_arm.zip",
+          "shasum": "b3ac5b57df114d767a43beb3e3312c5c29c5535f0409a2a7ccd92fbee4cbc319",
+          "h1": "h1:gv/r7nOyQE4gsDdx1C7DneedSXPO9UXaGZmPce1NiiM=",
+          "size": 13217422
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_linux_arm64.zip",
+          "shasum": "31140747bd826d05e0c7589967573d7e892d80eb7b10d7c9c86ff09f8daf71b6",
+          "h1": "h1:y+d2oOkIbQKbkOuuYm0Q1NNgV2UtFbkhE6+8WKm5GkA=",
+          "size": 12559443
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-teleportconnect_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_windows_386.zip",
+          "shasum": "007033a5a87a55cc8800c593880989eb645c21eb0d9d749e27283fa1a88ffd26",
+          "h1": "h1:S3dKAgJHxQCAxd9MJIapylA8CFvmda6VTgAIAX2K6sw=",
+          "size": 13806230
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_windows_amd64.zip",
+          "shasum": "0f64548fde447d5c5e87530e15a2748ce6f42c1d78a0ea69fda09694f9206626",
+          "h1": "h1:CSNOZirWauit2S91cr65raZ7WqE55Ph2mi81623uyn0=",
+          "size": 14488209
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-teleportconnect_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/cruxstack/terraform-provider-teleportconnect/releases/download/v0.3.1/terraform-provider-teleportconnect_0.3.1_windows_arm64.zip",
+          "shasum": "b18598eb6994c8ea8636610ccdc0a7ca96ddc2b7d07f383cd3e35272dd444b21",
+          "h1": "h1:B2zE5JsFqZ2yWwtCCAjatR/oLJh04omfO570J0ULkMA=",
+          "size": 12671181
+        }
+      ],
+      "discovered": "2026-06-18T20:35:51.507439687Z"
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "6.0"
