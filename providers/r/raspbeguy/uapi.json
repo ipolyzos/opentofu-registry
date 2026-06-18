@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_darwin_amd64.zip",
+          "shasum": "5aedbe8760363306c3389bded7391c969a995d117bc6d691f8365cd7eb53f286",
+          "h1": "h1:woaToPZL8BEN065W4lfwDcC7s+F8Y2Jf9AatNYQeLlU=",
+          "size": 7167205
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_darwin_arm64.zip",
+          "shasum": "77d6ad245e6420d8ac73707508ef31344d2fc5707c3e210d1e0e8e1a2ae3928b",
+          "h1": "h1:HKWpn2hq+5J1bYdGCGcQ3arv4yhwNWEAt5448ggbnY4=",
+          "size": 6655406
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_freebsd_386.zip",
+          "shasum": "558d0bb238ce5865eebc53ef9a3dee1ef73c04a3460762ae4d1c7c28ce1aec70",
+          "h1": "h1:lBYFLL8n3Xjn68J7CQmpgXM1s3lfaALDl7sCljlMAOA=",
+          "size": 6569420
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_freebsd_amd64.zip",
+          "shasum": "bccd40a04e7b66f2ff0bcda240cae569effebcd96b13ddf08d1139a642dd8c3c",
+          "h1": "h1:DH/dAIjlEZOJjsO/BbA0Syt7c2mStximgleK91lX4+k=",
+          "size": 6958128
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uapi_2.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_freebsd_arm.zip",
+          "shasum": "24503860fd95bcd671d4ff9e79993d15ae4a486b0d30c9c8946bbbeae17855e2",
+          "h1": "h1:Yt8WQ9OazdsRxmEbHY7FzybVQlkVnBlzLbDhabe1vqg=",
+          "size": 6563545
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_freebsd_arm64.zip",
+          "shasum": "c4429ef8d1d4bba7e6d1e35e156b279e349bfae84fc5092722b95e43534a39ca",
+          "h1": "h1:yfTFvL3Drt7C7ql4786/BAB7vkrkpO8upBYhqeLnSSU=",
+          "size": 6298630
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.1_linux_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_linux_386.zip",
+          "shasum": "7957ed10f5bb468fac0fabb06b45388bdd1842a0746876d106e4b08d8355c793",
+          "h1": "h1:IUta/Uf5cHhrGYO6HpTZzzcCIAdqbLB6dBFIS75HEks=",
+          "size": 6602851
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_linux_amd64.zip",
+          "shasum": "5924ab94adc539f620019de656c91e618140e4a120f3a3cfdc946359f0b00f4e",
+          "h1": "h1:LyCN4smfcGzFCmchKrjmMCfzjTWaC6lHnpwZnzRjTRg=",
+          "size": 6985593
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uapi_2.2.1_linux_arm.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_linux_arm.zip",
+          "shasum": "a41fe82275bd4d6d2cd0a076aebd45cdfcbf2fb460dca119319f6945dad0c58a",
+          "h1": "h1:jK24KsNkKDKZdhVN2tjnYCyRvVFaeNIKUmR5Y2O2c7A=",
+          "size": 6585916
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_linux_arm64.zip",
+          "shasum": "7a886a20770624afce7169808a8ffcc90c1f7d9c8d8869364944469268647c46",
+          "h1": "h1:lcwnI6cr1NXVUNB81mSwE+pp9rChl5mRfMXSBOMDcUM=",
+          "size": 6326071
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.1_windows_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_windows_386.zip",
+          "shasum": "361f09c260a51ca613b37e88b9a1f70b4025369966306c8291c09dbc3f52570b",
+          "h1": "h1:KOLnIc3PgNSya7+yhvibztrIRGoOexxtJVCj/7nbP1o=",
+          "size": 6922005
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_windows_amd64.zip",
+          "shasum": "f2b4ec3094282340ce7d7d26b9d1257f1836c6f2f157fa3c889152d2fb3f8020",
+          "h1": "h1:JnynYibdmeoUup66/xUP6wHdLuFaQoq3tebcaHnAK1s=",
+          "size": 7192980
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-uapi/releases/download/v2.2.1/terraform-provider-uapi_2.2.1_windows_arm64.zip",
+          "shasum": "aef037ca3fa525019a8ab74995abf3e1161098f516c744ef8a6d84fef896d2ea",
+          "h1": "h1:eYf2iILrjbdlmFpvxz7lO6LL50IpCeIxMfuLBrM+0CE=",
+          "size": 6411942
+        }
+      ],
+      "discovered": "2026-06-18T16:40:46.228757595Z"
+    },
+    {
       "version": "2.2.0",
       "protocols": [
         "6.0"
@@ -895,13 +1023,6 @@
         }
       ],
       "discovered": "2026-06-05T13:11:18.937506323Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "2.2.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-18T15:21:57.740269842Z"
     }
   ]
 }
