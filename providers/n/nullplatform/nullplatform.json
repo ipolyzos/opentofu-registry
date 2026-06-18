@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.0.95",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nullplatform_0.0.95_darwin_amd64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_darwin_amd64.zip",
+          "shasum": "f1dd95be9f23c5602fcfca965832984f6d4411258c4ea87f69177a4604a5f39a",
+          "h1": "h1:CwWF67wR7+i4kIqtQ6t6wDwJTCnnfwbK60B5zH2xMCo=",
+          "size": 7225675
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nullplatform_0.0.95_darwin_arm64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_darwin_arm64.zip",
+          "shasum": "213f5ab10cc4c95e4568fdd10fec55886615978617b5815c9a900f233b4dca6e",
+          "h1": "h1:TOKlvQhgsNAlXDVB9jNfTUTMIOgxgMJgHsr7AqTVtdA=",
+          "size": 6668045
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nullplatform_0.0.95_freebsd_386.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_freebsd_386.zip",
+          "shasum": "e28d2e0a9b297c84dd18f1ab0a4f986108d2e1571523b15389473be4c267e917",
+          "h1": "h1:C2PthkRsysKK9QvdvOvilHzEnnX9Eu5hVWgOL++WsEI=",
+          "size": 6649099
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nullplatform_0.0.95_freebsd_amd64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_freebsd_amd64.zip",
+          "shasum": "356c2f91085ac397c419650a55c2ec8551da811db503a3dc0e510e05ca8fba42",
+          "h1": "h1:zG149oqii+6TuZ1lXblYJLjTWmVEKKQ9Z7OmAB5wAjU=",
+          "size": 7032838
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nullplatform_0.0.95_freebsd_arm.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_freebsd_arm.zip",
+          "shasum": "5d862aa4ffa4f452a03e9a8ad3922a25674aff0a9770b674e09a68a087db17bb",
+          "h1": "h1:DldeAD+NSUQdnQxyTfbmV46wYFWDwdFRIpGzml3uKuo=",
+          "size": 6645844
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nullplatform_0.0.95_freebsd_arm64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_freebsd_arm64.zip",
+          "shasum": "1b2015fa088a40c4dcaef803d71942909ec45036524c12ca18272bf37dbf9283",
+          "h1": "h1:FQbdFOw6q4ClYSq7uoa9loG4ynYNzUcOb4sSQ8b/h3Q=",
+          "size": 6340294
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nullplatform_0.0.95_linux_386.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_linux_386.zip",
+          "shasum": "aef3d42714928ca4099768efdaaf0d6eedab717d2b133ccb5de67167dfc24332",
+          "h1": "h1:9oc3qCrTBlY4zVOtMFUai4C9GnBfRrwyuzAp1rDJNIs=",
+          "size": 6683297
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nullplatform_0.0.95_linux_amd64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_linux_amd64.zip",
+          "shasum": "42ab71a0675b06fe3f661704142be8ddb029f052e3a001115fbb3ad0ee5e97f4",
+          "h1": "h1:UYs+ehJD8m3YGSb1vZUfFbYBHBRBj/Kn15Lp6OK2M5Y=",
+          "size": 7060538
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nullplatform_0.0.95_linux_arm.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_linux_arm.zip",
+          "shasum": "46c6130dd7688a372a244c388f8568ddd12512e6d70d16b924495a4088f5ed4a",
+          "h1": "h1:4CaCSOIxZUr3EAa4mirUzsZOIN44jWeDhiyjEeRiyXY=",
+          "size": 6672835
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nullplatform_0.0.95_linux_arm64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_linux_arm64.zip",
+          "shasum": "94cfe1a3446c4ea48d16b10c0b50f99bee89218f0a054514a97215c3af43c427",
+          "h1": "h1:8BikIRFdrXRNMHDYoKu67MFCoTWOXOwvVfdggmkJf4s=",
+          "size": 6364951
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nullplatform_0.0.95_windows_386.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_windows_386.zip",
+          "shasum": "40bbd8163228b1ae88d515c643922c0565b015559b01023bc2ababdb3ad13e5c",
+          "h1": "h1:+3hxz5C+5N68SrEpI6oDjeCyVwKkH51K/eJMsw+p4x0=",
+          "size": 7007974
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nullplatform_0.0.95_windows_amd64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_windows_amd64.zip",
+          "shasum": "2a0ae4273515079385926beedeaf034257c4ee08e78733e19676fac9db4fd8d1",
+          "h1": "h1:IOKbeoCEkDeDrGLG4OH6kPfo4x7HuJFqFLvlbEgTTCM=",
+          "size": 7261036
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nullplatform_0.0.95_windows_arm64.zip",
+          "download_url": "https://github.com/nullplatform/terraform-provider-nullplatform/releases/download/v0.0.95/terraform-provider-nullplatform_0.0.95_windows_arm64.zip",
+          "shasum": "02ec1e02e738e5f138e919d17391966e4b92d6933b6cd318eaed85e908f5cc8c",
+          "h1": "h1:Ujp/YxKbUtGh5t18uCoJaajoNXqeZwhAsARvBqFKnPU=",
+          "size": 6449570
+        }
+      ],
+      "discovered": "2026-06-18T16:40:44.123223358Z"
+    },
+    {
       "version": "0.0.93",
       "protocols": [
         "5.0"
@@ -11921,6 +12049,11 @@
     }
   ],
   "versions_errors": [
+    {
+      "version": "0.0.94",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-18T16:40:44.820327133Z"
+    },
     {
       "version": "0.0.32",
       "message": "checksums not found in release",
