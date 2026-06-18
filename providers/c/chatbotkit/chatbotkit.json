@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_darwin_amd64.zip",
+          "shasum": "bd9405d93a54c501b9931028e496038d43bb1d22af8bda335a43ae93fbcb5b4f",
+          "h1": "h1:3gsjLv9wxyNnVptXcMGlX/Xwwbo3sHsISQKycfDNjm4=",
+          "size": 6650995
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_darwin_arm64.zip",
+          "shasum": "52c5fb171eae97e91b66ee62e463d4f9a993ccf05ba336700a655d0ba4f8a56a",
+          "h1": "h1:g8i8zwnryXbRV1jHUOauhpXeT+UTaMKid/rqnIsmFeY=",
+          "size": 6270564
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-chatbotkit_1.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_freebsd_386.zip",
+          "shasum": "ff3bc24c064d1249a9138a0e4cf8b14ecf95b16e670d83be10680cdd2b8d4abb",
+          "h1": "h1:vFu73CpJUyme63IaFvPNfEEBLATuspDhiLbA9CqNJec=",
+          "size": 6093054
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_freebsd_amd64.zip",
+          "shasum": "3ec526a70f22c2dfd5f8b91dd9eadca44ea5fa859db1d07ee47d6beab0934f7d",
+          "h1": "h1:cjKeVZ906FZ7lO5z8fuOdqGvS24YH2eQe1scTmrHDGY=",
+          "size": 6460241
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-chatbotkit_1.4.0_linux_386.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_linux_386.zip",
+          "shasum": "479be32166aced37d0715c4e5f56b4eb1d853e46ccd5c3c8e82457127dd02bcc",
+          "h1": "h1:j+Zu+z+yup4s2FgPaDNrPUEQfim9dGOdZeLAT8C2Xzo=",
+          "size": 6104660
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_linux_amd64.zip",
+          "shasum": "324be660e14f6a2d699c7ed83fe5ff09f2ed0a91843b739fba1556be69a1c9de",
+          "h1": "h1:0Qh6RQLqCpgJy2X3+qNJYGRVF28kmwUohdpj7Gphtts=",
+          "size": 6467489
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-chatbotkit_1.4.0_linux_arm.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_linux_arm.zip",
+          "shasum": "056d99c36bfe76b7c97d717ebace2d527c59030ff888dfac8c35e958282479ba",
+          "h1": "h1:htTlS1xbMKwAAjQ2+szB/O6Jc2wMLNMmYupE9i7lHf0=",
+          "size": 6077699
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_linux_arm64.zip",
+          "shasum": "0fecee0ae59e0b0b1960dd5f63a0d8eebbc766a62c33618e0d7de9ce6b41c846",
+          "h1": "h1:2TAWyyJ05dv/F7rMTASJ4K4FV3FHIj6q4DzvYdOpA28=",
+          "size": 5952650
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-chatbotkit_1.4.0_windows_386.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_windows_386.zip",
+          "shasum": "2a3177a55a9d812d08bf1301197bb401f9092d63f778b0366cf906db0f649fba",
+          "h1": "h1:CrR1xgmFf4IcdcX7rE8dwwbRAvPXMt6scK7zBLoS66Y=",
+          "size": 6396504
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-chatbotkit_1.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/chatbotkit/terraform-provider-chatbotkit/releases/download/v1.4.0/terraform-provider-chatbotkit_1.4.0_windows_amd64.zip",
+          "shasum": "7c33fe17d0d94f72d570927252853efbf005c4479f22e2009db882056180a44f",
+          "h1": "h1:ZgQhcpRjL692ketihcNVr+XkhCLaWxMK9TAK+MuOscQ=",
+          "size": 6667776
+        }
+      ],
+      "discovered": "2026-06-18T11:48:47.614871023Z"
+    },
+    {
       "version": "1.3.0",
       "protocols": [
         "5.0"
