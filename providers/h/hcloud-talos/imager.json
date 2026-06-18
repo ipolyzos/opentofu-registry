@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "1.0.15",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-imager_1.0.15_darwin_amd64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_darwin_amd64.zip",
+          "shasum": "6ff4daf422064801422430bb9ba90c9e624e1998a944e36474d5ffddf8e519c2",
+          "h1": "h1:J2P29PmNRcO6QytYXlw7G4Rlmz6j7pSMkshSevwEuxw=",
+          "size": 7677507
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-imager_1.0.15_darwin_arm64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_darwin_arm64.zip",
+          "shasum": "a2e9a2715760f89bc70f7d16c42690b5748a6c1370fd7987c83ad512b706009b",
+          "h1": "h1:wDj1Xn/Wa8tpTi1uavZVeu0SlH4ez12+wVlUL2wflos=",
+          "size": 7160465
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-imager_1.0.15_linux_amd64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_linux_amd64.zip",
+          "shasum": "30c3578ff2627693cd8d8a0bde09250f1f87072f78b50551fdbe397f5f2b4044",
+          "h1": "h1:XJVBuE2bQ6nOLebE/5eIi5kAUR/DlaS8brX817CW9Xo=",
+          "size": 7487817
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-imager_1.0.15_linux_arm64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_linux_arm64.zip",
+          "shasum": "b41dc93e190b78e7d8ff247423f708cbfca84aab0dff278a685903de77437858",
+          "h1": "h1:LKKLwIiouu/pMsBLBqfA9Ply6qg/KeSSMikNEE+7ajU=",
+          "size": 6812265
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-imager_1.0.15_windows_amd64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_windows_amd64.zip",
+          "shasum": "1979695c0f8faeb5fd6985ad35283ca95b047a05dd11251879025181b0418f09",
+          "h1": "h1:hJf/XMHR5J//i080B+oKwJfmDK3agBK7Y1SPzQrfWP0=",
+          "size": 7679788
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-imager_1.0.15_windows_arm64.zip",
+          "download_url": "https://github.com/hcloud-talos/terraform-provider-imager/releases/download/v1.0.15/terraform-provider-imager_1.0.15_windows_arm64.zip",
+          "shasum": "7d8936ab504fdd213492cbf924f8ac16cc017944e50894a78bf69c21d8ba801c",
+          "h1": "h1:n/aRuUjJypQ1vnaXuEe8ngghAnyc1bvzVkK9b1KR4Ws=",
+          "size": 6876534
+        }
+      ],
+      "discovered": "2026-06-18T18:43:00.318205234Z"
+    },
+    {
       "version": "1.0.14",
       "protocols": [
         "5.0"
