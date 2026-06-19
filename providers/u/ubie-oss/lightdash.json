@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_darwin_amd64.zip",
+          "shasum": "c01985a7c3a3677f7a6206aa8fbc2f0248cbb29a1cfecb0ee17bbd65429f380f",
+          "h1": "h1:x3EgKvAYnVOlU7Uu1krMoTA3XV7n4qL+MHAL7lBfE2U=",
+          "size": 7009550
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_darwin_arm64.zip",
+          "shasum": "73ab067d9dee4bd8636f76b78f4bc715e644f6ce256915aa67d550071ccd96a2",
+          "h1": "h1:2C4B8eUruy4fK2Ny+WfCXC+EqE9D9i3gIQcgK1GgfZw=",
+          "size": 6530112
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_freebsd_386.zip",
+          "shasum": "88fd823550c6787235d64e0043c4a499b9aeedb0b9c61d829796b31ee6723751",
+          "h1": "h1:iPMkEK9B9chTqbwwh3oqKMnSO3x4vrdzkM1Y2mRzN3Y=",
+          "size": 6441019
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_freebsd_amd64.zip",
+          "shasum": "762b475ac4736d5975a6896ced68f9b7505b76aa89b690cc2793b049b7e6ca70",
+          "h1": "h1:KI3lb7Alrmiv/KI4XpO3ohUaAvK0zcCfk+ZkyJX0UDA=",
+          "size": 6814728
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_freebsd_arm.zip",
+          "shasum": "7397b57c1196938556b93deff161156d32e72696f8d6a4046ff9d6a75814f6f8",
+          "h1": "h1:gWd6beaZPTtcK4H/lSnXQqjwwHFYp7z7ZRnNfSGjDRQ=",
+          "size": 6413513
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_freebsd_arm64.zip",
+          "shasum": "2914da11be6aa42c6b5a96c617e672b41783895b5dd61f8627bca285c5e73758",
+          "h1": "h1:O5B/25JZWQEXSzRReFLoe4JUwntmEJUbnjlzyqsTUvI=",
+          "size": 6189875
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.16.0_linux_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_linux_386.zip",
+          "shasum": "adf445031265bed61522df4e1742258c82deb85d63385f06b75368fde15a1be0",
+          "h1": "h1:sl+kB6dn5yz073bEWAza7kv84AT+29C6VZLn8W77Ygs=",
+          "size": 6470699
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_linux_amd64.zip",
+          "shasum": "e15c24813b5722bae8355d38724793d42d7c28c8bf3fd3c467bdfb66c1aadc53",
+          "h1": "h1:yvKZILjU20IEbnT2IV4VfJfd9IjuX+DKMTlgAU02NuY=",
+          "size": 6840679
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lightdash_0.16.0_linux_arm.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_linux_arm.zip",
+          "shasum": "2ba264617ad5fa3398199dd25a1581e3fb9e3f621baa54561f6a1890d7bdb948",
+          "h1": "h1:4fpkbjRAOvXRuVoz8O8PhAfd4V/i268/zU72ffvSHeA=",
+          "size": 6436865
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_linux_arm64.zip",
+          "shasum": "5b738237407d9b82a6045b3e473ff91fda6c1964d019b93a43dbdd03137adc4e",
+          "h1": "h1:aRr8LwVMzBZgcm2ZQsjmit8CyqwxO1llARtxXdvs0rE=",
+          "size": 6217042
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lightdash_0.16.0_windows_386.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_windows_386.zip",
+          "shasum": "5299ca08ffc351e5459c5150f50533a91c1c0c528db557e2d337c4db1c0198fd",
+          "h1": "h1:8kIOiQoZfh41oEMEkX3+Ml7qntp9jn21uy8RIJMfmCw=",
+          "size": 6766965
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lightdash_0.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_windows_amd64.zip",
+          "shasum": "38c046e071db8053e339bc7ec63baa0c6180867e80c11e2f948b2b1551b56358",
+          "h1": "h1:U+EZBTLvq05/qsKrFFpcXKG+HkVFpRy0w6nZPAygR7Y=",
+          "size": 7040077
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lightdash_0.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/ubie-oss/terraform-provider-lightdash/releases/download/v0.16.0/terraform-provider-lightdash_0.16.0_windows_arm64.zip",
+          "shasum": "b6f467fb80756aa183a1875c366d423da5b4be417b7f3f40e603581009ee5c55",
+          "h1": "h1:PcFH604ZixZYdO+eLwTf4oFC7AaFpDcRsfRytGaMqzw=",
+          "size": 6299508
+        }
+      ],
+      "discovered": "2026-06-19T02:38:58.035217904Z"
+    },
+    {
       "version": "0.15.0",
       "protocols": [
         "6.0"
@@ -7501,11 +7629,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.16.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-19T01:41:04.881513266Z"
-    },
     {
       "version": "0.13.1",
       "message": "checksums not found in release",
