@@ -18155,6 +18155,11 @@
   ],
   "versions_errors": [
     {
+      "version": "0.0.0-20260619-d4ea536",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-19T04:06:54.506634496Z"
+    },
+    {
       "version": "0.0.0-20260616-a972848",
       "message": "checksums not found in release",
       "utc_time": "2026-06-16T04:06:40.332457864Z"
@@ -18188,6 +18193,11 @@
       "version": "0.0.0-20260616-a972848",
       "message": "checksums not found in release",
       "utc_time": "2026-06-17T19:06:30.722045737Z"
+    },
+    {
+      "version": "0.0.0-20260616-a972848",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-19T04:06:54.532812778Z"
     },
     {
       "version": "0.0.0-20260614-d370aa3",
