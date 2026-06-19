@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.2.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_darwin_amd64.zip",
+          "shasum": "ba77d413200a8b3c168c685e31e6c4b7ad7f40145f6418bd8df1fd846b2eab8b",
+          "h1": "h1:uxpOc2YQDGIhj6csgs36hCi91IZwjtuLB8RUebXxkZk=",
+          "size": 7169761
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_darwin_arm64.zip",
+          "shasum": "1f2a8f8e3311ba149e9fa3261289d47a85c7f2f56e7c0943b5e31544ae0b3f90",
+          "h1": "h1:zy1UNPiPe9BWvcK0kFpLfaspmJO+JdYKgBIZpBe4VWM=",
+          "size": 6657769
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_freebsd_386.zip",
+          "shasum": "7052f482be7a4530f39b9dc76e8fceba5608448b502b2e7a52580613490244c6",
+          "h1": "h1:u1A6+R59nPq+KLdU7vmMUAV0PpVBjtr9oV1OdSsjbQY=",
+          "size": 6571847
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_freebsd_amd64.zip",
+          "shasum": "11c778f0341f82b3b3db4c098756ae38d9e94949d26618a8df03d5eddb352b6b",
+          "h1": "h1:ge/tqCOnXvKHbzryj0l7D8TUE8CFghWv/j6k7YnRSbo=",
+          "size": 6960480
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uapi_2.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_freebsd_arm.zip",
+          "shasum": "b86e4646481a937be9a91547763b39f3171c7e36e6bfa3288888c90cf040b8ae",
+          "h1": "h1:CWSmE7V1iywEqGPlQe3bO5FWLeNrh+Gh28Kfng43/yc=",
+          "size": 6565816
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_freebsd_arm64.zip",
+          "shasum": "0613caece9ece43248a3e028436fcbbe2f71a5a1f57a988cfc8e8881771e262a",
+          "h1": "h1:KlFSsWUeveuHW/4UAoH/0+8d09GA9PAzcTpvqxk1eb0=",
+          "size": 6300805
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.3_linux_386.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_linux_386.zip",
+          "shasum": "831ea8150d75df9f131965518b78536bd5c21b54ff4e9b9d60fdf38c1721b701",
+          "h1": "h1:S1LbcT5MOogpmd33HFbv81eqtUa8ru7bofTSiznenJ0=",
+          "size": 6604963
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_linux_amd64.zip",
+          "shasum": "7e5e2da6c7a7b390977ac82b65646c64762246853d8e3e019e4bd0a74b7890b6",
+          "h1": "h1:kHQ4nPM0uoCV2JpVmrNmYq78Pes7d4Vo+WgaKvs3Pcs=",
+          "size": 6987881
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uapi_2.2.3_linux_arm.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_linux_arm.zip",
+          "shasum": "fe891003c600a0b0573f5d92842a2a60e63e69baee2941d9a0e20a5b96875596",
+          "h1": "h1:bsVFKQ6dwRDqrPYJDvolavsqReW5fyH8soObMqV76Rk=",
+          "size": 6588231
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_linux_arm64.zip",
+          "shasum": "772961f61e55a5cdae3af961577d6fa419a930b89c4742864338ca2f0be75dd1",
+          "h1": "h1:xCA3AOb7E6ItZd1F2rOAq7VUxCnt9iT1WkLAgzm6XsE=",
+          "size": 6328367
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uapi_2.2.3_windows_386.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_windows_386.zip",
+          "shasum": "f5bb5ce3fb237629abb6d3e0c1a1bd5a69ad2aae9e09211e827a01fc0f4e235c",
+          "h1": "h1:yN1J1aLWUfugtwzHn6eSl5cS1pu6o6ltywQiMAxOBiI=",
+          "size": 6924688
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uapi_2.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_windows_amd64.zip",
+          "shasum": "04b24bb2968d74dac67974bb789d2a2b5937bb7e463eb9f859f0d21ef035c08f",
+          "h1": "h1:LUJLqZeNQ2WiOtOq58d6sABb+gQZLRwYfA876XKzFpo=",
+          "size": 7195368
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uapi_2.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/openwrt-iac/terraform-provider-uapi/releases/download/v2.2.3/terraform-provider-uapi_2.2.3_windows_arm64.zip",
+          "shasum": "a02af10c52385199106f601893fe8e36f0a9dbae88e65de762cddf4c4ecc124e",
+          "h1": "h1:nMQV1N9mnwyUfzPjhU0+S5JneNrlF6wea6eEdkTenII=",
+          "size": 6414201
+        }
+      ],
+      "discovered": "2026-06-19T11:10:02.618705905Z"
+    },
+    {
       "version": "2.2.1",
       "protocols": [
         "6.0"
