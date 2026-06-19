@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-altinity_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_darwin_amd64.zip",
+          "shasum": "e38672d23c7369e10899ed7164a82712abd95e84ae5588ffde818136b2594294",
+          "h1": "h1:EpL4n+yNyihNFVT5dhRgVrvPOxaaVaTmXhtC1SSQG5g=",
+          "size": 7058160
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-altinity_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_darwin_arm64.zip",
+          "shasum": "52d9caddeecca4dd88a104892f1023be19e29b358cffcb82751a0885d4750324",
+          "h1": "h1:vRCYhrT3CFigXLn4vhuFmXJkFfzRs2xg+6TzDmvqapw=",
+          "size": 6560353
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-altinity_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_linux_amd64.zip",
+          "shasum": "06a4b1d2716d6f136a2256843cd3d9fae5cb51907a300e0c9516e2d98356b219",
+          "h1": "h1:+pBv/3KOaGYYUy/IRp0GVZonlw31+rszzYTL1ajnEIY=",
+          "size": 6872689
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-altinity_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_linux_arm64.zip",
+          "shasum": "2eb2961f4edd67db1504baf116a5e3dc704f3cf40d0f308ec880771b728ff66f",
+          "h1": "h1:UqRtwoLKaDSmEQu2ukm6LPbJHs6pIUzpuk51Vn0V3pY=",
+          "size": 6237859
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-altinity_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_windows_amd64.zip",
+          "shasum": "8d8364d14837765112f61d42ccb6464f34e877c6948216c72725fcdc85035822",
+          "h1": "h1:b7gWfM0YKPRehA3UgGDT433WtodtwtsanEfWoCqzcGk=",
+          "size": 7077110
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-altinity_0.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/gorgias-oss/terraform-provider-altinity/releases/download/v0.2.1/terraform-provider-altinity_0.2.1_windows_arm64.zip",
+          "shasum": "d3849488c3debe29d9587b02fd32e4b3ceb2a9a20434a5d821d089409276329b",
+          "h1": "h1:7STrvXLeb8jvm3vnc7t6lapgH3Fed2bqHuI16pVOchk=",
+          "size": 6323976
+        }
+      ],
+      "discovered": "2026-06-19T22:17:11.956613741Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
