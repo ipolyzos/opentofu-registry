@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.2.28",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_darwin_amd64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_darwin_amd64.zip",
+          "shasum": "16380630fc110258383b890c35f7107ff77f28ceb11450b351151c439b978d54",
+          "h1": "h1:d/VmlR4bplE039Ms53s3UxxidUefwXY4yPGUxDuRQ8o=",
+          "size": 9285803
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_darwin_arm64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_darwin_arm64.zip",
+          "shasum": "83b3be843bfe9918a3f8bdcee3ad2c3191a32f061ab1aac24bb0ea226e6ae810",
+          "h1": "h1:MkjaUrpMrp+8KmJ/xXjLkXM8VOWod1NuTBmXOFmgh3E=",
+          "size": 9174257
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_freebsd_386.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_freebsd_386.zip",
+          "shasum": "b6e4a2bde5a2cf23bc1c214f5bb5a81376410569b17d72ac24863bfa51f6ea70",
+          "h1": "h1:+Adcw0ZOV1NwMLQnQOy3eHZgV6AcT1oAepMU2zoc1mI=",
+          "size": 8078938
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_freebsd_amd64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_freebsd_amd64.zip",
+          "shasum": "6e2419d9bbbcb0d11a5497d066cb4b3da43bb31445d78a6911157698c91672a2",
+          "h1": "h1:jMGIcUJ1IgFRlCP8WTRT9/MVyVcE0I9XIl3qZkXgLko=",
+          "size": 8659790
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_freebsd_arm.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_freebsd_arm.zip",
+          "shasum": "acf530e10e4d4b27c3fc0575657452c9857c1f71e657dc9c7a688f8d2c571016",
+          "h1": "h1:+EhLhJPyiZZiwJ709vZIFs28q2ex4GRLLwpBfPSkhU0=",
+          "size": 8013224
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_freebsd_arm64.zip",
+          "shasum": "36b6f11141efccf6308c17c579cb27949e62d763c8c77f2d22c897fed9b6a78d",
+          "h1": "h1:8aixjJ4ABUCuLpxTXZ6PMafu094CPAcwqk5gqTIiMNI=",
+          "size": 7983391
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_linux_386.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_linux_386.zip",
+          "shasum": "2a8d7b9e63f54ab662b3cab598bebea6404e979b7ce5ae70a91ca6de9b6dc092",
+          "h1": "h1:3gawdHiEfMMjKuok9UCszIJs51gBQc9CNebBwio6KmQ=",
+          "size": 8082481
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_linux_amd64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_linux_amd64.zip",
+          "shasum": "6ffe328084fad41ed5badfecf65d7adbfb144e187acf0092e443cb69053eb11c",
+          "h1": "h1:euTypI+dC8d2+YuCrp+zzHsWhFGHsiCRSyADDjxlSKY=",
+          "size": 8653558
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_linux_arm.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_linux_arm.zip",
+          "shasum": "790690fbfb9ece8ce628a2ea7073a3ed78ad68c91fdc839a3503b7c6f35385aa",
+          "h1": "h1:GeYcCVJOlltoQI1y0McCorHhNC8oy1paOQjFTTBcBQI=",
+          "size": 8010220
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_linux_arm64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_linux_arm64.zip",
+          "shasum": "9a53cf01ef6c84326738a1f8f3e035c4e514331185ede383aa8a28062175d37f",
+          "h1": "h1:ToTz+Pawzqv/jye1VUDYj5pl3aitfla3hXoE7QpyXJo=",
+          "size": 7980812
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_windows_386.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_windows_386.zip",
+          "shasum": "9b4a294c18d1050dc4ac9d14fb7b9a956c4e1a6936678c2589a8365f6f64b4aa",
+          "h1": "h1:H0GdJq13z39CT0H5EUHIluBO3R6Rrc8yrXmXjRxIDrY=",
+          "size": 8363078
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_windows_amd64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_windows_amd64.zip",
+          "shasum": "60960d28e9ef7684046af345b6a62444bdeaca486139e2fab05fbfca4484ad9c",
+          "h1": "h1:hDv+aA1m6cOJBv1xUFzQwzQBPACA+Xze+G6q1S/+LY0=",
+          "size": 8679953
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_windows_arm.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_windows_arm.zip",
+          "shasum": "1a76bb432ced2327d42382c955d218524438639d7c67b337da0f377532dc8326",
+          "h1": "h1:K+rYAUtL8DbMC0d+j6UUWAsk2FV4FsCcLsMzqgMvZsw=",
+          "size": 8128631
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zenlayercloud_0.2.28_windows_arm64.zip",
+          "download_url": "https://github.com/zenlayer/terraform-provider-zenlayercloud/releases/download/v0.2.28/terraform-provider-zenlayercloud_0.2.28_windows_arm64.zip",
+          "shasum": "1bcdb4b909b21062a4e7206442b33ef885747f2a6db7c739c9246acb29f2f5a2",
+          "h1": "h1:sELn5fpQ3bb9R8fX5HWvDMUX4KzUfojM9lnAWILjMkI=",
+          "size": 8008000
+        }
+      ],
+      "discovered": "2026-06-19T02:38:57.064861106Z"
+    },
+    {
       "version": "0.2.27",
       "protocols": [
         "5.0"
@@ -5389,56 +5526,6 @@
       "version": "0.2.29",
       "message": "checksums not found in release",
       "utc_time": "2026-04-25T19:57:02.972436717Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-20T10:08:02.053638203Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-20T10:51:11.625985562Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-20T11:55:05.663313841Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-20T14:12:16.147432913Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-20T18:14:36.227330271Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-21T02:58:47.784565246Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-21T19:07:09.434733444Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-23T03:52:23.150634073Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-04-25T19:57:03.091251219Z"
-    },
-    {
-      "version": "0.2.28",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-08T10:29:54.829484188Z"
     },
     {
       "version": "0.1.32",
