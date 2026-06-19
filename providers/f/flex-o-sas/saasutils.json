@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.10",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-saasutils_1.0.10_darwin_amd64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_darwin_amd64.zip",
+          "shasum": "474fe8ae405ac6e02623145568223f472fc889b30520c4ec43995c54b801319c",
+          "h1": "h1:Mg5ewnh5vrKZaGrF4XS7FsUI0Igq0YOHIkII/XbjvBc=",
+          "size": 9479115
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-saasutils_1.0.10_darwin_arm64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_darwin_arm64.zip",
+          "shasum": "6e412e16b696ed35a636abb35f3e9e2ef5fe2ef3f9dbc6abfb80a0f27266e069",
+          "h1": "h1:GQ+6VyiwE+8qGsQpEPlHPYchrzRCB0A1faWA5KCU+hc=",
+          "size": 8987056
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-saasutils_1.0.10_freebsd_386.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_freebsd_386.zip",
+          "shasum": "204b90936ed91babfbff4f9b51567d99c12d77c89a4ab7b1e828bc0107548e18",
+          "h1": "h1:KY8jmcsgjH8jqLxFFjlTwEzd06XfvlyYFKot+flWqhE=",
+          "size": 8842309
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-saasutils_1.0.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_freebsd_amd64.zip",
+          "shasum": "a1d20bbb56b007b4a2a04d9c1faf228673b8a9deb1a66f9508e987885d31dcd6",
+          "h1": "h1:yFSSWjrIce+wunXNMD574ZUAfepN+PwdvMdIO0tL+Ws=",
+          "size": 9153525
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-saasutils_1.0.10_freebsd_arm.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_freebsd_arm.zip",
+          "shasum": "0bc266ea75beee158356ab456ec13f244f05a52c431ba83f86047f47fd239622",
+          "h1": "h1:nW7P96YpE+Cg3UgEnSxQ8icfF8ETahmJl5FJBWS6/ko=",
+          "size": 8820083
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-saasutils_1.0.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_freebsd_arm64.zip",
+          "shasum": "9998fa284b4a81a97e2e443ae07a4ad7b7eda7d464251d3f0267eadc9997359d",
+          "h1": "h1:eJyvPcQnwApgOzFNPEbF/Yjhi45QoUqvLljEwDXOqa4=",
+          "size": 8424748
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-saasutils_1.0.10_linux_386.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_linux_386.zip",
+          "shasum": "ff2c44437134213fa53adb63d7c1b0aa61a09f4a73bc192c7e4378fcf95e0c58",
+          "h1": "h1:0ml/kvVnVzqIl1hXdmvPWtlFagLj/S04Ot7iBHyJhwI=",
+          "size": 8881010
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-saasutils_1.0.10_linux_amd64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_linux_amd64.zip",
+          "shasum": "5c88d1273e3c0902ec74c55125b072ac9c90057f61a3f7abfc982ae04805b50a",
+          "h1": "h1:j0ab6E0ibOxT9z2QwnPnsvQFIk3bc8UjzHbfyCHNX1E=",
+          "size": 9176208
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-saasutils_1.0.10_linux_arm.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_linux_arm.zip",
+          "shasum": "50688170871c2e2f038c95188fe9cfd550a3aad7652298cc4bebef72cb904f02",
+          "h1": "h1:SjfsR2pu8xr6oRs8zTrBg6A9xzr+Q4Ndn87WjV6mo24=",
+          "size": 8845627
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-saasutils_1.0.10_linux_arm64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_linux_arm64.zip",
+          "shasum": "e1e7c16206c3592630e80b4e9d7555f993720bb4952b7ae72b70346fef05a3f3",
+          "h1": "h1:yc5CBoTngS5bglOIk7tLRuwCBmqTCbLsx8jKKNDOxcA=",
+          "size": 8453433
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-saasutils_1.0.10_windows_386.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_windows_386.zip",
+          "shasum": "0852b1b4ec399f142abc80e407df42fe0345f7cf423c8cf96e257ceed48926bb",
+          "h1": "h1:IXIG5IyHjRWuLtLg4w528ECV8gvToyR5gXvykFXfm0M=",
+          "size": 9269585
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-saasutils_1.0.10_windows_amd64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_windows_amd64.zip",
+          "shasum": "1e6d4370061d498dc58770284be99fe0ccb20cd03eff645a3a0b072fc1c5bb53",
+          "h1": "h1:30BI9opD7yqT+B0fgzhxDCxkzpVPUe/e7atyA3Z8TzM=",
+          "size": 9481015
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-saasutils_1.0.10_windows_arm64.zip",
+          "download_url": "https://github.com/flex-o-sas/terraform-provider-saasutils/releases/download/v1.0.10/terraform-provider-saasutils_1.0.10_windows_arm64.zip",
+          "shasum": "d9eb586689362a6f7930b51bd8ad5c5f96eaf9278d795d0a6283d3a0a3d94c88",
+          "h1": "h1:cjEP+/F9pKQ6XhmJVKMU8Tsq7AlVZfEm7eyc4AERZe0=",
+          "size": 8549007
+        }
+      ],
+      "discovered": "2026-06-19T16:05:11.522489935Z"
+    },
+    {
       "version": "1.0.9",
       "protocols": [
         "6.0"
