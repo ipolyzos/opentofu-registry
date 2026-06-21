@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.8.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-torque_0.8.9_darwin_amd64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_darwin_amd64.zip",
+          "shasum": "1c393654c5369280c45c75c779d95d7aeec09176da76846cf75dfb75f02cf73b",
+          "h1": "h1:o+JfIfzay80SRxMdiZj4q82YD/9CeSM5Yn2L663ZmmI=",
+          "size": 6399476
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-torque_0.8.9_darwin_arm64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_darwin_arm64.zip",
+          "shasum": "a12e52c7455a7dd420725e815aeb37d44ed50032e39188a43f4194adda519af0",
+          "h1": "h1:uqZVDM2BgMkIqOyPVE4+B9wSPeNVjlha5MVgUoXWEJc=",
+          "size": 6047205
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-torque_0.8.9_freebsd_386.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_freebsd_386.zip",
+          "shasum": "228b3aebf4f5fff9f2e36cdf2401b9fe888b488a5b06f7c30475f37e6644fd10",
+          "h1": "h1:XBlgH/C4CtXEIe5HqFXzBI0SBoMD0R9+pC6FCTLfLAY=",
+          "size": 5791031
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-torque_0.8.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_freebsd_amd64.zip",
+          "shasum": "ab784b0d5b384619a51d750fcd9b06409fa12693fb516e30929a5e72ff25abef",
+          "h1": "h1:sjrp60HeNcGuZrYsHmacfRliDiy0R0qrNmSFlv6fRe4=",
+          "size": 6230979
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-torque_0.8.9_freebsd_arm.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_freebsd_arm.zip",
+          "shasum": "782034edc4c23f808745ca9a6a4f106f72cfac92453294baa33183ab930c1162",
+          "h1": "h1:flqkhZxsQsj7s0iAXYB3hBB/iN/1gMRk1dNXB/VoPWE=",
+          "size": 5765887
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-torque_0.8.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_freebsd_arm64.zip",
+          "shasum": "392d4d8c89911fa183611d24061225b24c95288742c5a1399417d1fa18529565",
+          "h1": "h1:DCrxQzSQlEw9WsS5uNAry6llheszJkH02ZY+6no7IcY=",
+          "size": 5749563
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-torque_0.8.9_linux_386.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_linux_386.zip",
+          "shasum": "9b7f1214eb0abee60c148f11cc7ebaa6bc213e1fc446bd9de2c72ca59835af0a",
+          "h1": "h1:+SFxoFpHlWryVGgkmShreBSag1FRRzm0wqAL05shKl4=",
+          "size": 5804297
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-torque_0.8.9_linux_amd64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_linux_amd64.zip",
+          "shasum": "71fc544c76895ce990f8205385e354b54116b0fbb8cf72dee3de8e53bdc076ec",
+          "h1": "h1:jGaItp8dS4xqYPnvtodTEa3N/A8E1j5MS/hSM8szLSU=",
+          "size": 6240801
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-torque_0.8.9_linux_arm.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_linux_arm.zip",
+          "shasum": "386d3d474be225f7e0fa260b8c36f1a2dc1a18b05f17bc0435aec62bb173dac7",
+          "h1": "h1:a/jJ+39QeK5UrfkBwk5EVH4LJbhXIdvwb6QgNG07JFo=",
+          "size": 5775490
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-torque_0.8.9_linux_arm64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_linux_arm64.zip",
+          "shasum": "7d809efc61dd4408823e5f428dddc65d6223aab0b0a199ba76068101af0a92ff",
+          "h1": "h1:yG6qktqjFRvAW34fRtkqbr8DqbzLYZgo4qKcf2eKWXY=",
+          "size": 5760764
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-torque_0.8.9_windows_386.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_windows_386.zip",
+          "shasum": "9d3e484ea0ccc366c98bb1f8352280310784c9ccaca86bd6c1a1474e8c63b917",
+          "h1": "h1:P61w2v+xDk5frOeRo0yjmkfXMx/98QWn6c5LT/RigD0=",
+          "size": 6077047
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-torque_0.8.9_windows_amd64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_windows_amd64.zip",
+          "shasum": "e7615bbba495b6a201022b9ad28df254e6e76114eda6a86d88e49749067f0d30",
+          "h1": "h1:yIxqModcAAEvWrhBQjG9bLZnt02wmCSfKQUKTLn7ElQ=",
+          "size": 6421793
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-torque_0.8.9_windows_arm64.zip",
+          "download_url": "https://github.com/qualitorque/terraform-provider-torque/releases/download/v0.8.9/terraform-provider-torque_0.8.9_windows_arm64.zip",
+          "shasum": "0ce1a9a564e4dee25c0f6112b797e18b4bb2c90db8be6bbf2c3e86baed50e908",
+          "h1": "h1:0Z1dpu6OZFFpkPs3xBE2HRTavDxThOUNb7zZLOr0DxE=",
+          "size": 5833791
+        }
+      ],
+      "discovered": "2026-06-21T17:28:56.399553422Z"
+    },
+    {
       "version": "0.8.8",
       "protocols": [
         "6.0"
