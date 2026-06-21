@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-turingpi_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_darwin_amd64.zip",
+          "shasum": "13af9bb636577f1224babcc43d7e9b2a30db05526b7f26081c58ec53f3a4dd10",
+          "h1": "h1:M+fQS5IiCiDxVp037lreU7R2zAIyLaj1l8/UMg6GzG0=",
+          "size": 22604494
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-turingpi_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_darwin_arm64.zip",
+          "shasum": "21057ca0fcb8182101bdfae68d17b348b172dd4987ff523762f1379318f6305c",
+          "h1": "h1:tNLVIDx0wxz6GxZ5KBLJR6HCI7gh0fnmpb60q/f67DY=",
+          "size": 20731094
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-turingpi_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_linux_amd64.zip",
+          "shasum": "b1057db860ee2298051495b8679ccfc7277219ade2be46542fa9517f8da64807",
+          "h1": "h1:bWMArHKncmqmjg8k/aeSw0bKrG6JXCxo7AVkLMAdmHU=",
+          "size": 22154327
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-turingpi_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_linux_arm64.zip",
+          "shasum": "d75429da3a0309870861d39ed97d8b84d1e0d0225434518b6dc30c323276c155",
+          "h1": "h1:p4pj22LHliAtSQTxShNmqc0skfW3A2m4syYS23/lJWs=",
+          "size": 19759153
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-turingpi_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_windows_amd64.zip",
+          "shasum": "eb666c3f2a08b3b3496f80f3dd92444cd965d3bff8b864fc9459c83e34129e49",
+          "h1": "h1:qANYIOdgtNg8Yt+qsKOi2fkcYvodC1cgD+3fw/DRZg8=",
+          "size": 22765732
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-turingpi_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/freed-dev-llc/terraform-provider-turingpi/releases/download/v1.6.0/terraform-provider-turingpi_1.6.0_windows_arm64.zip",
+          "shasum": "e5cf40b78e33d6bf3f1b3359615ed692aba4f049b8979ebf978f2e1aa9886044",
+          "h1": "h1:MKjtS60zUCyAGyxp2MQc17rJjG/lje8gYPqyX/GL7MI=",
+          "size": 19916017
+        }
+      ],
+      "discovered": "2026-06-21T01:29:16.460021267Z"
+    },
+    {
       "version": "1.5.1",
       "protocols": [
         "5.0"
