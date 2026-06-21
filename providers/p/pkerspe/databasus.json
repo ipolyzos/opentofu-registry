@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.9.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-databasus_0.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_darwin_amd64.zip",
+          "shasum": "68be10e6ce8bdff6f923277d19d1a92c0d67b68949e9e9cd9f02e30933adebfc",
+          "h1": "h1:Asfe8ShTOvpic6SQ5JbOIopYkjh7ijiPKaTnBym4MMg=",
+          "size": 6805475
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-databasus_0.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_darwin_arm64.zip",
+          "shasum": "4eb62dd068bd8e855689cceb81d81e998ae9391436922f0766b77d5392e21ca9",
+          "h1": "h1:PKMJ237JUMlAf906pP8Xk12Tc6PMCL69m8LZ/lRbTbU=",
+          "size": 6339848
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-databasus_0.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_freebsd_386.zip",
+          "shasum": "03f9172bb4abaa0bec5f966eb206d1cc053369b10d57fd850fec550da5729a3b",
+          "h1": "h1:4Wmz7U7xN/2ZLVbWRFMcup+TnqdLt1iXN6NuYvClvPA=",
+          "size": 6259156
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-databasus_0.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_freebsd_amd64.zip",
+          "shasum": "e78e44b3f545e406b8d94d5998f2131cd47c56646b1d440ac8bed95b8c49ee5e",
+          "h1": "h1:x52BFcV9rKX8eylefYCqMHP0bqG155ye1Lgw8HgSr1g=",
+          "size": 6616157
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-databasus_0.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_freebsd_arm.zip",
+          "shasum": "792dcf588ee76ebe59b68f5bbfa202c8bd552e3a8a1ac97882e29a0fcca84339",
+          "h1": "h1:RChJ5lcUF8TZQrc5DBWQpVjytkEBUOtpi8S92QUtkoE=",
+          "size": 6229540
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-databasus_0.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_freebsd_arm64.zip",
+          "shasum": "079f7bf02dd983b1bbaa4adf9749d751fb13d1163e43d57d72ae16b2bca5de4f",
+          "h1": "h1:il6zNdDQUNTT1hOwSgqnqGsBhXfWvNb35DOaA6FQYoE=",
+          "size": 6013868
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-databasus_0.9.0_linux_386.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_linux_386.zip",
+          "shasum": "d500e32e67ab5ab28b4ef73c3474d9cb129fc322048433c43762e9921bfba47a",
+          "h1": "h1:UjHyvY2XtKeUQh9FZiNAof5H5FPdHCqDMyLs+SE0wgw=",
+          "size": 6290841
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-databasus_0.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_linux_amd64.zip",
+          "shasum": "e95b0e7a81530e74d1ea995471995f8a115ce31a3c7ea7424952dce70ff7448a",
+          "h1": "h1:yiQ0EQ+isRs09R1obPfTvwga+wi66dD3NMdenwqBSDs=",
+          "size": 6638678
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-databasus_0.9.0_linux_arm.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_linux_arm.zip",
+          "shasum": "d55d443bf1e3eab02471d20c6462dc3a8ab82ffee1ac53472c0cb74a68254c29",
+          "h1": "h1:EN6yHzf2DjYUCrkun58raK5ylTyy0gXLtckvJniUfIQ=",
+          "size": 6254580
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-databasus_0.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_linux_arm64.zip",
+          "shasum": "c7595fabce9b69523337c93ff4b2a821bc96abc132cf6acf30bc18777e334fe7",
+          "h1": "h1:Ua6jwzaq8oEHlQ+g9miJ9O9Z6zYxGuJTyE6njeTBGn8=",
+          "size": 6037462
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-databasus_0.9.0_windows_386.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_windows_386.zip",
+          "shasum": "76052ce2ccafa75d9d2fa098910153c021b0af69cb6ced88897bd1ff3845a779",
+          "h1": "h1:QNX5mpulmOkGqgmMgncxcUhTN7YrUhJXY8TAcHmlxcM=",
+          "size": 6577341
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-databasus_0.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_windows_amd64.zip",
+          "shasum": "71cc862a0541ddc51e39b52db4ab23396d51d149e4fe4ba730f512392cdca830",
+          "h1": "h1:S+8zqcydP+aU0vJMqOwU/SniNaGbn3weqcBpyFvKsPk=",
+          "size": 6838283
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-databasus_0.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/pkerspe/terraform-provider-databasus/releases/download/v0.9.0/terraform-provider-databasus_0.9.0_windows_arm64.zip",
+          "shasum": "4f341064c2e412b29d7e7382dd271cce9f15ea629d5bfffe07cf62c65bd502a0",
+          "h1": "h1:ubbin8i7wpguIYSrcfBqRqLB8cI4NJcCXrIswbW4QUo=",
+          "size": 6119343
+        }
+      ],
+      "discovered": "2026-06-21T16:50:26.201762424Z"
+    },
+    {
       "version": "0.8.1",
       "protocols": [
         "6.0"
