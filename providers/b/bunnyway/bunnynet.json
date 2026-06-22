@@ -1,6 +1,334 @@
 {
   "versions": [
     {
+      "version": "0.15.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.1_darwin_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_darwin_amd64.zip",
+          "shasum": "ae9388b62eede8fd9272407bf75f8241a965bd489d45ec9dd3f9fac696d500e1",
+          "h1": "h1:i5oGD06nQ3JRsBIa2u4wCej+ETgp970CFl75dOKkHno=",
+          "size": 7362925
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.1_darwin_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_darwin_arm64.zip",
+          "shasum": "3c7eae99d8c5ff65dfb99c8b9c1980147282d68971e1ef1ff0f126a6bff59d8f",
+          "h1": "h1:IrNrEuvFd0nYDGQefwmT8d1CSJb9e8LN5w9vw1ODp7E=",
+          "size": 6847057
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.1_freebsd_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_freebsd_386.zip",
+          "shasum": "d8a397aca95125c6a0c0c78d2ded5843b9204effa9f5cf7419f017b500ad9228",
+          "h1": "h1:1TOrpmCR0aT5xX1sjt70zqlYkMJnVe6r0nx2B0DS/mE=",
+          "size": 6752484
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_freebsd_amd64.zip",
+          "shasum": "d607e9f1f3e09f13404f219e1893e3b3c77aece4afb54e999f934c021f41f576",
+          "h1": "h1:GZLq+nDxS1CyBH0ELGTSQj9X7ozemJ1jpPA4KwbtR+c=",
+          "size": 7166983
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.1_freebsd_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_freebsd_arm.zip",
+          "shasum": "cdfa44d591d0805116159556947904d70f534c6816188c45cf3a7544d2722ac9",
+          "h1": "h1:mTqR+vD1AWPx+mu7S0/pzBy71z7WOrjH7arOP77PXh4=",
+          "size": 6742401
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_freebsd_arm64.zip",
+          "shasum": "93aa863e536ba9376ccf9e614e9edc9b214a2ce8c4316d416a8e249b436f52d2",
+          "h1": "h1:dBu3AW5YNLIvbBIMNk3wUHKw4TW+BDbj34a+mCqYhWE=",
+          "size": 6498302
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.1_linux_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_linux_386.zip",
+          "shasum": "7994db9ed3fdb6cbf21f2154ea962cf82f04e425988bedc6657de2497d6cb6c3",
+          "h1": "h1:nmTM61G8vYjpofeEqspMORpsNvTGCNZySGfjdXardL0=",
+          "size": 6783867
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.1_linux_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_linux_amd64.zip",
+          "shasum": "ab5cb4baeda57559686a0ccf0e09158aa64624ee6ba0ef32b769f13b11a43068",
+          "h1": "h1:Ms79slY9bZ94+n4cwIHvI9+/cvbucwo6S1+z5KAiznw=",
+          "size": 7194917
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.1_linux_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_linux_arm.zip",
+          "shasum": "0f9bf5aaa47164a4d6ae4433d5e285a9456a5053401b2bad4ed68622f574ddee",
+          "h1": "h1:EvXICHyGIKpoYlDeKHOPzfmpvdRdhgsOMcR2nb6+tKY=",
+          "size": 6765421
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.1_linux_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_linux_arm64.zip",
+          "shasum": "caa5befd16960e2f69c7ec483e228e5ff43ab0979c17f1b874c9ffaa1c7c0e43",
+          "h1": "h1:ISNFqL745IQgZ6yMLy8ofV8ixbYqZYa9JKdi2W3pmNk=",
+          "size": 6524143
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.1_windows_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_windows_386.zip",
+          "shasum": "3039bee421fb8855a919f449fc731d145254371f5f0c39cc4660f3aeed6a8b10",
+          "h1": "h1:VgJjo14DGkU4Jwo4D3GT4/5sq1tdjiZscKS5l3cb890=",
+          "size": 7097168
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.1_windows_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_windows_amd64.zip",
+          "shasum": "f5499eaff0d221725ad209d27d87c5b46d5c554caad7dc42947c760377abe3b0",
+          "h1": "h1:UjvxxxggicLtiE3yTe1Gx0oLUTeZpWmgIfXuHzWHn1c=",
+          "size": 7394681
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.1_windows_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_windows_arm64.zip",
+          "shasum": "36664b08186e0c194747b18dee24ed97327c6e704133d4cf0df27abef1652f86",
+          "h1": "h1:CPldfjf79QS8mIP+GWoS0FVhrFlyjvN2+39zfyP76Ik=",
+          "size": 6604692
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.1_openbsd_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_openbsd_386.zip",
+          "shasum": "fc5f5cf433abc83e5169fa222992ec521c0c802075970251e3dd2c1d50c4f5c1",
+          "h1": "h1:6b+2osJUfwcaYZ6mathLPf/58sr/4XkLXQrcSufnkMk=",
+          "size": 6753172
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_openbsd_amd64.zip",
+          "shasum": "5994e5145e616e7e881010717e4c7def2945eb6d933f62db4ec3167732ccac84",
+          "h1": "h1:/2NUpbtjkc+w6n5V3kGP0rSzGjN0K2Wdfe2K+CZdmhU=",
+          "size": 7168244
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.1_openbsd_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_openbsd_arm.zip",
+          "shasum": "5293cc21abf54f4e5745437ca2d40d206aae323b2e1d41cf45dcc63a8868cbb3",
+          "h1": "h1:4uC8r8ILr+vZJ230uGqIUaWQ7uORCrIzoEuYrAq2JuE=",
+          "size": 6743119
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.1_openbsd_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.1/terraform-provider-bunnynet_0.15.1_openbsd_arm64.zip",
+          "shasum": "cddd3e1067defa06a4e4ad5cb3940c7943e29c42417de57236aa7d3e2aeaae13",
+          "h1": "h1:NWA9XSEBcpSkgwwIvl6tHrxGQY3uYhqNS4Vnb9RLyLQ=",
+          "size": 6501377
+        }
+      ],
+      "discovered": "2026-06-22T13:36:29.832101866Z"
+    },
+    {
+      "version": "0.15.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_darwin_amd64.zip",
+          "shasum": "89ac042b7efb49fe3efaf5f875c82da0ffba5799736b7db6d4f1e1f538040c8f",
+          "h1": "h1:MZnedeLKgpiQZ3AvviKo9aRYii5eOR9drLVx0ISaly0=",
+          "size": 7362545
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_darwin_arm64.zip",
+          "shasum": "8d7171193201fcf65adfc865b076d1da23f9df738af08beca70cc438765346bd",
+          "h1": "h1:9E0Xje6jvHyIbb0c1/cfBRR0xmiy/tXj4Gx51Dl8n8Y=",
+          "size": 6846186
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_freebsd_386.zip",
+          "shasum": "4d79a086b23f35dd892016ecbbceaa679bfe4cea37b0a463c341a80b13ee7daa",
+          "h1": "h1:4P+jguqan4tFFrIjjfofKzlhT0KUmhAXIDtMX7cOymw=",
+          "size": 6751907
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_freebsd_amd64.zip",
+          "shasum": "6059f4036007e3a7914b18c0837fe4b15d62519462f7ba5b6f33926724b88079",
+          "h1": "h1:8eRPju5MRYFfxItbJ+xrECCG6ufaOqezm7rLeLhqd3g=",
+          "size": 7166734
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_freebsd_arm.zip",
+          "shasum": "b8f8901d2e11fe52b03a461ab5e081ae5431d31161c57c65e783fbb046de2a46",
+          "h1": "h1:W2tjHF6bBXnbTD5kUdHSYeRlHKQj/X5xHtoh6M7Kj3o=",
+          "size": 6742231
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_freebsd_arm64.zip",
+          "shasum": "6f2f92d7bb9e6f518af481c9590aac7e3a644d636428e17391a1505dbecc4ec6",
+          "h1": "h1:7plEKEiaDZcJDbYaN71KsbkhT6DbK+G2E3cZP+D/dxY=",
+          "size": 6497792
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.0_linux_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_linux_386.zip",
+          "shasum": "f22173ae4f56b6fe3fdd96e72b95b996cf7dc844aac91f41c5d5553008ee964d",
+          "h1": "h1:/d9YObRB4kgHU5ZUTWFI3xxkDeaClsPpzN6ubdFLY/c=",
+          "size": 6783475
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_linux_amd64.zip",
+          "shasum": "a6e9bd938bc22457392f028d4ff1af5cdc206171862f4516ad3bda766b2303f9",
+          "h1": "h1:lL6qAiAFkwygyo7XckECzRNiG8NndMXKKewXDCIHdJQ=",
+          "size": 7194577
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.0_linux_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_linux_arm.zip",
+          "shasum": "264da6b9d5a3650c6986b12f478e4b4bacdc7c1e2514bd083202f71b96662908",
+          "h1": "h1:musDH242vAVXTEBFalxXytb362x2j4LDAvE3ZzY4+/0=",
+          "size": 6765151
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_linux_arm64.zip",
+          "shasum": "7dfa2db9808e882d0d39b3a4f174a22233f8870a6d0a8313db40ef8fc744930f",
+          "h1": "h1:yiTDW1a7yxtrsldxjXKTpDaZ71nvgSx573Y97elD9uQ=",
+          "size": 6524089
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.0_windows_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_windows_386.zip",
+          "shasum": "e8459407bba05355542ec24892aa4dad0050bb676078ad281fb76dbbf8375d3c",
+          "h1": "h1:NwMXFwZLNucgnENcXCnWytXjo6O4V1r/QvnzerZShl0=",
+          "size": 7097225
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_windows_amd64.zip",
+          "shasum": "2a25e55286a2001e7da68192d0990a3a1c28adc896b6f83b44d7e9b65640efe4",
+          "h1": "h1:+JotvxulFXjAbRycBz8jRhB7rCco8zKKv0RpHtg4aVM=",
+          "size": 7394739
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_windows_arm64.zip",
+          "shasum": "fe815d6b5d9f4ee409677b48d63608f1751d5505620c55750da5ec6fa9e8c9d7",
+          "h1": "h1:3ndziECpQXQPhicSpjK8z280GBpN7sKunOCXlfcfNYI=",
+          "size": 6604533
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-bunnynet_0.15.0_openbsd_386.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_openbsd_386.zip",
+          "shasum": "61c2dd314b3cceace1ac8e1100aacf2aaab82b43efbadab9c82c774c805ab9ed",
+          "h1": "h1:0FcTNOZt3AhdraQHbua+OMy7+yRow9VeMdjI8BqfHmU=",
+          "size": 6753204
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bunnynet_0.15.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_openbsd_amd64.zip",
+          "shasum": "d15aa89393dace0c23e4448f04c70ecab400ce9f3f3b826768caf55773e11174",
+          "h1": "h1:8h/EhWk0nNmCW9OlpUrcyuxqBaG/38vkaAnOd04dDfc=",
+          "size": 7168378
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bunnynet_0.15.0_openbsd_arm.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_openbsd_arm.zip",
+          "shasum": "ec5ad7d8d02006824d1facaf875ef13706bfd19a77c3dfb059eb33cd56e06ca9",
+          "h1": "h1:2wPJ6XN2M7mCWsNUFZliffPdf8EkCeaqJlpwQgNn6mo=",
+          "size": 6742511
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bunnynet_0.15.0_openbsd_arm64.zip",
+          "download_url": "https://github.com/bunnyway/terraform-provider-bunnynet/releases/download/v0.15.0/terraform-provider-bunnynet_0.15.0_openbsd_arm64.zip",
+          "shasum": "5da6f35724b50f76a4f58cfb8dfe9b01d7b1592e461892ee0f019cd810db2c2d",
+          "h1": "h1:6poUyL0rR1dNMASWa+k+/q/7kyV3/ZCiGLFF7T6lKY8=",
+          "size": 6501127
+        }
+      ],
+      "discovered": "2026-06-22T13:36:29.832567874Z"
+    },
+    {
       "version": "0.14.3",
       "protocols": [
         "6.0"
