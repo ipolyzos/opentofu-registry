@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.24.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-venafi_0.24.0_darwin_amd64.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_darwin_amd64.zip",
+          "shasum": "1b6cd54022721aa58c0b8abb805528ddaf7f9e7c840ef36c56cd1c3c43c51f9d",
+          "h1": "h1:z4zMozfW/amqW16dvd1hkADNwPqtNfH+uG+mgkbQkMk=",
+          "size": 8070150
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-venafi_0.24.0_darwin_arm64.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_darwin_arm64.zip",
+          "shasum": "f5a586e6bc7a8d8dbd3aca21e97d564246f4ea218cc5f07e8486922f59bf5142",
+          "h1": "h1:tp0Kh2qw3gR3U4dvcTo4w3Sq8QVI3lSsv17ci+rODDs=",
+          "size": 7426300
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-venafi_0.24.0_linux_386.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_linux_386.zip",
+          "shasum": "de1ff6dfbd4bdeb5f592218806c9a715ce2c2bc1e9b0526b54bd55489d9bf4e9",
+          "h1": "h1:GX66WBMoTH2fC1g+9knUW67IZZyjtDl46UQ+eJsDHCY=",
+          "size": 7523843
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-venafi_0.24.0_linux_amd64.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_linux_amd64.zip",
+          "shasum": "3ea7b5b459b255ce18d9606bd4b4acc23e646bf1cc9e3e890306ff8f5b70e959",
+          "h1": "h1:aXkxDxgXWw0FAw0DoDOd585WRPzkMdlco9ORna49RNQ=",
+          "size": 7897863
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-venafi_0.24.0_windows_386.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_windows_386.zip",
+          "shasum": "a148c47f61b1a93e07ceca256790e23685915b5c9f7116705d55278fb954d4fb",
+          "h1": "h1:0KHKk3QXIFkCEF/5plgF7ETEs3Xhrz7d++I0htH/5IQ=",
+          "size": 7856592
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-venafi_0.24.0_windows_amd64.zip",
+          "download_url": "https://github.com/venafi/terraform-provider-venafi/releases/download/v0.24.0/terraform-provider-venafi_0.24.0_windows_amd64.zip",
+          "shasum": "bdfa71410a6fc5e7c27f85c488027a1ee8cff4a1b030c5fd330d70873ded5920",
+          "h1": "h1:KkNjCDKbjLGIP72uipquGWpg6/pv6gJ+W2Vo6QQLy+s=",
+          "size": 8089465
+        }
+      ],
+      "discovered": "2026-06-22T11:38:02.247744633Z"
+    },
+    {
       "version": "0.23.2",
       "protocols": [
         "5.0"
