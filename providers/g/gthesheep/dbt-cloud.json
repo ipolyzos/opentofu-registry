@@ -5183,6 +5183,11 @@
       "utc_time": "2026-06-20T21:10:09.277620379Z"
     },
     {
+      "version": "1.12.2",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-22T05:33:20.298069191Z"
+    },
+    {
       "version": "1.12.1",
       "message": "checksums not found in release",
       "utc_time": "2026-06-10T13:31:01.281593803Z"
