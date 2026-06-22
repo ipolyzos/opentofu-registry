@@ -1,6 +1,53 @@
 {
   "versions": [
     {
+      "version": "1.2.13",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apko_1.2.13_darwin_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_darwin_amd64.zip",
+          "shasum": "785ef54cac7b622a03527e0ae560bfe18da3683d1d72b0764b8223e3728e13a4",
+          "h1": "h1:fNIMLHVsvs8wxMT19hVHadSQP7h4021UwBJPiXBBZE4=",
+          "size": 11524624
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apko_1.2.13_darwin_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_darwin_arm64.zip",
+          "shasum": "f08dfb6089b5d6610f7d5d0f07e0171338e6a2b7507698447900d036f4afcca8",
+          "h1": "h1:TwLqIHq4c1ACoTgWXn8j4hm7pbviPFoCVzIzCeIdTfs=",
+          "size": 10711410
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apko_1.2.13_linux_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_linux_amd64.zip",
+          "shasum": "5ed25ba5f9d7a17edb808f20750174980f8dfa421d4ae33c8014e732d37419c9",
+          "h1": "h1:32BngRtSLPRosWiiyF3er8rbvJO2ijvvqRHVfYEbbyw=",
+          "size": 11282612
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apko_1.2.13_linux_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-apko/releases/download/v1.2.13/terraform-provider-apko_1.2.13_linux_arm64.zip",
+          "shasum": "87e4b06cac6b9e90138a0dd8899aa7fe9b109fe19ddd5c500716d3c531c18fb9",
+          "h1": "h1:PE0F1WaqTMHpFJR6zPorLnGa9u9WhykZ+k75+MGUzo0=",
+          "size": 10246290
+        }
+      ],
+      "discovered": "2026-06-22T01:30:17.901868716Z"
+    },
+    {
       "version": "1.2.12",
       "protocols": [
         "6.0"
