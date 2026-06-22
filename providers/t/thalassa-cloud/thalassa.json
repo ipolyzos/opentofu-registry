@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.25.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-thalassa_0.25.0_darwin_amd64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_darwin_amd64.zip",
+          "shasum": "47e91fca2e107dd39f7be3f0a9255b6211f597afa4e7b52739f5714a60abd4f8",
+          "h1": "h1:jWRS133sYqv/C3G2WGgjLcXUyadHs5O9IpxWiT03gk4=",
+          "size": 7970671
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-thalassa_0.25.0_darwin_arm64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_darwin_arm64.zip",
+          "shasum": "af93e3156dd1af1b4c05c778d4a7bf1b92bf78be09fa93d0ab7cebe7f37f89d4",
+          "h1": "h1:s/IUfjnUsePteYYPTvyIxoSCpJpjD+ESloiKcVew6TE=",
+          "size": 7373445
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-thalassa_0.25.0_freebsd_386.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_freebsd_386.zip",
+          "shasum": "1b007e10677a6e2c5b136d6df8ef1d10588a804a39c97d48b24c30c944e0cf84",
+          "h1": "h1:xeOtONOcCA7m0Ip3piQZK10f8I00cc/zlRgWhZj3L/c=",
+          "size": 7316201
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-thalassa_0.25.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_freebsd_amd64.zip",
+          "shasum": "8937c186dd0821799a6bfd6ac25022068c519d2d5d8f6a31e809b7325556a4cf",
+          "h1": "h1:L+jJ81pYBaniJ5WM6lm6gCFWwS08s3NXyrsV/v5UzVo=",
+          "size": 7768986
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-thalassa_0.25.0_freebsd_arm.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_freebsd_arm.zip",
+          "shasum": "066773c01d6d97d89d114292821bc1e0e52858b85d5f21b166025a893e7b8d25",
+          "h1": "h1:7D/BJSA1ujYF5Rh0gdi1OpZDzM4wFilIdkK7O2+O0oQ=",
+          "size": 7334736
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-thalassa_0.25.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_freebsd_arm64.zip",
+          "shasum": "d9fed42dca26ca1face53131aafaac79abf10f772716a2325fdb5650d37d3017",
+          "h1": "h1:Ozj/24Wwj5jHyfqrphFNFxDVh4Va6s3knTCek4BNsKg=",
+          "size": 7013433
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-thalassa_0.25.0_linux_386.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_linux_386.zip",
+          "shasum": "840388a36d2e7f25e2e6ff40d5b1f2454c292b6621aafe0c41540a31acdc026c",
+          "h1": "h1:4UjHRaWlSnXfEexLO7+vXqVB7A8c2p7ldtmxQsRAh4o=",
+          "size": 7346593
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-thalassa_0.25.0_linux_amd64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_linux_amd64.zip",
+          "shasum": "18f00218274c3a2a331ce659586e5d2c38dbafa5c3d4fa9586c16d2d6a8e2d36",
+          "h1": "h1:XpDCG3NkQz2NVL5uk52JxChK6zox71OAXIVYG7Y0H5M=",
+          "size": 7793553
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-thalassa_0.25.0_linux_arm.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_linux_arm.zip",
+          "shasum": "aac78feedf6205fc6e25bafae5026737591d7e241f1ffc6ecd925500d109a55e",
+          "h1": "h1:1Wd57AwNEjmoSGtqrYw2MZzJF143bEj9wb8sLdpNEQ4=",
+          "size": 7355596
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-thalassa_0.25.0_linux_arm64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_linux_arm64.zip",
+          "shasum": "f651b8ec63f3547bdf9e45ccbf30dbb4c22cfac7401690047bd8c0d4809aebd9",
+          "h1": "h1:4HDFUsAxspPHTpFRMl9S7HgQVSGZGUCCkD0JPgh3Qyk=",
+          "size": 7039362
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-thalassa_0.25.0_windows_386.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_windows_386.zip",
+          "shasum": "a2208e7e31151a1b9fc20a767367e6e552319875ce165ec0fdcaf0693d358d7b",
+          "h1": "h1:SEil4q3B6bKHkxj1JQrEB+QRohfijmvumPSg+FDS/44=",
+          "size": 7695951
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-thalassa_0.25.0_windows_amd64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_windows_amd64.zip",
+          "shasum": "fd4dcca86ffe470a9c6a32d3bc6361d689534e2bbc101ef9619493ddc20d6506",
+          "h1": "h1:ZauDs2SM2imnB3c4LwoU8YEvMF9ks30oqkUM+rQotTI=",
+          "size": 8006777
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-thalassa_0.25.0_windows_arm64.zip",
+          "download_url": "https://github.com/thalassa-cloud/terraform-provider-thalassa/releases/download/v0.25.0/terraform-provider-thalassa_0.25.0_windows_arm64.zip",
+          "shasum": "61c9da81fe89ef82ab9473658673b92ddf221bf0a15697d9e6f07eaead009215",
+          "h1": "h1:1LmHbkw5gzT5PZpVsBjz9Bu39gMkpvflmoKrf6aHscY=",
+          "size": 7123332
+        }
+      ],
+      "discovered": "2026-06-22T13:36:55.602079271Z"
+    },
+    {
       "version": "0.24.2",
       "protocols": [
         "5.0"
