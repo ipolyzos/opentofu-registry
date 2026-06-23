@@ -10,6 +10,11 @@
       "commit": ""
     },
     {
+      "version": "v2.1.0",
+      "commit": "cbdcd26a9288c4b635688c425c3ba9ea6987d16a",
+      "discovered": "2026-06-23T19:23:18.280277075Z"
+    },
+    {
       "version": "v2",
       "commit": ""
     },
