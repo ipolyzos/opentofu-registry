@@ -1,6 +1,262 @@
 {
   "versions": [
     {
+      "version": "0.9.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_darwin_amd64.zip",
+          "shasum": "392d477886e3cdd4ddddaa0505d79f57d49d75227c99871e5fa7c5fd396557da",
+          "h1": "h1:UoM5T1lu1Sx7Ja382dSXGpfi9jwRhgRtQh10DbIFHzk=",
+          "size": 8122738
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_darwin_arm64.zip",
+          "shasum": "66ba5e0838f4532fe24e1956da060611a4a3242db29e62ed17888a08b9808f7b",
+          "h1": "h1:0svNQczkxzRuhjeNYY9c18MKllmP7yHyCp5LbIEYJCI=",
+          "size": 7552687
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_freebsd_386.zip",
+          "shasum": "d2bb01ffb92e9a7ab86d76324cb5949dfa599e285235d988af4939733b17edc5",
+          "h1": "h1:9fSpviUL83QNhgiTfStOus9/ZsfB7hOYVkzdfxNuluk=",
+          "size": 7381783
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_freebsd_amd64.zip",
+          "shasum": "32fe63af9e8b26cb4f9addb4c34fe17bea195a54f91638882103fe78b3be7f0a",
+          "h1": "h1:eNtpueAUcMeFH9zpK66JHUQZWyS2mIRHUhiSdyZv57Y=",
+          "size": 7896369
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-daytona_0.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_freebsd_arm.zip",
+          "shasum": "a09c0d404b48b47087f777ea38825463910363db8971769c076422c0e4fba003",
+          "h1": "h1:bnLslrCX0BWxf1NBQ7Fjrrvb/0MU9JFPnkyCY0mGJEo=",
+          "size": 7394024
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_freebsd_arm64.zip",
+          "shasum": "db95929ed6c516d495231fa3c08a8d0efc362e8008308fdb28f3f47b998725a4",
+          "h1": "h1:BpEZ4zjotPY112VLf+OSEI+L5aaBrikN7VDHq6obIEQ=",
+          "size": 7147466
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.9.0_linux_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_linux_386.zip",
+          "shasum": "e20bf9558ab10032036c32891d6a034f4d62ee1138ac470deba71173113943c7",
+          "h1": "h1:srPL80UqVSijt41DWRnYvxZay3i0WYL7fZGG114Ciwo=",
+          "size": 7414987
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_linux_amd64.zip",
+          "shasum": "408cb688b279bd3500f8d563931f1e26f8162374f9c63bfb43eab0e2b62ac78b",
+          "h1": "h1:dhwZ8YW+K4dFNhGJ5wmq7+1M+GjG9alck81HldhS2iE=",
+          "size": 7922540
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-daytona_0.9.0_linux_arm.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_linux_arm.zip",
+          "shasum": "fd032a82e0fa5b8c2e4aeaa8634e4c03051724049ec99a47e4183a4549cd334c",
+          "h1": "h1:C5kxcEeJSTDZ5SvekuMolsI8lvBt20AD7nYIsLOO0t4=",
+          "size": 7412998
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_linux_arm64.zip",
+          "shasum": "7dd5c8b15e909cb77d3aaaff7aa0af617901c329a8b726d56ae7e4ad6b746c28",
+          "h1": "h1:RKXxgEnkKDPC8N30o5MyzSduDECUTPIM2dIZ6BYi7Ak=",
+          "size": 7172794
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.9.0_windows_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_windows_386.zip",
+          "shasum": "d2fe1869bd684df308fab0f368d549d778e73c5ad1829feb121eca6e5948ca04",
+          "h1": "h1:Rlqw4i9riOE2kLOsNCvPqnma6Oy9jz4Kf9aWptETh0E=",
+          "size": 7776247
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_windows_amd64.zip",
+          "shasum": "477393b61707d34f66f5b143402717754af1c86a9178c6bfdbcfbc9d2dc87e2a",
+          "h1": "h1:Bb0KxyveCOaTJb3+zo9pzxVQpvFjkT1wYSCZxis1lhQ=",
+          "size": 8156057
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.9.0/terraform-provider-daytona_0.9.0_windows_arm64.zip",
+          "shasum": "9705e58d20902fa52bdc9d103be52c757d541046525416baae51f564d38c168a",
+          "h1": "h1:ELiBMCg1nr0xqR8G4ftglR7d48wU6SBmewyPjX22Dkw=",
+          "size": 7261621
+        }
+      ],
+      "discovered": "2026-06-23T03:13:52.788510167Z"
+    },
+    {
+      "version": "0.8.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_darwin_amd64.zip",
+          "shasum": "47d3676b3155b4196e6ff6f8cb84f658d2b66540f92a474ceec9eec70ebe8c10",
+          "h1": "h1:QCjKyfQAdcP6Dk93e/tYDYKGK/fkhBJoZYHzrvflJq8=",
+          "size": 8103575
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_darwin_arm64.zip",
+          "shasum": "c7d724f1b0a711092e237a2b8a3d366e5947b6cfce9fc1beb756252f065bb45c",
+          "h1": "h1:h8kWdZUZ6WNR4uCZNJftgrSov+9V7qk3N0SlM8r4pzc=",
+          "size": 7536396
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_freebsd_386.zip",
+          "shasum": "306fbe8988eb0147f5dbeb9dd9808b20d40f95bcc7e8480e1858e962b34021c5",
+          "h1": "h1:b6sWnpMqMPXSqZeDkjNk/BsvDz/YaTXKssD1RaDwXIc=",
+          "size": 7371773
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_freebsd_amd64.zip",
+          "shasum": "72ea64914db50cfd13c3c293c4284bc55a3f6059ab6227b85a484701179334d5",
+          "h1": "h1:Pah2O1UpAhv1cZ7l6ftE8Iu9A7+740/ynxxvO/iMq18=",
+          "size": 7878067
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-daytona_0.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_freebsd_arm.zip",
+          "shasum": "0ba316cf0bb450a905328fa3570429f4dbd471c67c5ee55e869f5f03843e4059",
+          "h1": "h1:Y3xBCJnkAhD3BfHPLSqToDqG9j8UUPRY3u7DJzpshEY=",
+          "size": 7377649
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_freebsd_arm64.zip",
+          "shasum": "11432d9234b52e3d4e6c61b9d17e46177532815c9f12e20c9d46ecf50887b55b",
+          "h1": "h1:X4DWpAMwgSmgggPOZS3gvsGpIhdc+tvpha0DMH8Dcwk=",
+          "size": 7130827
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.8.1_linux_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_linux_386.zip",
+          "shasum": "d6c37a551cdcf4292bfa5d6a85bae0af60c5f7ed4c1f4f4be286e01a86792e12",
+          "h1": "h1:uHYoPmE46t1ptyNYbYo9XbEW5JhIXm1hZgDW+6n6MC0=",
+          "size": 7403564
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_linux_amd64.zip",
+          "shasum": "b920b7085c86c0e400d66d5377dbfc2dc3639311dbd4ccabf8f5f26b470c286a",
+          "h1": "h1:UZjx+Low+hEttuxrxhhPvWblQuiQLOeRqV2wWHSTWKE=",
+          "size": 7904357
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-daytona_0.8.1_linux_arm.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_linux_arm.zip",
+          "shasum": "b7b469221435a94746bc837af1ddb0c7cfd7e324f20147cbefe281560a500051",
+          "h1": "h1:AucQ8wdFOdGenotspTFA4ZzOERJc4h/Y9smT/IJtezo=",
+          "size": 7398443
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_linux_arm64.zip",
+          "shasum": "de10090dd562dd2eee5503a46b1baf101c86010c1ce8fa1c1ad35dd76435bd41",
+          "h1": "h1:P6BU941JWkRbZmWahiZvY12bPNJSkn4OrBeP3OAmVCk=",
+          "size": 7155770
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-daytona_0.8.1_windows_386.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_windows_386.zip",
+          "shasum": "e187dc0e96a795e1c756975e567715481d39c05144bc576f6a6b784fca3563fb",
+          "h1": "h1:zoTtSqxa0hHsI1kGaFVFSKiP2tpTjBuqM2N1Y3K268o=",
+          "size": 7762562
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-daytona_0.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_windows_amd64.zip",
+          "shasum": "85f35ab61a934f68796dec619146ce1455748a55af66b9650c0ba0cde1a30dc5",
+          "h1": "h1:fBO1iBk7srSkxvl+hwViepKv78K9MnPs9IbR5t71+1g=",
+          "size": 8137262
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-daytona_0.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/536tech/terraform-provider-daytona/releases/download/v0.8.1/terraform-provider-daytona_0.8.1_windows_arm64.zip",
+          "shasum": "4f40896470fcfe45731244af40133770d86bef1e23c634433ea7ad4f4e787729",
+          "h1": "h1:xE0fnj2B7TjlubWQ8N6brT191UfGds7sv5t9ar8W4Oc=",
+          "size": 7243973
+        }
+      ],
+      "discovered": "2026-06-23T03:13:52.788634611Z"
+    },
+    {
       "version": "0.8.0",
       "protocols": [
         "6.0"
@@ -1407,13 +1663,6 @@
         }
       ],
       "discovered": "2026-06-18T03:34:31.242080146Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.8.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-23T01:58:39.339922223Z"
     }
   ]
 }
