@@ -1,6 +1,89 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zonefile_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_darwin_amd64.zip",
+          "shasum": "2286f505d7e5d2c24ec9adfa442b54d63259987259635ffdfb5af1121b32709c",
+          "h1": "h1:i3C7Kk58f+DckAhsMHK0mf96qhQ9ZNgtu5X5dHtEXPE=",
+          "size": 12072891
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zonefile_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_darwin_arm64.zip",
+          "shasum": "84799df38db468890817dc7c832e8413ece69640f1557f2c41ac17ec7ee1e89a",
+          "h1": "h1:s1+htJsOCIO2P35NAugfQTlcZsK7350Jds8X91UuLVQ=",
+          "size": 11599687
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zonefile_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_freebsd_amd64.zip",
+          "shasum": "5ac25dae386d8ee69e5a46df75cf8dc808481c10fa756eceb1e6634242331702",
+          "h1": "h1:u6d9liLQtTl0V7Qu3t+e7NuC5x9LBU1RRwDp681gobw=",
+          "size": 11882442
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zonefile_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_linux_amd64.zip",
+          "shasum": "55cdee9361b346ae671467bd00773c1fc18d2f3e8d96ed51daeb3419255ce37d",
+          "h1": "h1:JL1jDuoe8b4y5DKQ+CgKsvQB9B8/3UQ5ZawS1Pq7U4k=",
+          "size": 11905152
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zonefile_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_linux_arm.zip",
+          "shasum": "57ca45361474982ba6843a255424196346137c197925cae7b7e1613ee4cf7d37",
+          "h1": "h1:OEQ6Rk/z643z8EFqb5nJn5cMF1Mlc9mS4RY4++lFfuo=",
+          "size": 11556110
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zonefile_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_linux_arm64.zip",
+          "shasum": "f1fac2a6692de07d3c8f77f818fe9f29197d19f59302ace7d43f4d1ae8c89caf",
+          "h1": "h1:ybxi0BOuSo/5LxzoDEV6lpD6Jx0BemwMDVo0QR+McAk=",
+          "size": 11308759
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zonefile_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_windows_amd64.zip",
+          "shasum": "30a4a3ad674bed2dc674413a86f2a59e6a9bc35d2b209b9baf0347f4f152894c",
+          "h1": "h1:GFNiORQWspcuPIHhW69qRfn5yRV88G/XiBGpZm1aumA=",
+          "size": 12097695
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zonefile_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/ahamlinman/terraform-provider-zonefile/releases/download/v0.2.0/terraform-provider-zonefile_0.2.0_windows_arm64.zip",
+          "shasum": "aa647b1cceb23f11161e6bb0c256199d665e4a3e10519a5691f9228af1a7521f",
+          "h1": "h1:UnqmkaCZvOTA7eUwJmwaOD0BMKRimGm2bD0W7wV8tNw=",
+          "size": 11387955
+        }
+      ],
+      "discovered": "2026-06-23T03:14:29.3435708Z"
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "6.0"
