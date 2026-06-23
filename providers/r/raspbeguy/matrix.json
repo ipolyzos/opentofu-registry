@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-matrix_0.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_darwin_amd64.zip",
+          "shasum": "25bcc7f35b974da9414f36b5e852767250b1ab852ed549d59e66f3ac7a72efda",
+          "h1": "h1:oe1R3/Wz5TIbOcsJiBOMOsDHDX+oOLQSbbY+S19NNHQ=",
+          "size": 7473668
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-matrix_0.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_darwin_arm64.zip",
+          "shasum": "b1515c8fb30a0f8962264d34e2a7e98cfd8488a29bbbfb00ca906615d2ed027b",
+          "h1": "h1:LyYLzxxyZTJTlQhQiwWPUgdqId8Rx+UnIKQPhaFpM5o=",
+          "size": 6956161
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-matrix_0.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_freebsd_386.zip",
+          "shasum": "a53cd311172981cbc91720b447f03415f4d9dc80aff036f4ebe9de0dff5150c9",
+          "h1": "h1:NaTrazjjDdvfENctQAysOLX2CJ5D3BfWn6+i+kLYshc=",
+          "size": 6870723
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-matrix_0.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_freebsd_amd64.zip",
+          "shasum": "6daa66a4156540ec54d8b241bfce21caa6be04725a64d1bbfcbb42a386d1f51a",
+          "h1": "h1:3EUwlcKU5AddE+4+ZLPf3QEtLYNaWbPrYs+QyQ4PcmM=",
+          "size": 7250593
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-matrix_0.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_freebsd_arm.zip",
+          "shasum": "1441ef2e8810c7f0b52491bf8c8f9e1cc7a408c10afd49347997c2493e5a2dbe",
+          "h1": "h1:AezRfzIazWQoNjVoFui+BkoV0Q7TGSMhKhLUSqrQYuk=",
+          "size": 6842480
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-matrix_0.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_freebsd_arm64.zip",
+          "shasum": "3212d7b40b7fa80fb67d97704257c3b54dca3f89f1adbe082703772414f8472b",
+          "h1": "h1:eT0eydnevkZ9uf6S6WWQZgKuoAyx4Q+BOfYehSdba7w=",
+          "size": 6582337
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-matrix_0.3.2_linux_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_linux_386.zip",
+          "shasum": "41bbb303c8fdc6443fbbbff0ee3e0772862089796e40445b81c072241fd3245b",
+          "h1": "h1:UN9hfKv6mlqxli8QB3722AtCf2dhr/MVUvfHiaAVPxU=",
+          "size": 6902749
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-matrix_0.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_linux_amd64.zip",
+          "shasum": "e041ebc240fcb2734caa2c422c05b5f6c4d091a118d1255ee896a0f28bdc9861",
+          "h1": "h1:A7/H0HUF7gjeCYvGiApPGXjJk1ryPsEdSYeuIlyKSTg=",
+          "size": 7276541
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-matrix_0.3.2_linux_arm.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_linux_arm.zip",
+          "shasum": "99127632cd41773a526bbf372613ba64c2235402c932e55e01889c052199c77a",
+          "h1": "h1:FKmKfQlPz7db4VxqpjpiWy59pkldhembjjE6I7tD7jg=",
+          "size": 6867830
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-matrix_0.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_linux_arm64.zip",
+          "shasum": "0609f7898c78a5e16b89d024e431978ab8f86aca8b795d400106e090e5ef5118",
+          "h1": "h1:uno93kBo+ngPEbghir5OeRiwbzsSA4TcD1E6U9GQ2vw=",
+          "size": 6608137
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-matrix_0.3.2_windows_386.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_windows_386.zip",
+          "shasum": "178f002506a33aecb1b574cec35cc0693fce474fc269a472217043db03b806ad",
+          "h1": "h1:Eo4nFBwcL/ShsPwitZzWpdDQcrOynhFTSamWstE3pEE=",
+          "size": 7219776
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-matrix_0.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_windows_amd64.zip",
+          "shasum": "101c61b80e9856e73e6cd35792dcede341acc102e4b91c9983cc12c697dab6f4",
+          "h1": "h1:H3rbk7zHaj8VCKS4DCmADCizhvfK/akdpA0e0l6UefQ=",
+          "size": 7488337
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-matrix_0.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/raspbeguy/terraform-provider-matrix/releases/download/v0.3.2/terraform-provider-matrix_0.3.2_windows_arm64.zip",
+          "shasum": "90a2296cf4aa0c895c85c6681e842a6123ff4a20213a7a78d6a28b28db756381",
+          "h1": "h1:BYdHJeXjvkDzm0rSnnH/hp5qNqAHJDyH8p4iTHPJbck=",
+          "size": 6692501
+        }
+      ],
+      "discovered": "2026-06-23T19:23:29.547345909Z"
+    },
+    {
       "version": "0.3.1",
       "protocols": [
         "6.0"
