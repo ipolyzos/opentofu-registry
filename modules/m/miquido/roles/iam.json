@@ -137,6 +137,11 @@
     {
       "version": "1.0.0",
       "commit": ""
+    },
+    {
+      "version": "v1.0.0",
+      "commit": "f80d5dcbc6f32e955a981fe14c87c20a64613af6",
+      "discovered": "2026-06-23T13:24:58.924087063Z"
     }
   ]
 }
