@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.0.0-alpha.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_darwin_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_darwin_amd64.zip",
+          "shasum": "8fbddd60df6a47ed27752bd4fa9cc500cbae9457e912e87f2be24e3941ac0277",
+          "h1": "h1:F8fv4vtytXhXjSlW2snQXQrbpVkBsTZw4aCTFw736eQ=",
+          "size": 16085100
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_darwin_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_darwin_arm64.zip",
+          "shasum": "c3177c0da7f5e36aca7cab6a6b71d4138334e7f7a4309a21e15bdcd1cb4524de",
+          "h1": "h1:XoPZyeWJ21Zh2ndkRawpKARdEwMu5LjWbloPGW9w500=",
+          "size": 15429420
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_freebsd_386.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_freebsd_386.zip",
+          "shasum": "6fd30caea00e2880ddb8c2c929580c6fe90dcab81f17edb88f7f4b0a67980506",
+          "h1": "h1:EdgTW8E0435gc8vfyoPRt8mUa3Bxj6Oz0cdHNABz9Gk=",
+          "size": 14532751
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_freebsd_amd64.zip",
+          "shasum": "69538d609bc8d109ef9087d6c102cb65d82c651544590323297e259329d63d76",
+          "h1": "h1:rHGbquV/gpBTG+yh7CZUzPsGTQYrofBK4zbyqipajSE=",
+          "size": 15535348
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_freebsd_arm.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_freebsd_arm.zip",
+          "shasum": "364b0d90cd8954427bbf5594459ba5fc20b3dd4a03c03dab3f08f461dac19402",
+          "h1": "h1:NgBa/twu5iIKBOJpOqxUIJ5sVreSGT6q1Gg1tN//ddA=",
+          "size": 14432225
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_freebsd_arm64.zip",
+          "shasum": "77c66e909a055edd07ea9dae4ab7e6ef641862604cab29394327c11f9ede3e31",
+          "h1": "h1:AoVY383LwlggxG0xacQFCVRqjXCBIKUT2dFyuPKmp6Q=",
+          "size": 14366486
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_linux_386.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_linux_386.zip",
+          "shasum": "97ef5a35a8799160561c28c06f199a28e63c1447a3365c20457a6e64e23ca3e2",
+          "h1": "h1:jg1Mr/AupU5aypeJl6wU2wxu7FHUsfqsJ3Bl/s0fc3I=",
+          "size": 14598889
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_linux_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_linux_amd64.zip",
+          "shasum": "0162b5601c07bbdc0c8ea0dce2d9e334f92cbf7046cd9fc3e19bf41c0a8d0d36",
+          "h1": "h1:w8HeOTs+7mlg5GKMyfahFXp/ydkYbkfZ9AQZo+qh+lA=",
+          "size": 15567674
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_linux_arm.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_linux_arm.zip",
+          "shasum": "b0aaf5ce57c83e4d57c13a7824797cc1fe5b8b8b16ecde42770e98e0ef2ce47f",
+          "h1": "h1:gMQCj4K0ZOhRww8UHrp57xxpYKPS0XBl4Y8D/riRoIU=",
+          "size": 14452883
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_linux_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_linux_arm64.zip",
+          "shasum": "fb6f5e58cbfa2f3a663ed855a80e8330800ddc27633f0dcb4cbf72f096c2e0ca",
+          "h1": "h1:IYwhRuI0OzB5oQQR7iDAH7B26RiXUPyadJShXU86q/U=",
+          "size": 14395187
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_windows_386.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_windows_386.zip",
+          "shasum": "641aacf3d25d82c34306be64e8b388edead8ec1749c97484f50f8aa2768c36a4",
+          "h1": "h1:blIUoVYRZngJ6l0Jg9kXOoFy3ML7ksIr9i08kIpxPFM=",
+          "size": 15289944
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_windows_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_windows_amd64.zip",
+          "shasum": "0c4671e330f7138dc32334fcf2be5a6c280fc15a1838b35a38c4b1ec0756729e",
+          "h1": "h1:JRTSUtRYCgKO+lcEEJ65qPCdpX6TLrJ5KPnhkgnQ58o=",
+          "size": 16126233
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_2.0.0-alpha.9_windows_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v2.0.0-alpha.9/terraform-provider-gcore_2.0.0-alpha.9_windows_arm64.zip",
+          "shasum": "6550a5dedf15dd3b0d56b67c48d1d7bf5575ecfb4dc4f8496d061d4ec4bbc21d",
+          "h1": "h1:8gFxSF5Cd0DW5sLXECvJCFYAEBZ/sOoGzvo/YeMkxKs=",
+          "size": 14514853
+        }
+      ],
+      "discovered": "2026-06-23T15:30:21.857773998Z"
+    },
+    {
       "version": "2.0.0-alpha.8",
       "protocols": [
         "6.0"
@@ -21358,11 +21486,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.0.0-alpha.9",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-23T14:16:34.81902969Z"
-    },
     {
       "version": "0.8.6",
       "message": "checksums not found in release",
