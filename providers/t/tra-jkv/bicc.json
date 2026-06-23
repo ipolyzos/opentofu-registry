@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bicc_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_darwin_amd64.zip",
+          "shasum": "429c1ad9f34240cad572f6bed0765ce42d8d8ff9ebd9e3697158495d69dd740d",
+          "h1": "h1:ZzIzBgFs4hNNxqP95U5ixjlEU1DwiOYeHxYd54cYtZI=",
+          "size": 6728987
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bicc_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_darwin_arm64.zip",
+          "shasum": "e54d7b32a215aa9cb518ebc80f082fb3b726e5012f0f3cc0aad0228a9c62b43f",
+          "h1": "h1:TGHhGr6sarerz2NiFdG5ruIlCOKuB945jwogRFr8IRA=",
+          "size": 6266904
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bicc_3.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_freebsd_386.zip",
+          "shasum": "cf297848cb3736de0ee2aa74388342aa83fb608968a47103a8317277eaf6b77f",
+          "h1": "h1:eDNsACnJL84Z1aePRAWegBLP4L9obN8Rxzmz9flLkDI=",
+          "size": 6192121
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bicc_3.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_freebsd_amd64.zip",
+          "shasum": "41b9530893099d062f3be5e11c4dd952c1167f4838d69e69edf8d04288d39960",
+          "h1": "h1:AZFvrjiUb25Jo9TzojS7/Ufe0MpgY1xZYSrj9tt596c=",
+          "size": 6537899
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bicc_3.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_freebsd_arm.zip",
+          "shasum": "e220e5b91ec931c5b0cd74164653086a8e19bd3a4a76dc5d146539b2980d78f9",
+          "h1": "h1:8arBFXobXVOi0rCv2YhUtTt+QEHSh1ccIFE48YcVpdk=",
+          "size": 6160980
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bicc_3.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_freebsd_arm64.zip",
+          "shasum": "b20f854c2c330b4206e8b9217b91a6244ace4d84c910bb6b48c7d6fc0b208ae4",
+          "h1": "h1:KsfTQp+iks37TZJi+I+aXvBmcf8ex+eMeHJBk2U0BUg=",
+          "size": 5942766
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bicc_3.0.0_linux_386.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_linux_386.zip",
+          "shasum": "8ef4dcddd885764007a63ca5ab8bc1bc4f68e6560a06336ecc4aadc88011874d",
+          "h1": "h1:e04FFrjONJcrtA4fHRrMQibs2AGR4jiBEd52ocaDBZo=",
+          "size": 6223777
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bicc_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_linux_amd64.zip",
+          "shasum": "c0b38aa66b7efd059aad2299d3c194ad412b27fa248866d00d2ade95a820e3f1",
+          "h1": "h1:yD15mVe4jf46fn8af+hxQDr0T5AAYTnVwUKDfng9yZg=",
+          "size": 6565229
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bicc_3.0.0_linux_arm.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_linux_arm.zip",
+          "shasum": "ac21b8208144eae068ed882ea12683e8d01bc337583715478149208d5ba81c9a",
+          "h1": "h1:c0hAHMaAhFeVwluws28DO7hCDZoZDJMTZV2fv95APK8=",
+          "size": 6185713
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bicc_3.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_linux_arm64.zip",
+          "shasum": "7135cb7ea8c5b80f63ccd74194405db04fd8ca5d7f05efa9dd8eae86263418f3",
+          "h1": "h1:U+yU+avfDRxDjr2C6cOUqp8KgApcxZsABt+JPS35bXI=",
+          "size": 5967050
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bicc_3.0.0_windows_386.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_windows_386.zip",
+          "shasum": "3dbf27c76915ddbdecdab3504c79207ad9142bee0a2623d39d3ab616e8469ccd",
+          "h1": "h1:92q9se4qql7Jn7nyj3+fFWKpeipzyAL+pWYAqyZb8WA=",
+          "size": 6510120
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bicc_3.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_windows_amd64.zip",
+          "shasum": "43f7d3f18b2fb72104a0c7de105d7c29f0333eb24197ee21fc1ce6210d3fabc6",
+          "h1": "h1:PkbfjhsSFuFUi09Ut209pQewPyvc9vlRKGmLx4+5YoU=",
+          "size": 6765530
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bicc_3.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/tra-jkv/terraform-provider-bicc/releases/download/v3.0.0/terraform-provider-bicc_3.0.0_windows_arm64.zip",
+          "shasum": "26d9035552895a77a9ecf74c07c5921e34eae882eabe18d0639823e5f0e8f58c",
+          "h1": "h1:tbrXVxN5nielSoUrJTEj3jM8Ac9qlSyX16tog2Y4GuE=",
+          "size": 6054221
+        }
+      ],
+      "discovered": "2026-06-23T16:22:30.940493413Z"
+    },
+    {
       "version": "2.0.4",
       "protocols": [
         "5.0"
