@@ -1,6 +1,179 @@
 {
   "versions": [
     {
+      "version": "11.0.13",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_darwin_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_darwin_amd64.zip",
+          "shasum": "9bde5c652f4fc1ec132ba2b049f78205276696d77f645068568bdd715857ee2f",
+          "h1": "h1:TwU1MsV9Jk3Gld1AGlXJF+Fvyk5X5vTSAix6+sKVtow=",
+          "size": 15349555
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneuptime_11.0.13_darwin_arm64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_darwin_arm64.zip",
+          "shasum": "207a98d80a13a7b2014cd28cb4b031b5f518c345d0d2f1196eb6842c52b96e25",
+          "h1": "h1:cXq5EzWzZQXav+LPmLFkTOYlGpkM8/wQWqJttB+r7mY=",
+          "size": 12836569
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-oneuptime_11.0.13_freebsd_386.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_freebsd_386.zip",
+          "shasum": "b8d4a759f77b2f594d2a4f56a422da74b849b9ca725f9a6ae6329bd89eb5d24e",
+          "h1": "h1:8r2mKCCvNhde5ctfDW89n/WACB+4R0IVaVhxrfpOz3I=",
+          "size": 12247620
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_freebsd_amd64.zip",
+          "shasum": "024bacc2ca669045661cda0a5c0e7a3e1e4ef8e4ad8df8c5466bd4af96904f85",
+          "h1": "h1:tl1n6jcWTff+2IE4rUDi1OWIjAR3TlE3/wJs7W79bVk=",
+          "size": 15086164
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-oneuptime_11.0.13_freebsd_arm.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_freebsd_arm.zip",
+          "shasum": "7f8162b6bf8c2f2fb37693f75120e3811c132a311d6a0a064d0c76b88ac5fa89",
+          "h1": "h1:YydmasNGAAKKFTD8dt13K4WLUJOwGMwtr+QT2TH7SEU=",
+          "size": 13950678
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneuptime_11.0.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_freebsd_arm64.zip",
+          "shasum": "8daf0368dde95a132c08813f4d38e3721816c35fa29a6e86c05dba6c905d6436",
+          "h1": "h1:sMQ5mbgEkU13qWWT5d/Z+ft19V5hQGqEorJPFllHRDg=",
+          "size": 12225397
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-oneuptime_11.0.13_linux_386.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_linux_386.zip",
+          "shasum": "2de28787edf423fa277ea39e426da6bc054f5561d5b0bb0ba37b13e715faedb0",
+          "h1": "h1:h0qTQGFThXboIVG3mM57ahKwpJv7PjLFvGAvRnUD2Cs=",
+          "size": 12280937
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_linux_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_linux_amd64.zip",
+          "shasum": "081465514627be32708e343729372274c0a047713dcb1701e2459f49b2084dfc",
+          "h1": "h1:KF7YX/R7cvrfWCDmq1Lxr5HgCy7m41SZj3nlvFGcuUQ=",
+          "size": 15115740
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-oneuptime_11.0.13_linux_arm.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_linux_arm.zip",
+          "shasum": "5b0450a5192ff4e4fe51ea1ed647f368542762d8dcdd9eab3305be809dc081cb",
+          "h1": "h1:jieMkq9rTWRm31pB7pax5MDPHXMZiG6E0nqVAWCDX/g=",
+          "size": 13975544
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneuptime_11.0.13_linux_arm64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_linux_arm64.zip",
+          "shasum": "3df4e3537613e0a188bcf9b159e9e76ab3b756539da0218a2e129de90eca894b",
+          "h1": "h1:xRyplXHkyRRieXm9vavBopSzTe2U3NFpOawEae0jwB4=",
+          "size": 12251795
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-oneuptime_11.0.13_windows_386.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_windows_386.zip",
+          "shasum": "e20a53a096260741096717e2cbc26838385e92ebd2afbc3e2a78a88f43d27d98",
+          "h1": "h1:xJYtT/j/g1ZjCZvXKfTlfpAk20C2jVVgjf/oBQTaIGI=",
+          "size": 13559712
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_windows_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_windows_amd64.zip",
+          "shasum": "956621ce5a214f30462ccb874dabdb732567ce980f5500073c433d1578c7a415",
+          "h1": "h1:M29bF+OM8gr7+rFyXkskV3VvgyEVgBT6nzDrXeG4kY4=",
+          "size": 15368335
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneuptime_11.0.13_windows_arm64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_windows_arm64.zip",
+          "shasum": "2e7fad8b6f1a8c014c7f4494b92e472f2ad587733a2f5c6f43c9abce9b0d8185",
+          "h1": "h1:J+XJjdJEzdqmqZBUr0gd1WWKgrZU+wzgq9+kzVsuRMM=",
+          "size": 12344310
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-oneuptime_11.0.13_openbsd_386.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_openbsd_386.zip",
+          "shasum": "11af673c68b3e5519a145afbe7eb3aa2bee160debfb8e7464b1236cf83b3e8a5",
+          "h1": "h1:cfn/1iC426QDcfdPJbcM0DshSTlhyCJygdjtMQbA/Cg=",
+          "size": 12245592
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_openbsd_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_openbsd_amd64.zip",
+          "shasum": "218a0ebd1438d0cf98bd41a09a3e1068076fc2cfe420891abadd1d4af51de7f2",
+          "h1": "h1:FY5kLXhehWzkPZD/06YVzWIcALPJWtCitv19MTo1y70=",
+          "size": 15090536
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-oneuptime_11.0.13_openbsd_arm.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_openbsd_arm.zip",
+          "shasum": "6973d669f42513dbf8284e1c801c0ccc7734727b5fec2c40e79d4c3999c9409b",
+          "h1": "h1:haYzAc7at/jDCSggrsgC4V4Gnyuikg4jrtPUIbAbIEA=",
+          "size": 13954178
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-oneuptime_11.0.13_openbsd_arm64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_openbsd_arm64.zip",
+          "shasum": "a0f07a4f7f4ee17d133c442be519a0bb0b51fb93cb401d075e141ebad897fe2f",
+          "h1": "h1:er1TtfRNr1AMKJoTTTLWZIlnLbMelUnVayOxYXVyf0c=",
+          "size": 12230200
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-oneuptime_11.0.13_solaris_amd64.zip",
+          "download_url": "https://github.com/oneuptime/terraform-provider-oneuptime/releases/download/v11.0.13/terraform-provider-oneuptime_11.0.13_solaris_amd64.zip",
+          "shasum": "eb654157fbc64036986225483b6f22ed8ebd349f483a78361dee08234eea7de6",
+          "h1": "h1:WGqLLew5kyUxoQEC1PVMhoDXzVzQlKl221q3KsVNvDs=",
+          "size": 15089621
+        }
+      ],
+      "discovered": "2026-06-23T17:57:11.571150588Z"
+    },
+    {
       "version": "11.0.12",
       "protocols": [
         "6.0"
