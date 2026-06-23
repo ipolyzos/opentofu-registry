@@ -62108,6 +62108,11 @@
       "utc_time": "2026-06-23T07:32:22.400480038Z"
     },
     {
+      "version": "11.0.9",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-23T23:36:10.455305752Z"
+    },
+    {
       "version": "11.0.8",
       "message": "checksums not found in release",
       "utc_time": "2026-06-19T09:41:52.670619489Z"
