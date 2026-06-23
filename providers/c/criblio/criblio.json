@@ -10280,6 +10280,11 @@
       "utc_time": "2026-06-13T03:44:44.907327886Z"
     },
     {
+      "version": "0.0.14-goatify",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-23T20:13:48.216944572Z"
+    },
+    {
       "version": "0.0.13-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-05-25T06:47:43.13817361Z"
