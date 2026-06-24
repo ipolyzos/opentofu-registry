@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "1.8.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rubrik_1.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_darwin_amd64.zip",
+          "shasum": "4d600ff0e138e8cd5b7aab65b5f72cc8bb98ff8a68c12b560042b327dd2b8172",
+          "h1": "h1:fd82XYoOltyThcYlHeuWGfCE9MdnErWL/WVDfUwHbMA=",
+          "size": 10429553
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rubrik_1.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_darwin_arm64.zip",
+          "shasum": "5f17dd09d38ddcdd8d47ce9c5164a2aaf11b3e7a3a99b332720d01a11376502c",
+          "h1": "h1:17/g1IDn5B2LpymWpw4tPCz5utvO64iW2sTQ6l6ytic=",
+          "size": 9659673
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-rubrik_1.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_freebsd_386.zip",
+          "shasum": "508cefd60619d64675dc49e70fae99c7d25b08b6cd4279f26d24df928cddfa8d",
+          "h1": "h1:en4X2UTOVl91xPS7GmofmKRM8S7KGURubkUoqosUswA=",
+          "size": 9496537
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-rubrik_1.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_freebsd_amd64.zip",
+          "shasum": "16b3313773a44b5894845d227239f73090accf496ac68087723a3e9eee4170ac",
+          "h1": "h1:vUXiLGRdGO+Whi6Vj9B+RcSJty1VT3AD9345QlEOs4A=",
+          "size": 10165735
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-rubrik_1.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_freebsd_arm.zip",
+          "shasum": "6c9e7a5d5bfbe6a4c9e1db589a119a6de474891c3300d154ac7ca8889b36644b",
+          "h1": "h1:wtoRiEtudSxSsinf6tFgMgPh6n8iokM/aLDvtZoAtlo=",
+          "size": 9500728
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-rubrik_1.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_freebsd_arm64.zip",
+          "shasum": "e6e89450a350c24877e2e403395b1d36d11b839c1985a3181a3eb797b8a85daf",
+          "h1": "h1:x3+B2uM3BJP3aw5d8mYA0VMom1bkwnsh7cjuiesxmcA=",
+          "size": 9178416
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-rubrik_1.8.1_linux_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_linux_386.zip",
+          "shasum": "3d38deff9fa3d8f604172b7bfae3ff5d2c7b9c667bb3c3332b8af6afb3f3fc82",
+          "h1": "h1:pOBTGUyY0zxbDfblppI5CrbYgXjgNDqPVNZzkHRoDgs=",
+          "size": 9541433
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rubrik_1.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_linux_amd64.zip",
+          "shasum": "41a87f1737f44732da5a7af4ae70c950865eaf460096c2e15c71624edd9999ff",
+          "h1": "h1:YeWGELPt4w//qyej/dg7a7L1twQilDj5mzQjwV8y7rc=",
+          "size": 10197929
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rubrik_1.8.1_linux_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_linux_arm.zip",
+          "shasum": "d86d61b4f94b31eead0f5385677a495d44a065e9c72f5feb03e8304f870e254f",
+          "h1": "h1:QI0uhxWfIXE71l+bWAcdFQys4SaSR+YpFCJtXswTkIM=",
+          "size": 9530109
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rubrik_1.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_linux_arm64.zip",
+          "shasum": "806da760c4dc576130cc5941f344e5c43e2f9634ad8023495ffb07c2c7de4d0a",
+          "h1": "h1:vZDJOZbnISJeMTk0M9bsMdgrVbecoTA2Bg28MrhCfxA=",
+          "size": 9212554
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-rubrik_1.8.1_windows_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_windows_386.zip",
+          "shasum": "e3a3936e2fa5099a9f7751a2682e8e752621aef639398ef07236dbf359360724",
+          "h1": "h1:j/XxIEtiDpB6HsBiNiSI90OHg4LVpXkKOhEq7lP5AJM=",
+          "size": 9996816
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rubrik_1.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_windows_amd64.zip",
+          "shasum": "6d7e0c063739006ec55bd6133093d6080ced7d84c34278348fb11c319884940d",
+          "h1": "h1:ILl7DCniIa7xcf7sFgT89Qdzv3CVaLzSroqLvIKkYvA=",
+          "size": 10472023
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rubrik_1.8.1_windows_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_windows_arm.zip",
+          "shasum": "41affbf46b701ff141cd541a83fe90b0c6ccee6161d35b4f7cae5db0b9c82cdb",
+          "h1": "h1:+UGmync503QBkqnO5Ic4CQF4bojXJhFbx6PX+fwF2kM=",
+          "size": 9745225
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-rubrik_1.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-rubrik/releases/download/v1.8.1/terraform-provider-rubrik_1.8.1_windows_arm64.zip",
+          "shasum": "34aaf78dce2b312cbe9f256faa6e6e2cea7fd17da6404c0ae00e310ed0bece52",
+          "h1": "h1:jdwRU935uWjs3+ZceP28s2qFcYHKdZOao7layKiLc0U=",
+          "size": 9318668
+        }
+      ],
+      "discovered": "2026-06-24T19:51:20.047615374Z"
+    },
+    {
       "version": "1.8.0",
       "protocols": [
         "6.0"
