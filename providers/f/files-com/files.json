@@ -64793,6 +64793,11 @@
       "utc_time": "2026-06-23T14:16:31.54451686Z"
     },
     {
+      "version": "0.1.622",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-24T07:28:28.675159236Z"
+    },
+    {
       "version": "0.1.618",
       "message": "checksums not found in release",
       "utc_time": "2026-06-18T02:16:36.296950558Z"
