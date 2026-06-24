@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-redpanda_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_darwin_amd64.zip",
+          "shasum": "80029ed022d75ccf44accea47f1bc340bd1732c5359983ead9f8bbc2b75a2242",
+          "h1": "h1:aqNlahe0cnjxdci6fbardA8IegDqS/dbSBanltUiPP4=",
+          "size": 11894732
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redpanda_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_darwin_arm64.zip",
+          "shasum": "14fb8fb4c7d7d21cee1491387c59d92c3add999aacbeff8cf83ef19a3bf19137",
+          "h1": "h1:Ew5JKPQHKapJjPVBnqZv7wukrP8rpIiZP/fQ8IurSqo=",
+          "size": 11128896
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redpanda_2.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_freebsd_386.zip",
+          "shasum": "7815268ed6ee31a23686b740cc30a42468555172dc30afa6c5d4909114596e7b",
+          "h1": "h1:Ws+X/pZwJivC++UKR49bIxCyGC+AofZ9DGCOoJ+zqs0=",
+          "size": 10896808
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-redpanda_2.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_freebsd_amd64.zip",
+          "shasum": "70714c90c0a813b2df1ca9a5c54e86886c31c7ca850db6cffc3292366bd9be9b",
+          "h1": "h1:1d92n8ps0+01ekPbyYaoDxBlt9Ih8vbRQe8n/2sDSsU=",
+          "size": 11564610
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redpanda_2.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_freebsd_arm.zip",
+          "shasum": "92c6b1655a431d84ec9f621457cb1ccd1df113c142d1009c17cddc52a5557dcc",
+          "h1": "h1:X5+how0oDNu8GzRp0Vn1V05cwlyXsl0y5fT7foYr78k=",
+          "size": 10883694
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-redpanda_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_freebsd_arm64.zip",
+          "shasum": "ce03fd279ee5d4dedd6fafff7a557a237c440a3bcdb80134e4fbe4a3386f2afb",
+          "h1": "h1:L69OOYUVkKc2CchO/cDNgD31aH3asvrryZvtSMy+Yjk=",
+          "size": 10518098
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-redpanda_2.1.0_linux_386.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_linux_386.zip",
+          "shasum": "1516f1b42f9e9ce36f68e7e6ad0f8d233622e9d753dfd97eedcef520ae8b398d",
+          "h1": "h1:H3c+g3sOtGyy2L+9EbsgBk/fevF5QBhaAXIiN9W15WQ=",
+          "size": 10946899
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redpanda_2.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_linux_amd64.zip",
+          "shasum": "bbfb3336a5aef677b1f4f77ad4e3eddc88195f9c94adbb7ece440a135cd936d3",
+          "h1": "h1:EnIMctE8gJbgQr004fDSx7fLBe87pMIx2KkwuAvFdII=",
+          "size": 11598527
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redpanda_2.1.0_linux_arm.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_linux_arm.zip",
+          "shasum": "3949d42072182b27124dcfb9f7108b9751da5cb90e3af6c33ea7faef51cbca48",
+          "h1": "h1:9nfDhLMGOWJcjHur9d6T3AEHoIJmDgQFDMls2x0jffI=",
+          "size": 10914866
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redpanda_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_linux_arm64.zip",
+          "shasum": "27da1efa07ed2b9fcb4002822cd06084f0e56973548b3de3f28fb4f2fc900df9",
+          "h1": "h1:wnJdmmVXeniwEXq7M0DYNZSBe+vCmKUzQ9u2RJUQCmE=",
+          "size": 10553465
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redpanda_2.1.0_windows_386.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_windows_386.zip",
+          "shasum": "80472936a5b07d73628f01438387d3c3336ffd181ddd73ddbcd003ccaeba1647",
+          "h1": "h1:BfivdX56JjNFEF4WVSsV/5eqC0DsLp30FHdlKYCBaFQ=",
+          "size": 11441341
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-redpanda_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_windows_amd64.zip",
+          "shasum": "0d5f1b09ca822f8c80a34c01377e7606e57fc6311484d06bdc860b8458d746f4",
+          "h1": "h1:SO9XFUZLv4tqFsm7aa6LqZ9wo4OQnh/c5SBzP0uwMSg=",
+          "size": 11945377
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redpanda_2.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/redpanda-data/terraform-provider-redpanda/releases/download/v2.1.0/terraform-provider-redpanda_2.1.0_windows_arm64.zip",
+          "shasum": "a2bd210c5e09c71251a58db9dba0606b3fe87b60dd692c593215d14890890700",
+          "h1": "h1:5tonVryk/m1gsVhhEootOLQgNTpisXPwageFhIMMNrY=",
+          "size": 10669081
+        }
+      ],
+      "discovered": "2026-06-24T15:23:16.586810163Z"
+    },
+    {
       "version": "2.0.0",
       "protocols": [
         "6.0"
