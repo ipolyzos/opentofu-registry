@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "0.1.0-alpha.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.0-alpha.4/terraform-provider-betternat_0.1.0-alpha.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.0-alpha.4/terraform-provider-betternat_0.1.0-alpha.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.1.0-alpha.4_darwin_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.0-alpha.4/terraform-provider-betternat_0.1.0-alpha.4_darwin_arm64.zip",
+          "shasum": "f2ef46098cd2420acc40178d4af07850d995c87aeff5b31005d1807ad2c4be4a",
+          "h1": "h1:yQ0u1MmLe9wgsinlA1k6ho6W+e8u604GBeWIBS8rmaI=",
+          "size": 13877257
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-betternat_0.1.0-alpha.4_linux_amd64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.0-alpha.4/terraform-provider-betternat_0.1.0-alpha.4_linux_amd64.zip",
+          "shasum": "757d3f177d15987ebd9818b28b2b07c4078cedd2664a687fc81548e287eb093c",
+          "h1": "h1:JrVUeZ9z45HNu3BrtCMf1HclClF7EZAazfZq+LlQRMQ=",
+          "size": 15049348
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.1.0-alpha.4_linux_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.0-alpha.4/terraform-provider-betternat_0.1.0-alpha.4_linux_arm64.zip",
+          "shasum": "cb1c822a8a96f8f71c40097ec7f10d2c3d8492c302e38bd2f11815dc4bbe02f5",
+          "h1": "h1:eHY0vJsQZt60Wc6tYH0V7GjUghlRjzA2hSaZWGliE3g=",
+          "size": 13091224
+        }
+      ],
+      "discovered": "2026-06-24T07:28:28.997264295Z"
+    },
+    {
       "version": "0.1.0-alpha.3",
       "protocols": [
         "6.0"
