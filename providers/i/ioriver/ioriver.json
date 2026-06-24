@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ioriver_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_darwin_amd64.zip",
+          "shasum": "31aa089425e206b9121e61569c1d45e91da923d039da352289ad80255127596e",
+          "h1": "h1:7C2DHndzQmnlJmEwPApvOYuvjJz3E3ZTXFWc21RD4WQ=",
+          "size": 6847834
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ioriver_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_darwin_arm64.zip",
+          "shasum": "08cb323c359fcf30303fbb2595d1e52ea2015f303074d67fa9fa81f49d9edd50",
+          "h1": "h1:4MgnM6UFaHXkFrOraGeKpPwPGXGbhbcbG2mc988jvL0=",
+          "size": 6445456
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ioriver_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_freebsd_386.zip",
+          "shasum": "3a85988c616756a61c11047f7e89001f6e26a9ecb3d32a76431ba7bb117edaa6",
+          "h1": "h1:1D0y+RcA5W8sLzQezhYAN++A/h1ORPVclOakcB4TDhQ=",
+          "size": 6272725
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ioriver_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_freebsd_amd64.zip",
+          "shasum": "a16853169920743069b88f889c780d60e8cc5bc1e235a54e05ff85caa82c4ed0",
+          "h1": "h1:bcyKXLp7lbXm7u2VCT1zWKCq5VEnksnvr3RISTTKw3k=",
+          "size": 6664990
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ioriver_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_freebsd_arm.zip",
+          "shasum": "950b7925483c124f0e87795dfba09003afb8918ed8110f75f9f88170340831f3",
+          "h1": "h1:ziIIR/qtp70YtFrnmuByPKM3Jssp0KLVAtb1PykUeOE=",
+          "size": 6260709
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ioriver_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_freebsd_arm64.zip",
+          "shasum": "e0671b4e51aac548c8f380e0072432716abfe557547251c3415ee7db51300d7f",
+          "h1": "h1:BnPeIWoZp2gpJP/r3U5RtrZrbRDlMv73/I9uFArnCbw=",
+          "size": 6120036
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ioriver_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_linux_386.zip",
+          "shasum": "84400fa648a2e9248b1d764510f04f452b6b1fcc20bf1907e14ab14955a95c71",
+          "h1": "h1:R0aBMBEWXJBRGJNNCoUN2B5Ux3/WQVQWj3GDLASvXAQ=",
+          "size": 6285935
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ioriver_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_linux_amd64.zip",
+          "shasum": "5d7793981b94939caafb50d01e393dec9de3c245f488ca5e30ed602227fb5dfc",
+          "h1": "h1:blTN9XX8qTC2Ve1aKFHDhkt7PRkkUMN/1S9horIznKY=",
+          "size": 6670853
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ioriver_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_linux_arm.zip",
+          "shasum": "2fec6736dd2150555afad9c2a33538dbf084a6d6a3f7645c404bce670cb5223c",
+          "h1": "h1:2tUThhjiEEkhpUEuyGRAvKmFDZdxdvAa2xFGQalbTWk=",
+          "size": 6265706
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ioriver_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_linux_arm64.zip",
+          "shasum": "8ad652173c3b5f1a7403ea4195f17c600ce3460e64f133bc7c7e44df16f9d3e0",
+          "h1": "h1:F8j1o9M58SDlkiE92vXgO4h7loUaIauBhlkbDJ27TkQ=",
+          "size": 6126065
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ioriver_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_windows_386.zip",
+          "shasum": "8f56e54ae4529995ffecd6cc2a1e017bf432e0be9781d7d8c4f80b997ffee26b",
+          "h1": "h1:XFw7ay2oBBSUmB0ToWg4mmIdok0TtnwPwsW6sJV5rzs=",
+          "size": 6585722
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ioriver_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_windows_amd64.zip",
+          "shasum": "ec41f3f43fb39656ef5325c4b00ce8952ea6a81e3a1bcd8af271e379f2925320",
+          "h1": "h1:Qb1RxnS/w/u8HRektTGWisx3OuRtP/jpV7Y4/hAMbNU=",
+          "size": 6874519
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ioriver_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/ioriver/terraform-provider-ioriver/releases/download/v1.2.0/terraform-provider-ioriver_1.2.0_windows_arm64.zip",
+          "shasum": "40da02e453428867a5d827590abf3cbcf1d7134959f6572c0fe78fe06621b977",
+          "h1": "h1:CE3HQReKtxH6HC5GyK4NGyx5ms7+urX94VAXHww4knE=",
+          "size": 6215329
+        }
+      ],
+      "discovered": "2026-06-24T21:07:33.971616046Z"
+    },
+    {
       "version": "1.1.1",
       "protocols": [
         "6.0"
