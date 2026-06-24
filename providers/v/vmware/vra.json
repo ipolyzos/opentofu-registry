@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.17.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vra_0.17.3_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_darwin_amd64.zip",
+          "shasum": "155fc0ea452803767b9a644866ddcdd8db8b3f67345cce445997d17bd8b15c05",
+          "h1": "h1:Uxzvi/C8FqUjuM7y1CWglPCD8LX9Ma4hdahQDQq4u9s=",
+          "size": 11423952
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vra_0.17.3_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_darwin_arm64.zip",
+          "shasum": "30f265b0c5819f50e8b27ba3ceb6bf869c9dea83f30b19c206c3b11b319b80ef",
+          "h1": "h1:ZbMPGTaNk5ro0Q0SIy7bdBvaBHpawZLKztnunK+Pw2I=",
+          "size": 10662597
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vra_0.17.3_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_freebsd_386.zip",
+          "shasum": "afc339635acfabef1b051c895242158606dc87cb3a9904a23922522ba2abbda4",
+          "h1": "h1:VYPpiCz1oqwtkqHVZVBvddC8kQ1k6Ndq8LcBCxQPazE=",
+          "size": 10360499
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vra_0.17.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_freebsd_amd64.zip",
+          "shasum": "7d89930425d05a2c15dfcae93d0b429b76547913bfb5525cdad1bfee46c59ea0",
+          "h1": "h1:0MqKQ+JcYAaxlGWsNH+xyOsJigfvvgltENtYuHhQ+PA=",
+          "size": 11078460
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vra_0.17.3_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_freebsd_arm.zip",
+          "shasum": "3b41b5a9854769a0961b5d4562e6179c49233465f6073a07462cd1202d80881c",
+          "h1": "h1:l2XCwVhgfUHUR2rkhUSsbxQ1DL/CseeBnClRYP9Kvyk=",
+          "size": 10384093
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vra_0.17.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_freebsd_arm64.zip",
+          "shasum": "fbe2b8d966b8be3e37df7e90bda96e63b66593c8dc3efe11e58b1391a0fb691b",
+          "h1": "h1:am2cz5Nlz6Igl/Ty/SVcTTmCMs9qCEH6RAg2uDiHerg=",
+          "size": 10035855
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vra_0.17.3_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_linux_386.zip",
+          "shasum": "3a7ea494b7a99605ad99194be9132a543b9f7f438d0830e1666f149df5430a85",
+          "h1": "h1:mVatSb/bV+LbJquBW92xkpCNGjqoFexpbQ/v2ahg/ZQ=",
+          "size": 10405691
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vra_0.17.3_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_linux_amd64.zip",
+          "shasum": "70323c7a6b250a584ddc65dfd48b0cef631ac37e09d6c972381e11251e7c428f",
+          "h1": "h1:/xcYoJrX0cIyhBnbR1oKGaLqQ6XB98WyMGgSBjetOcs=",
+          "size": 11109177
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vra_0.17.3_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_linux_arm.zip",
+          "shasum": "b9a32e064f75e7c17722ecb2ba8eaa80fa2fad8632ddec8abf69b7f92fd53196",
+          "h1": "h1:hhZriXbJa8W5Ox+hcn5n3WpS90XXQImqXqloVFsajC4=",
+          "size": 10409490
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vra_0.17.3_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_linux_arm64.zip",
+          "shasum": "bbbc3a9e719d966ca80016afe0f4d17dfe73f9212349d3853f2e1b851013586a",
+          "h1": "h1:OjczRGnvb7b97X58sQV4TsUOkTJwAGeKKpKYRox7XlA=",
+          "size": 10066716
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vra_0.17.3_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_windows_386.zip",
+          "shasum": "39faa6157ffa69ff36ba6a1a602c031f2fcb4dfb1761636f63221bdb8a57a1ad",
+          "h1": "h1:dIMDw9ghJhk4s+pglzTMCzziionrjqhYJuJsLqafytQ=",
+          "size": 10918921
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vra_0.17.3_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_windows_amd64.zip",
+          "shasum": "8f97101b13d6f04dc658e8fa6663dd63c5687dcf9c5064a85d97d89731f41538",
+          "h1": "h1:TqWQiLzEt1OAY4zBkdrFQd2jF5Q/FH6kJ9/x0TChP9g=",
+          "size": 11448262
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vra_0.17.3_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vra/releases/download/v0.17.3/terraform-provider-vra_0.17.3_windows_arm64.zip",
+          "shasum": "6ee2cb1135b00de38b305c777afc5a644f5ae69e73a8fd0d8aaf4e84a96750e5",
+          "h1": "h1:3oM00D5njlVVf55g8MfbYuYWfIQ7d1N0w6/ggo4TkaA=",
+          "size": 10164424
+        }
+      ],
+      "discovered": "2026-06-24T01:12:56.141840131Z"
+    },
+    {
       "version": "0.17.2",
       "protocols": [
         "5.0"
