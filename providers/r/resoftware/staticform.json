@@ -1,6 +1,262 @@
 {
   "versions": [
     {
+      "version": "0.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_darwin_amd64.zip",
+          "shasum": "5aa981ee2c03c8b3362ee2eaa67404223f43db172fa14dccba1df58aea1f9b2f",
+          "h1": "h1:2RkhhcSpHI2hHgas4UD7OtVdH6MMEWU4bog1hmennmU=",
+          "size": 6919462
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_darwin_arm64.zip",
+          "shasum": "bcce067908990e87512fd99521ab3a3f047c5cd29961fcfc92a2375f1f93db05",
+          "h1": "h1:LkqJrAmOYKcqQ6Gr+M97O11T/BF2xxcBa41nc5asokk=",
+          "size": 6444868
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_freebsd_386.zip",
+          "shasum": "56e23bf0dfeefbe5989629fdc6c770a08306b55d8033a7cd5d8b34e1720bdc68",
+          "h1": "h1:KtPxlgAuZbIgCh6E8WzoCT/CXfra+8xk7gvg+9O68dk=",
+          "size": 6359224
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_freebsd_amd64.zip",
+          "shasum": "4769f03f4d0ce7d53de63793d63c22c97789d104dbedc89a1e8ab2324c81758a",
+          "h1": "h1:Y9BDosLDlxGDeALtxDOvv87/Z4Szpsxq8i3m+UGEv/4=",
+          "size": 6723530
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-staticform_0.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_freebsd_arm.zip",
+          "shasum": "729015b06690e497cf5d3cff70f6b89b0670f6d8bfe3abdf1ffd79d49626b511",
+          "h1": "h1:wxmFikN/6uvTTPZd/C2GvipDC2sl7pLayoeJ2O6O3X0=",
+          "size": 6333773
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_freebsd_arm64.zip",
+          "shasum": "c9e404f2b28524aa930444418d13a66ed9f6a1db1548a4c0aa32080075da7642",
+          "h1": "h1:DO6oZEW/MKBlgfpi/VaIagVzdU97NR15SqQ5EwX5jcE=",
+          "size": 6110715
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.1_linux_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_linux_386.zip",
+          "shasum": "0f12caddda7437c9e8e644dfd7e0188d3b0b46195668053620e77f3c7f70c81f",
+          "h1": "h1:n1FOtZwDTfkM67tPYxsQW0Ab4w+egf/6TeaKfGmLBJU=",
+          "size": 6389714
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_linux_amd64.zip",
+          "shasum": "a2f74f858d9be89d4239659448cc83942e0bb643f8f521b1358e3fbce2b6c99f",
+          "h1": "h1:SGdEgbrB43HYZ5jtiQY4GVXflMRkGZ5oYPuUA3KkmFw=",
+          "size": 6749168
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-staticform_0.2.1_linux_arm.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_linux_arm.zip",
+          "shasum": "1119c502d9577ced0b7603b6485f45e9587d048ddc278c4abf93f76b5a18add1",
+          "h1": "h1:pFubhZMGYOuOr2Nt+k5N/NjRPIhHSWk7cLX9M2EZbuA=",
+          "size": 6352046
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_linux_arm64.zip",
+          "shasum": "cd6e5994f9ffb8104e2ee87eb0eac65a7f3cf0735445eed7e8d4680fcd4e6560",
+          "h1": "h1:Jh3KfsIPSgaJ5gzvOam8XF3Mw0fceBXV/i31ap2pPds=",
+          "size": 6133924
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.1_windows_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_windows_386.zip",
+          "shasum": "058a3fb0a7f89ed437828e0eafbb6980416040ab2a4f64444703a65671d5cc86",
+          "h1": "h1:2+dC8FF+XftwjsBFnYFpdjV54ywmlsCZIfrvrKtfQq4=",
+          "size": 6679579
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_windows_amd64.zip",
+          "shasum": "af188c701c684c7c02d41264aae50f9421be13d19542c9e43f116ad8768ce568",
+          "h1": "h1:9Xc87LwFy8qx/vKkUzqFx913N6pmALitE9kxarh6QNo=",
+          "size": 6949760
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.1/terraform-provider-staticform_0.2.1_windows_arm64.zip",
+          "shasum": "62ccfb31cff2e985df833b5934827420cf85460cab010ac042d341919a94381e",
+          "h1": "h1:+GF8hAfXz2TltDLL+sGHNGyYSAo51CzbWuZr56HNuxA=",
+          "size": 6216792
+        }
+      ],
+      "discovered": "2026-06-24T11:55:57.295067748Z"
+    },
+    {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_darwin_amd64.zip",
+          "shasum": "d51835fbb164cbfab10088b73767103e5d74a9247da8b587fc26354aee0c673d",
+          "h1": "h1:pF4eO4eaOnOyo1YomwqEcP2fOxvoCFJg95u/Ffsj78s=",
+          "size": 6918421
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_darwin_arm64.zip",
+          "shasum": "1c56ad50c524d2d3b342b99f48ff807cf204a4b65d5fbbd2f0947483ef7a3034",
+          "h1": "h1:74iNnEDNbuy0O+8jRUhHbEez/88YN/NBixfYbolJdK0=",
+          "size": 6443778
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_freebsd_386.zip",
+          "shasum": "ac6fb8f8fe2cb346e98e002bae76b2b7770fcba4ef73fe436904b5173e9d4d7c",
+          "h1": "h1:wq4ZFzaeGDv3ZUidTUClHpQoHJsJ2V41DuqMO2W5f6U=",
+          "size": 6358526
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_freebsd_amd64.zip",
+          "shasum": "899f01c985136fa6baad40b55e59883ff508b5c12f206f244cf7093b31873977",
+          "h1": "h1:1RKiW5MWDiUMnZX/gvJ0PquER93CoxwKdvprXe97EZI=",
+          "size": 6722650
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-staticform_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_freebsd_arm.zip",
+          "shasum": "e26dc5bc298ddef1cbca0019fd4c928fbc8cdd37eb293cb0a746062936c8a848",
+          "h1": "h1:EzueQhMcaDP9mFoJOHcy2ji2ovun10CLNuXC9relxhY=",
+          "size": 6332623
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_freebsd_arm64.zip",
+          "shasum": "570853391b077edc43191edb2ebfc6ac2834b8ac9ba834208065a9e30d58d91b",
+          "h1": "h1:C5fJ2ZucaPAO+5yL7+fGXGzKSP2TAlBeQMMzcgerwuU=",
+          "size": 6109733
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_linux_386.zip",
+          "shasum": "72b5667136a119caef785dfad332c9d3c268eb46e60244617740cfb103c43ddf",
+          "h1": "h1:Ea4MqR6wfKTVRvb1cNxBm19Iz0i5U8Phdb4BpcmuAi4=",
+          "size": 6388477
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_linux_amd64.zip",
+          "shasum": "55af858916dcbc6582c97c46404e1187f6bef8c1b5e6e249a9c076658601f0c5",
+          "h1": "h1:WeV7YRqWmbfOno7yC8+nk0/yx6Ig/t29D4kvywnegU4=",
+          "size": 6748040
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-staticform_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_linux_arm.zip",
+          "shasum": "3788ff7667a5f590ce7af0e8052363b558481091dfcd03853fad7f292f8e6887",
+          "h1": "h1:YAJyBVY+wzfqX/2Q/Sqf2ECPv/luIK5hBvxkpkmAOE4=",
+          "size": 6351449
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_linux_arm64.zip",
+          "shasum": "5e7ff46ce1825db6ca37c8a20dd063e4852d25404a9c1b8c9e1a66e6c2ece556",
+          "h1": "h1:J1ypHWtH/JADSM0klElLoX7z6q4yJiwjwvNHKUmOZho=",
+          "size": 6131577
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-staticform_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_windows_386.zip",
+          "shasum": "4b191fe29e8b2a1fbc17673dd2c8277c2f86a7cdf884107f848791af0881e4c8",
+          "h1": "h1:vw8iXSF4N8+GABRkiUKZt/Ja0eOjReifMOyNeFgzOEk=",
+          "size": 6677897
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-staticform_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_windows_amd64.zip",
+          "shasum": "87a26f76b6f721f295daa82a076a11528b535b2af7431fe8489dbcf8832f1f60",
+          "h1": "h1:KmM0BOxsncAqzC5rCBAKSluPREuyaIbuLj8ja9AIFWE=",
+          "size": 6948581
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-staticform_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/resoftware/terraform-provider-staticform/releases/download/v0.2.0/terraform-provider-staticform_0.2.0_windows_arm64.zip",
+          "shasum": "43e9de7c35c0eb6fa5feda12a7fa3a7582996b35fbad3e69d28022f521095606",
+          "h1": "h1:M3F+Ktu/IqmNDRI+RaOcYgr1u8uR/kbqUYiOCkeJbsY=",
+          "size": 6216769
+        }
+      ],
+      "discovered": "2026-06-24T11:55:57.295555277Z"
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "6.0"
