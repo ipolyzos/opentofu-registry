@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "1.0.12-beta.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_darwin_amd64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_darwin_amd64.zip",
+          "shasum": "2c57455883b98695a6a1c1107e0017f94cd0da6c151611f5f7112f18a2d4d860",
+          "h1": "h1:JVgkZaEPxc2SjGPKwjdbwUnfaWeEjEU8JofQeyoUWs4=",
+          "size": 19244628
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_darwin_arm64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_darwin_arm64.zip",
+          "shasum": "c13e4d62bb841b191885cfb30ef48fc87eab285e0cbc927744d17a54c098f508",
+          "h1": "h1:72eqGGLIgGCQyAktqgf8SdcQS/95l4EnvHRtakeB7ew=",
+          "size": 17058108
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_freebsd_386.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_freebsd_386.zip",
+          "shasum": "cc062747d4f1845fa1ec2af42a7cd907f749a512a2a09a6fdf5da8db403462b6",
+          "h1": "h1:RXarG7iUEiH3NcCwABRgiIBcWC9ymoBnMbJDCpfyH0w=",
+          "size": 16103910
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_freebsd_amd64.zip",
+          "shasum": "cd91ae17575a052360394df78960516c74db801192546d71ea13b0efd85537c9",
+          "h1": "h1:DGD0N9QKGdFfmY8gpazdYmWJy45J4hTbKcKjO0nsKIQ=",
+          "size": 18884701
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_freebsd_arm.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_freebsd_arm.zip",
+          "shasum": "dfd6b4682f49c9e22e3a6d8c0ae403460bc0ab2c660f7b625f9303f997cfbfd3",
+          "h1": "h1:uWe4EkERwPdWu0yGzxXUt3ohvuM62SsAZiENo6kV3kQ=",
+          "size": 17478574
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_freebsd_arm64.zip",
+          "shasum": "868242d303a8148a282d0f1c9360885cfcc53a23a8815c115f18f44604acd745",
+          "h1": "h1:ZwUGOATcS0wVicMFlwd8dzHwDYYsX+NH+uXvPLRoLa0=",
+          "size": 16195885
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_linux_386.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_linux_386.zip",
+          "shasum": "ef41d3a850fa5eb9afb87e05b9aa03e5d68211fad72b548538b475dd31a58002",
+          "h1": "h1:G1+3VC6xZifwxFs+0BKy2EqEYn/USU+Te6dUDhudX8s=",
+          "size": 16144149
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_linux_amd64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_linux_amd64.zip",
+          "shasum": "a50ab0d70cbc4d89b31d50b410573de5b9741eb1a405a441371a0f93507d3735",
+          "h1": "h1:EJ4FrKcbHfYE3GQWxHAoFZ2WFauzyb+NoiJsTMn/3ik=",
+          "size": 18906339
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_linux_arm.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_linux_arm.zip",
+          "shasum": "dfc97e19898e234ade6d6d8b42eaaf56c3a93ea57135faa7dfce949d9e10c09e",
+          "h1": "h1:Umosey7Id+hPOHfn1WWP82kaYxkFs/R75xfI6mkb/R4=",
+          "size": 17503719
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_linux_arm64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_linux_arm64.zip",
+          "shasum": "cb3c1ebf131f51f394650a31d0bade8a9f0e4141910cfdc050b70c4d66ee7d59",
+          "h1": "h1:n3FXyXzB++WsFN7o1M+NX1DTfwnvWKPPeU2OTyaLcMk=",
+          "size": 16220160
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_windows_386.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_windows_386.zip",
+          "shasum": "f9b8dd78ef54672dbe3edf1c1c08037498fd4250ce3ef9059a2bf48ac8c8e764",
+          "h1": "h1:JISZxlVoWfC6dZxZP2Coy54ENKqFpupG/hvU514C60s=",
+          "size": 17442134
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_windows_amd64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_windows_amd64.zip",
+          "shasum": "143e779088fb5ff7a9b8589945bac6bbcdad8c21b3266289c82a71bea16aca35",
+          "h1": "h1:F+Rg/LNgIo88TXSRL/gpM3iH3lcxYoPOdiVb7zQ4UjY=",
+          "size": 19358461
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_windows_arm.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_windows_arm.zip",
+          "shasum": "9e3119569326a48db6e0b565c9b8b2496fa28237b483b7eb327e6cf8c70b4ff9",
+          "h1": "h1:QhQDLW7fVpuM28gMmC9iJhWBkJSXdL2/TA6F2Wjfu5w=",
+          "size": 17851290
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-scm_1.0.12-beta.1_windows_arm64.zip",
+          "download_url": "https://github.com/paloaltonetworks/terraform-provider-scm/releases/download/v1.0.12-beta.1/terraform-provider-scm_1.0.12-beta.1_windows_arm64.zip",
+          "shasum": "2c638311942cd80512099503264d6feb58144f20a6110412c3207be87271a944",
+          "h1": "h1:pHN1FHwDMi6NJBQNgIUL+VWfIob23A93IkJ3Vu1eQeU=",
+          "size": 16323900
+        }
+      ],
+      "discovered": "2026-06-24T07:28:33.684450574Z"
+    },
+    {
       "version": "1.0.11",
       "protocols": [
         "6.0"
