@@ -3023,6 +3023,134 @@
       "discovered": "2026-04-21T00:00:00Z"
     },
     {
+      "version": "4.52.8",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.52.8_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_darwin_amd64.zip",
+          "shasum": "f16cc31f73a58a26ffe2d93223eddb7c340623a4e2ef38c6091766fd611e3e11",
+          "h1": "h1:AYeWWMTWaNg01N3hivxr/6YlG41j1RietMnft9vLjUI=",
+          "size": 13457240
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.52.8_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_darwin_arm64.zip",
+          "shasum": "93a9bc1139f5c02a44fdbf51fb2ce0891e2a42033b66febb928ccf72e870408f",
+          "h1": "h1:EEXRMdC8bPlpLuOU8u+dE8mFJe3BpquFdH6vXcKseY4=",
+          "size": 12949619
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.52.8_freebsd_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_freebsd_386.zip",
+          "shasum": "47975bd711ee18a46e589822171fa87474a552b332bfc8dea8fd1a64504eed8d",
+          "h1": "h1:bNql6cC+MfDbaJK3q7a8C1m3A21o7e5mrjBIGtk0RdI=",
+          "size": 11946343
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.52.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_freebsd_amd64.zip",
+          "shasum": "5b0ad839fafba938c60a95d6b4a865843643591e97573ed2b9c4af3754064f74",
+          "h1": "h1:ENp29e6O6OnaHJlbtmRlyjlAmm3Wt4mGctWUpBY3d0g=",
+          "size": 12876609
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_4.52.8_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_freebsd_arm.zip",
+          "shasum": "977f75cdf365686aa16ae02dcc0fc1769bae6f86be6e165393756c940bfb4af0",
+          "h1": "h1:IAtBAbGVe1npj/n1NvCIZkSYGl7qaPYT+FnVdZ2CZ00=",
+          "size": 12128339
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.52.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_freebsd_arm64.zip",
+          "shasum": "9afcda2660b3dc6ee6329acea532a719225bd1f6cf46f695feb2d77160847c1b",
+          "h1": "h1:4Z+uD+YY/7HrqdypM7DyUK+RtWepoLBc9fqtRQYZx4I=",
+          "size": 12001463
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.52.8_linux_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_linux_386.zip",
+          "shasum": "9e3da67b1b05b03d1f0c18b8677edf3797815b5dd49629f10eb2f457dccbed30",
+          "h1": "h1:gmNv+PEOkYDdu+c15bfpcoAE3EI7pgmov9RMf3GZLsI=",
+          "size": 11974296
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.52.8_linux_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_linux_amd64.zip",
+          "shasum": "cc96e7cd7350456b7a11a53d1c76c73a542de8359f9750f637ff865e8e77be91",
+          "h1": "h1:BGRNOzo8NUgbx5RwpWkWmr38f/s3txb7mzQhqfM5blI=",
+          "size": 12888054
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudflare_4.52.8_linux_arm.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_linux_arm.zip",
+          "shasum": "5640d0d226bbafff3395542456c29feb942ca9c55ac01b4245a34c0590a33363",
+          "h1": "h1:2uxVaMaGPDJljXqYzuD6xtyfOKdNudtGIgawRTkFJIs=",
+          "size": 12137327
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.52.8_linux_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_linux_arm64.zip",
+          "shasum": "b8d7da230f5266367c1b6b1cf31aa39087e231a87d55b71bb9d5c854ca1fcfe6",
+          "h1": "h1:34HL1GDpqYdn2iEC+85pCi+NddZf30qH3fJ8y3P6CAM=",
+          "size": 12013380
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudflare_4.52.8_windows_386.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_windows_386.zip",
+          "shasum": "da1f58d067def243047bb7178cb197e2b9c3a791a9eb380ad92b73290615ae29",
+          "h1": "h1:QRGGKngrxLORr4CImKXLDDJL5s67zUNBDAgk6FIIFNk=",
+          "size": 12529779
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudflare_4.52.8_windows_amd64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_windows_amd64.zip",
+          "shasum": "ed5f3e1f59a338bcdce0a2537a8a2f299cfe18c168626799b2a9c97af3d8d3cb",
+          "h1": "h1:yieZ7NWRYQcLYHUevzDDrrmDkoQICM+3ZeX4i/mw9ME=",
+          "size": 13277142
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudflare_4.52.8_windows_arm64.zip",
+          "download_url": "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v4.52.8/terraform-provider-cloudflare_4.52.8_windows_arm64.zip",
+          "shasum": "08b305329a680a9213b2d8e642fbce7e4d97a524b1d2cef59e190ba9d678c477",
+          "h1": "h1:8Ss6wlJL2BHvkIZU1iaHvyUntqNhPFZ0fl6mjsxhctc=",
+          "size": 12123559
+        }
+      ],
+      "discovered": "2026-06-24T16:15:22.982714099Z"
+    },
+    {
       "version": "4.52.7",
       "protocols": [
         "6.0"
