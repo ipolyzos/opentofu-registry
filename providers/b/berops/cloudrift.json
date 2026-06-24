@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudrift_0.2.5_darwin_amd64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_darwin_amd64.zip",
+          "shasum": "0c7484a027f8a3df4e5e969e2dfc8dbff7e1a4c1701b65a3589f00ed05ea2d7c",
+          "h1": "h1:NQMufHzgLMwoKAmJEDAE4yOMT9eTEKIqf40KYOrvIPE=",
+          "size": 6846009
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudrift_0.2.5_darwin_arm64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_darwin_arm64.zip",
+          "shasum": "558056420dfc86f68bb6b5ec660d02206198371200d3740fe4b828b30f0d17d8",
+          "h1": "h1:vc3Fg/x4Z8i1uCU+xnuzAp69A4tD06kLOKJ121PjH88=",
+          "size": 6383636
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudrift_0.2.5_freebsd_386.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_freebsd_386.zip",
+          "shasum": "05819d8d9d37abfd57125562a0b8da891d8cba982f6519bd4debdd4d61c5930b",
+          "h1": "h1:IrTj+ojaP65h9vcVay1IsXA4ZkgdsRlsWlbUfXUitJA=",
+          "size": 6307812
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudrift_0.2.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_freebsd_amd64.zip",
+          "shasum": "d8ef23f33dbda3b0c1b7147c1f6efb3277a86a36afa95eea83bbb5db00748731",
+          "h1": "h1:guXGpwovFF8AUoY6UMDj8tJiHkS4qbFSUJjTQA5aSkQ=",
+          "size": 6655203
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudrift_0.2.5_freebsd_arm.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_freebsd_arm.zip",
+          "shasum": "c24a1648a390357561d08fa198f63a053934bfdd19804bd924e76dd1330d4ed0",
+          "h1": "h1:BUjE5EpZPGM5NXhFKtdjAo8O4Ok8/Nt/5cV9MQQK2uU=",
+          "size": 6274115
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudrift_0.2.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_freebsd_arm64.zip",
+          "shasum": "af5c0c23dee0d042f10eb653e946235ec12e17899e2efc0785ae091f16f9dfc6",
+          "h1": "h1:kHEQDJost2RDBhecIUF3nSU6Sw9OGOmB0tezvO73VeM=",
+          "size": 6051319
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudrift_0.2.5_linux_386.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_linux_386.zip",
+          "shasum": "ec7d49683c02d302a81adb01aca586ffd0d2d3a367a97e0fbd561e4a2c64aa20",
+          "h1": "h1:zPQGSE3J2azB0tnTeYGJXNsMmk0RKOnmDd71jUMMZEU=",
+          "size": 6336602
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudrift_0.2.5_linux_amd64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_linux_amd64.zip",
+          "shasum": "fdd4144d4efd764ca08f594777d98a0806f3816996147a42c42bbd5f71252bb8",
+          "h1": "h1:FZhY1ZSbXj/3BqqndSEQIpXjIpo3cag1zIZF73be3Go=",
+          "size": 6681246
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudrift_0.2.5_linux_arm.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_linux_arm.zip",
+          "shasum": "940e715f6ac094a00bc21827d8f61cf31342c8b4ba446fa338dfb7f6c8bd2e7f",
+          "h1": "h1:hENjuxsitDVtgkM0EoK9zIEp3b/4oH8YvSO64RsacPA=",
+          "size": 6295595
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudrift_0.2.5_linux_arm64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_linux_arm64.zip",
+          "shasum": "5eda55887f38a44b1f1aceb1b909393b486a20e7b367b945c4b49905265f7a60",
+          "h1": "h1:J7yuWyeSN2MLvMWNd0RXzwCQVuszQNKmpyjbq3JeV+k=",
+          "size": 6076811
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudrift_0.2.5_windows_386.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_windows_386.zip",
+          "shasum": "14a38cd2da13288992aa62913c429b0a55246ee5170346319360c53f185e8c4c",
+          "h1": "h1:2TToxi9/xweGJxrX6ouUZIIxhIC2DzjVaI+hGgYwKfM=",
+          "size": 6624149
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudrift_0.2.5_windows_amd64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_windows_amd64.zip",
+          "shasum": "05fd788f438996669ac79d4731eec2a7c2db746b9840241654091941441c6766",
+          "h1": "h1:GQyF4mB/BuoPtimZGxKwmn40A7+iwF1PFoV1Fv0Qf34=",
+          "size": 6882912
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudrift_0.2.5_windows_arm64.zip",
+          "download_url": "https://github.com/berops/terraform-provider-cloudrift/releases/download/v0.2.5/terraform-provider-cloudrift_0.2.5_windows_arm64.zip",
+          "shasum": "b70c9f8bfc1b42d0e5207520c9aac91e6e9b0be65261b77e079067a569911b06",
+          "h1": "h1:/ioFmUhlqi4MokK99mENWQ+vWwpoheqolWZaAHNcMIA=",
+          "size": 6157229
+        }
+      ],
+      "discovered": "2026-06-24T13:29:13.501621578Z"
+    },
+    {
       "version": "0.2.4",
       "protocols": [
         "6.0"
