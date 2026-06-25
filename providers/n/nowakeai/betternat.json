@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "0.1.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.1/terraform-provider-betternat_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.1/terraform-provider-betternat_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.1/terraform-provider-betternat_0.1.1_darwin_arm64.zip",
+          "shasum": "8105328ccd856ce93feb26f00110147b0ddb1225d4298e99f2beaa9195f65c43",
+          "h1": "h1:pCoWetbZErtcEXwnrGYVpvrzrTj7Z01uFnYtkp6Cjyc=",
+          "size": 13887340
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-betternat_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.1/terraform-provider-betternat_0.1.1_linux_amd64.zip",
+          "shasum": "e2f890fc697d82fa7134404d91e94292893ee008da7a45bb7577becc8cd1eaf2",
+          "h1": "h1:bd3/NYn5M9YEQbq2bP/DlXGT9ICmP0MQIVEcGwDcf9o=",
+          "size": 15055676
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.1.1/terraform-provider-betternat_0.1.1_linux_arm64.zip",
+          "shasum": "0f220422ac348d0898b3a7762109e1e014b18d57059b8f885a2f983db7e075cb",
+          "h1": "h1:3pt7U8Tf2Uy6ybmNTYVxT09/xjPivojN/CeS3zr/uZA=",
+          "size": 13098810
+        }
+      ],
+      "discovered": "2026-06-25T03:29:22.172003606Z"
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "6.0"
@@ -341,13 +379,6 @@
         }
       ],
       "discovered": "2026-06-22T03:12:56.077878928Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.1.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-25T02:16:16.28943688Z"
     }
   ]
 }
