@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.36.70",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_darwin_amd64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_darwin_amd64.zip",
+          "shasum": "bf460d0d1ef19cef7038677d42980766ed1bd0ec30030eac189199bc1b779c48",
+          "h1": "h1:v7wSeaxaTvXR061Xp+tpfsqkZtt9yDwNvU3bldWuiY4=",
+          "size": 13708207
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_darwin_arm64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_darwin_arm64.zip",
+          "shasum": "faa950594a86620457743ee1b65d40619d68a0f002002282661c171233afd213",
+          "h1": "h1:65xqiA8sM7NCLE561lJTBeDvBkhTB4/ZO2N7Bn3S1O4=",
+          "size": 12728214
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_freebsd_386.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_freebsd_386.zip",
+          "shasum": "8c613fe45f9124bdcd544a9e3740e86f42ae3c29e637989b13551e6955883056",
+          "h1": "h1:KC5Mu0NrHsptexaVX2xiP6/EuSTpMIqk8bRUpNqs1X4=",
+          "size": 12245768
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_freebsd_amd64.zip",
+          "shasum": "6c235613f1dd347c7c014afb0738fdb3c7e6b994bb11dc077b458c3cae276598",
+          "h1": "h1:qPqj4ytpBH48ER2UY6POXJnYwEg9d+rBDQD+OO7sz+o=",
+          "size": 13399782
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_linux_386.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_linux_386.zip",
+          "shasum": "41c157965f2dc33461f78e673705ce9435daa041b2f4a2b1147815a495b44807",
+          "h1": "h1:mFk3X6yF1GPmuHZL6QdnCzJC+mJr7RfStVrOZE6p1Ec=",
+          "size": 12272927
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_linux_amd64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_linux_amd64.zip",
+          "shasum": "01f62ddbc592475b0e8e6c60d943da3d115522f1b6811a6f395e899802c6b8d6",
+          "h1": "h1:+wA4ZnVONGJ6rFvM8cDnoec+zVdFFk/6WzABHDwmnFw=",
+          "size": 13414760
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_linux_arm.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_linux_arm.zip",
+          "shasum": "95d6f89175a8333702a2393ddf1c1fe4ced1577066e8e444cfa96d3d6a6bf438",
+          "h1": "h1:Xw63DGwYGeyl0iS0d3yNern3F+ek4kFq1r5rbvWhqO4=",
+          "size": 12558294
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_linux_arm64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_linux_arm64.zip",
+          "shasum": "48aa9f93911f15cc2e920243dc924bf0fbbeb432e36f4b0b76c4e901f91c2e5b",
+          "h1": "h1:Gd7yVNuRyKmDsEiWmJNaMbcjRLzwDkZiYt/Ky67+sOY=",
+          "size": 12141612
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_windows_386.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_windows_386.zip",
+          "shasum": "1f19029cd433af0636b5c29f31d9eb8c198f27e926b819e41ba72ec8ffeab92f",
+          "h1": "h1:10mkNHBhVIe67YNMqvfrbA0/3owu+6hon1ke9N74p9Y=",
+          "size": 12966697
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opentelekomcloud_1.36.70_windows_amd64.zip",
+          "download_url": "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/releases/download/v1.36.70/terraform-provider-opentelekomcloud_1.36.70_windows_amd64.zip",
+          "shasum": "852fb66c78959e2703acd9dc462a5eeabf83bfe276b927c4e2bc391ce18b5b0c",
+          "h1": "h1:YvI5kGWtOoFL7/0FaDql50n3KqX00tQjYjeyj5C689E=",
+          "size": 13756580
+        }
+      ],
+      "discovered": "2026-06-25T10:53:19.08256235Z"
+    },
+    {
       "version": "1.36.69",
       "protocols": [
         "5.0"
@@ -19989,11 +20090,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.36.70",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-25T09:53:29.498326245Z"
-    },
     {
       "version": "1.19.0",
       "message": "checksums not found in release",
