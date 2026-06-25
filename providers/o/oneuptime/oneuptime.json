@@ -66830,6 +66830,11 @@
       "utc_time": "2026-06-03T20:09:05.062259218Z"
     },
     {
+      "version": "10.2.11",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-25T04:54:32.67179973Z"
+    },
+    {
       "version": "10.2.10",
       "message": "checksums not found in release",
       "utc_time": "2026-05-12T21:53:46.156656317Z"
