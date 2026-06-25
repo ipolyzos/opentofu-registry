@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-discord_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_darwin_amd64.zip",
+          "shasum": "6845eaabf6ef22a7a6b059882b6892196d83d5d6a1e0cdd2d22b02251bf55987",
+          "h1": "h1:AIKn++4/4HFQUFB02HiZ9kn57LWsopdcnV7lfR/U1cU=",
+          "size": 6993610
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-discord_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_darwin_arm64.zip",
+          "shasum": "e14963270db3e3b17e7c86474b26b2a699880fd7be3f43c3ac7fa6be3b13c707",
+          "h1": "h1:g4k8eBJdTFMtb6km7BfWqYsoTLIT4553gw7kpJW4YWw=",
+          "size": 6505795
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-discord_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_freebsd_386.zip",
+          "shasum": "2577c9282f8c3890144fd34fea405dcf99f8339fbe5f232cc98f6d9added1df6",
+          "h1": "h1:1ja1jCs0FgnS57HKNMtbCpZBfeLnmFazkFG2c4O40Jw=",
+          "size": 6417699
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-discord_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_freebsd_amd64.zip",
+          "shasum": "54018c147098fa36c1d8d4e62a48ae0373f5aca41b18911d6d2bc81c432a67fa",
+          "h1": "h1:VQz421cI4pP10KnvhYEVMDSVpGR61/y1kQfMyqsbHxQ=",
+          "size": 6796699
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-discord_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_freebsd_arm.zip",
+          "shasum": "54eb2f8c918bb4bdcb3601cb20905dd338d3263e5c31ac4f36a3772c7e401158",
+          "h1": "h1:gOjx5l0kfYsHvHtRnR5LCymzvndRWxxHlH1BfgHS++0=",
+          "size": 6397753
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-discord_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_freebsd_arm64.zip",
+          "shasum": "dceccd19e65d8d153e98659449f2acb6a1afcf70eefadb183056e7524375f68d",
+          "h1": "h1:9YYz+gPMrwj0VM2s6zCa6hpODRd2TtgiFFK7597vtEo=",
+          "size": 6169771
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-discord_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_linux_386.zip",
+          "shasum": "b98c553d51e7a87fd3a580034e4baefcf5df40e992fe573a8bc282cfac2ddcea",
+          "h1": "h1:KQa6OYmT80bEN/WXLcK0BuocpzByyUwM+YykA4pJBxM=",
+          "size": 6446887
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-discord_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_linux_amd64.zip",
+          "shasum": "c34b40f211dbf48102f4def3202872cb7ff508d5be328d8518c632f09f54ceed",
+          "h1": "h1:KFGVCD/A8nxkzW6mMqySan94tAGbWo4eITlIdv8rr30=",
+          "size": 6820135
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-discord_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_linux_arm.zip",
+          "shasum": "9d87012da67add502a00f6bc9bc1f6dccfdf01dde3dcfd27cdbfcfa1cfc2d82a",
+          "h1": "h1:PO5/TJo+iM7Nmb7AIG4ZvH8gEvVntW6PIyLA3RmWrxU=",
+          "size": 6421602
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-discord_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_linux_arm64.zip",
+          "shasum": "df17a278c7bd04d5be82a3481fcfe46e1edb31f71a07d9448d031da75b8c5365",
+          "h1": "h1:brBpUSUzLzPtRTD1w3m65RUbPgAJrHKdXMEix1Qmehw=",
+          "size": 6195234
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-discord_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_windows_386.zip",
+          "shasum": "b62017e9e798b44494baeaa908d238181450c6d0ae235196d963917fa16cc98f",
+          "h1": "h1:8DfJZX6Jw0Us7xDrnnxvlt8q51HItvw167bjZTxhnXA=",
+          "size": 6745805
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-discord_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_windows_amd64.zip",
+          "shasum": "1ad757d7b7bc6ecbaf927ddbfd372109d63005f5c675757f85beb93a145d065f",
+          "h1": "h1:GPbLsnT+m9CI+DBnUYkJOaww7q9GuFPiSw4/QMKey5g=",
+          "size": 7022251
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-discord_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/kirchdev/terraform-provider-discord/releases/download/v0.3.1/terraform-provider-discord_0.3.1_windows_arm64.zip",
+          "shasum": "c5cbe15f39cf383c93c113554b31076193b0a47252ebbb413419228cbad6b9b9",
+          "h1": "h1:DozeA3NWnq6wTGuSzho+xIrNgQLA0YY/Hn2MGEXKSvc=",
+          "size": 6276414
+        }
+      ],
+      "discovered": "2026-06-25T21:04:09.632472402Z"
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "6.0"
