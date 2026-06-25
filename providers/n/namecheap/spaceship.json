@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.5.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-spaceship_0.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_darwin_amd64.zip",
+          "shasum": "d36b8353a38b37c02bd543b34d9b00469867daab5b1097c1ffb8d0a0debb0c98",
+          "h1": "h1:E3AALz4NLA05dt+jFb4tbMxpvgJEVcS+GWnV4E0KQeQ=",
+          "size": 7095215
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-spaceship_0.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_darwin_arm64.zip",
+          "shasum": "2f209f95b274fd5a768800610ca7711114472fffec9f0214cf601ac2ddfb52d4",
+          "h1": "h1:xC2uAHpLeqFvMHBmCIVb9A4+RuDx2jngnmVXvOXv8Qg=",
+          "size": 6595996
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-spaceship_0.5.3_freebsd_386.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_freebsd_386.zip",
+          "shasum": "0e5fbf2eadb2b28988020d9aab477ee43643e043f4a5c2bb2d455605a9a0f967",
+          "h1": "h1:fQ0obztNaKYWG8t9q6sc/0fa1dqArXSZPtkEEhj/V9o=",
+          "size": 6515134
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-spaceship_0.5.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_freebsd_amd64.zip",
+          "shasum": "4dbac42730ac33667f9206b6653635731a8400ef70548ea481dc2eaf57cb65b3",
+          "h1": "h1:YXEpgS6k/LYv8KANPmuIvDKoTjiJU3yP5OwH8mrcdPI=",
+          "size": 6886942
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-spaceship_0.5.3_freebsd_arm.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_freebsd_arm.zip",
+          "shasum": "95c5b7dbaa943bf9ce8fda25f33c7e79e8ba078d910b91b0c67582400a35306f",
+          "h1": "h1:djWTvx9sTJJzRJcxVGL8n7rmjKUjgJ/ylG35OYr4F/w=",
+          "size": 6484644
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-spaceship_0.5.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_freebsd_arm64.zip",
+          "shasum": "331b1937f22a074c441b7a97eb24d1f47edfe62ccf5a9f164d0a922856587919",
+          "h1": "h1:aDTjXP4Nc4BJrDkj3Ip7D3vs4qqvFBjG6+jI+94L6aw=",
+          "size": 6245936
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-spaceship_0.5.3_linux_386.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_linux_386.zip",
+          "shasum": "d367d51c3537b3b74798b6ffff483e139e3dacc89537f41b419dc3baeab0fde0",
+          "h1": "h1:zfWn+1ZBeQFzykBw21ZHiYVFyKyuTMDiQMPtnMgCaVc=",
+          "size": 6548159
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-spaceship_0.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_linux_amd64.zip",
+          "shasum": "1fb2d50ab8c54ad4e08b05b9c1e85b08ae3fca71ab4f788dc9faa77426b65d54",
+          "h1": "h1:ew5dbDLNuCozg3u56Gm9Fh80JRfoGTTkdg0IQygWw2E=",
+          "size": 6912208
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-spaceship_0.5.3_linux_arm.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_linux_arm.zip",
+          "shasum": "43b07c40c05e8fa837825a8abaac0db0aedba45c0e32e21b902ba40bc556eccb",
+          "h1": "h1:BoVuIHyKemfIjhSoMUQZJX1G5JDmFcR5Q6z3EHUs8ac=",
+          "size": 6509523
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-spaceship_0.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_linux_arm64.zip",
+          "shasum": "c8bde94e72a430fcaabfcc99ba59aa9a9c04f0eb38cce2499d63e1e953d25f02",
+          "h1": "h1:cPoDoMmbtb0EcKZ9RhRSQ1Ohq4DowRbAS0/MbH/sqB8=",
+          "size": 6273952
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-spaceship_0.5.3_windows_386.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_windows_386.zip",
+          "shasum": "9618388b1c04ebbc8e7c5fe4d7da53b6c7b04056ab533e4d53cd2b91e08387fa",
+          "h1": "h1:HU3EyKF+747M+S3SL/TBZ/Yx2DxSpjumgsfPywGFndA=",
+          "size": 6851056
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-spaceship_0.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_windows_amd64.zip",
+          "shasum": "b0de819c68fbe231e431595683d5ecdedc79f37e7b82d8381ad2c367c9bde453",
+          "h1": "h1:5Adfkzd5tEF2QxUlNKGts3Lo68D02aDcbH0DItDpCAA=",
+          "size": 7117939
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-spaceship_0.5.3_windows_arm64.zip",
+          "download_url": "https://github.com/namecheap/terraform-provider-spaceship/releases/download/v0.5.3/terraform-provider-spaceship_0.5.3_windows_arm64.zip",
+          "shasum": "88a60e4d50bcf84873241524256cc11ddc533f924b84ead7dbc4ce280260ff51",
+          "h1": "h1:i2WDF31JlducOn6dJkDJdZW/rKxmqAP/leidpWMPaAw=",
+          "size": 6358337
+        }
+      ],
+      "discovered": "2026-06-25T12:39:59.159491736Z"
+    },
+    {
       "version": "0.5.2",
       "protocols": [
         "6.0"
