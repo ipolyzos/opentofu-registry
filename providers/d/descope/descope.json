@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.11",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-descope_0.3.11_darwin_amd64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_darwin_amd64.zip",
+          "shasum": "896afd8e991301bc6569666b8a2f14ac02f4fa9751749d2d831b1105ef18d1f0",
+          "h1": "h1:qj5W7uEAZq6O3OIy3wshHQxvusv3W0iTSElvau3aeXY=",
+          "size": 8507902
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-descope_0.3.11_darwin_arm64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_darwin_arm64.zip",
+          "shasum": "c58ef1fd333137b1c1deeb4c74caea3d3882ac374a3803b86c99305b0e4fdac9",
+          "h1": "h1:fjwKOU81A25xx8BRm5ndfcV1zIBMnMuaBTQ4XaEwCqM=",
+          "size": 8031091
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-descope_0.3.11_freebsd_386.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_freebsd_386.zip",
+          "shasum": "7a561c063885d879ec0f63b9b5ec74c86362cb17fa5a9a0f4fbbf10f5f1f2cd6",
+          "h1": "h1:LnC9YmX/ExjxOtcw9YUKVFTlbpuPj1nUh9GA4fbs8Vg=",
+          "size": 7798012
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-descope_0.3.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_freebsd_amd64.zip",
+          "shasum": "5a169c09fb91e7965e1bc3de09011dde88d37eb4e91a53db2aa9efafdd58536a",
+          "h1": "h1:0lDP0zSbxt+eec17ycOLhCevx4FUA8qX+5YyQDFXk0U=",
+          "size": 8240479
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-descope_0.3.11_freebsd_arm.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_freebsd_arm.zip",
+          "shasum": "effc3fcfed0a503f958020c1b8f5897c61bfe01abd4a654be575fe0bfac4db55",
+          "h1": "h1:SF6Nj77fZ0BBVH77KL8eLTgta9VVdCK2mQrJHLMaMXU=",
+          "size": 7831325
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-descope_0.3.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_freebsd_arm64.zip",
+          "shasum": "b452df06c5fb6cc3c94f5d6cf3658815afe7bdc37c0df619e2b1d4b4b3c869a8",
+          "h1": "h1:WWEUlY6XEbYtAAfH0uEIC/0t5LSMWi0YvJ7jOyJliwk=",
+          "size": 7534910
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-descope_0.3.11_linux_386.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_linux_386.zip",
+          "shasum": "2b5e9d1635e8abb173d4b3f942679361849f6fe283f7f1994fcb8eca38a05b9f",
+          "h1": "h1:HZnhPJsQJbnBXA+5w7sRtxxOtr9hroKIx0EkNapVcCU=",
+          "size": 7832278
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-descope_0.3.11_linux_amd64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_linux_amd64.zip",
+          "shasum": "0f74795430cf6b29a66ef7b41e47fab6953e17cb30787079ad82930569ae4695",
+          "h1": "h1:Bku3I7tNiEcFrCUM8niYjwfbXYTkL8HscsyL1AUAtbg=",
+          "size": 8264487
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-descope_0.3.11_linux_arm.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_linux_arm.zip",
+          "shasum": "902c940ea5c578b399739fe7cb4cf918029975fabbc20b29e05701a53e1817d3",
+          "h1": "h1:WArYiMvaJUEozPaYYeWYXoZKvnDN0KAsBXlcAKSTo6U=",
+          "size": 7850344
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-descope_0.3.11_linux_arm64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_linux_arm64.zip",
+          "shasum": "5fd59da41e18bf6c7578d692a3850eaaabadf2a186dbaed018980c3fdddec41f",
+          "h1": "h1:L0Lno24EDOJiZ5FsUxejSdB4xPvC2cxPqPdN4Neg/Og=",
+          "size": 7560962
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-descope_0.3.11_windows_386.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_windows_386.zip",
+          "shasum": "cee1aad6cbeebf2c8e5eaeb2027aeddbd8285bb27d89f6bbd3e5c49598dcf526",
+          "h1": "h1:fFa4xweAktuAr3UlAbA4RmOTojEzxATYut0mILn4TF0=",
+          "size": 8229281
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-descope_0.3.11_windows_amd64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_windows_amd64.zip",
+          "shasum": "0d125a80c5bc402cacf7f82211c53d4597f8da4b607b2939342f0df43a3d85f1",
+          "h1": "h1:GL/0/Yk5nB1PYkpn1Ji5gEaArXP80uwIJURLsEnx8w4=",
+          "size": 8566753
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-descope_0.3.11_windows_arm64.zip",
+          "download_url": "https://github.com/descope/terraform-provider-descope/releases/download/v0.3.11/terraform-provider-descope_0.3.11_windows_arm64.zip",
+          "shasum": "d392fb0772f810c11c0102d32f4c31ac00d4460625d9cae8faf2cf50b015f3c3",
+          "h1": "h1:kw4qBM1u2VvwaciAYpFO6DUTS87yg2AjscT4pIxMJiw=",
+          "size": 7654884
+        }
+      ],
+      "discovered": "2026-06-25T17:58:21.737863484Z"
+    },
+    {
       "version": "0.3.10",
       "protocols": [
         "6.0"
@@ -4779,11 +4907,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.3.11",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-25T17:13:51.54276879Z"
-    },
     {
       "version": "0.3.8",
       "message": "checksums not found in release",
