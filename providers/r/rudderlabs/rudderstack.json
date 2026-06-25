@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "4.8.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_darwin_amd64.zip",
+          "shasum": "4ee0813f9de9502604e53f8516bafafdfe0e61e31d577a2423e80704fad2dc91",
+          "h1": "h1:dmfv9XhaPZN5Msh45OzXu8S0pVDJ+ET//SX56RdFQyA=",
+          "size": 7486520
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rudderstack_4.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_darwin_arm64.zip",
+          "shasum": "93825fb92408530625062a976717f6f9ecd8ef644df59581899edc0e1f2b19c5",
+          "h1": "h1:5fyYfN4+wyGmXEERG+Gvrz9Esb/nZxXbN9En/GVlTMY=",
+          "size": 6937817
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_linux_amd64.zip",
+          "shasum": "990236bc9a582da0c6045db82177c0da881d911e05471ff061cff84abf62cfce",
+          "h1": "h1:1QODjs8qaOhRf0GlPDycV8W0uNz/zdmqCjgYQnQfHxg=",
+          "size": 7328838
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rudderstack_4.8.0_linux_arm.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_linux_arm.zip",
+          "shasum": "27eac7d17db70795cf3bd33fcb12154009ba2b541fdae4eb5a9a8a740220af2e",
+          "h1": "h1:p/frdDipHnF6WNmQ98eh6RAWLapPKjZ+97TjfA6/8GU=",
+          "size": 6947656
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rudderstack_4.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_linux_arm64.zip",
+          "shasum": "55d493b0352aadf6c52ca999acd2ca4e1dae76ae299cad7bbebdf818da37a905",
+          "h1": "h1:Yn+NeBrhzzpLCZpkOJRH3SNPrXk+d8MxcQXn0pAjDK0=",
+          "size": 6628923
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_windows_amd64.zip",
+          "shasum": "2f9504f05780134db72ee2633ab042ae516ba9999a8505bf7a14917c8b555f31",
+          "h1": "h1:3Ay6yonzd0LT6oPLIlWOUO0IxaOjwvO4FYDuq5zyWyU=",
+          "size": 7540037
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rudderstack_4.8.0_windows_arm.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.8.0/terraform-provider-rudderstack_4.8.0_windows_arm.zip",
+          "shasum": "c05d6ef6895bc7be2dcb11f89fb68a37503120e4620622bb3c2c74d86dca048c",
+          "h1": "h1:qgjywCieDEuZaLjWAdlDdclHmnRp27sdfJTHoC9n9Q4=",
+          "size": 7106553
+        }
+      ],
+      "discovered": "2026-06-25T18:47:17.027526925Z"
+    },
+    {
       "version": "4.7.0",
       "protocols": [
         "5.0"
