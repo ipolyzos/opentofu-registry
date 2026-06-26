@@ -65688,6 +65688,11 @@
       "utc_time": "2026-06-21T11:20:31.750871866Z"
     },
     {
+      "version": "0.1.606",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-26T19:51:13.718875995Z"
+    },
+    {
       "version": "0.1.604",
       "message": "checksums not found in release",
       "utc_time": "2026-06-15T16:44:55.227240989Z"
