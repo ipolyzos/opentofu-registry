@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.2.0/terraform-provider-betternat_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.2.0/terraform-provider-betternat_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.2.0/terraform-provider-betternat_0.2.0_darwin_arm64.zip",
+          "shasum": "5abc1c37fab06ee26e1e6722c590631b74c2d190bf4f8f4d66e2951c69102d57",
+          "h1": "h1:mWVezAxhQTBJP2W+hKHgl+p6dQ7ooaTFUeeGNit/p3Q=",
+          "size": 15222318
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-betternat_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.2.0/terraform-provider-betternat_0.2.0_linux_amd64.zip",
+          "shasum": "955b6ded825fb4a8e5f93b0e93a225656813a984e0dd093cad5592ff7ea4a568",
+          "h1": "h1:SG8et1aeFmaE6UoeyH/ZVBvj5MJT0OnJPZd7QO42TEw=",
+          "size": 16419184
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-betternat_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/nowakeai/terraform-provider-betternat/releases/download/v0.2.0/terraform-provider-betternat_0.2.0_linux_arm64.zip",
+          "shasum": "c67a3e7cd90596903efc17ade0a8feb92ec132827d92a70ac0fbef7e3e9d2fc2",
+          "h1": "h1:TOBlWlpkN1y7UHDYO+96Dbyxa3Fd+kdinjvx+VkXTmY=",
+          "size": 14338398
+        }
+      ],
+      "discovered": "2026-06-26T16:20:34.580322076Z"
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "6.0"
