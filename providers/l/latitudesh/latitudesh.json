@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.3.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_3.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_darwin_amd64.zip",
+          "shasum": "00f80ac7083f6b045c7384f9d9689538393a4451e03318ac8c61c38bafb1dd08",
+          "h1": "h1:ptxZl3Dth3hfQu/ZWs+YpPlVKBjqutR6yE3TlJK40+c=",
+          "size": 8353131
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_3.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_darwin_arm64.zip",
+          "shasum": "1167da3fbbce55bf517e54fce839dca909d2eae02624e5d21a5d1c75082aca7e",
+          "h1": "h1:NC77DiPKnSN8NqpZJz0YfjlryHfwiJ0wNt4t3R0eU6A=",
+          "size": 7742387
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-latitudesh_3.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_freebsd_386.zip",
+          "shasum": "82974e5fc5d3183ca8616239893845766fa848f36855c06a53ecfb1fb42ca4cf",
+          "h1": "h1:eK2n26x0aC6ixYQVXwTaswrW3WL5i59EgDhna2yYRio=",
+          "size": 7683555
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_3.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_freebsd_amd64.zip",
+          "shasum": "e3a0874fb604d2cce27b50fd16c9f8463b26869bc40da76709b708cb96d8014c",
+          "h1": "h1:EjlNNUwvS1hnz1006/yR8ma6G6gA7fLJL2lNhPMJhFI=",
+          "size": 8138576
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-latitudesh_3.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_freebsd_arm.zip",
+          "shasum": "d56be9299787ae46311ee61f40533445b82893bd1ed0f85f8dd88a5faaa431e8",
+          "h1": "h1:O9o4iY4Rs5QGc+tfgXm8PIcxECVNvJhONCo1m18cmUM=",
+          "size": 7645343
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_3.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_freebsd_arm64.zip",
+          "shasum": "b83f467b14eb5c3735efe2f3eed042af3b19d578a6116b5030c0ec572c628534",
+          "h1": "h1:3bukgx8NDZFzGXmEVux8SvMqfG/V1BTP6zaArYx9Sfs=",
+          "size": 7360422
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-latitudesh_3.3.1_linux_386.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_linux_386.zip",
+          "shasum": "a2ac81a354b5b3c329acb653110e524dd4792bd6281909bea5d6d1ac61123da2",
+          "h1": "h1:ZatZQ0wsK3Xi5Nd1O8XrxlxWAJI5i7397zNBu+m++G0=",
+          "size": 7715702
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-latitudesh_3.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_linux_amd64.zip",
+          "shasum": "fe04dfba391803083052ee7840eba3b258b751c7cf38c603a63b4868fe540d99",
+          "h1": "h1:r4Z6izqOPDvHOK5Xnegu9O25K12ZRqR/HZMNvmKcBmM=",
+          "size": 8162427
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-latitudesh_3.3.1_linux_arm.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_linux_arm.zip",
+          "shasum": "1a50ae120055231a882c5893ef772f2d4389f43d8b91f1e3c6c3ff925b98fa7b",
+          "h1": "h1:0sXgsyQKebwCuuAffCy/Sdq4SH1geNwJjLS5YyPKEd8=",
+          "size": 7670157
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-latitudesh_3.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/latitudesh/terraform-provider-latitudesh/releases/download/v3.3.1/terraform-provider-latitudesh_3.3.1_linux_arm64.zip",
+          "shasum": "f5d47d4d3aeb44bdfbda9c4064e98b80e1f2d63e0ac533e99b804291b611de93",
+          "h1": "h1:YgSfbqPqnutNvz88jTSgmbf3cvaDypcpbU5Y1m+t2bQ=",
+          "size": 7389147
+        }
+      ],
+      "discovered": "2026-06-26T17:51:01.713031259Z"
+    },
+    {
       "version": "3.3.0",
       "protocols": [
         "6.0"
