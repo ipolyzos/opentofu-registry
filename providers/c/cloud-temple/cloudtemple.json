@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.8.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_darwin_amd64.zip",
+          "shasum": "feb3d01ef059f121b55ca2e237d9824ec9c527d056ae4821c1daa1da5add0005",
+          "h1": "h1:QjVL17rS45ESNerh6EalREMAADhoGPKZS2F+ObzL8AE=",
+          "size": 7340531
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_darwin_arm64.zip",
+          "shasum": "e0198d7b69a01f1af3b15dcfed04344e63d5969c264594434e32bd5506bb76d6",
+          "h1": "h1:FyGwafbKoceP790VbDUZgnP6KVI7nY3UzNiLXRBiyE4=",
+          "size": 6868194
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtemple_1.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_freebsd_386.zip",
+          "shasum": "5a13f8bf98a2669f8a959d795133f7b7364c92bd60ab8ab29d7a3c62753e7f7e",
+          "h1": "h1:rcxXRXbDVLqJKN4SS9QeX8tVvQNIJ5GTbvyekiyyMMM=",
+          "size": 6713196
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_freebsd_amd64.zip",
+          "shasum": "0ef5f68455247aeecd5943e996227b908f4e707c8542b1734974de21a22aaca7",
+          "h1": "h1:dH9DuyOu5WvFs67MaD2FGqRDFSRAQy+q2QTWnADiAOc=",
+          "size": 7156000
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtemple_1.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_freebsd_arm.zip",
+          "shasum": "2a2970ec1d568e0540a63ca34f78d3834fa7952045b930c5867cd87da1940a01",
+          "h1": "h1:XoNxBXDfOBOinvArI9IzWcu5XD3pQgDdUXXrG0rAMgg=",
+          "size": 6742538
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_freebsd_arm64.zip",
+          "shasum": "563971d774afef025a806b759e5175ed3b1caa77c7c0727e17feeac471318e1f",
+          "h1": "h1:rrJoI8rBzciPC+V3EJHWcQSarutIHp00yXbqG1pl/SM=",
+          "size": 6538424
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtemple_1.8.0_linux_386.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_linux_386.zip",
+          "shasum": "799912b719035ed918ff88c0e0a1d375a159db0e96ebd4a76a934b1fba164870",
+          "h1": "h1:Ztumc44lESu1mTTT13PajljDKwWSef5Pk52vWQ2LB9s=",
+          "size": 6728617
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_linux_amd64.zip",
+          "shasum": "c55bffc0c8dd7d27b8e0192c80a2e25b8cdc0a36fa09422043350fc44bf581d8",
+          "h1": "h1:nXGrOHyBaKlyIcR/y4sku6bIKcYX/6mDNdv7DOZM5YI=",
+          "size": 7163144
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudtemple_1.8.0_linux_arm.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_linux_arm.zip",
+          "shasum": "55bc424fe770446526dad81cc43dcfd8839f6ba81f535aca051e4ee9376e901e",
+          "h1": "h1:SnNhkDm9JXbjRgnmNjvOwPbss/ufRS6dI+0lAeZm60s=",
+          "size": 6747832
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_linux_arm64.zip",
+          "shasum": "81d1230b75d9e7c27cfd19413f79f06085ff5953f746db10f4c844b7753c8b22",
+          "h1": "h1:H/h6Yp2H9U3paQU03sqR5fLRyQVKoHZ7MXOvQ7c695w=",
+          "size": 6547001
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudtemple_1.8.0_windows_386.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_windows_386.zip",
+          "shasum": "916355c8d94e3e9b322f3d78b19d5cd3acf43f5b3da4825f90d088eed64fb7da",
+          "h1": "h1:of9i2bGOQq3hvOM5nho3IvGyXiPN9xzpiSoa4CfHv2E=",
+          "size": 7063816
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_windows_amd64.zip",
+          "shasum": "ec2701b3f1555dd0ec506bb75601473281125d6e401139659db0d52a55e65c96",
+          "h1": "h1:PFHvpv8EQ/Odf5Lxiog+bJPfdJGovqER/fzqT47vQ5Y=",
+          "size": 7371612
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudtemple_1.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloud-temple/terraform-provider-cloudtemple/releases/download/v1.8.0/terraform-provider-cloudtemple_1.8.0_windows_arm64.zip",
+          "shasum": "1cb57eab444f5018edf82aac0c3562b501c4c482daf26382034efe8c74a6c85b",
+          "h1": "h1:AhQnUloX8GShzfGOhX7sp+oG3boDOw/GWFBj0Ulu2RY=",
+          "size": 6637381
+        }
+      ],
+      "discovered": "2026-06-26T16:20:53.071339638Z"
+    },
+    {
       "version": "1.7.2",
       "protocols": [
         "5.0"
