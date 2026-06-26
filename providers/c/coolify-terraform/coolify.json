@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.7",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_0.1.7_darwin_amd64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_darwin_amd64.zip",
+          "shasum": "279db78dc8b92755083024cc3d47d4e749626272052f0c82b3fbf9c80fc106a6",
+          "h1": "h1:++Jh3Q9NGFm+0d7M5EM4rpCjIuBW5j+mqwA6Xa7eSp0=",
+          "size": 7412756
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_0.1.7_darwin_arm64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_darwin_arm64.zip",
+          "shasum": "5b93356fb59354cca58872101d7e1c46b347bf910b3496be0602d451f74785ca",
+          "h1": "h1:fZ9RDV6z1vqrdeN86bfrtHtqFTLoziKVYPLuDiWsT7o=",
+          "size": 6894294
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_0.1.7_freebsd_386.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_freebsd_386.zip",
+          "shasum": "608a2dd6de7069e428dfca1b8eb60b1a26c8ae9f3e4565e5cbeb833b2a7217dc",
+          "h1": "h1:GGmBmuEQnZ44x/uQB3gt4w2v/sQ0w93H4ZIzdEtWOug=",
+          "size": 6790505
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_0.1.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_freebsd_amd64.zip",
+          "shasum": "88f88e7580415516ac8327389b5f637bc6783b3c7f7186846c2ff30aaecf3455",
+          "h1": "h1:7yaTKtuH/NL7epvZaQWQjunARGPIdr8aeFgxa41mDyo=",
+          "size": 7193259
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_0.1.7_freebsd_arm.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_freebsd_arm.zip",
+          "shasum": "857fc8bcf11cf159ac23d451ce415607fe19bbbef166d80319f6cabfc28287d3",
+          "h1": "h1:K4+6eIUrpQ7PTmFQuZe0TuMvSmuCaHDBlP+V6lLbIaM=",
+          "size": 6775484
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_0.1.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_freebsd_arm64.zip",
+          "shasum": "7d75c830fcd285a9ff9ef743cb0d0a74500745ef32e88175b9a0136bc33962f8",
+          "h1": "h1:I8c7MqbPlYCTl/1rDsqlXho5xf0z2f/Kq67U/rqRSZ4=",
+          "size": 6525006
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_0.1.7_linux_386.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_linux_386.zip",
+          "shasum": "e4d0665319a5c02872ae5cf94bf9734fd22a5e5f981cb9eb225e46bf2c5db237",
+          "h1": "h1:oZ6pXHU7BzQqxQDZdTveQul4DX+ELJgkKgXXWcDBffM=",
+          "size": 6826254
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_0.1.7_linux_amd64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_linux_amd64.zip",
+          "shasum": "7ae20c12c84746325a80563cea166b64f9ef4acfd8da25662fb3da4c330b04f9",
+          "h1": "h1:4vlEEuZy/xGvaI9B2rHrLb1aE6YJn44BqvoDwy1Fs4Q=",
+          "size": 7222233
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coolify_0.1.7_linux_arm.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_linux_arm.zip",
+          "shasum": "431063057fcb90c5fe9fe9edb0eba75b156adb2fe067daf862864826cf67323f",
+          "h1": "h1:e7J8fxxu/0ijB6pbU/IRDq6cRL37En59OHzprxmvzIQ=",
+          "size": 6802201
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_0.1.7_linux_arm64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_linux_arm64.zip",
+          "shasum": "5a29b9e3d6a8e1470828ebff0476b71108eda06b932b72d5e867444150d5bdc7",
+          "h1": "h1:3yPBse3N12wat/IS3q/0lyYTcZTnHuerlcycVb7HcIU=",
+          "size": 6554555
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coolify_0.1.7_windows_386.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_windows_386.zip",
+          "shasum": "507db44447f7f1935e06eea81ed5117b180882dad0d2feef87b017809158ac0c",
+          "h1": "h1:I/PHnFOy7YFcO9TcLJ0+U+s/pAV9zZXeuBeUSLngLA8=",
+          "size": 7145908
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coolify_0.1.7_windows_amd64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_windows_amd64.zip",
+          "shasum": "ae9d941e03b82a9288cec093d168ce474793916347ba21c2f2e93a504dcd72ce",
+          "h1": "h1:wHiMWaazt5q2tYCQvhbsRNwXiZ5nwkb1dWHD6lNGafY=",
+          "size": 7433337
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coolify_0.1.7_windows_arm64.zip",
+          "download_url": "https://github.com/coolify-terraform/terraform-provider-coolify/releases/download/v0.1.7/terraform-provider-coolify_0.1.7_windows_arm64.zip",
+          "shasum": "c6937ac842d55a1fa57ff9c6b5038ecc8e086aeb3725c8cc4cae17ab050f8fd7",
+          "h1": "h1:u6YfhmghGzOQb29JFTiawiuHIVE0oZRx6XU16FXbtDk=",
+          "size": 6640125
+        }
+      ],
+      "discovered": "2026-06-26T17:07:47.751657703Z"
+    },
+    {
       "version": "0.1.6",
       "protocols": [
         "6.0"
