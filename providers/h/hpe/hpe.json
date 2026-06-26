@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpe_1.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_darwin_amd64.zip",
+          "shasum": "d098f146b3b762adc61426b6458c10016c6f5d5559cdc9ffba9ec40abf0c7ffb",
+          "h1": "h1:yNOa2tlj4smap3bb/zkzImKDVBEXT4o4mcOQeut8ZtU=",
+          "size": 21358279
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpe_1.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_darwin_arm64.zip",
+          "shasum": "d6abbe25147753d6e697b1075535be62b78fc6b1687860a53afb6c30d9480c95",
+          "h1": "h1:X8AYsOMtWwpRuVFcjz4gJg7LKWXMIAHjWBMHEHnb1tE=",
+          "size": 19432466
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hpe_1.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_freebsd_386.zip",
+          "shasum": "f673d7f15c1437d1c3a6cc5b89eccccd0359fde84f5535bf756e5c9de8499f17",
+          "h1": "h1:3akYw7gYEyuXMNwtG7jYhRXlw9F+yRlNW4aQapt4+iA=",
+          "size": 18446172
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpe_1.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_freebsd_amd64.zip",
+          "shasum": "ab9c892dbf55d740a9076ddc73b4918395dc4b55dd8cd1e332da0ed062ae4386",
+          "h1": "h1:iOHj833NjHOGzRe3HMSdup9TxfkNTf4javt6+fMr6eQ=",
+          "size": 20761914
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hpe_1.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_freebsd_arm.zip",
+          "shasum": "883e23ff3097d4a0f673ea04ac3f8e327dc0507b50659d5c7bff54c91e2c7a80",
+          "h1": "h1:Ns2rsMKI5TOq2uBBgwsPuD62nHA9bOu+00zf/vIFz5o=",
+          "size": 19238143
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpe_1.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_freebsd_arm64.zip",
+          "shasum": "77a770b759aca63d48df4dae8756f35337a0eea8db9ce75ba0a50426f5f4d01b",
+          "h1": "h1:cpsrYnNVWsNqDtpRsVcbLwhS2NApGnYDP4OtLnqB6LI=",
+          "size": 18216957
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hpe_1.5.0_linux_386.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_linux_386.zip",
+          "shasum": "9f60ea5850a5c0c455a6ef100d97e2d533c3183c2b81946ba67653aef3685320",
+          "h1": "h1:wtmtNzH2EYT79TbnV3fBLesc4STCJfuxrEfw5PacbE4=",
+          "size": 18493204
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpe_1.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_linux_amd64.zip",
+          "shasum": "dae715c4f1a84cbc790e07adea204468c9a10787dd3838b9348cff1b8ebc1652",
+          "h1": "h1:1Gtrvko5YPqICmHmI3bXfhQPeS+MO3qhda3xxiwu+78=",
+          "size": 20787283
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hpe_1.5.0_linux_arm.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_linux_arm.zip",
+          "shasum": "54e962f1118d820922f31f0188a9205fae6d2b15fc4037e801facbf3efd8d0e0",
+          "h1": "h1:OBIoMl+9ZrM5iF8UELrfxAs4hVIBoeWz9J7qj1vfdOI=",
+          "size": 19260781
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpe_1.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_linux_arm64.zip",
+          "shasum": "68bca8392a26ca7a93009af77cf25283ae0bdf9b9e9956482b79576a1f641c24",
+          "h1": "h1:kuzFROtpJHKng+lxWB4BssGvTe9Vp2Wkd0/b/q84xW0=",
+          "size": 18255797
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hpe_1.5.0_windows_386.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_windows_386.zip",
+          "shasum": "3e59fbf3501aedc4989003f4ef0d3be36020fc3b0ef459666606aba7999c8ceb",
+          "h1": "h1:1r9j7bLOaMUOpLq+CqvxmE59aQsAyDPvixwpjYHbN4o=",
+          "size": 19835980
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpe_1.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_windows_amd64.zip",
+          "shasum": "7a376d5a3ef752b86241e5b6c1cb481966cc2cab06a5546cbd8a9e5b58c57426",
+          "h1": "h1:7Sw+RoFYLUrvk/Wx7b6Y+Qvu05KJb4P3ucffkvNhoHs=",
+          "size": 21403572
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpe_1.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/hpe/terraform-provider-hpe/releases/download/v1.5.0/terraform-provider-hpe_1.5.0_windows_arm64.zip",
+          "shasum": "4670450eca55007d5f476b8ed6cbcc0e3ab0d69a2d9225c4a97bfd30f71934d0",
+          "h1": "h1:Ffd6gocE1oxmrmG5bdhjTjeEl/uSQvFeKO1xBPnTAHk=",
+          "size": 18367796
+        }
+      ],
+      "discovered": "2026-06-26T11:02:16.349391468Z"
+    },
+    {
       "version": "1.4.0",
       "protocols": [
         "5.0"
