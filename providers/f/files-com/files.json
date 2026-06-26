@@ -65388,6 +65388,11 @@
       "utc_time": "2026-06-26T16:20:28.497344069Z"
     },
     {
+      "version": "0.1.631",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-26T18:30:04.621119021Z"
+    },
+    {
       "version": "0.1.628",
       "message": "checksums not found in release",
       "utc_time": "2026-06-24T20:30:42.532447843Z"
