@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "2.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_darwin_amd64.zip",
+          "shasum": "c283718b06f332d0df8d19a22640c469dbe9e796f77542c46e6819af279c4747",
+          "h1": "h1:KLLp3ss7m2uMpaO4n+QHFsry0sqYwoShIC7WQUdGKYE=",
+          "size": 7539089
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_darwin_arm64.zip",
+          "shasum": "2ad08ab57fdf06db71d4fddbbae460ec72052e585877c65f1ffa5c3558636fdb",
+          "h1": "h1:kLKaWJFN2naasTrroDG4jOdWtnu5a3DjGMoLBssw9wI=",
+          "size": 7022935
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_freebsd_amd64.zip",
+          "shasum": "03450a1b9d10cb1e14e76aff60a0a75ada1427319abe58e739018de4ebaed01b",
+          "h1": "h1:chC82bWHepk7l0OELnmfK9M5WojprnW48UzSajEIKpE=",
+          "size": 7328253
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_freebsd_arm64.zip",
+          "shasum": "c1b73e4d0262d000227dbd44650d3138bc4e6b8be6da9de19b25daaf173cb41f",
+          "h1": "h1:TLl5nLfMHJ/7G008W//0T434PGh+nlBbYp0y3m7+Dwc=",
+          "size": 6659551
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_linux_amd64.zip",
+          "shasum": "c3589b453cd00d344daa77896ed42638650f1b5f6fc06fa516bee41cd75644f0",
+          "h1": "h1:IYOZlBZlYDHRNwDBmoTGJocjBBddMFEdqDcK/YZmfKo=",
+          "size": 7354526
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_linux_arm64.zip",
+          "shasum": "310dbecb4f2426bf8d5611244ce0a552b68349f1ba4bfe70fc5a383fc12a1724",
+          "h1": "h1:DSZjw0O9aZ+qXWWLVjm6wxcx0Wu1UM6f04IAf1KI2A0=",
+          "size": 6684449
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.1.0/terraform-provider-truenas_2.1.0_windows_amd64.zip",
+          "shasum": "f53b49093bd7b0b99d31e1e6cdd05ddd4db47d98d9db8c8f1efcff21fc06e187",
+          "h1": "h1:8nViwJe1G2z31RTXfnMJDnq9vsobHVyziD0R4zO+VlU=",
+          "size": 7563493
+        }
+      ],
+      "discovered": "2026-06-27T08:19:22.094956636Z"
+    },
+    {
       "version": "2.0.1",
       "protocols": [
         "6.0"
