@@ -5,6 +5,11 @@
       "commit": ""
     },
     {
+      "version": "v0.7.2",
+      "commit": "949ad2ddc9c917c8b7ce0cedd4dbd87a9256c6e3",
+      "discovered": "2026-06-27T01:14:57.951433368Z"
+    },
+    {
       "version": "v0.7.1",
       "commit": "c2eb1d8a820ae40503e1af79e36a186d4f4aadab",
       "discovered": "2026-06-27T00:06:33.80604119Z"
