@@ -66298,6 +66298,11 @@
       "utc_time": "2026-06-16T11:58:27.248824588Z"
     },
     {
+      "version": "0.1.579",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-27T04:45:23.227156386Z"
+    },
+    {
       "version": "0.1.576",
       "message": "checksums not found in release",
       "utc_time": "2026-06-04T19:30:28.952660739Z"
