@@ -64550,6 +64550,11 @@
       "utc_time": "2026-06-25T07:44:00.932618431Z"
     },
     {
+      "version": "11.0.9",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-28T00:05:54.883670869Z"
+    },
+    {
       "version": "11.0.8",
       "message": "checksums not found in release",
       "utc_time": "2026-06-19T09:41:52.670619489Z"
