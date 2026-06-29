@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.18.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_darwin_amd64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_darwin_amd64.zip",
+          "shasum": "7e8bb784faee3a2d476a595bb3ed312e88c17d9a291dee80dbc75236974fd9db",
+          "h1": "h1:gSuJ5f0H8igdG/vX8i2qtArcCy7+ITQloG3jgS7k3Z4=",
+          "size": 8130187
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_darwin_arm64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_darwin_arm64.zip",
+          "shasum": "db91af3adfdc9b76bd5a2ad9577434da0122982a661ec5a58bb977c32e52fd48",
+          "h1": "h1:F09a2snnyRR1lxN4ASHB2CkKN2k3PraMvpgpeA0hI/k=",
+          "size": 7514368
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_freebsd_amd64.zip",
+          "shasum": "b01c8f44ef2f27681bc4d7f108adc173bbb493997f2031742eec82337557b90e",
+          "h1": "h1:Ew/OXi3aLDPPNPkIDglq6eyzOTZ4yCkjY3WEzuEJqZE=",
+          "size": 7909093
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_freebsd_arm.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_freebsd_arm.zip",
+          "shasum": "378104936a7565e4304a6cc0228ae4c790652e09fc4df9643834b2ac279e4cc1",
+          "h1": "h1:wTDoVgJmX3VZhzgkSfycILIn1mUingdyF/SlB91BXMw=",
+          "size": 7562537
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_freebsd_arm64.zip",
+          "shasum": "22c9ac2d8b6bb9e4abdb6168fe36ffd649b41cceb08c8b2e491bcfae7c0bfa09",
+          "h1": "h1:741MiQ7Gj0CA42MtTn9W0Jkz7DyLgZBA9HGqkRuDplE=",
+          "size": 7122247
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_linux_amd64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_linux_amd64.zip",
+          "shasum": "93e60a15b39354e4f6f2a60b3d3dafff96462084a718d32e0e2b1681a279a0c8",
+          "h1": "h1:L6v7Q6Mnw4j7YUUEb7S3jWQAxJLsRllEmt5uoxFId/g=",
+          "size": 7945203
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_linux_arm.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_linux_arm.zip",
+          "shasum": "b13b947918cb6363df38f9004486be667677fb642da836b7d51a13488312b534",
+          "h1": "h1:DpgG0H9+YWH7ImGNd9ofmMlO6iMdGDwsvu6Mre3Q95c=",
+          "size": 7594913
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_linux_arm64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_linux_arm64.zip",
+          "shasum": "1c77fbb58542978cfac2c02c16a72421a38b6ee65580fb6b8b2a889a80033e0f",
+          "h1": "h1:hXHBUb/scFBGxsH+1T+udcf33H4pL4lVHGigVliB0Tc=",
+          "size": 7154450
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_windows_amd64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_windows_amd64.zip",
+          "shasum": "90350a2c09f9e070e16ed60647510af1aae01bcfbaf2901dd5d641dd8d4f2db2",
+          "h1": "h1:xi3RoUbS+VZP6mRKthuW3wz2dknSrBKImjlvUhqp5Eg=",
+          "size": 8163355
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-microsoft365wp_0.18.2_windows_arm64.zip",
+          "download_url": "https://github.com/terraprovider/terraform-provider-microsoft365wp/releases/download/v0.18.2/terraform-provider-microsoft365wp_0.18.2_windows_arm64.zip",
+          "shasum": "5df0dc1927d6f2e475f47b78e4a5bbf1aad1fad1ffc75e21591fcda1596535e3",
+          "h1": "h1:NXNwxI5Cl0emrFpz988xFN6drcOgcYoIm+OwZ8MXjRk=",
+          "size": 7247369
+        }
+      ],
+      "discovered": "2026-06-29T13:47:13.31012271Z"
+    },
+    {
       "version": "0.18.1",
       "protocols": [
         "6.0"
