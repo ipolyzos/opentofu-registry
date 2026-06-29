@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.10.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cortex_0.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_darwin_amd64.zip",
+          "shasum": "e66e1bcfdb7b3981a7dea46e5e5d03e0e6d57769aa6d8315724b2bd89261eac0",
+          "h1": "h1:TvgJ/XkP2eaiTYtaCldLww30ZClZ6rIneOqtqFfZckw=",
+          "size": 7066299
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cortex_0.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_darwin_arm64.zip",
+          "shasum": "859ce8353bedd8be8ea4bcee41f5c7239d50e0fc4051b2d1b78930fb164e721b",
+          "h1": "h1:nqLvfwcCw1yzFuwj4JxVDWB79KI1Q8epTD9lVM18O0g=",
+          "size": 6647570
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cortex_0.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_freebsd_386.zip",
+          "shasum": "89e0679371845fd43ef361dfcb5e156512350d1ca301a60d73ebf9af9db1c38f",
+          "h1": "h1:0g+ep9QuPerP+ZtS5q6pYqTadcv90uUo9slp6whQcmk=",
+          "size": 6463902
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cortex_0.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_freebsd_amd64.zip",
+          "shasum": "418788b2480b1fe73ed09c9e96a04f8846bb13034444bf35f24a20a0208349aa",
+          "h1": "h1:oC0M8Y4+NE+KcR32PYfSUAsdL9ZAYdhs49glPsU5fJg=",
+          "size": 6874103
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cortex_0.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_freebsd_arm.zip",
+          "shasum": "3d5cbd4c21b7cf174c5a1dab66f2e0be5418c56d86fc50d74a00ee4d48600348",
+          "h1": "h1:2R/MXKrjeqZZuRYBQNx88C0ElWAaHQW6olw6B42lfM4=",
+          "size": 6450705
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cortex_0.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_freebsd_arm64.zip",
+          "shasum": "80a25f57a1486a2a70007fa9d6e6b2d4657b73b852f6d1d98c22105aa94526de",
+          "h1": "h1:To15mfYH2f38h3p52CEKNf+E20o5dQGjYDgFV8qA6tA=",
+          "size": 6306568
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cortex_0.10.0_linux_386.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_linux_386.zip",
+          "shasum": "7721b0f5005ea840667392686fa4693a2ca6257ce3083112507b509b6a5c33a5",
+          "h1": "h1:3NmV7pFBXt88rp0tcp7qcmETIAAiCcjZElihb+hsw1Y=",
+          "size": 6480992
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cortex_0.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_linux_amd64.zip",
+          "shasum": "89c59ecca3258bbd8341f3b8e08fd87ecc925f89393ece2673ea645c11143512",
+          "h1": "h1:rqwtBQ+yoRh10WVg6mdBT9WTskKiTbNqjm7bNokebio=",
+          "size": 6881119
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cortex_0.10.0_linux_arm.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_linux_arm.zip",
+          "shasum": "ea9812ce148476c62f392467968efacb5c07ded81270ec519eb527d3abd1db44",
+          "h1": "h1:1+vnwAW1ZGdlCb+Y9RQmg6TficoZFnQOIhPtMAKxC5o=",
+          "size": 6455286
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cortex_0.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_linux_arm64.zip",
+          "shasum": "b9ba3a974664c1933f4a486524ac099c8e86c5339eccb73347c4263cdbd680c3",
+          "h1": "h1:N5dZLRfDyjrdecAPOi8FgfxTL5bFy0H+ufWkKHA9OpI=",
+          "size": 6316596
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cortex_0.10.0_windows_386.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_windows_386.zip",
+          "shasum": "8f9c63b3c68f0a2e91a1d048fe5a276968d1f3e5ecc86f2708c50f60f19b6eb5",
+          "h1": "h1:2VTZYAVjRVti1Uk+PNi8eE9MyumUbAjU9um8qtSuXl8=",
+          "size": 6787379
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cortex_0.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_windows_amd64.zip",
+          "shasum": "2ef10bb9cd221cbd8ff7651be7fd257c4397354725015c2914d42fd2a241bc8d",
+          "h1": "h1:1RPHQbMCQnEtrgra0V10SrorK5oFzInH4M+nmu8CPJw=",
+          "size": 7089218
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cortex_0.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/cortexapps/terraform-provider-cortex/releases/download/v0.10.0/terraform-provider-cortex_0.10.0_windows_arm64.zip",
+          "shasum": "9a00a018b116454ee7e7cf7a752f0c619ffa856de737c5dcfc24609b93bee2e2",
+          "h1": "h1:wCPPfhQ974IMdEf8wq7tZ+jP8A/fGhLwfLlspR6Na5A=",
+          "size": 6405272
+        }
+      ],
+      "discovered": "2026-06-29T21:01:43.149283042Z"
+    },
+    {
       "version": "0.9.0",
       "protocols": [
         "6.0"
