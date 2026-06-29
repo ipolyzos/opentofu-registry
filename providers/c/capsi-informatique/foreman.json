@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "0.7.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.7.2_darwin_amd64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_darwin_amd64.zip",
+          "shasum": "427c24792afd179aea36938c8f4ffb88dedc820dbb50035ba84dd93f4e91c944",
+          "h1": "h1:49JxnYV36rHjgvboZEmJO4xRrmCaPfVEf+LsuPwfkV8=",
+          "size": 7008414
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.7.2_darwin_arm64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_darwin_arm64.zip",
+          "shasum": "580ddb0f250db683abf004d541e4e0f7fe02bff0c90e1cf1d9179285c911263d",
+          "h1": "h1:f2XqIb916Vc5eM4yO4DQxvj94TY5Ckb6ENRQLt0bfYM=",
+          "size": 6568357
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.7.2_linux_386.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_linux_386.zip",
+          "shasum": "a199d004faf1a3ef3bd03f6e9f8ea06a4647c0cdfef5dbbfe6a1afe0e354bbfc",
+          "h1": "h1:gAlDZmDd4CCtqx2dZlg4/LmHDCZlhqwLmYQ/MFG2SDk=",
+          "size": 6467422
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.7.2_linux_amd64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_linux_amd64.zip",
+          "shasum": "5df7b67edf130d93c632193042f2e42a2e54628150b2dfb3dac854b76dbacbcd",
+          "h1": "h1:C0cQvgyh8P67GxMDZVbRu6muQLxwHuwMs2P1nf9O7FE=",
+          "size": 6848238
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-foreman_0.7.2_linux_arm.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_linux_arm.zip",
+          "shasum": "3bcc63eb2fe4a9c35dab52d1d29bdc653438c762b2e885b9e07689e72d0ac308",
+          "h1": "h1:0KsUC+Zf+h5jeQf++OChVYZAh/zJjxpY1W8XQrxoBxw=",
+          "size": 6452903
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.7.2_linux_arm64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_linux_arm64.zip",
+          "shasum": "7392fce1189b001b087f58b737869472705c75a9cdc5e86788855f9bab16217a",
+          "h1": "h1:YKOG1RGVcg06c5IxcuB+1CA9crJpoxnKF7QfFwawyBQ=",
+          "size": 6273744
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-foreman_0.7.2_windows_386.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_windows_386.zip",
+          "shasum": "b7bdc24fce07cb62cd98295b39f2600e561e76b71a0564eddb24c8ecc9b638b0",
+          "h1": "h1:G8DGUp4K6ftJ7SU45QTJBatf9D8WB0SPX+kJUsDMF+A=",
+          "size": 6489610
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-foreman_0.7.2_windows_amd64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_windows_amd64.zip",
+          "shasum": "e51249a080a3dfe8f6e4e8ab2cfc25aa474f0b14aed37ef6352ed7bc47be1299",
+          "h1": "h1:C5UL+y2Csts3omfvQP9qWq7aoVvZFQC5Orl4Oiyp6EM=",
+          "size": 6746245
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-foreman_0.7.2_windows_arm64.zip",
+          "download_url": "https://github.com/capsi-informatique/terraform-provider-foreman/releases/download/v0.7.2/terraform-provider-foreman_0.7.2_windows_arm64.zip",
+          "shasum": "663a13c59218667352963666daaafd464ad1188f293295c005031023ddddb592",
+          "h1": "h1:6xl9ciVB49oOChEhPMSDHjfouvpucKyLmh5illtVa40=",
+          "size": 6085366
+        }
+      ],
+      "discovered": "2026-06-29T10:30:51.189629081Z"
+    },
+    {
       "version": "0.7.1",
       "protocols": [
         "5.0"
