@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nscale_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_darwin_amd64.zip",
+          "shasum": "92386598a7f0d760bf6ba037eef9d693d4498a5f1a3cebded3f5cb631d6601fe",
+          "h1": "h1:v9F/x0bmhaOh5PCWubRvdOd6AH74q2CDoWnoQAD25xU=",
+          "size": 7776733
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nscale_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_darwin_arm64.zip",
+          "shasum": "fb2d41f440ddc7ff8a9e6001bebb7bd727e4bf35771756cae8df4f3d12969e60",
+          "h1": "h1:3wOBLahfB2SRWB+frtg7hH4ErBI15ucXNpcCmwsu2qg=",
+          "size": 7238586
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nscale_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_freebsd_386.zip",
+          "shasum": "3f6ab7c93d4b722a724ec554988ec34f85ec4417a4638f98a4aa94ba1e163447",
+          "h1": "h1:/B0kCdl1T7mfzWUz85eVfU7bksijpxWY8L/WHLVYWT8=",
+          "size": 7133101
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nscale_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_freebsd_amd64.zip",
+          "shasum": "23b752665bd064c7002c44c7820d652792404ef0a39229baebdd4c593b03b153",
+          "h1": "h1:kPf9HLmPkDXkwfzxszmjrmmDXHvXlh+gqU8gA5/EUAA=",
+          "size": 7549974
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nscale_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_freebsd_arm.zip",
+          "shasum": "ae408c99060f8b7857c244672738de8b595a9c8b4761f420e4e4c84310677213",
+          "h1": "h1:Hyvbd/oVYes3tZgykn4N5r3RWxzQ15KRd2c93FNUqXM=",
+          "size": 7103260
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nscale_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_freebsd_arm64.zip",
+          "shasum": "2e5934247a39b543727138882caf7a41ab2d986697e36ae975939e47cffebc95",
+          "h1": "h1:kjCF1wsrY09qf6o/qeAjQsiwHUSTsUEUYw6QQh/hNKM=",
+          "size": 6848612
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nscale_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_linux_386.zip",
+          "shasum": "93689f7b2aaff80b9df936132bf871da58b0c964c3956db55675f1ff2d25221c",
+          "h1": "h1:NcwwousHvuLcbKcRvZJZJY2PYKc8MNewqkmA9J0FIsE=",
+          "size": 7164311
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nscale_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_linux_amd64.zip",
+          "shasum": "d2a2ebe7df225c07ddc73215d4bed4ac5a842b8348a975759b5be1c6034ba958",
+          "h1": "h1:8GDvXcTrFQqmfimaCdXLkJTPySPIXIQFN4+gzYq+sMU=",
+          "size": 7574647
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nscale_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_linux_arm.zip",
+          "shasum": "ecff8acb43819e848c0b453ecdd280dbb77ad883a259f8bedd0c7f2f500f46b3",
+          "h1": "h1:CITfwEEri51M6rZ6qVqIUDhDfhcnUD5Zf/AWbWkpyvM=",
+          "size": 7122932
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nscale_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_linux_arm64.zip",
+          "shasum": "fd65c0a4c8300f7ed60fa1fd5109e4cdefd30f6d4f84305c43be3cf083770f76",
+          "h1": "h1:BACoYKt3D3jf8i+TGcZkzZw5fpGMLK4dx3AyTDMdq0k=",
+          "size": 6876562
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nscale_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_windows_386.zip",
+          "shasum": "99fc616217dafba423ab9dfe2eb7139633d063280f785865d838e3268247e6ea",
+          "h1": "h1:/1GCkm5x9lPXcRRi/fmpycArkzhtyEW50r8MkOH+P3E=",
+          "size": 7496091
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nscale_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_windows_amd64.zip",
+          "shasum": "343e3cc2e9135beb896e5e61553b373a0efb38a5ea927edcdbd7445dddcd554d",
+          "h1": "h1:UpZbqdMWZBFrc+H7g7ZYxyMfjZiiVLK/5+odJwQ7chU=",
+          "size": 7798539
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nscale_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/nscaledev/terraform-provider-nscale/releases/download/v1.3.0/terraform-provider-nscale_1.3.0_windows_arm64.zip",
+          "shasum": "830c71dba06f1e67ea0a1f0c24c328e2844f9e29354e4f52a29db2e8d6791a83",
+          "h1": "h1:VlsQAWORv2GR4oPXebwTmiJDFKIam6bCztE1i6LXRys=",
+          "size": 6967284
+        }
+      ],
+      "discovered": "2026-06-29T16:28:19.107268514Z"
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
