@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.20",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-waggle_0.1.20_darwin_amd64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_darwin_amd64.zip",
+          "shasum": "29ea5f26282e2ca4d2f8d1990b63c3da924b1767592c8faa3c7b64daea567662",
+          "h1": "h1:Mi+Wp5t/qGtNc85OugVk4aDpJWQ9pd0oER4VQwWd/Lk=",
+          "size": 6762450
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-waggle_0.1.20_darwin_arm64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_darwin_arm64.zip",
+          "shasum": "5f5526176fcd42017b51d4c66a2f865505dc7af3daffaec3628a2deebd6775e3",
+          "h1": "h1:CLbHPrI9HNsSgGMpov3RxF+5zWQaHL7o8d7GxTTr454=",
+          "size": 6296532
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-waggle_0.1.20_freebsd_386.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_freebsd_386.zip",
+          "shasum": "73287711973ff22183f5d9f89c6094371ffcc4da5f29a97f5ff9121a7c87c63f",
+          "h1": "h1:8V/B/F3SlXF0PEdUhaRShFyrES6CIjItvj9owcZPPKE=",
+          "size": 6223795
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-waggle_0.1.20_freebsd_amd64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_freebsd_amd64.zip",
+          "shasum": "d7c8e5f4e9aea59d650aeda3a8819c3920c4e01668aad1829caebffc906d7ba3",
+          "h1": "h1:VssqCl5lEMdVOw8A5azcK3MNYflfgcMUW5EiufAImSU=",
+          "size": 6573667
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-waggle_0.1.20_freebsd_arm.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_freebsd_arm.zip",
+          "shasum": "a0267fc30d85fa4e264366b10c96b42014d30755640f6a41de361fc3cf3bdb36",
+          "h1": "h1:e+xn8g7FVLQUlXBW8rwiBfIWSs9EbHYmCWq8O5j/Eg4=",
+          "size": 6192391
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-waggle_0.1.20_freebsd_arm64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_freebsd_arm64.zip",
+          "shasum": "d9a5dac8ca8379cb9dc9d27898f45f7fed5566994d8906c7161c1c4d43c9534f",
+          "h1": "h1:u/b2xlmuXhwSuhmDilq1KX0MUmOcFtqDVAEVYymMYtI=",
+          "size": 5973561
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-waggle_0.1.20_linux_386.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_linux_386.zip",
+          "shasum": "88810041241d640e6d45aa7b0756f442e5be0aaea5cb7b05edad2bfe89ce9ef8",
+          "h1": "h1:tO9frm9+KTaYUBPkL3dGSqeA+0Y5COh0vTYE8lewPTU=",
+          "size": 6251274
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-waggle_0.1.20_linux_amd64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_linux_amd64.zip",
+          "shasum": "23d0e212a23979e786c2257f79d1030189efe10629ba35dfdc3144bf65e1d644",
+          "h1": "h1:N+0/qyfl1PiE69Ry5KEbixg7JgU906FCVSrb5IYQYms=",
+          "size": 6597323
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-waggle_0.1.20_linux_arm.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_linux_arm.zip",
+          "shasum": "0bc40e1fb3d9914ba6fb0fa14c5cf08c27b1f612eaf4f4ec5656a2f7913f78a5",
+          "h1": "h1:5D56lkkoaqtw2NhNRhOBV/S+FqmbJGuSQTGjokoVIUw=",
+          "size": 6214145
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-waggle_0.1.20_linux_arm64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_linux_arm64.zip",
+          "shasum": "a03632bcddf6317db05c07c066753fcb1964d89ba707a8060a05febee663a2ae",
+          "h1": "h1:rnxt8Hb/kDVJkMyOBM+reMBJXnd6Pb0NDGrycelWVuM=",
+          "size": 5995006
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-waggle_0.1.20_windows_386.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_windows_386.zip",
+          "shasum": "2dc5f894c8cbe6fd3014f4edf91e2a8a9c953699e707e992c6b987a3f7b995a2",
+          "h1": "h1:rJg4KeoToKfkGt4AEE0yXReWxjvgkLIuPGHDW5aKkx8=",
+          "size": 6538798
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-waggle_0.1.20_windows_amd64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_windows_amd64.zip",
+          "shasum": "fb521a6ee78aa9fd058636e588d588993873653151e36ba1b59442eaee5efe19",
+          "h1": "h1:dou7uaTORurBIX/EtVz6ZziBOoGyiC7Wn1qX6oHb61o=",
+          "size": 6794924
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-waggle_0.1.20_windows_arm64.zip",
+          "download_url": "https://github.com/glueops/terraform-provider-waggle/releases/download/v0.1.20/terraform-provider-waggle_0.1.20_windows_arm64.zip",
+          "shasum": "0d3f9e2ec1329987090bd90002b7b4bda772a1986194eff0456fb9c80a8d35fa",
+          "h1": "h1:9wPQxZBAK7ckbGBCFMP92CgP6ftwGCNC/uSDyDZnkcg=",
+          "size": 6080425
+        }
+      ],
+      "discovered": "2026-06-29T12:12:10.719720141Z"
+    },
+    {
       "version": "0.1.19",
       "protocols": [
         "6.0"
