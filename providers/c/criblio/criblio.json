@@ -10574,6 +10574,16 @@
   ],
   "versions_errors": [
     {
+      "version": "1.24.22",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-29T07:05:47.430454789Z"
+    },
+    {
+      "version": "0.0.19-goatify",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-29T07:05:47.486780217Z"
+    },
+    {
       "version": "0.0.18-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-06-26T12:57:18.24934139Z"
@@ -10732,6 +10742,11 @@
       "version": "0.0.15-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-06-23T21:33:44.675360135Z"
+    },
+    {
+      "version": "0.0.15-goatify",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-29T07:05:47.347879896Z"
     },
     {
       "version": "0.0.14-goatify",
