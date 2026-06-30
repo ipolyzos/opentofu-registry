@@ -10890,6 +10890,11 @@
       "utc_time": "2026-06-30T02:16:23.625402902Z"
     },
     {
+      "version": "0.0.19-goatify",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-30T18:33:48.948219316Z"
+    },
+    {
       "version": "0.0.18-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-06-26T12:57:18.24934139Z"
@@ -10968,6 +10973,11 @@
       "version": "0.0.17-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-06-28T02:16:46.035052818Z"
+    },
+    {
+      "version": "0.0.17-goatify",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-30T18:33:48.916626725Z"
     },
     {
       "version": "0.0.16-goatify",
