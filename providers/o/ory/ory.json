@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "26.2.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ory_26.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_darwin_amd64.zip",
+          "shasum": "3ec223f3c2f009835fec65cf174710b30fcc284faf8a9d10a63544853f8426da",
+          "h1": "h1:YbFJC2FNAXnzQ/6bVh5OusDs6LL7gAWlJgUc1HftXpc=",
+          "size": 8952704
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ory_26.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_darwin_arm64.zip",
+          "shasum": "4a69cb8db9acd5da525153fdef1cd73c77fc29dcef28e0db1cfdb15e30118bdc",
+          "h1": "h1:3gF7ns+UzrTtx4NjPS1dNmjIlTbo+V/E/mu4yuppm/U=",
+          "size": 8302274
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ory_26.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_freebsd_386.zip",
+          "shasum": "a03b9e0c8063d7a22de38357a8556c6b67d26042ede3e245d9d947b8f4299d65",
+          "h1": "h1:57wqXWYr4O2GIKYDLSJeio56TI6EgrqRBxfJnFB7lfI=",
+          "size": 8114504
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ory_26.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_freebsd_amd64.zip",
+          "shasum": "ae87f54a7f85cc62049c7886ad0ba168c20eb696e9d963c4c84ba19362793d34",
+          "h1": "h1:9WHFoKHSTdGU1yBnGGQ3TKZ5IgIxCIz3353ivrHVr5Q=",
+          "size": 8700240
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ory_26.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_freebsd_arm.zip",
+          "shasum": "79cf30d5efccbd9b7cba0b1d1289d95326c28925a00e77d5f4d7f1a902bd6014",
+          "h1": "h1:y4Ucd8CiLXA+9HaQ0uWBMfTGy/VtC2xHZJ3slSj52do=",
+          "size": 8144357
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ory_26.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_freebsd_arm64.zip",
+          "shasum": "ba3100f0cd625595102c2f31f5405d994b4c91dd473cd146a457103085bfbc40",
+          "h1": "h1:B/UgTFt9ORptIpYsSsNqZ0EpEVMtmAdljVXICOxgYz8=",
+          "size": 7854453
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ory_26.2.2_linux_386.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_linux_386.zip",
+          "shasum": "9f4d87e04a3aa1f46b7aba2158436519bf6acb25fc6b15ea09268e3c5e239445",
+          "h1": "h1:N1Sj1/HXYhuMdGZXXEUrXnGB/yz4qtKUOkqyz99Gjeo=",
+          "size": 8151664
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ory_26.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_linux_amd64.zip",
+          "shasum": "7878327362efe9da8730704ff3f6abcbadf9bd5e6c8211dcec7ab88dc220a9e7",
+          "h1": "h1:oohQ8Kry07Yfb4SiNm+LG3f6nzxG5UYf8Z7Los+cchI=",
+          "size": 8726803
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ory_26.2.2_linux_arm.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_linux_arm.zip",
+          "shasum": "a7725f21cf667881856beb978c2d8f83a006410c85cce1c5465eb12a973ffd77",
+          "h1": "h1:sMX4f28Vxokug+R9p1GcgrckK20uWv76eRosrACINwQ=",
+          "size": 8167489
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ory_26.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_linux_arm64.zip",
+          "shasum": "dc67d9436fbc3df454dff88a8fde8c756027a127f6015e609eff0dd7a1535731",
+          "h1": "h1:sp9QXj1RNJsdNPMADPcDh0eaWb3trmNwUjlMHr7KRiQ=",
+          "size": 7883581
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ory_26.2.2_windows_386.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_windows_386.zip",
+          "shasum": "021b9d705519d10893fffe96ecbec8ea85194b42f0b070d000c82270b45af2ab",
+          "h1": "h1:U8k/taro0a4iTsgiPGQs0kbsDibTkTLro8QJ4dKbt5c=",
+          "size": 8551456
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ory_26.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_windows_amd64.zip",
+          "shasum": "a75aa48df6e186ad6977d4a38c4f295c50366e8c760b970a7362d7f1e0f8a327",
+          "h1": "h1:Jc3xnC18r0hqjz4q220YsicZK33MxmHjkH5zNQp+kNY=",
+          "size": 8987613
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ory_26.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/ory/terraform-provider-ory/releases/download/v26.2.2/terraform-provider-ory_26.2.2_windows_arm64.zip",
+          "shasum": "382d05cb4cfc25a276c5978ba2515227c572846b091fd3cef9988e58bad086e5",
+          "h1": "h1:wB5iQ4AgQKiVBTP/ykMISyrybW6uVeOt61uL2ZfP4wo=",
+          "size": 7977183
+        }
+      ],
+      "discovered": "2026-06-30T07:45:15.379435562Z"
+    },
+    {
       "version": "26.2.1",
       "protocols": [
         "6.0"
