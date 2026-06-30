@@ -4699,6 +4699,11 @@
   ],
   "versions_errors": [
     {
+      "version": "1.1.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-06-30T02:16:10.081094832Z"
+    },
+    {
       "version": "0.16.0",
       "message": "checksums not found in release",
       "utc_time": "2026-03-16T12:48:12.935860171Z"
