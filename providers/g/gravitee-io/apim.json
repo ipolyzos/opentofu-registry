@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apim_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_darwin_amd64.zip",
+          "shasum": "aed3869e25b049485cf00b24254b838ff01268964255b9e4ffbb8e66883fa070",
+          "h1": "h1:XODnqTNBJ+/DhQUBSQ/cR6i/zhtuq0PEYsyH2CHoR1c=",
+          "size": 7371049
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apim_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_darwin_arm64.zip",
+          "shasum": "e44a91d96258a79aef5b0841d8124b544d92bf0e2bcfd53667768b795e6308ac",
+          "h1": "h1:dPaDVlR62XUfFEtkNKbJxQdfESVN3S0GFuo/QCpf/g8=",
+          "size": 6861001
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-apim_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_freebsd_386.zip",
+          "shasum": "17363e86311bf7f13798da91719f91c2d4231cc5ecedf4874b6afda421c532bf",
+          "h1": "h1:WYm+VTioOxjekpSzLtFRcL54QEOwmQLXODp4ZiXpkUg=",
+          "size": 6751472
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-apim_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_freebsd_amd64.zip",
+          "shasum": "f200b4c9ec7109017979b966b9bd8bc29d39ad60fbec05dfedbc33704c0516f4",
+          "h1": "h1:7DyputCLcrN516tuierK9lIrCiOqaOfyS8wBfEbitX4=",
+          "size": 7170067
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-apim_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_freebsd_arm.zip",
+          "shasum": "593891d5298e9088369cbe128ab0e437b452321c9d27ffdcbd12433890cd0c53",
+          "h1": "h1:LGrjYnpI4oRvvnkQ6ZtQ8PoM41xn33RhPa4XoT7X/Qc=",
+          "size": 6741160
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-apim_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_freebsd_arm64.zip",
+          "shasum": "0d0cd5a0abd70a44c815144327f048ab3866a764d730fa5e43dac0632ba1b749",
+          "h1": "h1:36LGcWL4ADxH710F4BJv1R0R2rCP+5yaEbQXiIZxRZk=",
+          "size": 6502798
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-apim_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_linux_386.zip",
+          "shasum": "54aabf51fedc230de7e7198b905209ad85be47ecfc8ebdd2951fb0937496b40f",
+          "h1": "h1:o/4ZPl6QSLZMALkZvlHwKn16SwNOW5kuSI7jiQ13st8=",
+          "size": 6781712
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apim_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_linux_amd64.zip",
+          "shasum": "4fbb0fd3b5fb08861837b81ef6cff57a738712e7aa53ce784ba287095b46ff5b",
+          "h1": "h1:RBUXAG/tOuoB5IwqsNPlWcGTiAOH770QudzalIDEm64=",
+          "size": 7194293
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-apim_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_linux_arm.zip",
+          "shasum": "77d8da30824f938441dec610584a4b0aca9873b15b1f754eda98d7f121123080",
+          "h1": "h1:GoCDIq9/Lqf89NMrOSl+0sGmHn/fp7GF+isAVeTzamU=",
+          "size": 6760815
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apim_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_linux_arm64.zip",
+          "shasum": "e6cfc02a148d37ae2cedc15e83f987a6bb92ff5c9cce19e4b8a6b82368e3853c",
+          "h1": "h1:kx74hd9VychnDd6OWnWbx2KVQ+9Gs5WDEIa2mQd4H20=",
+          "size": 6527534
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-apim_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_windows_386.zip",
+          "shasum": "2413a1591f85976ffce0d466a32ccd923e3943daecc122efdf4d97137b20e22b",
+          "h1": "h1:1IBDx9/5ruWUgBmNNC9v+7y6yvmOJ5Ht3ftqc1PRoPs=",
+          "size": 7099883
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-apim_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_windows_amd64.zip",
+          "shasum": "c6e702ae7aff23ee73c9d309c640852123bcace1d3e4ecc9f21ba8f26d8a6833",
+          "h1": "h1:BtqDKTkpxPgMi/iJHGpNs0JIFel5fm28v+8VP+rE0QQ=",
+          "size": 7400694
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-apim_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/gravitee-io/terraform-provider-apim/releases/download/v1.0.0/terraform-provider-apim_1.0.0_windows_arm64.zip",
+          "shasum": "f44f431701091ed464bca891d0d5b0957854912cc58b2c9bb07b9e0ff06013f1",
+          "h1": "h1:632unPY2Em3LyQyTEmvwWof/m+bB24JxBNyrl/w+g80=",
+          "size": 6609748
+        }
+      ],
+      "discovered": "2026-06-30T10:11:08.385601722Z"
+    },
+    {
       "version": "0.5.3",
       "protocols": [
         "6.0"
