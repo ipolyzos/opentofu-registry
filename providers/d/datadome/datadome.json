@@ -1,6 +1,125 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadome_2.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_darwin_amd64.zip",
+          "shasum": "5eab26ffbd93a05af46ece9858fcfeec667443db0ee2ac3b6dc744a5b4c28873",
+          "h1": "h1:tU3Nnoo7/e5FJXXrDst50D6srpuJ5uslX22a41c9csE=",
+          "size": 6991425
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadome_2.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_darwin_arm64.zip",
+          "shasum": "9ac560ccc079daa0864a4c2b4452ec812092295d4fea2935bf1fe7d6149bcd6b",
+          "h1": "h1:Mco2uGs4Gqw4oJnpLVqkxEYLDsVYkDC3bn34ZMmGV2s=",
+          "size": 6494080
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-datadome_2.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_freebsd_386.zip",
+          "shasum": "7ab4faec89abb86dbf2abb66fb0336f6292677dc54662bbe6f4e1b8840275052",
+          "h1": "h1:UJin+FTTpB079fEZMhncxS0IPU32lw0zX6cEqaHyLgM=",
+          "size": 6464741
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadome_2.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_freebsd_amd64.zip",
+          "shasum": "fb707eca4e825b9555df7185c798c7c5e88c649f10c9b321f1679e55dbdc6bb0",
+          "h1": "h1:g5+5zyXl6SD3Y0FhNkmXtWexFVV8l1pW5rVc86MHZYM=",
+          "size": 6807999
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-datadome_2.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_freebsd_arm.zip",
+          "shasum": "72304d17446fee24aebbd8a621c662e4bcdef5e82ebd2f82b38e2cb84b3b2f36",
+          "h1": "h1:N2hX6TAaf7JHtLUA0u9apE5jYUniVfjp0hYmf9Gertc=",
+          "size": 6441135
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadome_2.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_freebsd_arm64.zip",
+          "shasum": "cd51c14bb9119da6ea00f8c0ef562776fd8e33eeb71fe171930a186c735c00e5",
+          "h1": "h1:rWiW7bzkg4g7KQ/FJCNL2lk14CHnufZShbwqnmeez0E=",
+          "size": 6176864
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-datadome_2.4.0_linux_386.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_linux_386.zip",
+          "shasum": "31e663eab4d5d56a7ffbd43608815c84afb426651aedc7db33261da17ab867ef",
+          "h1": "h1:/48zQUNlkaBzKiOaxioZk2xDjr9eoWIBHqRFsf6P60s=",
+          "size": 6493747
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadome_2.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_linux_amd64.zip",
+          "shasum": "32da6da86cda8f1b0cdfbf2946dca0200f85aee18d0db35b94c818437f475317",
+          "h1": "h1:eQ98a5jeRsInhrn33aUacD9pscm4ttVLkrXL8y3EjVI=",
+          "size": 6832361
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-datadome_2.4.0_linux_arm.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_linux_arm.zip",
+          "shasum": "6f2d062eea9d42491f485e7b15097d29773484b5e001ff4fd7b061cee22f41c2",
+          "h1": "h1:eUybzi/kxkkqQ9/5dua7MSdztNC652HDzRcAOdftA+c=",
+          "size": 6466869
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadome_2.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_linux_arm64.zip",
+          "shasum": "edacf39d79a12833ddbde19540998c7317e913e0b5053cf0ed25636fb7a20e03",
+          "h1": "h1:fE19NZ9eeiL+V+tOKU+hOsp+v7BP8Fmsj0/b0N7hjAA=",
+          "size": 6200482
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-datadome_2.4.0_windows_386.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_windows_386.zip",
+          "shasum": "494f44693ec98a5906c41fbd64fb2895f1694ede0f45244ec76dca031fb3a774",
+          "h1": "h1:DChdIDCUNSHPZM/G7msfk47PpP2aMGA/b0Sey8rOHEk=",
+          "size": 6791622
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadome_2.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/datadome/terraform-provider-datadome/releases/download/v2.4.0/terraform-provider-datadome_2.4.0_windows_amd64.zip",
+          "shasum": "5c6940c926275519506e16f5e1ff47bccd119c60ff623936da952d568e4c21d9",
+          "h1": "h1:5vHB4nH8Io9FnaIgF43WN+8M+PxXM18X6920rfPVLsQ=",
+          "size": 7032087
+        }
+      ],
+      "discovered": "2026-06-30T14:35:53.506280022Z"
+    },
+    {
       "version": "2.3.2",
       "protocols": [
         "5.0"

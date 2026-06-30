@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluence_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_darwin_amd64.zip",
+          "shasum": "cab8087251b3b233c40a02ca868fb59b4d514f20cbebddd52922f2fe9185f5ba",
+          "h1": "h1:khhLpQ8j9cZ9z5E86qbfuesd+hLouTNggqaFs30Jn94=",
+          "size": 6998831
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluence_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_darwin_arm64.zip",
+          "shasum": "1160b35662ae138a29689ee8323941eb19cfbbe57d23d33be8832a024e1d24b7",
+          "h1": "h1:+CzZvdPsSFZhVDZEq+1VP3ZBXAmrAwaqmEuqSt5WXYY=",
+          "size": 6503238
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-confluence_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_freebsd_386.zip",
+          "shasum": "5343f6c3813a7fd0491279904b7426439170f7a49a822c59b19a390c6e48534e",
+          "h1": "h1:MwcSlBo0xtrti08t8XI5AUsLojG/6MDBByV/6XRaO/w=",
+          "size": 6474536
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluence_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_freebsd_amd64.zip",
+          "shasum": "15d7d745f5210acd3995be5484d97e5dee935411d6fb81b5d6bab24d5417f17e",
+          "h1": "h1:Oc8t5C343S1tOTuUfn/XUHwjqGHTx9M9x+hk8Z5ycQA=",
+          "size": 6815504
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-confluence_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_freebsd_arm.zip",
+          "shasum": "96d87e386e341932a97e61786c41e4d814082cde38d49d8a4b22f03dd17587ba",
+          "h1": "h1:YB/EIeiwTtQW5ZrPSJn8NMLUcaZoX0hstVJQPn68Ero=",
+          "size": 6448113
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluence_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_freebsd_arm64.zip",
+          "shasum": "7ccb791cc0b88f8efc3f7937b10c24ee64d6029fbbed19754ca39bbbd7c0ed0a",
+          "h1": "h1:v2BURPyoVYrhN1xK+OqIECjm3sqHlrp3YN2ewIO9g/8=",
+          "size": 6186482
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-confluence_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_linux_386.zip",
+          "shasum": "57e8a5a8910aeb5e9ed0a5c07016dbf5f0d4aeea9feb2ab7a2c6ae0511a83cd4",
+          "h1": "h1:Fag+dx1DbHQO8OOK2oiOYW2DGECpgY0zcuLW5zInJI4=",
+          "size": 6505274
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluence_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_linux_amd64.zip",
+          "shasum": "8c0cb61faa38b6372bab0adf32dc53d774051b540506ceab3370d3f52a0eaef4",
+          "h1": "h1:i+Zxb8/MnmQmon6Eftxd34UdP3W6l/EFLPeVX5ovIZc=",
+          "size": 6841011
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-confluence_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_linux_arm.zip",
+          "shasum": "e5c80c9154eff920948ce6e77abd7c4bca407efcde7b25912b7a9ccdf004678e",
+          "h1": "h1:caQCaVv1s8noFEs9NF2Rux5tLWtBGCwe35T6YNa9Iq4=",
+          "size": 6475152
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluence_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_linux_arm64.zip",
+          "shasum": "79050680332c8a9287168f6145ecd76f9cfab22bce7fc28c4e9ab7345d16c053",
+          "h1": "h1:pnreetb6R1lUmvsEdreZ5jWHtqdYxV02JQ09F7dJ6AA=",
+          "size": 6209433
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-confluence_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_windows_386.zip",
+          "shasum": "a275becb4378c349f93f76e6f10b3b79c33a436e97d19740f7195b295ea228d5",
+          "h1": "h1:fRzrosuzj3fNCFLbsmMhfQwbzAxKeGoWDeaiEIF+QuU=",
+          "size": 6801288
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluence_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_windows_amd64.zip",
+          "shasum": "cf571f6ef5c0666e4ca09c23dd170ea112ef041121fef2be4b00d816f9a5a54f",
+          "h1": "h1:TVB/u/FaOA8PvHkzlqunKKFkhO+SUroIZGw1lTZo4KY=",
+          "size": 7040384
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-confluence_0.3.0_windows_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_windows_arm.zip",
+          "shasum": "2e0a8902b826641892411baddf4cb88331ff3eec1e150a7d3cb23b669deee29f",
+          "h1": "h1:39qG1bY7mkTOWHhzWXoKD560zsQO/eIwfm3BiaQ8R2k=",
+          "size": 6629111
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluence_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-confluence/releases/download/v0.3.0/terraform-provider-confluence_0.3.0_windows_arm64.zip",
+          "shasum": "b1780a9ce7f884b5351a2483ae43bd5010d8cab5bec47a22a0a3087f9f14cea9",
+          "h1": "h1:aCbALkgPCwnoFvPzp3dj3U4CY48fgwdq+Lc5ICw5fJE=",
+          "size": 6293978
+        }
+      ],
+      "discovered": "2026-06-30T14:35:55.296677063Z"
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "5.0"
@@ -642,26 +779,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-30T04:54:50.250654931Z"
-    },
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-30T06:24:32.711127441Z"
-    },
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-30T07:45:33.955859066Z"
-    },
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-30T10:11:18.770663728Z"
-    },
     {
       "version": "0.2.0",
       "message": "checksums not found in release",
