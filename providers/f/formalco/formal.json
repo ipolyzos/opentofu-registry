@@ -137,6 +137,134 @@
       ]
     },
     {
+      "version": "4.19.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.19.0_darwin_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_darwin_amd64.zip",
+          "shasum": "6e49120f749acbc08014484b6f2b020658cfb316fd1afb2d98babd98ebfbac2c",
+          "h1": "h1:oUg3zkQeU83hESUbe2P76QJlGccXxgn6MdB88/m6EoU=",
+          "size": 12423147
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.19.0_darwin_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_darwin_arm64.zip",
+          "shasum": "35b46160448ef9028c9a059bd72abd299686659701cacb4a39a16162336b10ee",
+          "h1": "h1:jXtLhvETcUHL9401CFQEQsCszq+ZQYXAqRaa3y8WKY8=",
+          "size": 11790671
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.19.0_freebsd_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_freebsd_386.zip",
+          "shasum": "df5789f277d220345239939ff7b8314ae0c2f69643f252a3441f097a21332c62",
+          "h1": "h1:euywvSL3EYDt5yOTc6WWsR1UQgkBxjzmX7aWlowgJJQ=",
+          "size": 11290976
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.19.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_freebsd_amd64.zip",
+          "shasum": "4a0369c547c0c07335cd58dfca3f30e9fd2dc7e32f52c4ea7288e57da3ad551c",
+          "h1": "h1:a7oIhzCxf4L57lLnaSYNPw1Lizie0/+QnE8Jm97j7/M=",
+          "size": 11947857
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_4.19.0_freebsd_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_freebsd_arm.zip",
+          "shasum": "9fdc52ad31962a7d8d639387018172b64b1dbc27a927d1b6e33d223b044c1bb5",
+          "h1": "h1:bvPLvbJainhDqzaQK12iriaJISFBDn6Ky5DeByuOsCM=",
+          "size": 11331404
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.19.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_freebsd_arm64.zip",
+          "shasum": "cc853ea8dca313375b9bc6fa32aff41472c387623b52d5e5d46813e352a70e0e",
+          "h1": "h1:Fqlcw5lh3uSXBtKy4X07Lf15hPlrb1gfv5rhyvHjryI=",
+          "size": 10921374
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.19.0_linux_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_linux_386.zip",
+          "shasum": "cd0d893b12448b640ff1016b54e041d158ed0352ec95555277241411ef2e090a",
+          "h1": "h1:RTPgxbjUdeHuoQ8n7qWY4KwF99cq6zQ5O4LkSyFH6BA=",
+          "size": 11339339
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.19.0_linux_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_linux_amd64.zip",
+          "shasum": "84bf76d289c5cc1bfc6dbdf4dbebca1d36c2c34b5adaac4a63565364ec8d2be4",
+          "h1": "h1:czMb3uYVB5ffqPMqks8gK8GKUG1vNPvRmyVVtVMB38s=",
+          "size": 11979460
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-formal_4.19.0_linux_arm.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_linux_arm.zip",
+          "shasum": "8f876b650d3ddff9dadc7c79e6b5cb98d09cfe6a10ec43b7a9a701a5a42ef49e",
+          "h1": "h1:pV3K5DJmUpMjceMoha4PpaLol0WJWb4AhRfACvL9+tk=",
+          "size": 11353059
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.19.0_linux_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_linux_arm64.zip",
+          "shasum": "9f431ed3631d6947fb719ddd3f1e9f550857f5f756fb7f74c5d9c43a334d0b77",
+          "h1": "h1:kvujWYCqlEPv6h4WSdXMvCFhnu2VxVwtAOmUoPeTTgY=",
+          "size": 10944474
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-formal_4.19.0_windows_386.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_windows_386.zip",
+          "shasum": "8c4950ba5a359a4a34ed3fad9ac702d839ffab53ae43c5430c74e98ad0d05ddc",
+          "h1": "h1:e8Rapw/mOd4mSwcvi/OCylpXlngg60r0i1mE0Gf+p/8=",
+          "size": 11894290
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-formal_4.19.0_windows_amd64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_windows_amd64.zip",
+          "shasum": "681a71f3b80ca84e083993dc7f972e23a53570892499fa229c27e87f90948994",
+          "h1": "h1:ROnS/i1k2MLu+Bxx/9kISnyF995TG5HYmVNKpJBPS28=",
+          "size": 12412067
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-formal_4.19.0_windows_arm64.zip",
+          "download_url": "https://github.com/formalco/terraform-provider-formal/releases/download/v4.19.0/terraform-provider-formal_4.19.0_windows_arm64.zip",
+          "shasum": "e08b86c1379219eabbe84c681d5eff1272c78a0e069f9a4c1708f571502d5201",
+          "h1": "h1:hTLPJH/f84ankGF5LQNFzoHt+MQcsXGfxbuAi2GeTus=",
+          "size": 11066472
+        }
+      ],
+      "discovered": "2026-06-30T00:06:01.267035856Z"
+    },
+    {
       "version": "4.18.0",
       "protocols": [
         "5.0"
@@ -29623,11 +29751,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "4.19.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-06-29T23:35:29.622352518Z"
-    },
     {
       "version": "4.12.9-test",
       "message": "checksums not found in release",
