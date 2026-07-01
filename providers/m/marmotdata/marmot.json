@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-marmot_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_darwin_amd64.zip",
+          "shasum": "e282b6649df1444ee0f7efe1cfa7169517c0edf451d44c9d5b8da53f4a402a32",
+          "h1": "h1:mt7+wqPkSGaqvH2A9b9cA6esO+KBMz39dyNRt54QziY=",
+          "size": 8372058
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-marmot_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_darwin_arm64.zip",
+          "shasum": "1bcfb506f110955089aaa32eae0c1a5ffc3667a93abd727a758c75b229fc4f0b",
+          "h1": "h1:gS6P2cnhZGe6/M2DcDt5Sv083NFMebrJmh7MGrf20pw=",
+          "size": 7803858
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-marmot_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_freebsd_386.zip",
+          "shasum": "8c55b84a0257c9a713c5cea61b7c5a99ca6a0c115c46cc1da41f51ebdfabe178",
+          "h1": "h1:d5A2F6sf9uoMRR8/+F3LNUCjm9YujrDwJUUJ3+9iItI=",
+          "size": 7681416
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-marmot_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_freebsd_amd64.zip",
+          "shasum": "a069adc180a7a6cfe7529eb617caab01bdac5d2d68a1ed3ba523372f1dd1d03d",
+          "h1": "h1:4DxYODQs4OB9Dhh6cMAMqT8SuFonliif0AP+O99ZG9I=",
+          "size": 8139418
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-marmot_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_freebsd_arm.zip",
+          "shasum": "e155b02e13f8d5dff78031de8e4cce415c350f556606f5f03eae03d5cbefded7",
+          "h1": "h1:cSjM+x/jVi1kpigfIGFeMbwzDgqICkb/sXAuF+SaUfs=",
+          "size": 7650428
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-marmot_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_freebsd_arm64.zip",
+          "shasum": "1bc92245ad66fe48512e4c54233232cf6cac11c48d692619ca8556c38c55187f",
+          "h1": "h1:7Z+gXVxSQpziTrzA4rxdui9AVLGHYqOv6wXL+XL8r3Y=",
+          "size": 7390404
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-marmot_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_linux_386.zip",
+          "shasum": "bb9f29a316a13087d9aa58883b4bd08f742a4ff3d669c131750485a5b5710d5b",
+          "h1": "h1:lyCJG8KSAVBbTiJWfjACjWFv4A7ibg5cJd0UU2moplk=",
+          "size": 7714460
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-marmot_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_linux_amd64.zip",
+          "shasum": "2e4bf7e48207aac5208d9de7ec5b762a02075aa4536511d50e02acb5c74fee7e",
+          "h1": "h1:Bc8qAp7/cBcy6QZlCRIzwU18JNxDbA8VyQrPzki2HHM=",
+          "size": 8163160
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-marmot_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_linux_arm.zip",
+          "shasum": "9eb2543553c85bbec07269bbcd4b1ec4aceb22892c89f39169a0499ebe994b72",
+          "h1": "h1:5k2cEZuM/I1nez0nl9dLA9U24ahzF3RkDSO7SMFKVOI=",
+          "size": 7667878
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-marmot_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_linux_arm64.zip",
+          "shasum": "6023e74b57b313cfc24eaa8d9c36c5ce35ca65882f4e2b7aab58bf9c85401cb3",
+          "h1": "h1:41+Iz7GGCbrZ5jGFAICcfiXg2YkkAqSwn2LUPzlm57w=",
+          "size": 7416972
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-marmot_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_windows_386.zip",
+          "shasum": "a762b13ef741cbc0bd4ed237749d1817df929563ab168f8f3f74c11f7c1b5c1e",
+          "h1": "h1:k50VJE5QVyB4re47WgEd0xD7trx1ma5zWE+1t6c3acg=",
+          "size": 8067453
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-marmot_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_windows_amd64.zip",
+          "shasum": "523cf90593c04bded044197d571928e7adf68072b0dbf299d44f139664943cc2",
+          "h1": "h1:+LMIfnXGu2nnA0DLwLKbfkwHc59mGIMCeHlbd8p6Z+M=",
+          "size": 8402790
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-marmot_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/marmotdata/terraform-provider-marmot/releases/download/v0.3.0/terraform-provider-marmot_0.3.0_windows_arm64.zip",
+          "shasum": "e4912caf03260ffa43c7cc9e3ef72e464cbfe6aeed6e07fa1c5bc8253309f5f6",
+          "h1": "h1:ETeSBGe4L/LaXe1iRAjC6a+C6PNHfg/3DKkHib5CZx8=",
+          "size": 7503401
+        }
+      ],
+      "discovered": "2026-07-01T21:29:09.381633863Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
@@ -1087,13 +1215,6 @@
           "size": 6935350
         }
       ]
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-01T20:52:36.723866204Z"
     }
   ]
 }
