@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.24.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.24.0_darwin_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_darwin_amd64.zip",
+          "shasum": "c4b1feefa36e3f4730da13c0e7ef4089629f2aaa380b7eb3c8953d39284d5e34",
+          "h1": "h1:y60cdREwyKubHOVzfwQ4ey3dc6wZGLrFZMMLASEQDoA=",
+          "size": 7824555
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.24.0_darwin_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_darwin_arm64.zip",
+          "shasum": "cf1609e8600524e2cfb8bd8658f96bf24e2bd64e0de5a16f7492c5c8d3763390",
+          "h1": "h1:8cztjUbVZOMv2nyOvmd/u4k+5EoGITFEbvyn9d9yv3s=",
+          "size": 7283231
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.24.0_freebsd_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_freebsd_386.zip",
+          "shasum": "bfb769e600a94ab64c1de4e1db678ccabf71a9abe377a201952cf8a0f6c08e8a",
+          "h1": "h1:sbe7lapAtzizcvjDouilGZmj5KOdP5AZhWWaclFCeKI=",
+          "size": 7097581
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.24.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_freebsd_amd64.zip",
+          "shasum": "d8ff2d32628e51efb924dbb4e4b9db38b78deff9bda1c9025733baabf8bdd131",
+          "h1": "h1:PJpQcZ3tZPeKCOfReg6MJNLAs82LOhMr+jds9RCH0g0=",
+          "size": 7562884
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.24.0_freebsd_arm.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_freebsd_arm.zip",
+          "shasum": "afe462a63279a0d642755834445e3d928de989e80cff6d97245ab7dbe5ac3cf3",
+          "h1": "h1:VAXlgarx+NDqXFZJJT8Xwq/N7jxA9tdiLaEVf/ZVuoI=",
+          "size": 7097318
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.24.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_freebsd_arm64.zip",
+          "shasum": "6bf1fc89602e0cace82f62a6efc8b300442e76efcab3d06dd931ba4508caccc0",
+          "h1": "h1:nZAUMHEaAs72K9BKK9XmJYXIt+DwzvmwCwh6M5l73Zg=",
+          "size": 6862152
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.24.0_linux_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_linux_386.zip",
+          "shasum": "cda4f824df4b921617016f01947dbfa232696c026e8f889e98caa5db50956350",
+          "h1": "h1:atyQO8l93HTsOzJU2tH892+Aj81z3xq7pgrMlRQMtL8=",
+          "size": 7309382
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.24.0_linux_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_linux_amd64.zip",
+          "shasum": "4b24b1417b15dde53ff2e1bdb92e3529904b4fd2389180fe65dd2b99386fbe6a",
+          "h1": "h1:qvvEPYIi1iDuGoT1TO7amaacgWHSgK/ouj6by8lahCg=",
+          "size": 7778844
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-btp_1.24.0_linux_arm.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_linux_arm.zip",
+          "shasum": "c7f6920eda57524a3570fab24da15cde4ec27324a79b83942d21111dffe44f44",
+          "h1": "h1:VJgZEFPhpuvYJm5PLT55chhSs4fKD02JYefwQqL5GG0=",
+          "size": 7294494
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.24.0_linux_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_linux_arm64.zip",
+          "shasum": "a1aa0970cc8bf59e328503ccb9297f4ba41b64f5d3ae20517c2f03c5dcf4c22a",
+          "h1": "h1:+TvNARiAtuWZv3gsQj4UR1uCrL+zuV2EOszw40wE+hI=",
+          "size": 7060418
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-btp_1.24.0_windows_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_windows_386.zip",
+          "shasum": "4a8deaea84a1933c9f2a69c936cd4022226bb03cb2a1227e57945723b7c0de44",
+          "h1": "h1:XsVh4aQ4Vyg7CuEF48AxXHXrDmHeIVdgYnHs7KVti8M=",
+          "size": 7532524
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-btp_1.24.0_windows_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_windows_amd64.zip",
+          "shasum": "16de040cf10ea6c490e38b6e316a187ea595957cfe53e6173388eb8787460598",
+          "h1": "h1:EMxWVAgM+nFziSn6X58Tbe2mtonC90K+ljq4/OHgxuQ=",
+          "size": 7864263
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-btp_1.24.0_windows_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-btp/releases/download/v1.24.0/terraform-provider-btp_1.24.0_windows_arm64.zip",
+          "shasum": "d9fc11945b5812445f1d3ae6807cd3c5ebd681f8793e6e2f377b784313d51641",
+          "h1": "h1:7IiGmfp6AR4AN8lIXsNNCQhWJdkSOElMZyyARCVEuf4=",
+          "size": 7027305
+        }
+      ],
+      "discovered": "2026-07-01T10:55:22.433181599Z"
+    },
+    {
       "version": "1.23.1",
       "protocols": [
         "6.0"
