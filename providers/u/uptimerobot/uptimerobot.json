@@ -1,6 +1,89 @@
 {
   "versions": [
     {
+      "version": "1.9.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_darwin_amd64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_darwin_amd64.zip",
+          "shasum": "61f2ba5d55afe684eaf26c0fffb5bc844ffda158250bdbea35371182da242a3b",
+          "h1": "h1:uK+O04LbpglGXy+I7wrHPYLatIsg6JBScLTaWqIxUUs=",
+          "size": 7472708
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_darwin_arm64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_darwin_arm64.zip",
+          "shasum": "c464107ca0d53aa68ab53038a3ffd2f1fe65d61a044988a74218ef603261c986",
+          "h1": "h1:1VKP9B4A+Y1b4Oos2+Vk/+PRePYFwW9c5Tc81Sc/qXA=",
+          "size": 6944681
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_freebsd_amd64.zip",
+          "shasum": "2dafba7496c4336d7fa44f7ce3e5661afe391c91a992234a942386c1c562542f",
+          "h1": "h1:fib6EMSEsASdJ9OC2bh3k9LMpGxgCCJS5ubrQq2Afm4=",
+          "size": 7260989
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_freebsd_arm64.zip",
+          "shasum": "79eab5cae2a9958d37910e0f03e04c9aa116336a343d8514107e6e09d9c6b873",
+          "h1": "h1:mmyQ7Waub2nCRho67R/352Pu3O4rGCXcifUvtX87evs=",
+          "size": 6584150
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_linux_amd64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_linux_amd64.zip",
+          "shasum": "9458ed8ff315e36b9d71027a8e106ac215768c0841a14714b8570bf1c55b671c",
+          "h1": "h1:sdh7IUqo/ZJA+2fxOs+rQWZEZ9VdZcRi+pGrel3fQuI=",
+          "size": 7289606
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_linux_arm64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_linux_arm64.zip",
+          "shasum": "e1ad70dd45038cdd487e13e828d84c44d922220b6f9450e15daf8ac3a368c855",
+          "h1": "h1:WYVLhb/2J8lVDq1UWleICDAOnaFqfUfaegmPrbJBZcI=",
+          "size": 6610056
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_windows_amd64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_windows_amd64.zip",
+          "shasum": "4cfdcfca73536f0b816a01706db80f10183116ff73dfc67ec7fcae815783c48c",
+          "h1": "h1:Q1rLDZaqYEJFBNyEhzvzXB91kt/hERFVB7OaIYq0H4Q=",
+          "size": 7500610
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimerobot_1.9.1_windows_arm64.zip",
+          "download_url": "https://github.com/uptimerobot/terraform-provider-uptimerobot/releases/download/v1.9.1/terraform-provider-uptimerobot_1.9.1_windows_arm64.zip",
+          "shasum": "2ddff497c4110d38bd4943f9acf519c8d285d4e8716f18be7b6f410f4e27b6bd",
+          "h1": "h1:5bQRL0jSs0ir8WPRa45TDi/8S6jd0hQwgN/8Q0ioAsQ=",
+          "size": 6694306
+        }
+      ],
+      "discovered": "2026-07-01T20:13:59.611504068Z"
+    },
+    {
       "version": "1.9.0",
       "protocols": [
         "6.0"
