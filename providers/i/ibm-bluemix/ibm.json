@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ibm_2.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_darwin_amd64.zip",
+          "shasum": "658ca60c3dc12c3633edc68b6d8ffef3b9e63f14fc392532d01682335aeab554",
+          "h1": "h1:2P5e3mCgAUWYNYBjTN/Sv3yJYf30g5MZ7KNpWaR9Mhs=",
+          "size": 47118131
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ibm_2.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_darwin_arm64.zip",
+          "shasum": "a03aac64134c67313d5b01c74058ebd7475091643a4250588f32ea28a4838535",
+          "h1": "h1:Imjvyp2fPlxxPqOozhb6qfPME6JGhdXs29tGhKOv7mU=",
+          "size": 42086167
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ibm_2.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_linux_amd64.zip",
+          "shasum": "a5cb1d1d7c9f3c08bfa301cf82d9de3c290dfbe74c4f497fe1892451b221743b",
+          "h1": "h1:cS/ANIFQ0crdKSRgtSNS5MZpvGh9LdqwoZtxRiwr3Dg=",
+          "size": 46220390
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ibm_2.4.0_linux_arm.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_linux_arm.zip",
+          "shasum": "7ad318264e9c0db2ebed65f73245f258b92f603b5f3f57c5703aec10140a9b54",
+          "h1": "h1:06K2fAIDsbwloQ8zlCvlM7BrFAMk9tZtxApHd1iVHDE=",
+          "size": 43390881
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ibm_2.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_linux_arm64.zip",
+          "shasum": "5303ffa238185896b033164345d56c6a640d145241cb4207e7666b8624231236",
+          "h1": "h1:ba7PpIaPehopXgaSEiwPYTpB8vfg4z48ic/nyJW7XaU=",
+          "size": 39995533
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ibm_2.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/ibm-bluemix/terraform-provider-ibm/releases/download/v2.4.0/terraform-provider-ibm_2.4.0_windows_amd64.zip",
+          "shasum": "f108630ed006bd3477672dbb772e1f23888a95e54ebb0f3f5282b6bd51c0adcf",
+          "h1": "h1:EpHQBxLUCs4fiAylgEivnmIc8zNONm1P4lokFh5uCkM=",
+          "size": 47151512
+        }
+      ],
+      "discovered": "2026-07-01T14:56:52.758725451Z"
+    },
+    {
       "version": "2.3.0",
       "protocols": [
         "5.0"
