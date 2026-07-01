@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gravitino_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_darwin_amd64.zip",
+          "shasum": "f50b07d42a1c744b659be0574d92fe5f2dd37f1d45409f60d31cf6dd508710fc",
+          "h1": "h1:bDSIobVaSN0QC+68GYjeOBc99F/xE31SArM0uYrSI4U=",
+          "size": 7149120
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gravitino_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_darwin_arm64.zip",
+          "shasum": "844ce8d2d33ee52366412c392f8d63587baa16fe3fb0860de31b9af4d76c722c",
+          "h1": "h1:3P8xHLVxhKXp9DOS4F9NTLbJTbB+glh5de8Wnr07UL8=",
+          "size": 6643138
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gravitino_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_linux_amd64.zip",
+          "shasum": "19c022cd81268e8f44fd88c409252e14ccd5d81ec9a78cdda0976d0aa466a9ff",
+          "h1": "h1:e9qsztpXaVBow+uA2SJbrtbs8bGA76mXBVjOlV8scQo=",
+          "size": 6967055
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gravitino_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_linux_arm64.zip",
+          "shasum": "07280f0afb67290b0554a3930e9cb857c025fedfc6771be4f137034eec051069",
+          "h1": "h1:WBglf2YCG+EE4WHjXyIN09mmgps26C40tdTVAWlOUtI=",
+          "size": 6313674
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gravitino_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_windows_amd64.zip",
+          "shasum": "29deaaace421424db2d3188ff51ae4fec8baef9af7265b842bb1c4ee3e67595c",
+          "h1": "h1:qwRtIEReijzIsM5momTnADf8pz15u6+39gHvSMKx+y4=",
+          "size": 7174677
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gravitino_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/dennismdejong/terraform-provider-gravitino/releases/download/v0.1.2/terraform-provider-gravitino_0.1.2_windows_arm64.zip",
+          "shasum": "d119636064a9dcef08c06b0a52cc31c3937684cbc39263a6cc312fcc77649e23",
+          "h1": "h1:V/XV2N3G1LgMlk2VQCl6quaezZ1CazoVSNlhQkZBD/s=",
+          "size": 6396371
+        }
+      ],
+      "discovered": "2026-07-01T15:51:49.627103935Z"
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "5.0"
