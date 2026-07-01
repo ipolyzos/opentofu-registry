@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-scepman_0.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_darwin_amd64.zip",
+          "shasum": "cd556dd0d3864bcdc02bb78db456e1a98f6e5638e5b2b21a4773b9481f003a93",
+          "h1": "h1:68oXpuzxD3Za8yRwEmoD0kZQQW0WYsrQ4UW8DtwxLQY=",
+          "size": 7202542
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-scepman_0.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_darwin_arm64.zip",
+          "shasum": "f824bb796fa91afbb46b45511b3583d6518b1833d55fd95f8d2d3f6c2b48fb32",
+          "h1": "h1:Ikzf0tyz5QD8jdyaad4Y4vddfkWaGZyAVIRjSRf46q8=",
+          "size": 6697133
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-scepman_0.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_freebsd_amd64.zip",
+          "shasum": "f00f5f23e754687d05687151c8db5eceeef909d766df9047f94ed6644b886313",
+          "h1": "h1:kaD2QP4JfFS7MIo2sgKv2vEEbsQLrgQ0SqP/cOgFnI4=",
+          "size": 6998197
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-scepman_0.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_freebsd_arm.zip",
+          "shasum": "d45797416a703c56cf078d0581facf28b44a941a9d0671b009727312946b116a",
+          "h1": "h1:rSfkzBoPbRfuIGFHthLPZbPCiebC0jVkMSHFN0PXj9s=",
+          "size": 6592278
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-scepman_0.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_freebsd_arm64.zip",
+          "shasum": "1f1808df2a08a9ca319a5fc8e335da33c843c2c82ef031ad5203e791db54f1ef",
+          "h1": "h1:joSOhAHBgLt6fhvtueGanwtFHutyHWvq12ac6KITmEs=",
+          "size": 6345945
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-scepman_0.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_linux_amd64.zip",
+          "shasum": "5921f664eb95d9b05251ef8619dbd778e8b0deb0a59bbbf514d7bbd8234ceed0",
+          "h1": "h1:TmtAieVeHaTD9V4LZZ7vZreTSyI3ZmHM5VGS8VRf3tU=",
+          "size": 7030952
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-scepman_0.0.2_linux_arm.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_linux_arm.zip",
+          "shasum": "23aeae4025e8f5280c98d46014d967c02b6816da7a7df6bf2f7375b6422b8ef7",
+          "h1": "h1:Rnl9SsgSMrg7BcVdR21FYsRtJ762ZihUbfjqSdKQnlg=",
+          "size": 6625695
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-scepman_0.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_linux_arm64.zip",
+          "shasum": "159f79c0bf30dd6037079aa50d561ae33b01fa35b3f2425c9cb6f7bd3362a1d1",
+          "h1": "h1:ti/2J/Y+Xw+s5YOBoRqCDM3qADPDQj40TJd/RkA3OGk=",
+          "size": 6381012
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-scepman_0.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_windows_amd64.zip",
+          "shasum": "5dda1f62fcd9b9cc04db44737ceeaf3ba1f8de53178534db0ae8c11828f76938",
+          "h1": "h1:KMLCKhAuho/w3rPURaKr2xi5zsKnC1rzuTjt8Jwzc4s=",
+          "size": 7241598
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-scepman_0.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/scepman/terraform-provider-scepman/releases/download/v0.0.2/terraform-provider-scepman_0.0.2_windows_arm64.zip",
+          "shasum": "b7801ff3a9126749b5b679fd11da436b0e2a8c396635eac20bedcf2798204e96",
+          "h1": "h1:4V6m+2DY0gy1Yop7m8TTpcUPCEDI+UGatcl8jolOjAE=",
+          "size": 6467245
+        }
+      ],
+      "discovered": "2026-07-01T18:11:34.638449229Z"
+    },
+    {
       "version": "0.0.1",
       "protocols": [
         "6.0"
