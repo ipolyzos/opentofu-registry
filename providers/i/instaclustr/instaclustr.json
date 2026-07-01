@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "2.1.86",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_2.1.86_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_2.1.86_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.86_darwin_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_darwin_amd64.zip",
+          "shasum": "a85da909dc0b3e81b645c5c26ad31b5d1c4bfd53eaff78c8928fa79616b847d0",
+          "h1": "h1:+O8594GyMaYaZnEf20nB4Kd6YtunTvVub9CsFAetbc0=",
+          "size": 13977954
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-instaclustr_v2.1.86_darwin_arm64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_darwin_arm64.zip",
+          "shasum": "71aac63f3084db9a806615d6a15f6a3d35529a9d44616baed03d9bc299891277",
+          "h1": "h1:Ua2pK6sVjidTu2swhdmIdW8to9Umam2SqRTf1BWKgdU=",
+          "size": 13279335
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.86_linux_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_linux_amd64.zip",
+          "shasum": "8c890d0751462a324d154cbe8bd8ade1a64ff63f918c07c90b0c5d964d965676",
+          "h1": "h1:+/fD7JRFk0ph1XfqE+hjo2GcUBMTU+XPXIPQ7fcvsJA=",
+          "size": 7120818
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-instaclustr_v2.1.86_linux_arm.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_linux_arm.zip",
+          "shasum": "cc2355f94dd6942196195311071ad82ead20ff1c5e91b99364806680747b07fa",
+          "h1": "h1:24/1r0eS+YE3Xxgh1HftdYjnl8z1GkKtx6dvILAWGlk=",
+          "size": 12776045
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-instaclustr_v2.1.86_linux_arm64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_linux_arm64.zip",
+          "shasum": "569800bc034a32d0afa4a7e024b982e2c1617527bfe1d1a157632195b8101acd",
+          "h1": "h1:eZGHYKm0bsF/06ZJBVBhMHucvYiicJBqPOkmVBjM8uA=",
+          "size": 13123499
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-instaclustr_v2.1.86_windows_386.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_windows_386.zip",
+          "shasum": "a031b2a9d49179cbe3314d97e6f564b0b4b099eed7a80dd013106b8c94b36b6a",
+          "h1": "h1:blGtSmiX7s1G306Lml/A1TcfnhylIB8bgC+PfpKU2KI=",
+          "size": 13440630
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.86_windows_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.86/terraform-provider-instaclustr_v2.1.86_windows_amd64.zip",
+          "shasum": "82848f30f53745ee0d781cbc2be878dbf28f7ac2ef7775bffcba563352c84e96",
+          "h1": "h1:FdrCrFZ8J8fiyvBsT/fyBovrdnr/V3xRYKwpkYyB6BU=",
+          "size": 14145206
+        }
+      ],
+      "discovered": "2026-07-01T10:55:01.92563117Z"
+    },
+    {
       "version": "2.1.85",
       "protocols": [
         "5.0"
