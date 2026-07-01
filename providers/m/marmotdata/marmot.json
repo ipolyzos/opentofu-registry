@@ -1088,5 +1088,12 @@
         }
       ]
     }
+  ],
+  "versions_errors": [
+    {
+      "version": "0.3.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-01T20:52:36.723866204Z"
+    }
   ]
 }
