@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.0.78",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_darwin_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_darwin_amd64.zip",
+          "shasum": "444f52dcd813ee87a06675e7309fe03e02feea02b5768fb391e888dd79127fd6",
+          "h1": "h1:e6SSN1ClBoENjKFNVp6F9+wwBGzgirFSmeBwUZ9a6iA=",
+          "size": 21770101
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_darwin_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_darwin_arm64.zip",
+          "shasum": "07a7390f9855fd2e54f4db4bef847a4bc3d0d58620e99f1e4b66d7f251c46b82",
+          "h1": "h1:nRrq5plzzCdPYIPhy/h4cG/QSFsGTj5xtlLAf/kHtRQ=",
+          "size": 20436709
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.78_freebsd_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_freebsd_386.zip",
+          "shasum": "82723726fd5e608e64ea8c9091e4e15450058212f4ac1757d7c82a5e82beddbe",
+          "h1": "h1:LVQgCma6jMXJpk6MYyGAQ+ibkhP+v3w0WFqIfcev62I=",
+          "size": 19107296
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_freebsd_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_freebsd_amd64.zip",
+          "shasum": "305cb13f0cef050105b67d9b5ba2d05b2d41967115372cd633b1b0e75c8877d2",
+          "h1": "h1:Q8mrHT9QQhgfUDJz4FVNwy3R/Yg0ox6YKQeih6goq68=",
+          "size": 21082550
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.78_freebsd_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_freebsd_arm.zip",
+          "shasum": "86c788e5c95c0ad433e80b7ba8ad894ba7263684eec57b9b391bf0ebde152078",
+          "h1": "h1:ClHbo2ehtGJCpxAoWgVEqriS1FUslCj7B7jX0a5DsP0=",
+          "size": 19260045
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_freebsd_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_freebsd_arm64.zip",
+          "shasum": "a8968e7d48dd6ca950ffba39f6b91bf7e85738eaad3b6a798922292695e5dd0c",
+          "h1": "h1:1AM1bxgWnuQzpaQBpidTqWZ1mutOeBMIvzJaf+uTnxU=",
+          "size": 19041083
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.78_linux_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_linux_386.zip",
+          "shasum": "2325efdf67569d017e976095832e2a6f0851743e88a11913ba229415fbc81469",
+          "h1": "h1:IA/Niwz8YPUWs3xMurjw7+BSEQz9LE4+p9hTXXfuyBY=",
+          "size": 19160269
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_linux_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_linux_amd64.zip",
+          "shasum": "1f4f8c0bb2a53039136f06b0c76fa833a088bba7b86982e4a3a3cfc9dd2e7aa5",
+          "h1": "h1:4uKGFx/4J1mPSq68FRR27cWjhh+ahJuBiSa12gCPw28=",
+          "size": 21104715
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.78_linux_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_linux_arm.zip",
+          "shasum": "8fefde8447c9d9fbf725dff1c6d881f248f269b608820d997005726926cf1ecd",
+          "h1": "h1:EFQUn/s5tgbKQ2zd7gN6apPv19HJ3rT/VQOO+AqRq6M=",
+          "size": 19277210
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_linux_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_linux_arm64.zip",
+          "shasum": "7d295bed184f6824c812bdb40d60c47ec6990d8f2f7575cd3050a8e3833a2a3c",
+          "h1": "h1:AOW6hMFbt6D9Q7G601JavgOa7lUsXF8H1Te7xR+b094=",
+          "size": 19070351
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.78_windows_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_windows_386.zip",
+          "shasum": "ce143557a59909760cdf62c3368d7ff7701ee6c746dbbd01aca1594305ff341c",
+          "h1": "h1:5gfyrhyP37r6vsq6s28e0RMpffbpWMTHd1rMxf+pVCg=",
+          "size": 20275583
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_windows_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_windows_amd64.zip",
+          "shasum": "5ff5f12586296acede17654d5c39a9810f2e25c6ea37df83e4b2b139ed76e6a3",
+          "h1": "h1:139KKNWROqx1TKrHczZsjkyXSrDT56HCx4pQFAISOPI=",
+          "size": 21806942
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.78_windows_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_windows_arm.zip",
+          "shasum": "365e916c662277fa8cea371fdbdeb12d7eb5d79fec9050fde984f234132aff5e",
+          "h1": "h1:MPkVIXsXMzD09gLyRXbG1njAEepOvXK37QhDrcQb5tE=",
+          "size": 19707379
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.78_windows_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.78/terraform-provider-crowdstrike_0.0.78_windows_arm64.zip",
+          "shasum": "61064fef3200f0614fd61dcf5b4bf704b953eb1c98f1c7eb1940c0c4dbcbb8be",
+          "h1": "h1:3gIYJZXpSHFMAm/s90ZsNlX3MXjJa6pfBLWpIfdbq/s=",
+          "size": 19196265
+        }
+      ],
+      "discovered": "2026-07-01T20:14:34.664767214Z"
+    },
+    {
       "version": "0.0.77",
       "protocols": [
         "6.0"
