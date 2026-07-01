@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.11.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-passbolt_1.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_darwin_amd64.zip",
+          "shasum": "aedd082133b0c4f42516d1cc8e5c6acff0ac07ea09c0ea3f80094e68eb859acf",
+          "h1": "h1:2gLbAisIcsIRRyu8nJuHVZES/zL/0Mh7/HXGhJNdts8=",
+          "size": 8081456
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-passbolt_1.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_darwin_arm64.zip",
+          "shasum": "4d79e1c0ed55ac2bbb8db8d865f01c9b9121c61c99fcf610a04534f8bee27b71",
+          "h1": "h1:0S1TkBA1gdIf24boa+cfu9fjnSwm0PxNl2MxV0KtKB4=",
+          "size": 7497995
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-passbolt_1.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_freebsd_386.zip",
+          "shasum": "baf3db50f576e2630f48b3aa39927d9cf2970768a483dba6ca9b1f6e5a251571",
+          "h1": "h1:gFl8Tp7oFO/MCyJHCwq9D6NR2HgVEWQdtzpVaVaVmxM=",
+          "size": 7466506
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-passbolt_1.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_freebsd_amd64.zip",
+          "shasum": "097074b4ed9a3563e2629a781bb7519b6996d899fa0e8bcfda1ef5dfc1a6ba22",
+          "h1": "h1:xLHhXfJSlOO5/0eCxrpZ3PxAerbDVRtiilBxMH3p5So=",
+          "size": 7856410
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-passbolt_1.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_freebsd_arm.zip",
+          "shasum": "2de003427fa022155c8b048ab6745bb28c24003ac3e9feb79c2a5180787e1581",
+          "h1": "h1:pqm8ffqbhX6tLC9Q3BF/wI4/JNCY9th94ZbvmD5bZro=",
+          "size": 7427705
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-passbolt_1.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_freebsd_arm64.zip",
+          "shasum": "d2445b967f572152d8aee664d7adc9d60ace4e8696eddc662e6051897818869e",
+          "h1": "h1:Ijzto7YK8tE8vb9LxLgMLsZWb9jQQhu81zxPS8NV/3o=",
+          "size": 7115016
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-passbolt_1.11.0_linux_386.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_linux_386.zip",
+          "shasum": "7a11458345645a8e6a8b2e7b5a6afb64f4803460eb8d8943dfaa3328995fd8e0",
+          "h1": "h1:/9/jD7XkKB2JkYYej0EtzSKlCGCnKeF0fc2LxpsZMic=",
+          "size": 7502317
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-passbolt_1.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_linux_amd64.zip",
+          "shasum": "c2009cf370c14b403ad5649d0cc90153a9335e236926ca4d6c2fc83cb11ddb2e",
+          "h1": "h1:63gE5jwVksMHDR7WwZpdOFzMCRQcGGi96Ndop+WomOU=",
+          "size": 7882838
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-passbolt_1.11.0_linux_arm.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_linux_arm.zip",
+          "shasum": "1e35b04686611e54f7ec3dba5ae81106d434f730f812fc06aede0cd3e02242f2",
+          "h1": "h1:VI4ZfpCP4ogmv9Oe89TNCVd/3/o5EjGmQzMSb3Age58=",
+          "size": 7450755
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-passbolt_1.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_linux_arm64.zip",
+          "shasum": "bbc37fbbcdef7b2d8797eb76476e957269166dcddb423c52a60574d5eeaf1d7c",
+          "h1": "h1:VqUhX65sI3BU4B3R2YajSvyaI4MWT3+5B7etnZ+5Kvw=",
+          "size": 7143424
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-passbolt_1.11.0_windows_386.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_windows_386.zip",
+          "shasum": "0252d94ce224b3b4c9ae73722682921be8799ec463abc0aac28e214eace62535",
+          "h1": "h1:Nv6z2rvM1zb82B/duOSk5rVO8crpBkwQU0DC9f7EVDY=",
+          "size": 7826636
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-passbolt_1.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_windows_amd64.zip",
+          "shasum": "3bbab94fb4e58db3fa23bb0512030d4667fb4d3a3f576abca58303e6f4691cb7",
+          "h1": "h1:EqZ316ED+viEqW4t4g/lXQuVQTwTP70T+UUOgG2hyt0=",
+          "size": 8104150
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-passbolt_1.11.0_windows_arm64.zip",
+          "download_url": "https://github.com/bald1nh0/terraform-provider-passbolt/releases/download/v1.11.0/terraform-provider-passbolt_1.11.0_windows_arm64.zip",
+          "shasum": "736d4671ab2be583e876bc62dd5ba8a58157fff950261c52b11729f31a2cb2ee",
+          "h1": "h1:0zBmPmS5gCw+YZYEGADtXMlk6uz5sg0O+jCQdWymn44=",
+          "size": 7226671
+        }
+      ],
+      "discovered": "2026-07-01T08:22:15.953010169Z"
+    },
+    {
       "version": "1.10.0",
       "protocols": [
         "6.0"
