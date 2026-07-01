@@ -141,6 +141,11 @@
       "version": "0.1.0",
       "message": "checksums not found in release",
       "utc_time": "2026-07-01T14:56:58.807023624Z"
+    },
+    {
+      "version": "0.1.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-01T16:44:52.780592351Z"
     }
   ]
 }
