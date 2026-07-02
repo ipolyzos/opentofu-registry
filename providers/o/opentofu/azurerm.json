@@ -1,6 +1,152 @@
 {
   "versions": [
     {
+      "version": "4.80.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_darwin_amd64.zip",
+          "shasum": "5a589ac3bd83b0db1db60ff1001baea94c1d35be8fe2c4526ba8224d06769dc9",
+          "h1": "h1:BkDHI0+fPlHKM9PIOKnOwGUxgYOV65O2P4cWebI3aB0=",
+          "size": 62651022
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azurerm_4.80.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_darwin_arm64.zip",
+          "shasum": "0c0262a7cda79d3e850545a74fe3151dd00e2b0a9923cfdb101fe05c1271404f",
+          "h1": "h1:I8uN35ybRHD0rmvjE+lh+bCFLM6vM1p8QLm2RIsn20Q=",
+          "size": 58610724
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azurerm_4.80.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_freebsd_386.zip",
+          "shasum": "ec0e7e9a066f2a9f806afa2aa96fa21e2995ee85cfb40dbf96179dbe8e19f790",
+          "h1": "h1:p6UGxTkUbB2OjomDXN/6PGZAxfxKoK1BhqOLZaBl3YA=",
+          "size": 55102323
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_freebsd_amd64.zip",
+          "shasum": "4151feabbb9e15b8dc5d7e4b2258ed4a4d2ff0f467fdfe7c805075235da3b92a",
+          "h1": "h1:WZuPh5xdWlnHlKH8yWrG+7ZkL2nvooKGscBJAKA5fv8=",
+          "size": 60938276
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azurerm_4.80.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_freebsd_arm.zip",
+          "shasum": "38a747101fa3a95ebd0390b8382d02ed016ea0cfba61b9b9a8f0b2ff2b8ae31d",
+          "h1": "h1:p0/RKU7/erfKriGOjgQBAQHjJkX2oWfvAri+euYPV9A=",
+          "size": 56794413
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azurerm_4.80.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_linux_386.zip",
+          "shasum": "a8e9273362cc670ec44769b71e32e128fcb25cfeb180903673bcb19a020aa73d",
+          "h1": "h1:3ugN9+6K4hJXpVvISHpyEfit+nj6KDH9WmYU01uIfsw=",
+          "size": 55239421
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_linux_amd64.zip",
+          "shasum": "d9036449c588ad700df2f254a69d828098b44d55ffb8ec52c31b27b0ab21d871",
+          "h1": "h1:C9yMt4aisAy2Tc4RYqezUHaho8yUB3Cyqg1Beach7bY=",
+          "size": 60975376
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azurerm_4.80.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_linux_arm.zip",
+          "shasum": "0737e143b21aed8a9dd8230c913cb653a127a52f335dc52f1d212593503117dc",
+          "h1": "h1:4WDTvTdpSZLSYuwSNfDS7qcCchUUYHec027bF41gb7s=",
+          "size": 56836502
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azurerm_4.80.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_linux_arm64.zip",
+          "shasum": "d43989efee459f4dc43267fbc98f3ee8d8d6066c829db1627d305d633019d538",
+          "h1": "h1:9cgluGNXUB/ILYC2xHoop97QqqVkLkEzUe5yoQrllP4=",
+          "size": 55159543
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azurerm_4.80.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_windows_386.zip",
+          "shasum": "211586e6317b9c432d1d1dfa2ddb72f9a25704088b5c77ce7b78eede94eb3209",
+          "h1": "h1:KbYTNYdayAxMb8aEp767242j0/JU3/ri2XH05eURCFY=",
+          "size": 58431859
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_windows_amd64.zip",
+          "shasum": "e9e116793807c0af42de1d16ebb1b8c3bf0252f1eb9645f7662102fa80d8f8b0",
+          "h1": "h1:bpmNZO9WMHOOknKjZQEV72Rwjjfiks049RCP1gKTaoI=",
+          "size": 62574499
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azurerm_4.80.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_windows_arm64.zip",
+          "shasum": "753ef483a3af84d23750556aa8ba87cdb98ea57bf148c4e7a65dc6be7c7f3f5c",
+          "h1": "h1:MNvJ+4ccdPV0bIKLimKkmvUAuuCdx2a1MoR72vjABsI=",
+          "size": 55362855
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-azurerm_4.80.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_openbsd_386.zip",
+          "shasum": "2eb97f4fdc5dd2550d300403ba5c8a84a40c776a957126cdda4c7a3fca11bdda",
+          "h1": "h1:suntvZgX/12BEoFZzn3WVAWzPzm/41urdh1zl1DkfcE=",
+          "size": 55097754
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_openbsd_amd64.zip",
+          "shasum": "bbd6f1099e386c987d0d0f16428dcde5f6c50e94d6a65c98648441f357d608d1",
+          "h1": "h1:eAy7agtpfkC+6eHb7NmtTNXcDd67qvtfbRFvLCD0n6w=",
+          "size": 60934340
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-azurerm_4.80.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azurerm/releases/download/v4.80.0/terraform-provider-azurerm_4.80.0_solaris_amd64.zip",
+          "shasum": "3218e942b8417775d45ba4d23dc777649c0a5bbe5d2848a53b90c1ba494660cc",
+          "h1": "h1:/3VCHqW2jY/9fum11q23cxIeVLBi3nm5cufGvFN7pP4=",
+          "size": 60937021
+        }
+      ],
+      "discovered": "2026-07-02T21:39:14.645781197Z"
+    },
+    {
       "version": "4.79.0",
       "protocols": [
         "5.0"
@@ -34687,13 +34833,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "4.80.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-02T20:39:08.575381556Z"
     }
   ],
   "warnings": [
