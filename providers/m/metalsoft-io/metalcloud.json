@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "7.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_7.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_darwin_amd64.zip",
+          "shasum": "2ddff25f3318ed96fb3efa0c0c10e54bd543a6e445b593baa1f61fed8f8a5888",
+          "h1": "h1:DTzgtEgHbvFacpoOjMlTvzPOzg0J/ohm0rRZKDqjHtw=",
+          "size": 11155003
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_7.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_darwin_arm64.zip",
+          "shasum": "be41f3cbc6069f1bd000ffdfed5faf1339d95075d8545ce8f3510047e8f0d3f6",
+          "h1": "h1:Q+cZwks4bfvk+YSjYg5wUSwEf2Aw+Cy+I2seXfDd2KE=",
+          "size": 10324097
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_7.4.0_linux_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_linux_386.zip",
+          "shasum": "37dc780b51d97a3d48ad158585306f01e087f8fee41960a251e8ea3135e8628d",
+          "h1": "h1:RYAa3ZA+ogm54LqWZxeQLMAK4JYNSkxaY6cJ2y+gShY=",
+          "size": 9958469
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_7.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_linux_amd64.zip",
+          "shasum": "4b6ca10e4ebcd34ef8e0e071a912ddfe12e2ebb5583e2cf8075b78cf1bade758",
+          "h1": "h1:HV+yCgKeFinRdGUUiLSrhBLNhmJ72YWNnj8dGgYOmK4=",
+          "size": 10873295
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_7.4.0_linux_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_linux_arm.zip",
+          "shasum": "bae2c6253ca37cadb1ee53d88d107f60b14e0895dd1257580f2a7d80b9cd27be",
+          "h1": "h1:FUAGEcLcle0c4d/urYUHmXxBI2ZYqr2L7MOWT1NJeOI=",
+          "size": 10042483
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_7.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_linux_arm64.zip",
+          "shasum": "e93ee6a7268051d346427dda10d8fa7a4b6d5e64c52b1fd6a4fc6f57a1d8ddf2",
+          "h1": "h1:8IyGCWynwVTtZi+2QeK4XnKKFdpWSU8guyi/JO7fmI8=",
+          "size": 9761395
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metalcloud_7.4.0_windows_386.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_windows_386.zip",
+          "shasum": "7a4e3b6d3d15c35fdc850715ca0bc72fe992f7185454c80928bd1dd76c2b812b",
+          "h1": "h1:UZ7qtLpFZtbJLN+zR8GXRZAdPBJ6YthVekybUVag/oE=",
+          "size": 10503002
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metalcloud_7.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_windows_amd64.zip",
+          "shasum": "6f462bf4a5bfa4113c9d43752112bf3805f9f5a336f7c6b5c886191b52358073",
+          "h1": "h1:ewuTECmvonzThWnmncX8NcNM8Bph1pvHFobTAX8yvuA=",
+          "size": 11236890
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-metalcloud_7.4.0_windows_arm.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_windows_arm.zip",
+          "shasum": "389c651b6251be3bba053749cc8d5f956cf4cb8542993b62e0453ba21e6cf9e8",
+          "h1": "h1:FJyNLnZE9faVhMmW0HU17bRQeHPe020S/ljyddMNnIY=",
+          "size": 10274499
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-metalcloud_7.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/metalsoft-io/terraform-provider-metalcloud/releases/download/v7.4.0/terraform-provider-metalcloud_7.4.0_windows_arm64.zip",
+          "shasum": "cd30a6985e1612bffe8e01e14a0d8e660c0c5cbddc99e2377356972b816de4eb",
+          "h1": "h1:B2hez78T05DLYzcddkGdpbk+hQKaSgYk8pyhgzGPGZ4=",
+          "size": 9855231
+        }
+      ],
+      "discovered": "2026-07-02T11:36:16.302396708Z"
+    },
+    {
       "version": "7.3.1",
       "protocols": [
         "5.0"
