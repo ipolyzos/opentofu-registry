@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-planetscale_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_darwin_amd64.zip",
+          "shasum": "c41ac804ea7a12183495eb9592f24b67ebf9fad00525a89df971d47ed9bd91dc",
+          "h1": "h1:nn7lPamR0oofoMCqqOGlLq0hAI2ZRq8tNSYXndlNBfc=",
+          "size": 7418328
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-planetscale_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_darwin_arm64.zip",
+          "shasum": "f37e570a9866f3fc32b3c99e7d8d5048d9e6fb03cb9d55bf78e66b24ec9adf31",
+          "h1": "h1:wVfW8FEjYOfqljoWzFD+Pr9N3Vei7A7Nv/uGFsGU/Hs=",
+          "size": 6912410
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-planetscale_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_freebsd_386.zip",
+          "shasum": "cbe9f50621016825229ef2ed85c96e5c1cfb190131546c29895346af7e7ba993",
+          "h1": "h1:aiu38VTtp3tOZVcfKKUhXdZkFG/gUF9TrtOVB/jV6Fo=",
+          "size": 6799213
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-planetscale_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_freebsd_amd64.zip",
+          "shasum": "1bdbe82208d4d0a1796a5e56556088bec46c098e4a1db217a8f50358a697e768",
+          "h1": "h1:qVm2HfnnVh8kz0STLIREk7K2swNPl3Tv3Jrh4GLM3fo=",
+          "size": 7211915
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-planetscale_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_freebsd_arm.zip",
+          "shasum": "648210cf39cae7a4e0ba699678d10036302b281f200c90be927d17ca52a89c70",
+          "h1": "h1:zedWypCjpRCX2er9lF6q2o8GE9jIsmuf8TN9qc96po0=",
+          "size": 6771122
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-planetscale_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_freebsd_arm64.zip",
+          "shasum": "9baa5b24e0d729469156d60d3ac60cf8bb8738dacb98a21e1d7e006bad97a05f",
+          "h1": "h1:8vuRNkfMad2EuLuDzQmeIcZCimSFFtQh2IuYSMpkCsU=",
+          "size": 6547195
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-planetscale_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_linux_386.zip",
+          "shasum": "fe5a870bd0095f39ea6ffcfcd99f3a631b30221de662999d6ae9941ae03df155",
+          "h1": "h1:bP9AlTnGmuTeyIKI46LjYMW85soBRgwlKtpoeCIJ0Kg=",
+          "size": 6828490
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-planetscale_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_linux_amd64.zip",
+          "shasum": "1cb521780937f2608bdf6074d9c9f45d92e2b070319c576a39aeb2d8d1322aa9",
+          "h1": "h1:I7IXaQ7huKPnepSUFDKwXOxCe4sSTEg0F5h6W1FZKeM=",
+          "size": 7234165
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-planetscale_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_linux_arm.zip",
+          "shasum": "5d86fc8c353366976f6fb1dd08d59392538987aaf0158d5e4f224e887f8dcdbe",
+          "h1": "h1:mHd3s3kByN/VRcPVu0Sde523GAUJuR1eDqAuqjV8svw=",
+          "size": 6792475
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-planetscale_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_linux_arm64.zip",
+          "shasum": "f287c4181d2466037b72872bbc12fac4b3bafc1a4862f0c7a18933a5b3115007",
+          "h1": "h1:MmM+vxt0ZEbCyaJiscMhwx0ia3rk3Wq2L8Ccrayoxg0=",
+          "size": 6572133
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-planetscale_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_windows_386.zip",
+          "shasum": "71ca1aaedc9122c108a350eefb6636f9caee3d99bbdfde2c9c00b6c000fe1a29",
+          "h1": "h1:Z81ZBClkYaTcgTtAD8sjGeh/rhUHwn8VFNpO7KicgpA=",
+          "size": 7147342
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-planetscale_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_windows_amd64.zip",
+          "shasum": "9a6702766dbf5391611fc7dbe93d022283b556f23c791081918c7fe801ee0dbb",
+          "h1": "h1:b4p3L+IOWSLgOpSjCREfEXMD6j1y6bio1P0HZkVVd4s=",
+          "size": 7447534
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-planetscale_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/planetscale/terraform-provider-planetscale/releases/download/v1.3.0/terraform-provider-planetscale_1.3.0_windows_arm64.zip",
+          "shasum": "ee6c0636c9a0bf4d10c325a4f338fd7dc456b672bf63dc6ea94eebdb90ed59e7",
+          "h1": "h1:jHK1gzoOUtTsCucuE4upCwvgLWdvDWU+t5nzkkrT/7Y=",
+          "size": 6653914
+        }
+      ],
+      "discovered": "2026-07-02T20:10:37.250745221Z"
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
