@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "1.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-k3s_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_darwin_amd64.zip",
+          "shasum": "9a90755896587d67268d1caef706df41c2671ccb9b47c1906425430da8295531",
+          "h1": "h1:LM2QgyBuNpJLAB9n2kWaDXlsrDn/i9loIdHRq1Rzc78=",
+          "size": 8585256
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-k3s_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_darwin_arm64.zip",
+          "shasum": "f0292354bd4cd70d0282fade62153a96683ecb7ad3eba0a463e05dd1efa7857d",
+          "h1": "h1:HIdGANPOcJq0W/ey0F+f9m0P986GRmzs6nnt/xPVHZw=",
+          "size": 7961152
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-k3s_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_linux_amd64.zip",
+          "shasum": "b58e9b74381ddfdef1dfbf8f254ba961164d9e587172af15c2fffcf6520def36",
+          "h1": "h1:BbpS7RbFnZH4P5xO7eXv7TO1SqTtxCMpzip1M+RcQUw=",
+          "size": 8387093
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-k3s_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_linux_arm64.zip",
+          "shasum": "6f1a8b5fa7ad09c9c19bd78c95ac0f263313239afa66ece289c26c257720999b",
+          "h1": "h1:W6VDC3NKPlUzxivZw7zuQWeMKEEYMTkzkVI+nCyKG6k=",
+          "size": 7594257
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-k3s_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_windows_amd64.zip",
+          "shasum": "2d6e768300ce3b6d17ed503d48bf7f865cdb3b8fab1fef06472aafd193529ce1",
+          "h1": "h1:U1EVDI8u2Fr24UsJu71qNjx6sOBg8TcYN0w/E9kUNS4=",
+          "size": 8624342
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-k3s_1.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/striveworks/terraform-provider-k3s/releases/download/v1.1.0/terraform-provider-k3s_1.1.0_windows_arm64.zip",
+          "shasum": "21aba8b2e0034b9fd90f0fd6e61407a425856b7bf87a81011adbbc0af14c7b4e",
+          "h1": "h1:no6r8+cZdhTi3MarKyErqSVt3PxG7f64H2Ip3nzIczw=",
+          "size": 7680164
+        }
+      ],
+      "discovered": "2026-07-02T21:39:21.877088063Z"
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "6.0"
