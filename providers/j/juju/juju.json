@@ -281,6 +281,62 @@
       "discovered": "2026-05-06T12:28:57.769659378Z"
     },
     {
+      "version": "1.5.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_1.5.6_darwin_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_darwin_amd64.zip",
+          "shasum": "a23024c7568283e42199d317aec6aef261146a0ef462395eaf5b072ffdf46230",
+          "h1": "h1:8pZrIxnjXAulY4oD3ES1/TJkWKpb4XA3S5R+QiJIK1k=",
+          "size": 22957604
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-juju_1.5.6_darwin_arm64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_darwin_arm64.zip",
+          "shasum": "ef9b4d7a16149ee44a928d48fa749b10187992232f258db30473bffe4de4b316",
+          "h1": "h1:Gwxir/dpweoDhnXMH0e0poMpnz2WvEd2LBS1nZAWOPk=",
+          "size": 21115488
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_1.5.6_linux_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_linux_amd64.zip",
+          "shasum": "55d7ec283d6237e0e1cdb4c83b4f96a62ba704f69067c37015e5ba25af66e65c",
+          "h1": "h1:iP7lyUdutT5JqdqIBxMMVojOmHNtFawYLyqXyh4VsFM=",
+          "size": 22475820
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-juju_1.5.6_linux_arm64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_linux_arm64.zip",
+          "shasum": "5a8d3d2ed1c8ff0254939e729811efbb0706801a1ef7a7a07d91d7eed65c8ba2",
+          "h1": "h1:MFssjwHz0RAuTrcRTC6MAZOBwrrkSKeG3p/WDvAqVnA=",
+          "size": 20071261
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_1.5.6_windows_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v1.5.6/terraform-provider-juju_1.5.6_windows_amd64.zip",
+          "shasum": "e084c53ae12e5f421fcfca8a7057dcfde06c9831fc793e05a9018da940807afa",
+          "h1": "h1:Z60GUqagdkJKdCV5GMHboP0sKsVp6x9JMXV8oGnBiD8=",
+          "size": 23072963
+        }
+      ],
+      "discovered": "2026-07-03T06:49:21.579014503Z"
+    },
+    {
       "version": "1.5.5",
       "protocols": [
         "6.0"
