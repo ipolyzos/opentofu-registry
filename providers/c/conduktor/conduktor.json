@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "1.2.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-conduktor_1.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_darwin_amd64.zip",
+          "shasum": "0ccdf1a0c93d5c61ef73eb134d62d3faa429f464a5b4ba78e3be18583eeb3dff",
+          "h1": "h1:uht6NjZFwyKrpsL+U4fdh31QWjk8dk89PoBeSIKuPEg=",
+          "size": 9249924
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-conduktor_1.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_darwin_arm64.zip",
+          "shasum": "7bc27c003f8bdba4caf36a29a0d63e6792133bb8527eb657155c9e00364b13de",
+          "h1": "h1:IL1cL6HKSq0iXbnoN1ZijxWJlHalj8MxGx4nDDR458E=",
+          "size": 8540703
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-conduktor_1.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_linux_amd64.zip",
+          "shasum": "631bc66edda9ba91ecd5fad90ca014236336a9da9a988a806d9bf7436a4b204f",
+          "h1": "h1:zKaha/1jIfB7PK/jSrUvzi4R5jVyoZkj5BzQG5/BXNU=",
+          "size": 9046258
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-conduktor_1.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_linux_arm64.zip",
+          "shasum": "e96045da1b2c52858b610a30b6772c234011e1492940b05e3ecdbcd2505dc763",
+          "h1": "h1:xTd9+FKZGPu+vOgPHJ7m5EQqnYSzAUFmWHeTteOTIg0=",
+          "size": 8146250
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-conduktor_1.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_windows_amd64.zip",
+          "shasum": "d66f0bcdde57f38953ae798f809163b5cae472eb733085225ce957d64b31d573",
+          "h1": "h1:jUcQpw/JOD+Ru8gSsVU0gd/SHe2owGaDlBysRGqlFKY=",
+          "size": 9294762
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-conduktor_1.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/conduktor/terraform-provider-conduktor/releases/download/v1.2.2/terraform-provider-conduktor_1.2.2_windows_arm64.zip",
+          "shasum": "c4df2d802d427aed0085ae65f0734848e09f229d07c5349a3def2f95824f0442",
+          "h1": "h1:/Yf8DNOSqB44Zdn+l1y8Rq/MuqjFihZw/5tUEwo06UE=",
+          "size": 8236116
+        }
+      ],
+      "discovered": "2026-07-03T10:12:55.454112127Z"
+    },
+    {
       "version": "1.2.1",
       "protocols": [
         "6.0"
