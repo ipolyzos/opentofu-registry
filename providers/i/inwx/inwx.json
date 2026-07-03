@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "1.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-inwx_1.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_darwin_amd64.zip",
+          "shasum": "cc927913299e11b8979982fbe554fafc518eff6eeedf7b4285390f4e9e8861f7",
+          "h1": "h1:mbOg3M9YpXhMEB+7Kix1k+YZ2WHEgO5+Aq8JRUIxClA=",
+          "size": 6398750
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-inwx_1.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_darwin_arm64.zip",
+          "shasum": "22b7f625a5359d7f8479a1988c40aa740c287e6b7fc9fcac14962f655953db3a",
+          "h1": "h1:AM5s88n2Psgup5RPxSrf47SsTrDiykBL+DALWRM/emI=",
+          "size": 6002487
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-inwx_1.7.0_linux_386.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_linux_386.zip",
+          "shasum": "e0a8447a6e4bcf23d38fbdafba5240aaf2412bcb343a99f2ce469bb8fec92411",
+          "h1": "h1:uKQk1Qsdb2RZjO8rRPeO0gEfRF6knMl2E5XZespzdrE=",
+          "size": 5926467
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-inwx_1.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_linux_amd64.zip",
+          "shasum": "4cf6cfb7b2be3e131d84d4d1909b0aee8274b2222b1011519060060664c21539",
+          "h1": "h1:vR+y0Rm543cFeqjDUmtg1go+nz9GV2amsNEMcC+tdYM=",
+          "size": 6248685
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-inwx_1.7.0_linux_arm.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_linux_arm.zip",
+          "shasum": "55bc153ee5ca346e77cfefc9f80d490dbe1a921367fe3c62b7c2b24bfdd605d3",
+          "h1": "h1:XTSuDLoR3l3gcQ3yoF2Ih2kFQM4IKS7MKWNE64+9P+c=",
+          "size": 5893995
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-inwx_1.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_linux_arm64.zip",
+          "shasum": "0d8555b23622f42f715265636b1ce3c151cc1065bcff9f9b32e45eaf77dbb2e7",
+          "h1": "h1:mhkrS4EDTuefTe4WZkPrbkNgUuAWD0UZLIrN1r3pQMQ=",
+          "size": 5731711
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-inwx_1.7.0_windows_386.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_windows_386.zip",
+          "shasum": "61240b5d11d63b0636218412e21100adb2d7d231bfaaa00f7798beccb330aa13",
+          "h1": "h1:wMua6dVjrkvN2jSRthxp3MgSCoQ+swYL6qqdfFiVYX8=",
+          "size": 6210192
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-inwx_1.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_windows_amd64.zip",
+          "shasum": "99cbc13d0a94e2617f59803bf5e94dafea7722026ae743b85295f6b8168435e1",
+          "h1": "h1:mddDCsqDiEU5FFJMgokxVJcwi1/iwPulHAIonWcs5OU=",
+          "size": 6440333
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-inwx_1.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/inwx/terraform-provider-inwx/releases/download/1.7.0/terraform-provider-inwx_1.7.0_windows_arm64.zip",
+          "shasum": "13ef0a12298223cacac1554a30442daa161a4d82a4e0b3f38cded69ad7d55755",
+          "h1": "h1:hYEP1gJWB5QTUQ/Td32nho30bcUQZsEMaBoU8UqLiQQ=",
+          "size": 5819190
+        }
+      ],
+      "discovered": "2026-07-03T07:59:48.021082427Z"
+    },
+    {
       "version": "1.6.5",
       "protocols": [
         "5.0"
