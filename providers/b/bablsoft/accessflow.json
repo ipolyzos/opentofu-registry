@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.5.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-accessflow_0.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_darwin_amd64.zip",
+          "shasum": "93622b6e20f655c49b24598ffee0ebc6fdafbb106b71c5638782f1573cd50bc6",
+          "h1": "h1:egtGlhdoFNv4+tp07SfqYy4REZVqOGb9ItTkH9fNLG8=",
+          "size": 6787795
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-accessflow_0.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_darwin_arm64.zip",
+          "shasum": "3eeb0f58e4580089291faa9f2274c9bfcd60b2667c594cfddba2974b789943f3",
+          "h1": "h1:AMWTEAc9TENFAVa43I52RxLiCBBhTAaD882uUb+XVf4=",
+          "size": 6324626
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-accessflow_0.5.3_freebsd_386.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_freebsd_386.zip",
+          "shasum": "ecae2a294e81e3e47d7dac0765e72cf27b58aa825b69ef2763df00a642c6d0cc",
+          "h1": "h1:1iqcLq797lf022VvhCBeemw5HBH2dGsyK6Qo3I0K5nw=",
+          "size": 6244866
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-accessflow_0.5.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_freebsd_amd64.zip",
+          "shasum": "607d01453d71d6067796c7b03d06a39029638b61f8ce7ea1442460173be52f5a",
+          "h1": "h1:ksjy4OR/UXXKL9Rx7yZNw/ZwB/82guM2ezy30Q+BQGM=",
+          "size": 6594407
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-accessflow_0.5.3_freebsd_arm.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_freebsd_arm.zip",
+          "shasum": "58205e2d8ba73d2ac8ccce0d784aca10eee1ae8b290fd1c87cc891bf0c99b36c",
+          "h1": "h1:LEXyJqJwh+JeoYhl71oMjqz0VBNnN8Qw+te5//nIzY8=",
+          "size": 6213674
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-accessflow_0.5.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_freebsd_arm64.zip",
+          "shasum": "81bc454f49549680b497264bfe9081a158018e60d7dce6a89356456dee631c5f",
+          "h1": "h1:QDpieYAyQyHadEJttX71f8Q5Tq6ehXKslSyercJ5VQw=",
+          "size": 5993115
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-accessflow_0.5.3_linux_386.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_linux_386.zip",
+          "shasum": "eabaf71d10255792ae40308bd66a0125c778e3bd0094e164d9fec360db0dc87d",
+          "h1": "h1:vXFgRfcJG7Bm1nH9nCd5+Lu74uj4vFwyl+4WYC4Svl4=",
+          "size": 6272600
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-accessflow_0.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_linux_amd64.zip",
+          "shasum": "019818a38d741d5bbda28c488a9a6f6e68b03bc313fa3e1a6d23ea8b0e3b0edb",
+          "h1": "h1:i6zmma0MnGDjT9o9D8cy8AQjL1xWCItESEsyS5j2QDk=",
+          "size": 6620796
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-accessflow_0.5.3_linux_arm.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_linux_arm.zip",
+          "shasum": "4f9eb13c68a3614aef25cfb352bf48cd4a6d2b682abf3d7c5f6a42299790f8e9",
+          "h1": "h1:mPtdMqULdDwyEnjtgjFH4TfnKA8p39mvJffydd3ss+g=",
+          "size": 6233423
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-accessflow_0.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_linux_arm64.zip",
+          "shasum": "dec7e37c7faea488ec294dcdad9ab9e0994e7b2faf9bc06e54c938ed1475e93c",
+          "h1": "h1:pbxItl0Vr19T3vHhD9t9OjzckMMQASwiL2W7UfVVpqU=",
+          "size": 6019469
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-accessflow_0.5.3_windows_386.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_windows_386.zip",
+          "shasum": "e1ff3db7d577593d2adb7c24213e7ea09a48acc60ec7e70a4a33f287015b6034",
+          "h1": "h1:03WUvyciSHIOJON6RmrMmISCzEIdgwlZlU1BTVV75ow=",
+          "size": 6557634
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-accessflow_0.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_windows_amd64.zip",
+          "shasum": "4b533ccc27bcf9cd983ed51518d4f6bb7424cbf454232fcb25647373e900e50e",
+          "h1": "h1:XDAeF4LZ6MOuLloN/R2i7cuWZs2ByEDJPxwmbQpmI4A=",
+          "size": 6821002
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-accessflow_0.5.3_windows_arm64.zip",
+          "download_url": "https://github.com/bablsoft/terraform-provider-accessflow/releases/download/v0.5.3/terraform-provider-accessflow_0.5.3_windows_arm64.zip",
+          "shasum": "6a462bbcaa1cd128e418388d89cb5a870d897ba96c06af4dc042a4db1d9856ca",
+          "h1": "h1:5cn7WYv8aDCH8M8vAskQfaFn6BerWD/4GTwUOkcSLIw=",
+          "size": 6102168
+        }
+      ],
+      "discovered": "2026-07-03T11:09:07.361499279Z"
+    },
+    {
       "version": "0.5.2",
       "protocols": [
         "5.0"
