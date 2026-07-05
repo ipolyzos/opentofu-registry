@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-freeswitch_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_darwin_amd64.zip",
+          "shasum": "84082d0c9efcc91c441093411a80e5ca7dbcb3aae497dc5290fc0c184737e2b3",
+          "h1": "h1:CnuwXK0pcUTrsFB9CTPuYOeChLtjIrsWT6a2B6TM7L4=",
+          "size": 6609234
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-freeswitch_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_darwin_arm64.zip",
+          "shasum": "3d1f9cd299c122a01d1560a5f6bbe34688be1a2a05ef2945ed9edda1ea41def3",
+          "h1": "h1:FxWEkRgNxmCLM+swMjWSE9s9Da+yXk6bEgpe4/Qa7Tc=",
+          "size": 6157424
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-freeswitch_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_freebsd_386.zip",
+          "shasum": "3d9313a82f88f26f3ee2c6a8f1aff6ee25c0b72c11f199c6523e70611695cd9c",
+          "h1": "h1:6X18EjTMUFp+kTqji/wJNYzUci1ad8/B5kbC6Er/oFw=",
+          "size": 6083032
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-freeswitch_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_freebsd_amd64.zip",
+          "shasum": "b7a7f1fa16bcc769d82709080ad935b5d361fc82ea8bf6ec0f51c57344fec370",
+          "h1": "h1:tt1EVkiKgV1jyse6K72IrIaeME/DcZLF7JswLUCtQE8=",
+          "size": 6424527
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-freeswitch_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_freebsd_arm.zip",
+          "shasum": "4f14e7c0b06e265eae6670fe2ac33a0af88824ccb107c3dda224478d598ba9ba",
+          "h1": "h1:y4Gq6reNfGuMraIbc0XZ4Y70bjB+2I2XtigE+IqL7YU=",
+          "size": 6052388
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-freeswitch_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_freebsd_arm64.zip",
+          "shasum": "889a12e06a34a6dc99085c98a05efb7a8a33d6354de46b86121101e041f49553",
+          "h1": "h1:nVEeBGNaUP+wUatefXAshYAPAS5ZA0xzpVJf0lYRpT4=",
+          "size": 5840808
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-freeswitch_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_linux_386.zip",
+          "shasum": "72c11e0518da7e13f94ee2d83524bc985c6313d25afcd4e97b6127be28b07458",
+          "h1": "h1:uk3z+KYKGun2F261eO3kfEpZunIrWD1/p8f5iubj4jk=",
+          "size": 6111486
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-freeswitch_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_linux_amd64.zip",
+          "shasum": "1b83cae44033939b2197ab3008b307ed7d6a97a0571df2dc59a20e0a13511adb",
+          "h1": "h1:SQxFA+R1Jt/rM9tKy6ru+0SK05fTbsBzjXdysRUS7Bs=",
+          "size": 6451014
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-freeswitch_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_linux_arm.zip",
+          "shasum": "e3b703f3e82a13bc6c9a3ad8146d42621fe8703ef824f3490c1c1d448aebee41",
+          "h1": "h1:CQLEtb9kWDDf7ejZml/Jw7SesqvoCitYn72YhBl61yU=",
+          "size": 6074193
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-freeswitch_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_linux_arm64.zip",
+          "shasum": "52cead2abc97bd7434e45089aa134d87d7218cd3c082f9f1084af9b85121788d",
+          "h1": "h1:ogEqzVekn/FkmNsevSWDkGbZpzuyvdpjthiMZi91EEg=",
+          "size": 5866318
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-freeswitch_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_windows_386.zip",
+          "shasum": "b5ee5bd10a96195198406441166e59286a0a68175cc3dcaaa6e70eb252b6e7d8",
+          "h1": "h1:jMXpV60Wu5OZEPu9Z4ZO13CjCMTnmf9now7UXzaBg4o=",
+          "size": 6390238
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-freeswitch_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_windows_amd64.zip",
+          "shasum": "4d0086eeb67073e759385e055b5518ac68eaa2c3cd48587c1bdce644cb361b1e",
+          "h1": "h1:1g+FnRQiiS/dnSlZRVjL6VFEWukSmYylmGv7uW3nDUQ=",
+          "size": 6642646
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-freeswitch_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/jamalshahverdiev/terraform-provider-freeswitch/releases/download/v0.3.0/terraform-provider-freeswitch_0.3.0_windows_arm64.zip",
+          "shasum": "a024863d4e1ae41ce336cb043b38583dae3b9141934abf863eb1ea066880f88b",
+          "h1": "h1:ZVAMjnvpSRe6yX4vwmYIMny8IXtL3daDsjim/DEYTpY=",
+          "size": 5948694
+        }
+      ],
+      "discovered": "2026-07-05T09:19:40.688849452Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
