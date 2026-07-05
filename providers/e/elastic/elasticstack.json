@@ -19573,6 +19573,11 @@
       "utc_time": "2026-07-05T05:50:09.908567647Z"
     },
     {
+      "version": "0.0.0-20260705-ea1483b",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-05T07:00:53.307281005Z"
+    },
+    {
       "version": "0.0.0-20260702-d21acac",
       "message": "checksums not found in release",
       "utc_time": "2026-07-02T03:29:03.429773196Z"
