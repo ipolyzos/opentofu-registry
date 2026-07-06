@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.13.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-datahub_0.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_darwin_amd64.zip",
+          "shasum": "bac244cf42712c6807172e5ec57bdc996ad78f5c9c0bfbab4f077875b614edb2",
+          "h1": "h1:CjwF5hbeLmeApVVuon+rmOPA2TOrltIliQbqNTf3Zy0=",
+          "size": 7492972
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-datahub_0.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_darwin_arm64.zip",
+          "shasum": "fe650c541affbdf06dc2b13e34960ec0f28056e6c7150f2bfc2eb93a5ab17bcb",
+          "h1": "h1:eiR2jcc2hNQfnzMeczRWxJ6O5vIy5KEvsOFuhlV1TKY=",
+          "size": 6952124
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-datahub_0.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_freebsd_386.zip",
+          "shasum": "0c093e7fc58493541b7eb7203225541d8236cb3558bd7bb474cf65ad456417c3",
+          "h1": "h1:eJDZ+a9LxH7lxZfplaZ/gTjMPoF8K4CSJkwmHgeHxyI=",
+          "size": 6853978
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-datahub_0.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_freebsd_amd64.zip",
+          "shasum": "1ec71250e588c79b6b84716247a7e79b86e5dbb0a31fb305f817bb18ce20ce5d",
+          "h1": "h1:L7GkYjj5yiTg66KK3AmIcbNRdym5SK6KoSoXbAWVQRM=",
+          "size": 7275697
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-datahub_0.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_freebsd_arm.zip",
+          "shasum": "15c120d06856e48b6febbf0b8af13be7255f4b94a885c0ff3ffba523f34b5861",
+          "h1": "h1:qHFvothCxKor1QyBRe7QUDs+aCJ164PFV9iSuNLvy0w=",
+          "size": 6837395
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-datahub_0.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_freebsd_arm64.zip",
+          "shasum": "0f6d95bad99e0a15eeb6fdd4bb2d1605ba926c3322f080c9d975a0125da3bfde",
+          "h1": "h1:HJnTFkAFxHWN0Xc2rMQYXtc0Xk3RzOYax0jHvnon7mg=",
+          "size": 6585633
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-datahub_0.13.0_linux_386.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_linux_386.zip",
+          "shasum": "362270cdcaabc31f67a288e36061a4c050c7ffa432c80cb6bb1c5e9792b161da",
+          "h1": "h1:wBbiRVZrG0fW8VtODXUEJDi9KdPAVSV2PWD8dTm5uQ0=",
+          "size": 6888261
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-datahub_0.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_linux_amd64.zip",
+          "shasum": "337b4eeac7eddfda539222a7c871035ea592d06c2e24611452cace7933286750",
+          "h1": "h1:5NmJT964jUabUrUY4Vw2a6HzfpxpmNJ1Wa7NbQPPLXU=",
+          "size": 7300531
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-datahub_0.13.0_linux_arm.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_linux_arm.zip",
+          "shasum": "d4d6a8f0c97eb5cf9c2cc4cb3612cba4b0266eccec99db2b7396c8c0d842bfc7",
+          "h1": "h1:hrClfNP6xRbEtPCyO8U1aPkP8x299AkFk9JRbvXqtEM=",
+          "size": 6863413
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-datahub_0.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_linux_arm64.zip",
+          "shasum": "88027aa20952df7831fbd9f0ac7a6a3c69d069f33927db656cae6bfbad63ff2b",
+          "h1": "h1:JzUlz4EP3a58CV7PbwL7iJSDRPeCHQYqYDWg+23Dpdc=",
+          "size": 6612146
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-datahub_0.13.0_windows_386.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_windows_386.zip",
+          "shasum": "fd5dbecef254d8621819065358bba9d121085126940fb16462730b3ec87e8a49",
+          "h1": "h1:KfKtbs4JtUK/qhh46z6GE0Z2YcC0FtAwfIeIXd0nBOA=",
+          "size": 7208416
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-datahub_0.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_windows_amd64.zip",
+          "shasum": "40d0518e0f2516628bbf7523d090e47eceb117ae8ba7871622caa946662fff7a",
+          "h1": "h1:EaTYk49h2fgm3lozCHPDXNCsOmzLT6z2HRr2au8krgI=",
+          "size": 7510344
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-datahub_0.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/datahub-project/terraform-provider-datahub/releases/download/v0.13.0/terraform-provider-datahub_0.13.0_windows_arm64.zip",
+          "shasum": "4914db6241bf3c12ca07202762581791cf91d2c1300b661c7e568a352aa981ca",
+          "h1": "h1:cYAPO7OnotYblmqZuSpCNNW6/eCRL7CFRqBCCpqHV9c=",
+          "size": 6698613
+        }
+      ],
+      "discovered": "2026-07-06T10:56:35.00792632Z"
+    },
+    {
       "version": "0.12.0",
       "protocols": [
         "6.0"
@@ -1663,13 +1791,6 @@
         }
       ],
       "discovered": "2026-06-04T20:34:02.067459731Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.13.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-06T09:15:53.589412715Z"
     }
   ]
 }
