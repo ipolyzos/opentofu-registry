@@ -1,6 +1,35 @@
 {
   "versions": [
     {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rgl/terraform-provider-vbmc/releases/download/v0.6.0/terraform-provider-vbmc_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rgl/terraform-provider-vbmc/releases/download/v0.6.0/terraform-provider-vbmc_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vbmc_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/rgl/terraform-provider-vbmc/releases/download/v0.6.0/terraform-provider-vbmc_0.6.0_linux_amd64.zip",
+          "shasum": "22fc4e70de8e094d36bc8392e35fc4d432a9d6a28f49db97bb8ce596c863db0d",
+          "h1": "h1:alBtUWSmOFuTPq654PLYcnsCiFaoXAKmkFWiJkZZcJY=",
+          "size": 6719454
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vbmc_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/rgl/terraform-provider-vbmc/releases/download/v0.6.0/terraform-provider-vbmc_0.6.0_linux_arm64.zip",
+          "shasum": "a9fa4e7af3bd94d77dfab6d64b5ddbd63e80f44dda570f43f74551d06ac67a63",
+          "h1": "h1:s7fxeABscZohsHOJzckovyztT6B0bOS6BP5FYv3Z4m0=",
+          "size": 6073154
+        }
+      ],
+      "discovered": "2026-07-06T07:51:25.562852478Z"
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "5.0"
