@@ -6,6 +6,11 @@
       "discovered": "2026-04-21T00:00:00Z"
     },
     {
+      "version": "v6.6.1",
+      "commit": "dd79639d22378a2ff6d54c05ff5cf42f2b8ffb50",
+      "discovered": "2026-07-06T06:11:32.064236345Z"
+    },
+    {
       "version": "v6.6.0",
       "commit": "a16ed7e1e5e13ea1901d62b250ffdfbb33b3b61a",
       "discovered": "2026-06-27T13:08:30.348896687Z"
