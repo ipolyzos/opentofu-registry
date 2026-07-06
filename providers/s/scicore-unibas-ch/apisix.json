@@ -505,5 +505,12 @@
       ],
       "discovered": "2026-04-29T18:36:45.153118968Z"
     }
+  ],
+  "versions_errors": [
+    {
+      "version": "0.4.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-06T09:16:08.44794988Z"
+    }
   ]
 }
