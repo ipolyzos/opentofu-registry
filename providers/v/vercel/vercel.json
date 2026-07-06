@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "5.4.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vercel_5.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_darwin_amd64.zip",
+          "shasum": "c8f20410642364c8e762c1544288fd9af21b129a568be410747bf3d0182f3136",
+          "h1": "h1:wqFjQkByGJYjl1IO1AulsECE73M6ewkz/P8QKIhiXIo=",
+          "size": 7849902
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vercel_5.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_darwin_arm64.zip",
+          "shasum": "50abfd5bd7f496212d7876c6c6933435e8c00d74233a41bf2105593c0963b53f",
+          "h1": "h1:XpgGMfywN9knVJDwJJGJcODV9B3b3sJGbkeRei1VnYA=",
+          "size": 7301885
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vercel_5.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_freebsd_386.zip",
+          "shasum": "9ac17e6961e2a06d00e77d46de7c2022889a23c3297e05e0b5f4c1a01275394a",
+          "h1": "h1:GyBKDujF/Irzm+uzFzfIoM7ryw/cfZc+QZZZZUAFtSs=",
+          "size": 7169420
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vercel_5.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_freebsd_amd64.zip",
+          "shasum": "be4316700a762e0339f5f883485361345605393daaf0f17fe56b543fbf7700ed",
+          "h1": "h1:QgaeooT5Dmue4BmgLZY2bb7Ec5LZTPEDM+p2wL6JaE0=",
+          "size": 7630346
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vercel_5.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_freebsd_arm.zip",
+          "shasum": "0e44a36cfd77c810a5ee98c0d6ed54d5fc21b0c51d901606bbf4e231cf239731",
+          "h1": "h1:h7DGAf1ce9XqTg7Nr2QO8YYXDFA9yddaA1pdxH3ah9w=",
+          "size": 7167074
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vercel_5.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_freebsd_arm64.zip",
+          "shasum": "0e32c6dda824b16fbbc529d81445a818ee0ca16a66085df4f682bd526ee9f878",
+          "h1": "h1:kWLPEwwgoQZV5uLvbLgpiNfeNqxE11/gsi7mV7AGzvo=",
+          "size": 6922853
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vercel_5.4.0_linux_386.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_linux_386.zip",
+          "shasum": "ac2250eed5e76b829eda5db8754c56b19ac86997918fd347c47ca7586ce20923",
+          "h1": "h1:aGp547WH+Jj+zGQTTYp1ybd7Cdd4p7UPrnZdNt0JOqU=",
+          "size": 7209698
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vercel_5.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_linux_amd64.zip",
+          "shasum": "a7a0f3c96eeebe2a7601f35b1df48115a62c3de8c978658815b27aafbc308516",
+          "h1": "h1:SgmAjKdALmA7RAVTFJUaRYpD6SQDwDiSHGHJK/oD4DA=",
+          "size": 7661795
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vercel_5.4.0_linux_arm.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_linux_arm.zip",
+          "shasum": "ac6dc3273b31c3ed22a9f77191fefc26d33dae3b51dc0522cd232be464074fe5",
+          "h1": "h1:NDOMBGQ6BW033ged7Z5FHYGSjwhWcJP6ij56h/Nfdj4=",
+          "size": 7199086
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vercel_5.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_linux_arm64.zip",
+          "shasum": "3d2ffa6e95ac3504d5e70a5dd17f28e75eb8574109059d87196c6fc58051430e",
+          "h1": "h1:Bre7Q6kUYlLtFf8FNlsgEJgdIq7BlBVw3jk/hg05nK8=",
+          "size": 6953498
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vercel_5.4.0_windows_386.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_windows_386.zip",
+          "shasum": "2583e92c7785428def5b426e0e92d15998295a57b73a69abb8ba3d5cfaffd5cf",
+          "h1": "h1:Bbf0O5hs5U3jOw5gdTgIZwFrbzlbgKBINE9xXzMplgw=",
+          "size": 7562298
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vercel_5.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_windows_amd64.zip",
+          "shasum": "c3d7845598178c98e7d1f7383d675e458029d59794c2f8a7067007b390e6fa25",
+          "h1": "h1:RiUpi5Tjo9PRykkRqWNRdB6AafcSOWjmqAQRKESKhCQ=",
+          "size": 7894893
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vercel_5.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/vercel/terraform-provider-vercel/releases/download/v5.4.0/terraform-provider-vercel_5.4.0_windows_arm64.zip",
+          "shasum": "03d8829c983c39cf36744a2c85bb7a70006dabaacbaeb8766c482a33d14a079a",
+          "h1": "h1:pGCv4gsyneLA7AtY0Zx1WmyiOsShOtQJ5McVn2nlrpQ=",
+          "size": 7051882
+        }
+      ],
+      "discovered": "2026-07-06T14:46:15.83713672Z"
+    },
+    {
       "version": "5.3.0",
       "protocols": [
         "6.0"
