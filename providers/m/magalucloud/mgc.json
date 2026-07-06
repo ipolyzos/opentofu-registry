@@ -1,6 +1,89 @@
 {
   "versions": [
     {
+      "version": "0.52.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mgc_0.52.1_darwin_amd64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_darwin_amd64.zip",
+          "shasum": "7fc93fe50568fd88f2230cd1449c956bc07043af0bc6d073bc01300b55e5c635",
+          "h1": "h1:i93CvNmyL6I+N+tvOjlaDTgqxKmhc9DwMgwKPo/WfxM=",
+          "size": 9098536
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mgc_0.52.1_darwin_arm64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_darwin_arm64.zip",
+          "shasum": "89b7120f9783b4a73c4bc1bf64ee7796386d489f822ec31d5f596bb1b92a2f75",
+          "h1": "h1:yYdOWqPskXpTqKmNoYF7iNUNrFJr/XEqerLyQI1JYRU=",
+          "size": 8443254
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mgc_0.52.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_freebsd_amd64.zip",
+          "shasum": "2a098a12a959d05852ea4eaa091b5effe8459a10d7e552830e827c68738081a5",
+          "h1": "h1:FCkT4Gdh7suDi+KZXSDouFwqq6lgvD760+MCBcZ3gME=",
+          "size": 8816117
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mgc_0.52.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_freebsd_arm64.zip",
+          "shasum": "407fd1a3bb71acfc3784faf6ce81f338ec5a77cca7477f5d58bf6b50befc45cc",
+          "h1": "h1:7tI3Mo2wN8FrvTpRPI/MdiyNfiSp5WkUVTcqpeCqHtk=",
+          "size": 7984110
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mgc_0.52.1_linux_amd64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_linux_amd64.zip",
+          "shasum": "224f19af645a3cbb6e301937b57cbb10c59a8cd45da4008c7255a44076bd4ee7",
+          "h1": "h1:OZ2jnkELo86hN9C4SWXmCvRqRKjdDzQOaizFvMPNrK0=",
+          "size": 8845730
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mgc_0.52.1_linux_arm64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_linux_arm64.zip",
+          "shasum": "4f548ebd9c9d04741c16465ba60cb5118c3adb9d3137843db5b8e078dbcf6050",
+          "h1": "h1:dM2pgV9+8wSdYHho+KMp594m1O91UcwMMerCNZ8m+H4=",
+          "size": 8009824
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mgc_0.52.1_windows_amd64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_windows_amd64.zip",
+          "shasum": "f4498174f30f52a154cd2ce48796d5bc9a239ed891429488939013991aa5b9ae",
+          "h1": "h1:Bsn3w9wpx0eS54HqxI2H8ijMcCsc54QVyfMriEVcAIk=",
+          "size": 9069990
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mgc_0.52.1_windows_arm64.zip",
+          "download_url": "https://github.com/magalucloud/terraform-provider-mgc/releases/download/v0.52.1/terraform-provider-mgc_0.52.1_windows_arm64.zip",
+          "shasum": "c05a01dfb40d3b1f9fd928272eb1ca5276c703daf71b257fb4067448efcd4979",
+          "h1": "h1:Ra+48vlK/tzV3D9vyFwxer0iYMRYrNMAXrAmAl2L1cc=",
+          "size": 8096580
+        }
+      ],
+      "discovered": "2026-07-06T20:55:12.288711686Z"
+    },
+    {
       "version": "0.52.0",
       "protocols": [
         "6.0"
