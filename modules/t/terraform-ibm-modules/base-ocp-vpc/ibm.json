@@ -21,6 +21,11 @@
       "discovered": "2026-04-21T00:00:00Z"
     },
     {
+      "version": "v3.90.1",
+      "commit": "319c012c0ecd9f135fa3af009681ba3ab649c584",
+      "discovered": "2026-07-06T10:56:30.212677446Z"
+    },
+    {
       "version": "v3.90.0",
       "commit": "dfe675e32d60e94113010ebcf7d771c80debfb12",
       "discovered": "2026-06-27T06:03:48.349030591Z"
