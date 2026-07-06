@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apisix_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_darwin_amd64.zip",
+          "shasum": "9a8b8e8e01fb7b21b9ba6ff7f2421002ebc2575b70828d298d6b6afda646b697",
+          "h1": "h1:w+3nRTxKf5ngSuhZRAN3DlndeZWrmJTtQiHMgxejHZM=",
+          "size": 6832527
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apisix_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_darwin_arm64.zip",
+          "shasum": "6b1ef943e01547fb4d0c25289368936ad2fdd6f31527d4db23ec807b36602973",
+          "h1": "h1:5MKP1bUvNl1kRJun3hnr/OsKhADtaZeq31hfcHl5eRQ=",
+          "size": 6364732
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-apisix_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_freebsd_386.zip",
+          "shasum": "14de2e6944fa659530d4ef361a4b8a22ee7b1fe1a18f7943b880c148d33649fc",
+          "h1": "h1:4JzSwU7WfNOXNCvEjdhw25aCbwfYMRQQ4JNclK64aCs=",
+          "size": 6286161
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-apisix_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_freebsd_amd64.zip",
+          "shasum": "e7ddbbf847152b83fc26abf80292f8e222666def92aa5a8e267e7f070580172f",
+          "h1": "h1:HsI/nGEOd6WG/8ivCx/2k3Vv058vH9Y0G31yfRRpTY8=",
+          "size": 6642420
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-apisix_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_linux_386.zip",
+          "shasum": "8543b0c7afda91c00f8cf89dc4a89deb66b4f350163bcec0f433a43992633cc0",
+          "h1": "h1:V3kBBbasRVzYniOE6HDLUBfcopOnXWLvkJdwcNNNZEY=",
+          "size": 6317336
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apisix_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_linux_amd64.zip",
+          "shasum": "96c931647fb536e47aa1e366579c38b48300cc2715d568185abacdae7cfef391",
+          "h1": "h1:NSNxTuNZIhPhbTD7ical8xyK9UZycMVwEeg4FM3EX1Y=",
+          "size": 6667898
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-apisix_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_linux_arm.zip",
+          "shasum": "0a10a3f8e52328d1e212f8d38124e57d3d4c427aab4a970f8aa9e5077277db8f",
+          "h1": "h1:rolHecxLsKmoH8/jLr90ZHuz11P8sNVI6vlodTd5DY4=",
+          "size": 6279240
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apisix_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_linux_arm64.zip",
+          "shasum": "57863239b2958b7c0e5352b9befc6e1b87bca069c29f3502c74f0faef583b2e9",
+          "h1": "h1:FAJ/RuL4Jnu+dfdfNF1QEk2B1USz4JEgg014/nAqofE=",
+          "size": 6061061
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-apisix_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_windows_386.zip",
+          "shasum": "3e45308206c60d2ca3f5a71f490b37f1353cc9961b7510b2c6efc69266958f93",
+          "h1": "h1:Wp3c+/trljgTItOMVQbpGOT1jX9B2yu9h2MXLmXfX+8=",
+          "size": 6604163
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-apisix_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/scicore-unibas-ch/terraform-provider-apisix/releases/download/v0.4.0/terraform-provider-apisix_0.4.0_windows_amd64.zip",
+          "shasum": "7bb16a16031e4cd5d9e56aa855789b9714c157151efefafbd241e3ebdbeb07a0",
+          "h1": "h1:fjzW6iJck5HDWFuAB0+ogtGjEq0vBWpNPgVG6zkb5Ek=",
+          "size": 6865043
+        }
+      ],
+      "discovered": "2026-07-06T12:17:19.366034421Z"
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "6.0"
@@ -504,18 +605,6 @@
         }
       ],
       "discovered": "2026-04-29T18:36:45.153118968Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.4.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-06T09:16:08.44794988Z"
-    },
-    {
-      "version": "0.4.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-06T10:56:45.509160699Z"
     }
   ]
 }
