@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "3.20.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-konnect_3.20.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_darwin_amd64.zip",
+          "shasum": "9baa9558310c0461c98f6a2c6ebc19e614ba22e06f94ad203b2038d9d8106c03",
+          "h1": "h1:622myCArZ5y6s4t9lT6tobNXF/FB0TlGGRu0koGidVQ=",
+          "size": 15346013
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-konnect_3.20.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_darwin_arm64.zip",
+          "shasum": "af4410cb1c12aea7f03b00e12a118ab6103b8bd2584ce35e994266b32993fa8b",
+          "h1": "h1:1iBZTQLC4YZGI4PquE3yQTnP7+gexWA6WRODk7A2I7I=",
+          "size": 13948287
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-konnect_3.20.0_linux_amd64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_linux_amd64.zip",
+          "shasum": "a74a1b6389f066e5fd17c23bf039383ea6a92a394c2cc47ef419d264e0a44423",
+          "h1": "h1:lDeLENwz4ULoKnPKxNGzymRdmRUaQAfB8Pjy8LpsEAk=",
+          "size": 14989390
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-konnect_3.20.0_linux_arm64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_linux_arm64.zip",
+          "shasum": "5cedca75b9adbaf39dad65a6a3e660e21acd42c52c0fa37fa1be6fd183551e7e",
+          "h1": "h1:183EihdUQUR0PaEuQxrC3Lzyay78aTLNz7iiEY6eobc=",
+          "size": 13198125
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-konnect_3.20.0_windows_amd64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_windows_amd64.zip",
+          "shasum": "e73130aa92c6d78b185604ba65003a96fbb1200220657ff7aafac153fa99ef3e",
+          "h1": "h1:zbdfvmf+8uf58bv9ZQoHqNwDnVJjDoAc7Aex+o/7QMI=",
+          "size": 15342345
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-konnect_3.20.0_windows_arm64.zip",
+          "download_url": "https://github.com/kong/terraform-provider-konnect/releases/download/v3.20.0/terraform-provider-konnect_3.20.0_windows_arm64.zip",
+          "shasum": "369212779fcec2e39f05eecf3166fe5edcd705e1cd5bba5252757939d2a9024b",
+          "h1": "h1:/vG4w3guPe31GlRBWnT6g1Ot9w2dntBcdc9eeW8SQVE=",
+          "size": 13295542
+        }
+      ],
+      "discovered": "2026-07-06T09:15:42.603702376Z"
+    },
+    {
       "version": "3.19.0",
       "protocols": [
         "6.0"
