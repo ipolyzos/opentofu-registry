@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "1.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_darwin_amd64.zip",
+          "shasum": "d5a80a222d2eb2c8ee19b17fc910aadf50e67b87e50dc4f0def36b18cd91a6ac",
+          "h1": "h1:IF5BkbOZJ3fcBHUkViuDn6/z/vIPei39rcNQf8ZyvTs=",
+          "size": 7827376
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_darwin_arm64.zip",
+          "shasum": "fa780bb73b5a7f32129225bd82c2c06c42c456c6aa94e74b12c3393953e2dbb8",
+          "h1": "h1:n+IeZgFBg9tZuLURYF6ZUM2oEc14rKwKOmErP7vYFp0=",
+          "size": 7213502
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_freebsd_386.zip",
+          "shasum": "cdfc50b731404914fc00a0330f448956a0db3b5445a211acad5240b00e14a45a",
+          "h1": "h1:Dbi+MQBdEbQv05MldUypBBeEB3cyPIC++/E0AW/VTDU=",
+          "size": 7170282
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_freebsd_amd64.zip",
+          "shasum": "1afcbbf22f82dae741da970fa943c49c5e8d6493962842eb53a98bd136c5b2ba",
+          "h1": "h1:XbBfJ27wgjRRp8ulTBt9MMX9TVm56Y3vIbCwPmT9re8=",
+          "size": 7624453
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alkira_1.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_freebsd_arm.zip",
+          "shasum": "9c6be9a594c092a29ddb9e2d40bcede3142de9947b0723f3a1efb3aa4a24033b",
+          "h1": "h1:QNNOwSp7xcgk6iwgkGTKK/trE9zkk60dyxOiOExoPx8=",
+          "size": 7207872
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.5.1_linux_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_linux_386.zip",
+          "shasum": "3578851eb51af0b0bbb1c938c72654605693d14fbe263c75db42daf7ff4fed4d",
+          "h1": "h1:fEtMytrwzH+mCJvDgsud9Gn0lefDNWqXn+jJWw5tU6M=",
+          "size": 7204996
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_linux_amd64.zip",
+          "shasum": "326739f4ae97bb1b4b9a0f3b176100d1b5194c33d5d4a8281051c06db28025b7",
+          "h1": "h1:a06ixAWdfV0SLbEkebJiXx760CzMFgIUhyLlodJm0Lc=",
+          "size": 7652437
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alkira_1.5.1_linux_arm.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_linux_arm.zip",
+          "shasum": "4407b657d53bef64a2dadc6d4e32c39c063d8d4b5f51bdabf1dd787f2ef50649",
+          "h1": "h1:TGIeOtT5buzpkk+b7+Ql2d9eU51Ig3Bwe4HlE5vfQYA=",
+          "size": 7233724
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alkira_1.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_linux_arm64.zip",
+          "shasum": "14a4a355018d7b386862b142cab77084b580502a6714dc8b353bd5873c31531a",
+          "h1": "h1:AeXjXNxnchMV0KNxbzurUrZtHbof5Fk05jk3VDuX4JA=",
+          "size": 6878514
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alkira_1.5.1_windows_386.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_windows_386.zip",
+          "shasum": "4cccfa9fc4fb768f4872f3ef0a87e9e2ee5f37b3f53bbf7eabdc394aaed94300",
+          "h1": "h1:bT2TZ4FXCMLej89XyOZUjea1CJnosd/ooHZBZN6folM=",
+          "size": 7563757
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alkira_1.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/alkiranet/terraform-provider-alkira/releases/download/v1.5.1/terraform-provider-alkira_1.5.1_windows_amd64.zip",
+          "shasum": "763583f01418bde0ea018e95902ac0facd62fea520c0f5e17f04aac80b7ab6a8",
+          "h1": "h1:gsBN0acrbnXgOJ4O4kXVYs+qBuUEcom6CWKGttdU6F8=",
+          "size": 7859144
+        }
+      ],
+      "discovered": "2026-07-07T21:29:05.840741735Z"
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "5.0"
