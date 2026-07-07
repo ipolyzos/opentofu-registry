@@ -1,6 +1,53 @@
 {
   "versions": [
     {
+      "version": "0.3.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-imagetest_0.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_darwin_amd64.zip",
+          "shasum": "ba92d0a749bc922625043b4f421972f606bd97a6e801e0a6aa924e0600fa8fc6",
+          "h1": "h1:Tv3lgHl3TFrftF0r/5PRXII09FgpWP5YTsThdynL94k=",
+          "size": 30941705
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-imagetest_0.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_darwin_arm64.zip",
+          "shasum": "4727531eaad08eb7ce9db3cba8f212020ab848f9e2afd3618517cbdf41246d4f",
+          "h1": "h1:WkaHKAWoX6RfWvyiSasIM0FrffJa2X8U4JMkp9naqlA=",
+          "size": 28177698
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-imagetest_0.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_linux_amd64.zip",
+          "shasum": "afa3bf61fcf367e51b7d362488ce407606e549c613334ceff0661ea0241e3afc",
+          "h1": "h1:nk5OfCvdX96FuBGTLjwCcQRRfYlvd7Z9E6/EyMtRpBg=",
+          "size": 30271199
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-imagetest_0.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-imagetest/releases/download/v0.3.3/terraform-provider-imagetest_0.3.3_linux_arm64.zip",
+          "shasum": "bf280d24fb82ba5f68862bc051b67f7cd2989e5be3d360cde2d601203060c9dd",
+          "h1": "h1:GHRxX0W7BpOq+e5KDN363+86qc5arXwKluc15B0OxAY=",
+          "size": 26690822
+        }
+      ],
+      "discovered": "2026-07-07T11:40:35.293509356Z"
+    },
+    {
       "version": "0.3.2",
       "protocols": [
         "6.0"
