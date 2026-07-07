@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.42.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-p0_0.42.0_darwin_amd64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_darwin_amd64.zip",
+          "shasum": "ebecac85aa25ba8eeb19772ff1a2060da9c14ae12795df175ae0e3c069cd4558",
+          "h1": "h1:UVUA9SJf8KP8gG9gHvhp+JwUb9sAZVpyLVHv1tQxS9s=",
+          "size": 6923893
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-p0_0.42.0_darwin_arm64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_darwin_arm64.zip",
+          "shasum": "bc37fa81d183b133df3049320592a55923e7f1f56564ab3a3e4ec23164601692",
+          "h1": "h1:A5Czh77n326pYiNKEy4QXBDQCl/sTSVVCVrtxILn5BY=",
+          "size": 6450816
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-p0_0.42.0_freebsd_386.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_freebsd_386.zip",
+          "shasum": "7425545bd9b4c790c3bf5e68e79dab701da58cb5c00a9737f78be3fc1d4be0f5",
+          "h1": "h1:TZ1tstKshyjN+ryWR2DCsAwiJO7ggpKGmr/CreiSlR4=",
+          "size": 6358576
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-p0_0.42.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_freebsd_amd64.zip",
+          "shasum": "0b32054b8453ce8e3d89e1fb203c266e57dab1497930380e99fe8817994175c8",
+          "h1": "h1:TJ9LW+aa494ZVkNMbYmG7Z/6pdIzkChh1Isgz44KTUQ=",
+          "size": 6725712
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-p0_0.42.0_freebsd_arm.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_freebsd_arm.zip",
+          "shasum": "fe94ace4181b0d8cd7eca9859cd848269134c2e07aa6bc6a1cea2c4d6889d4bb",
+          "h1": "h1:jdTApqMa21JAMhmXPAFwzC3Jg9Ys9J7WU6sbhzIoNJI=",
+          "size": 6330840
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-p0_0.42.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_freebsd_arm64.zip",
+          "shasum": "c93dd1418da4387add24b61d6b1e7fa5827477b580d37cbd1a9555a35bdaf66e",
+          "h1": "h1:wqPhneMRjsWJcw+CzV830GSlB/Uavj8OSnFOoWMjBgc=",
+          "size": 6112433
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-p0_0.42.0_linux_386.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_linux_386.zip",
+          "shasum": "919f4cb0c8af9ce4e7ef3b110b92afc1e0d1c902f7d49ecb84185fdf062a60bd",
+          "h1": "h1:uRS7W03hSRbgKql/GTIzHWbQED18KS5raausyBqFqgc=",
+          "size": 6386779
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-p0_0.42.0_linux_amd64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_linux_amd64.zip",
+          "shasum": "446afb66a1207e119e812d8d30227719184b5e6b2e4fa650479250354345b99a",
+          "h1": "h1:iZxA7Ph/bXKwG+KqACQ37joQyIejaYKETxbR+QyrwWI=",
+          "size": 6750291
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-p0_0.42.0_linux_arm.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_linux_arm.zip",
+          "shasum": "07b84adebf7d6557b1b9f159c3018425d9485aaf356ad68fd694ae6cb32b30b7",
+          "h1": "h1:5xu0aYse4fn/edf08kTBCDoc8wy58lon+x0JG6V9Xe0=",
+          "size": 6357159
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-p0_0.42.0_linux_arm64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_linux_arm64.zip",
+          "shasum": "a5b59449edf2b4dfa1c210dd6858965f1d1535c7288947a21df65829dc02ed0e",
+          "h1": "h1:NWOxjkVhDK5NypCqrImkIN6bYk/kcZv651xAxrRxqjc=",
+          "size": 6136101
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-p0_0.42.0_windows_386.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_windows_386.zip",
+          "shasum": "0433b35628faf792fda211fd1d9c4414afaa20be6941f3a4e8e4fe3852068361",
+          "h1": "h1:FDs3iCsuJICAX82eHLHdABV8JdufBYUPvUFhBUngFAE=",
+          "size": 6685173
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-p0_0.42.0_windows_amd64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_windows_amd64.zip",
+          "shasum": "5c21c44ed230e95d4c9b793f66ff0f369b29ef95066d713a01113be921ad862c",
+          "h1": "h1:ZiDa3PY2sTG1pFVXMZcQrWR8wcD4nQ8r8e3CNFatqYk=",
+          "size": 6953366
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-p0_0.42.0_windows_arm64.zip",
+          "download_url": "https://github.com/p0-security/terraform-provider-p0/releases/download/v0.42.0/terraform-provider-p0_0.42.0_windows_arm64.zip",
+          "shasum": "f73d1f40fccb516b57a78dc2ae376a928982c1231c3b9d2e94555005a909cd07",
+          "h1": "h1:wtkF+qgxT1Ep0OvvyoAleQZNbFwHYga470PjjRnRXPQ=",
+          "size": 6220342
+        }
+      ],
+      "discovered": "2026-07-07T21:28:35.723573986Z"
+    },
+    {
       "version": "0.41.0",
       "protocols": [
         "6.0"
