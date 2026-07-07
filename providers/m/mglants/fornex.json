@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fornex_1.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_darwin_amd64.zip",
+          "shasum": "1e391beb1040843ef8d5595dbd64f0c6420ce3b1ae1013d3675892830a8fbbdb",
+          "h1": "h1:4LmT/aE9jmVARL3paigTYydiEIlzJqQODl+PLo0rC6g=",
+          "size": 6664397
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fornex_1.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_darwin_arm64.zip",
+          "shasum": "3da2048af7b08cc8a7bcd177a8fa7f73b081bb91c1e794ee3ebc60c234705c27",
+          "h1": "h1:+Idp8WRBv1hVZ57be+/s59GPxH4pxnwxZSmWd9C51ao=",
+          "size": 6213412
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fornex_1.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_freebsd_386.zip",
+          "shasum": "80559a9cc3b0a23bfc005d87622cb104761c86500093365164dabcc61ff5b4ae",
+          "h1": "h1:2zq2bpDNuQtNNYipc8yneM0vtrpsLUJLPM+9Ta6Q0hU=",
+          "size": 6140879
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fornex_1.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_freebsd_amd64.zip",
+          "shasum": "e0c8fff1789d914b74c7a9bf7fd0eef8b7edf3678b50bb20b4e1a0a0da855b59",
+          "h1": "h1:Mssd/XU8Rzk4sNYROLjGUjvZTjb+uVEm2ZmC2wVQ17c=",
+          "size": 6480744
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fornex_1.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_freebsd_arm.zip",
+          "shasum": "bc8d9ea2a8feff8bf61edead3c887cc7c6fc79e32b894678f02c78ce1814a63c",
+          "h1": "h1:65hSXSaGgnIF6/JBG6zajM2/DEIZmEFXX+GwtkR+x9M=",
+          "size": 6111687
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fornex_1.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_freebsd_arm64.zip",
+          "shasum": "8aeb399bd355832692cca391cca42ec678c3364917308c33f67fa22797d50833",
+          "h1": "h1:5dXBWpkXYhg9IX3wThPyvHsDmQpiunEuKBAtcqWx+L4=",
+          "size": 5896520
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fornex_1.0.2_linux_386.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_linux_386.zip",
+          "shasum": "c64677c07239dc4917344038589daa69e69817ef7e2b9fd0ef1a122089c19377",
+          "h1": "h1:txbu8yfS3OxI2jcSJP+m8c47NwVSBCJjZR56YAI2DmI=",
+          "size": 6170658
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fornex_1.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_linux_amd64.zip",
+          "shasum": "d4c5050c4677e252ee31d8590c713934fba8c5cfccc2ffe45d9538b3a0e579c1",
+          "h1": "h1:Kj6n76tYCb4PO88BTsGWmEArGan/pJipYsCZHP3Ghrk=",
+          "size": 6507879
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fornex_1.0.2_linux_arm.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_linux_arm.zip",
+          "shasum": "b9e444534854ac7f9761ce498f9f65d65a14c4aecd1d18145bed09ba58af56b3",
+          "h1": "h1:196BCOfqhOA6/dKTt19Ny5hga657VLQ9YB2S8FfzBLI=",
+          "size": 6132863
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fornex_1.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_linux_arm64.zip",
+          "shasum": "239ccb90b76dc75a47fc9c0047c6c33a6866c5f51b84dd14679d7a8aed64509b",
+          "h1": "h1:MrzMDQsW5zE3ntrjg4x176ChTYswMHjfsLwxrMslgt0=",
+          "size": 5918887
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fornex_1.0.2_windows_386.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_windows_386.zip",
+          "shasum": "2590386e86de403a1155e1d2cb93bc00ecd43ce5ba5d9584487b7f68334dc27c",
+          "h1": "h1:ohF4vf20PfG308ZdzwfWavTs5obC2k9WYHTnQAg6230=",
+          "size": 6451528
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fornex_1.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_windows_amd64.zip",
+          "shasum": "be2f5b089908aac3d9865f40f7fe2a85a3d7583df1dabc7d14d84467a3118b1a",
+          "h1": "h1:I+hgwpbFRuKxPZSGdif1eaRhcTQPSm/3cQQrsmLZsLo=",
+          "size": 6704363
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fornex_1.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/mglants/terraform-provider-fornex/releases/download/v1.0.2/terraform-provider-fornex_1.0.2_windows_arm64.zip",
+          "shasum": "ff87a5f7bf20952551412fe892c08eaae05c9c1e90056ac5cfc65ff255694b64",
+          "h1": "h1:fw6D+Z6mjIqPmC0/ti6iC2z0qV5rWISDionIHpc+g5U=",
+          "size": 6004859
+        }
+      ],
+      "discovered": "2026-07-07T23:18:25.132875135Z"
+    },
+    {
       "version": "1.0.1",
       "protocols": [
         "6.0"
