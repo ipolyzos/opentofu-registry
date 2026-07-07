@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.13.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.13.4_darwin_amd64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_darwin_amd64.zip",
+          "shasum": "dbc6bd31168be5b6f22b4a56f402c096e45b06b0bf1e121bf03df4f77a3a5815",
+          "h1": "h1:x40/tfh0cCXiWT7ypDuQHaARpT8f+Vm8OENk9F0b+5k=",
+          "size": 9806237
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.13.4_darwin_arm64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_darwin_arm64.zip",
+          "shasum": "7d15565c637062c94f57e2877ddbb0c6971a9de131936d750d1bbe96f2bd97a6",
+          "h1": "h1:N1pxgq4kWzdQGZGIZK3gxB6lW06cI0KfyfdSMuEMwmY=",
+          "size": 9043147
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.13.4_freebsd_386.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_freebsd_386.zip",
+          "shasum": "fb0bca650011f33f231038f847df09ad6e7651c82b18802f481409b955e27e56",
+          "h1": "h1:Zd40LEjOfXZSRwbKq2+pxvez9BWcBWtwlZJ7dm3wRB4=",
+          "size": 8985368
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.13.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_freebsd_amd64.zip",
+          "shasum": "4187d26eb5c196d9dafa3f3daa054a9d309f538d5d18152126b1b9b6ebb25380",
+          "h1": "h1:kK/pff/wfvxikdX4vYhJkAZkVDRXFlAA2xPg/WZeMG8=",
+          "size": 9555478
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-edgecenter_0.13.4_freebsd_arm.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_freebsd_arm.zip",
+          "shasum": "4fbe7b0f51b140e53b2a6b29e6cbcb8c7dbf203d9ce4969ad4ab13c5fc7a23e5",
+          "h1": "h1:vo2bu9Qt0+EsLCNgthgtJ2y167AT24eVT1PR/dl0OI0=",
+          "size": 9031048
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.13.4_linux_386.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_linux_386.zip",
+          "shasum": "4ab015c66df622414f3176950d5cd6f72fa8eb31c68805bc29f616a1280b2f9e",
+          "h1": "h1:NtHeajpNzGzycszX1e6mregIKOKbsZGd+lb0/CDyEgE=",
+          "size": 9022362
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.13.4_linux_amd64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_linux_amd64.zip",
+          "shasum": "960c8f1f795eee188430cf544e94815e6ae2c1c8fd8d0dfbe754f1ac897fcce3",
+          "h1": "h1:WWbcZErOKyt/RJqe2Aox+A//A4QtFYNoqFvmyzfVWyM=",
+          "size": 9576391
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-edgecenter_0.13.4_linux_arm.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_linux_arm.zip",
+          "shasum": "aae6d43b9dbf2b6256fc91f9f16188310a1fd59dea2dab37e0517b1fb8ac3144",
+          "h1": "h1:mwf++e/XD5vSJptp1rtboTXr4w+7RxsOUT/ePCXeLr8=",
+          "size": 9057347
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-edgecenter_0.13.4_linux_arm64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_linux_arm64.zip",
+          "shasum": "1afa6663ce03f75b9560f94cce37974b5aa2386ca6e09558eb0dd7094365b154",
+          "h1": "h1:S5zbIZmszksP2+m/NiqmwC2rz7pMny3vF6xOcrqrwiU=",
+          "size": 8621915
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-edgecenter_0.13.4_windows_386.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_windows_386.zip",
+          "shasum": "afd0e3e510cf1648f113461e20e331140a30308ee7ae4c1bcd355a2ac79b16c5",
+          "h1": "h1:iIRKk9Jtl68TW5lT7GVPJpFbmuWdtfHMa/6y5ISwIy0=",
+          "size": 9471476
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-edgecenter_0.13.4_windows_amd64.zip",
+          "download_url": "https://github.com/edge-center/terraform-provider-edgecenter/releases/download/v0.13.4/terraform-provider-edgecenter_0.13.4_windows_amd64.zip",
+          "shasum": "e8cf254acbde716ac5c0a954c9b4687997cf17af18ea56c6730bb5f7bc5bff83",
+          "h1": "h1:uFNt3EOsT+hjVgW2uGYdBAXjJJpIfbLUJgnnPxhk47Q=",
+          "size": 9838722
+        }
+      ],
+      "discovered": "2026-07-07T13:27:33.300420217Z"
+    },
+    {
       "version": "0.13.3",
       "protocols": [
         "5.0"
