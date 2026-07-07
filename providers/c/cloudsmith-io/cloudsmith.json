@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.0.80",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_darwin_amd64.zip",
+          "shasum": "e63ee30987005311b9755d80000a6f8049ea7d0e26b5ed150c85ecd1dbcfcd7e",
+          "h1": "h1:9vvczCz/CIdd8mzQ7xOASS28Tv66GUuHXjuJUrYcNqM=",
+          "size": 10332769
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_darwin_arm64.zip",
+          "shasum": "7c4e37e5018dac50beb2a223251a709231594e5c7bb16292f493b56d7b93a4f4",
+          "h1": "h1:jJlqIQOp8iHpEP4GvZ/+M4SKN3IL9ZAHsmr/HV4zX/Q=",
+          "size": 9532485
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudsmith_0.0.80_freebsd_386.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_freebsd_386.zip",
+          "shasum": "9b98f7a826cf6158cf2565b46040509def3f5088472708ff07cc274cebf80b50",
+          "h1": "h1:DIqEYnZGn2CPgCVgyon4vj2t0veWzQwfpVbr4KXf3Kw=",
+          "size": 9321784
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_freebsd_amd64.zip",
+          "shasum": "b7773c4158b6762ac6950223627a52855c443d285c4fe0c1a84c5274188d2c64",
+          "h1": "h1:unS5vaxjtXlGGLFpUgy40jSmdQQLQEeqoKW+u8eOxYI=",
+          "size": 10062465
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudsmith_0.0.80_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_freebsd_arm.zip",
+          "shasum": "5bd1706364571188046facdc94d00647e8e8fde388f515fabca2f51e09752615",
+          "h1": "h1:NShdNUWC9TO6S+vBZjEPh/1ncPYLSqqyKcotUHe92s8=",
+          "size": 9415423
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_freebsd_arm64.zip",
+          "shasum": "05c88088ad5d2b82663b42655c2af7652150e69f95ba05d08449e2e548a00ed5",
+          "h1": "h1:EHdxNDlp6CM1o9RgjpzAe7monUCSVCMIUZyegXO3678=",
+          "size": 9017226
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudsmith_0.0.80_linux_386.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_linux_386.zip",
+          "shasum": "0db3384e75d65affa36315204442f541e639a6bbad4ef1e363bcb8838c39a1a4",
+          "h1": "h1:dd1Pux7m5svSTU/ADf/ga6dER0NAGSyRijFCUQfqqec=",
+          "size": 9362769
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_linux_amd64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_linux_amd64.zip",
+          "shasum": "2795bb0d17c2a31975eaae2f149a569d11f0833dc22b1021c23dd04414448928",
+          "h1": "h1:f8xMzMKdkeBEMwXVKdPkFCCkzIDzFl0Hsuo5dw6Z/8s=",
+          "size": 10090159
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudsmith_0.0.80_linux_arm.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_linux_arm.zip",
+          "shasum": "749e81835e1646d10f4e037aa5179af706cc36ee761d7daa6573cbe188602c13",
+          "h1": "h1:ixuG8IaRR7WW7SL7WbEq0jRGzrzynp8h29sVTWOpCu8=",
+          "size": 9440690
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_linux_arm64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_linux_arm64.zip",
+          "shasum": "1284ef65893947307b01782b8a762487697346f85f31dd71e88a135870975750",
+          "h1": "h1:kMknLWIRru8Lw+nSHS8PVkjTotuk1avw/T2eM/qizw8=",
+          "size": 9042304
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudsmith_0.0.80_windows_386.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_windows_386.zip",
+          "shasum": "1ca50ef10b4434e765f31982456916876fd25620b6db45f5f6e1c54b5305cc30",
+          "h1": "h1:N3KTroXGnEp4QfFg3+S2GGNQ8nSol3sXLTOdHFQyu6g=",
+          "size": 9866981
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_windows_amd64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_windows_amd64.zip",
+          "shasum": "b17c24d51e4681ed044b7bfa8a9b319cdb1095619434be8c477939a835bd3105",
+          "h1": "h1:47qvWD7hSsvpvXmjZe6H7Krb4oOlYmEybl66b4vtL8s=",
+          "size": 10446330
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudsmith_0.0.80_windows_arm64.zip",
+          "download_url": "https://github.com/cloudsmith-io/terraform-provider-cloudsmith/releases/download/v0.0.80/terraform-provider-cloudsmith_0.0.80_windows_arm64.zip",
+          "shasum": "f51ae24a1f50cb1378a7e614576acdf9861cbfaa7bcde1d4b0e2fa2d3e674b61",
+          "h1": "h1:abz6NAIilKNIAh7GouU6SVGzq/UTyuNbOZ6Egyn47QY=",
+          "size": 9135278
+        }
+      ],
+      "discovered": "2026-07-07T16:20:35.828271584Z"
+    },
+    {
       "version": "0.0.79",
       "protocols": [
         "5.0"
@@ -9978,11 +10106,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.0.80",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-07T15:31:17.546998401Z"
-    },
     {
       "version": "0.0.10",
       "message": "checksums not found in release",
