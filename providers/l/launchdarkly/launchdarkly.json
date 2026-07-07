@@ -11818,6 +11818,11 @@
   ],
   "versions_errors": [
     {
+      "version": "3.0.0-beta.7",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-07T14:17:09.000649403Z"
+    },
+    {
       "version": "2.27.0-beta.2",
       "message": "checksums not found in release",
       "utc_time": "2026-03-16T12:46:20.829612385Z"
