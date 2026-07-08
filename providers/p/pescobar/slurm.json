@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-slurm_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_darwin_amd64.zip",
+          "shasum": "1cdb4d95b7f00ea78d4d7767095a503707415f975becef9fadcf5f5f558854da",
+          "h1": "h1:Lq+apsQxMjV9X63ykKXof6WHSGH353xiDxJR5CZFKNg=",
+          "size": 6718282
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-slurm_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_darwin_arm64.zip",
+          "shasum": "798a3c45243e809d7404908ca47a86d503733b14382274dee31bcccafa36d7f3",
+          "h1": "h1:3Gk3mmhWOc0EGLNUCiVZT6FGudOhSejgLSJTiqJiBsI=",
+          "size": 6334622
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-slurm_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_freebsd_386.zip",
+          "shasum": "fe6193a34f0dfb600cb985cdbb95aebb7e569c49bb0539541f9b19d0a2f55d8e",
+          "h1": "h1:MMMC5rvbL/DGTnNzzpxbskMp2DEdJv9MDt/2curs5l8=",
+          "size": 6161635
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-slurm_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_freebsd_amd64.zip",
+          "shasum": "c9c88aabb003d3bb0964232721a796f711cd6b58919d9004b99c4417a7d85956",
+          "h1": "h1:Y/uDYaDmXYNOsmr/SPkYunAimLo4VTGsws3Q9iDx2CA=",
+          "size": 6533671
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-slurm_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_linux_386.zip",
+          "shasum": "8bb94c86cc90c648d4f4694ca7d9554a90611f5a0d7bc7db8cd9ea3b1ffa0a24",
+          "h1": "h1:DInwOk+vzM9J/MBzi8ZoDA14Ey/S8R0on9w7liL1t/M=",
+          "size": 6177714
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-slurm_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_linux_amd64.zip",
+          "shasum": "859bf4cff4596d08f3c83d6014ec3b2dd0a10fb6f3584524917d022c540e0ec5",
+          "h1": "h1:d1s62FQeFciv2yAKBH12p7tPHpp16Yie5n1gVi/40GE=",
+          "size": 6538981
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-slurm_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_linux_arm.zip",
+          "shasum": "308575bf94eb5377188b847ab0da7fb424202aef0cd8521a8d4696af26592834",
+          "h1": "h1:KlsWmIKZwJwQDg/0ty/1lPd75mtkMt9GxEvcXs7CmDU=",
+          "size": 6146775
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-slurm_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_linux_arm64.zip",
+          "shasum": "87433c72ba6293d05f615574614fe00eb11042ef3067ce335f3cdaab809458ee",
+          "h1": "h1:4S6zxBoY5rknSRbT+tj9OTgCiutN1sNz0n7DzCzNg6E=",
+          "size": 6018025
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-slurm_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_windows_386.zip",
+          "shasum": "9a9a061c2d92f8d315323c8b34545c0bb4dd9d5be70e11829da28d00d039eacc",
+          "h1": "h1:utrzQezd40C8FSkEpmaW8EGgUlKHZHzEQRcW3mJw+Og=",
+          "size": 6469015
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-slurm_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/pescobar/terraform-provider-slurm/releases/download/v0.4.0/terraform-provider-slurm_0.4.0_windows_amd64.zip",
+          "shasum": "54a70b2f5c04b754a3bfd777c4388d37cc23b310ff2b365ac197551673859a86",
+          "h1": "h1:nVL1TP+CNW+t4LNSPqvI+SINSDvW5jwpvGtQ/xqlPNI=",
+          "size": 6743784
+        }
+      ],
+      "discovered": "2026-07-08T15:36:04.240639779Z"
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
