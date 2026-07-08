@@ -419,6 +419,44 @@
       ]
     },
     {
+      "version": "1.7.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-harvester_1.7.2_darwin_amd64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_darwin_amd64.zip",
+          "shasum": "7b31d5d9a020d1539f98d86d449fb77c411a15a72910e91325dba8d4b1ff14fd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-harvester_1.7.2_darwin_arm64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_darwin_arm64.zip",
+          "shasum": "8075342c9ae47726d68f16632f68a353fd555a0d3ca0fdb2b6ba4eae11cebe31"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-harvester_1.7.2_linux_amd64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_linux_amd64.zip",
+          "shasum": "36b3e65aa72dc5c473832237fe3f1a45eacf10b83d9f82582605aac5d3bc25e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-harvester_1.7.2_linux_arm64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.7.2/terraform-provider-harvester_1.7.2_linux_arm64.zip",
+          "shasum": "b179db17714284454642a9ab30fa56de0655c5c76c73f0eb9b4b3d3fffc03832"
+        }
+      ]
+    },
+    {
       "version": "1.7.2-rc3",
       "protocols": [
         "5.0"
