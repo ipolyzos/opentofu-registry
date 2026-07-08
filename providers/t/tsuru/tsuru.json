@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.18.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsuru_2.18.4_darwin_amd64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_darwin_amd64.zip",
+          "shasum": "3651557a7a0b9553eeb6132dfc36d68e866b1a9272caca670e8c27d7853deca4",
+          "h1": "h1:90V8pHqFXkL2LKPSM8lvwtqo1H2dIwp3WhI6e0xwJss=",
+          "size": 7132345
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsuru_2.18.4_darwin_arm64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_darwin_arm64.zip",
+          "shasum": "9ea69808bb8ca4196b9c7d563aaf07e646b36b874dfcdcb2d9ca73e0c9dea6bd",
+          "h1": "h1:SmhhiNAIHm/eRTgmX8wJRqb/mwjALbVZrQIJF4ih5w8=",
+          "size": 6827801
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsuru_2.18.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_freebsd_amd64.zip",
+          "shasum": "87f2c8a70f6e815c10b1859254b8f7edb163664cf0cb6d636f869d95126dbb90",
+          "h1": "h1:CBwdsUToj5bWCjwoiRln+EOstCkd7Xk/YQTHxAe3FH8=",
+          "size": 6832887
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tsuru_2.18.4_freebsd_arm.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_freebsd_arm.zip",
+          "shasum": "46215f459fcf3627ce95e17e8fba0337390b4bc06d0fa17c871a47824316730f",
+          "h1": "h1:Abrhg31kAnvDl6qIuyBLMW8mq/nXC9mKH/5Ukg3TvVU=",
+          "size": 6427821
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsuru_2.18.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_freebsd_arm64.zip",
+          "shasum": "b8531d9b761591b4eb0b4500ccca3e77d148f9ed5b7d440e32bac7e0fdbcaa90",
+          "h1": "h1:9RMJ5HS1uc0EA3ApAOcZJtWCrDJ3XYMUBQCL3vFQTFM=",
+          "size": 6251798
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsuru_2.18.4_linux_amd64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_linux_amd64.zip",
+          "shasum": "73a9044e4d63492a7a17a25fdd6d8bc99d1034a0524215889dd2dc39ae02c4b9",
+          "h1": "h1:cYTxtCyOJXb/KWM71l0fI04gNYIHJVmN6tU1JPSSAP8=",
+          "size": 6833571
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tsuru_2.18.4_linux_arm.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_linux_arm.zip",
+          "shasum": "4c0df1c03d453c026a95a305c083c20a4f0d6bc8a6ef2205855131842ef4a54c",
+          "h1": "h1:1Tr3jNnmsAe/c7lb4HpVMc5J0Jk11hAgpwiOMM9jefQ=",
+          "size": 6429617
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsuru_2.18.4_linux_arm64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_linux_arm64.zip",
+          "shasum": "c8a63a1fe5736a5b00bcfadeebd2151cd13197ad6f638250a7f0eed3a366a335",
+          "h1": "h1:Rk6avRlrKk7+Gj7vWSq3KJR6PZWVI2vhLukTQ7BhAKI=",
+          "size": 6255295
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsuru_2.18.4_windows_amd64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_windows_amd64.zip",
+          "shasum": "45b0a7b776c1534930e3bf4e53ae17719cba7fabf2b79145c571824214a64b8e",
+          "h1": "h1:Z7JuR+Rq0AzXkiFfkn5U4iruNYH5MDn+DfK49t/xED4=",
+          "size": 7020626
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsuru_2.18.4_windows_arm64.zip",
+          "download_url": "https://github.com/tsuru/terraform-provider-tsuru/releases/download/v2.18.4/terraform-provider-tsuru_2.18.4_windows_arm64.zip",
+          "shasum": "5cbacc3b46890e99601625d2d26e3e1f1ff68327ba40004b40321c4073bc7703",
+          "h1": "h1:uyxdLWt7NJosXu7IUGGnoolYvsHq1lkgCgVriRrdHRY=",
+          "size": 6332536
+        }
+      ],
+      "discovered": "2026-07-08T14:46:20.844324204Z"
+    },
+    {
       "version": "2.18.3",
       "protocols": [
         "5.0"
@@ -9038,13 +9139,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "2.18.4",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-08T13:53:10.83525688Z"
     }
   ]
 }
