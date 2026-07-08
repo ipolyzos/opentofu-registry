@@ -3185,6 +3185,11 @@
   ],
   "versions_errors": [
     {
+      "version": "0.9.8",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-08T13:02:30.235696108Z"
+    },
+    {
       "version": "0.9.8-rc0",
       "message": "checksums not found in release",
       "utc_time": "2026-07-08T06:52:12.418339572Z"
