@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.31.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_2.31.1_darwin_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_darwin_amd64.zip",
+          "shasum": "a17d027a821c0b0010ffb7a882a5c6350e43b95337db624d058acf6b1d5d64ec",
+          "h1": "h1:iQ3guOMiZYcyU9EJCzUuOeu3Ec0ss0G6PygrtymOyjE=",
+          "size": 6128322
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_2.31.1_darwin_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_darwin_arm64.zip",
+          "shasum": "6a669f06cf40a7775295461a57e1deb1c41cc6caa923cebfb2d40fcf18bf868e",
+          "h1": "h1:de20LxcghJillSYMxpaq836BbBobDbOXMKqX4CH21+Y=",
+          "size": 5797857
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_2.31.1_freebsd_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_freebsd_386.zip",
+          "shasum": "9f6299f0999560207b4becc09c39b4cfa7f237dd0d8b9620a546f631be361741",
+          "h1": "h1:0jdFX6d7yBU+MCog1v8fJFhfcOXvaVbjKrCI5j6MyEc=",
+          "size": 5563657
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_2.31.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_freebsd_amd64.zip",
+          "shasum": "35981ea796e4ff1f327cbdf88e6b3d9db1d0ff8ec57223b7b25e2b15824eefa9",
+          "h1": "h1:OmyNUa5QXnJoZRVOokI8sjMGQVx4QMss6X/cfM/ea5Y=",
+          "size": 5963910
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-devhub_2.31.1_freebsd_arm.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_freebsd_arm.zip",
+          "shasum": "f5817cff8ec1b047965d495236585ce0107f7f51c4d69debb53524a8032aaec5",
+          "h1": "h1:1Jwrknc1viP6fxn2CqPo+HM3O6Q3OquGvmLk6axpLnA=",
+          "size": 5532949
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_2.31.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_freebsd_arm64.zip",
+          "shasum": "49281142ed49032862eccee5a0d1287cd30762ae4c53122d71523d9b9e11f468",
+          "h1": "h1:FBmZAnGOaXU/J0m8/kRc/B4VNKFTgLwyd6xOjqQjpOg=",
+          "size": 5510521
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_2.31.1_linux_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_linux_386.zip",
+          "shasum": "8c60711d214fe54711c7fe35fce72a5331bd1637a79582c8bac23eb0e6bcf895",
+          "h1": "h1:1DYjN3l7CBPzvWCBRrX9BPNKioWrJq3RXWtuXRBzGOQ=",
+          "size": 5579760
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_2.31.1_linux_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_linux_amd64.zip",
+          "shasum": "7e97e7c58c6bfcf9c8a8ba2ce572d6a64d1ff90f83a1b5cc4151991f41b9ddb9",
+          "h1": "h1:nxfqguFAeZ7qq9DXYKjW+nxQJ6ElemkJgdiUds76agU=",
+          "size": 5974351
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-devhub_2.31.1_linux_arm.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_linux_arm.zip",
+          "shasum": "d8b18babcdc896a5d460070c0101a91b708e53a9d765e156ebb06316948f8734",
+          "h1": "h1:p+R4vbKCoSGNG00SXOTOkjLxZw+X5Foc/Arhay4bEz8=",
+          "size": 5542905
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_2.31.1_linux_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_linux_arm64.zip",
+          "shasum": "b6ab90222668e445e1153ae6050a750cd561147b203fb7b9443cf6821d643e73",
+          "h1": "h1:rGJC7pad+lm1INRplDYL2y7tifhRqUK4gmqX1i3+CLo=",
+          "size": 5520336
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-devhub_2.31.1_windows_386.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_windows_386.zip",
+          "shasum": "7d8949b1f374aa6ffadf04b2c70884a2a289b45e404e772864ffaafe8d126a86",
+          "h1": "h1:4hZQSUXfQcs4so/ISqBLGsCnpayIDuutx3Mw4DU7VJA=",
+          "size": 5835905
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-devhub_2.31.1_windows_amd64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_windows_amd64.zip",
+          "shasum": "0b50d8f79eec117f635aa0eb253a0b7cafda4e995e924197e2738379269c7c8a",
+          "h1": "h1:ciUyCGHgy9CtE8wy8OOcN2QKRG5/OPnhOonsZMLNzmI=",
+          "size": 6152517
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-devhub_2.31.1_windows_arm64.zip",
+          "download_url": "https://github.com/devhub-tools/terraform-provider-devhub/releases/download/v2.31.1/terraform-provider-devhub_2.31.1_windows_arm64.zip",
+          "shasum": "68053614cb4419e84d0e36f96737590d0b53f02ed0f66d6415ecca5f2ffcec76",
+          "h1": "h1:Pp6mVk2QQ/lzWa7eHFSqzXqPmVCvERM+RgIJvziPUNs=",
+          "size": 5593217
+        }
+      ],
+      "discovered": "2026-07-08T16:58:16.646881449Z"
+    },
+    {
       "version": "2.31.0",
       "protocols": [
         "6.0"
