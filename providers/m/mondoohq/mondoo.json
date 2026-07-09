@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.42.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mondoo_0.42.0_darwin_amd64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_darwin_amd64.zip",
+          "shasum": "975635c3d9918e324ade61eb378ceff06e02480e9b5129008cdac374d0cfd42f",
+          "h1": "h1:GDInHC4NHYyh4T3AxYfBaNczDoxBz5pSXJj5+c7iw1o=",
+          "size": 10032845
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mondoo_0.42.0_darwin_arm64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_darwin_arm64.zip",
+          "shasum": "3abfe2eada77aff1279dc779b4fc9fe56471fd87b366e1240a6fc9fccd2e3cae",
+          "h1": "h1:4v/w8TUo7bxivKbCljGBtTlioIE7CfkXtr4+KPClIeM=",
+          "size": 9319388
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mondoo_0.42.0_freebsd_386.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_freebsd_386.zip",
+          "shasum": "52333c880d425001e4d602ace3c3f9b36cee2838c692b0a4ad3f48cea1e87004",
+          "h1": "h1:HUbvuPiDfxEcR1AZLWhTO6hLsmIbQ9kmvaGse6pDhVU=",
+          "size": 9154470
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mondoo_0.42.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_freebsd_amd64.zip",
+          "shasum": "25200be78fc28405edb1f0a0558559c98b852c83fb1aee2c55caba5e88a95065",
+          "h1": "h1:BwCYbFlZhsZ+0xTld0UlgW2+A+j++0rLjxJC4XQKL/A=",
+          "size": 9769273
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mondoo_0.42.0_freebsd_arm.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_freebsd_arm.zip",
+          "shasum": "6cbfe16b09d4e527d5e8c92f2f66405d457eb07e2dbbb89e7f9db441f76066c6",
+          "h1": "h1:uA97KiwFMBmMAChtyqyTQAdeH9O/ZPpusM5L3LkFr0E=",
+          "size": 9139252
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mondoo_0.42.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_freebsd_arm64.zip",
+          "shasum": "ee6c7fca0a30cf77e834aeaebc2854b4939e21fe2e7b3a3e5b1020e55ca09a88",
+          "h1": "h1:xUGSq1k8IPDAIc8wkn0kGScJfgBE/wOMEXoW7wPe3lk=",
+          "size": 8845362
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mondoo_0.42.0_linux_386.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_linux_386.zip",
+          "shasum": "1606773e13a68ab47ea3ca7598ec4f0ca0b3d7e0a3e13f542d6cf8f9d26d5b90",
+          "h1": "h1:PCk685yA38pVBxeQGprfE0BXYQv589GPCbgIRYuz/6k=",
+          "size": 9200260
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mondoo_0.42.0_linux_amd64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_linux_amd64.zip",
+          "shasum": "665c8f7753c99ff24434eacce5c4b529476b34b700c3badbe2c6a436fd2657c2",
+          "h1": "h1:kFJeueY1ey/5Z31Pn6HXVV49Yj0fudxJ7sUgJmOmvtg=",
+          "size": 9800685
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mondoo_0.42.0_linux_arm.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_linux_arm.zip",
+          "shasum": "bb4ecacded039db0a0f6c297220aeec26878984e23894d48bc432e11c2e0477d",
+          "h1": "h1:Gb5p18QajK663Rzt5b9HJdZVhMNBMrW+L1n7l4V7uhU=",
+          "size": 9169914
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mondoo_0.42.0_linux_arm64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_linux_arm64.zip",
+          "shasum": "c4a787c8e8a23efa6df89c9e8bb1fb7c68339c536c1af9def7a8f185bcf6e1b3",
+          "h1": "h1:d1sbpG/ROzvBCGegAf54GJOYp8cRbulpNP2c1pxfJOY=",
+          "size": 8878943
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mondoo_0.42.0_windows_386.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_windows_386.zip",
+          "shasum": "19511b953f87410ddba51d77c05ca1b21b1945f4dc49c95bf51ee7cc1b9abda8",
+          "h1": "h1:YdigtvacWCCyDakNAi2E/K/mLWhyHpaV1TYcHMPZXP8=",
+          "size": 9625371
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mondoo_0.42.0_windows_amd64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_windows_amd64.zip",
+          "shasum": "00eaff6d6ba41f5038b6ddeb3351df71a761077243b21d6f50fce38ee2539f14",
+          "h1": "h1:5J/bRT9Lp3SkecrfgGS6ukUtPG/ITJbwE8VSxuYgAKI=",
+          "size": 10068937
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mondoo_0.42.0_windows_arm64.zip",
+          "download_url": "https://github.com/mondoohq/terraform-provider-mondoo/releases/download/v0.42.0/terraform-provider-mondoo_0.42.0_windows_arm64.zip",
+          "shasum": "98b496069544f7ea926cec2b26580153cf9d50bb063c051a4fabaa9827524523",
+          "h1": "h1:NlGRqS8RwzgUzIifAk6D0bccFey96JyrlKYpVdgoBE8=",
+          "size": 8978988
+        }
+      ],
+      "discovered": "2026-07-09T16:39:29.601435471Z"
+    },
+    {
       "version": "0.41.0",
       "protocols": [
         "6.0"
