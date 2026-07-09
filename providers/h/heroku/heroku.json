@@ -1,6 +1,152 @@
 {
   "versions": [
     {
+      "version": "5.5.0-pre.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_darwin_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_darwin_amd64.zip",
+          "shasum": "be46f70513b68741a7106dab5158517832eeac7c673e0058a95f6e96d91882a7",
+          "h1": "h1:N8J40H9Q5C4hu//T0MMp36ncfNI/iYQcVs8sCkm7tq4=",
+          "size": 7352473
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_darwin_arm64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_darwin_arm64.zip",
+          "shasum": "24591c51dbe58b70a1d11dc2ba11b614f5213e1f932e194090fdaab9c7aaf09e",
+          "h1": "h1:ruj5yCiPzESAhl2vWa+pbNJOZuCEAIHkFAyWHqOUw+Q=",
+          "size": 6845580
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_freebsd_386.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_freebsd_386.zip",
+          "shasum": "690f7c5d6ac2f688a3c964151479d58a372b4795f221a20f820e05384c69a473",
+          "h1": "h1:fyMHwNzc8oFk5TfzPGpCyPe+7KDvlhrrFBclHoUbeVE=",
+          "size": 6746474
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_freebsd_amd64.zip",
+          "shasum": "1eac2747bbf9dfc2fa538f56344f826ab9404ea27d14587633783bb7475d5bab",
+          "h1": "h1:GknNXCcMiZfhuU3olpk/k+tVya6vDYbQPK+qm0B1X0w=",
+          "size": 7149561
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_freebsd_arm.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_freebsd_arm.zip",
+          "shasum": "ddc4fcbe3143bb1260e174ff9fcf99750a11c72dff4434b9708fdc19b7a50770",
+          "h1": "h1:eHpsuzGbNMlg3/rN6uF3YX8z+3NGWFfNh1Ljj1mHbGY=",
+          "size": 6724955
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_freebsd_arm64.zip",
+          "shasum": "d728e13af9195d67539e6b36974f9b7763aaa1ebd3a4fc951329ebbd57d2aafc",
+          "h1": "h1:xkoTh4W+4WQ2IjWvAdrnJ8N+qXcpurr12HP8qr72fDk=",
+          "size": 6497237
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_linux_386.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_linux_386.zip",
+          "shasum": "37566e6bf562045de02ed332290661338f7cd3f005b99034e39851a19641fbc6",
+          "h1": "h1:ncl9o9KjawDOnUKriFvo/zlQM8vYt04COkHzMiyIzrY=",
+          "size": 6783750
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_linux_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_linux_amd64.zip",
+          "shasum": "f02968271bc18a3acdb3845d46fd7f067188daf2bbb388f23ad1af33e83b417f",
+          "h1": "h1:q+F5Xpo7z/KTiCZEeEsZIsCeTK0R9hKN9kgvZsRbOJg=",
+          "size": 7181611
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_linux_arm.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_linux_arm.zip",
+          "shasum": "d307c757511595c73522879edf1378adccb5a37fff7f942f241b940bdc1ca53a",
+          "h1": "h1:HDtRBgHkT6Bhie7C/pW3poNKPBWgbKN9FYHUc53Q4dE=",
+          "size": 6754929
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_linux_arm64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_linux_arm64.zip",
+          "shasum": "6671fc11c94660eeaa1c83fec3462951685bdfb658c22ee698fd341131c25d94",
+          "h1": "h1:L7KX67TeqClaU8E5uU0EZtUGvtTpziW5w1ENERtTNrY=",
+          "size": 6528551
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_windows_386.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_windows_386.zip",
+          "shasum": "47952049b0ebff0abb1bed0c67742d760bff06c406f5fab1fbfa7e6a0eac6a04",
+          "h1": "h1:lAxckRb9bwXBKcBJVCetFgDhR8vlWu0aRGq/t9kKCW4=",
+          "size": 7042084
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_windows_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_windows_amd64.zip",
+          "shasum": "72edbe224956e3533a2a253bfd6b8497fdb117f839e137b70d284a6e7a6d45a1",
+          "h1": "h1:xmYze1d80ZWhapR/kZ6ov9MdajtnenyfULhbNGUVLY4=",
+          "size": 7338427
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_openbsd_386.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_openbsd_386.zip",
+          "shasum": "d9cc91e8870173573042c8fc4e89cfe333d54b95fa77fdd5395741bac9bf1771",
+          "h1": "h1:ccLbb9kJLoDiEXAjKnEvxby/M8WCgQb0OeDmWOijHiw=",
+          "size": 6746026
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_openbsd_amd64.zip",
+          "shasum": "82e253a4e644a66f26dfad7dea57baa8054c2744978f2ab9e9253c17a01a1b3a",
+          "h1": "h1:17+hUot9ya/jFfy8ueSllO08DXBSjS/HMUqqjBtrNGg=",
+          "size": 7148967
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-heroku_5.5.0-pre.1_solaris_amd64.zip",
+          "download_url": "https://github.com/heroku/terraform-provider-heroku/releases/download/v5.5.0-pre.1/terraform-provider-heroku_5.5.0-pre.1_solaris_amd64.zip",
+          "shasum": "d92c3db51dc0deb46924c613745b07559446d4d4c95dccf91e9b365adf805ca7",
+          "h1": "h1:QBkyht8amDIXaR+3G58yuBm9udiYkwPAMk3sNQPp+CM=",
+          "size": 7150380
+        }
+      ],
+      "discovered": "2026-07-09T18:09:12.140280467Z"
+    },
+    {
       "version": "5.4.0",
       "protocols": [
         "5.0"
@@ -10317,11 +10463,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "5.5.0-pre.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T17:29:49.411812588Z"
-    },
     {
       "version": "5.2.11-pre.5",
       "message": "checksums not found in release",
