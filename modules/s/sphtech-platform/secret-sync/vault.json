@@ -1,6 +1,26 @@
 {
   "versions": [
     {
+      "version": "v1.0.0-alpha5",
+      "commit": "5de42e141ce13a7c1debf37d88837c004cd55912",
+      "discovered": "2026-07-09T16:39:40.78751174Z"
+    },
+    {
+      "version": "v1.0.0-alpha4",
+      "commit": "bae0cc8bd7372e6b395f89623df45d2ca9bef620",
+      "discovered": "2026-07-09T16:39:40.78751215Z"
+    },
+    {
+      "version": "v1.0.0-alpha3",
+      "commit": "30075abf37ff9703ec77728e7f4a71fa86a75273",
+      "discovered": "2026-07-09T16:39:40.787512491Z"
+    },
+    {
+      "version": "v1.0.0-alpha2",
+      "commit": "fcd35189af5858cdbf5e62a49b2643c9b7080a85",
+      "discovered": "2026-07-09T16:39:40.787512701Z"
+    },
+    {
       "version": "v1.0.0-alpha1",
       "commit": "1d8d84de47d254271d96f857704c6f54b16e0ec6",
       "discovered": "2026-07-09T15:46:13.672272388Z"
