@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "5.41.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-incident_5.41.1_darwin_amd64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_darwin_amd64.zip",
+          "shasum": "a9f58d8af7f2e9e7aa4340569472fe9fc3fbebc5ed0a7e4948c9e90c5925149f",
+          "h1": "h1:kDAZC+nLaDpT/KigrT21ckwEr4bu1Zx1LcvlRBQQtvg=",
+          "size": 8177440
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-incident_5.41.1_darwin_arm64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_darwin_arm64.zip",
+          "shasum": "2652cdc617f5e9f2f08d5170976f7e7d8d3fd45d44b7e8a0d75d485a2869eae7",
+          "h1": "h1:zXnn9adJhnYediiu6aMwpXDHQ7nMcNIwUDSKmdX1IFY=",
+          "size": 7770252
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-incident_5.41.1_freebsd_386.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_freebsd_386.zip",
+          "shasum": "c5fb757c6ef4044672213435f6bb8323c1f99906c32389ec374a8e699996fb84",
+          "h1": "h1:qUVgcjiPCHm7Rc94FuSzCbdDit1BoTwbq45UerY3eRY=",
+          "size": 7420374
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-incident_5.41.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_freebsd_amd64.zip",
+          "shasum": "aeab6f9c99a862079f0105f6c6be4074d7672419dced34d2a553b11099c90711",
+          "h1": "h1:vrTfYeOUUHgHc0bcPfBZr3w0FUhMugvk+H7LB25WgFw=",
+          "size": 7964033
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-incident_5.41.1_freebsd_arm.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_freebsd_arm.zip",
+          "shasum": "cf20515f8ead31a7bad6dd8b471c325aaa36a78f91cd4e7f1c2f20e55c988c9e",
+          "h1": "h1:ERb71z4r8lOYCcABxUJMoUQYtm4T+z2fCsIJ1HPWKYw=",
+          "size": 7407020
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-incident_5.41.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_freebsd_arm64.zip",
+          "shasum": "05b40404054403d83a68db4805a599855d65b78e9d9d7275c92f7c65a515ab0d",
+          "h1": "h1:WBES3IDzuqDoYP9C6CSoecF2VJg9MKG4DPZlFU39sMs=",
+          "size": 7359554
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-incident_5.41.1_linux_386.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_linux_386.zip",
+          "shasum": "8ebdc4792bf7c58b81228910dd4a2247e214ac863b6fcaf152fb081b84facc6d",
+          "h1": "h1:Ee8Pw6RqjKzM4v8t5JlHHLL1dgZdLw/LG+0tCa3PY1A=",
+          "size": 7439737
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-incident_5.41.1_linux_amd64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_linux_amd64.zip",
+          "shasum": "43db8562ff7c0cf467b5b01de5affebb82ee67c872f4bfceb6a48c9712142542",
+          "h1": "h1:bDaYfcRTuEfRLhhBh5SHRw9umXwm/c/DnPHa3aQ9FW4=",
+          "size": 7973061
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-incident_5.41.1_linux_arm.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_linux_arm.zip",
+          "shasum": "ad9d2d09a3b51649ddda72bb39ee5ddf0aacd41d2d6f410674f20c75cabacb29",
+          "h1": "h1:bZBaHKrwrVfHlfZGhFbsebHP0h1tFaWFk01t1bniyaw=",
+          "size": 7416742
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-incident_5.41.1_linux_arm64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_linux_arm64.zip",
+          "shasum": "e23b79ba3222c030ee7f18404a66b44270c0d5142203ec310843fa62537cee39",
+          "h1": "h1:skXWZW5Ol9/sBYj9aGt+8WzhJ9Srf4+NXFKT0FXrGU4=",
+          "size": 7371493
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-incident_5.41.1_windows_386.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_windows_386.zip",
+          "shasum": "7542b7d8ea2e551f1ebd6e4766eb1f9807e1638f8ba4305a65597a62bff353ae",
+          "h1": "h1:j+4qDWWooSfxhOIFE3FIWdniGaygTXYRw7+A3ea5le0=",
+          "size": 7766053
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-incident_5.41.1_windows_amd64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_windows_amd64.zip",
+          "shasum": "9a44eec28ca0aba41c4a8b308da201cf2c15b847ba5f336b79788aba2a1e2bda",
+          "h1": "h1:udn3Kum9cYq+Tq/XCGFKnAr3vmQueLWL34xLMYZLZsk=",
+          "size": 8202910
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-incident_5.41.1_windows_arm.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_windows_arm.zip",
+          "shasum": "ba29938138c43e7477a59c63741420d5c6d42fb295eebc68a8a4f982c4b40360",
+          "h1": "h1:uToES7IbSATD/hxfBztVXv9lRjPWHtBhlYhc+nCgNUI=",
+          "size": 7580825
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-incident_5.41.1_windows_arm64.zip",
+          "download_url": "https://github.com/incident-io/terraform-provider-incident/releases/download/v5.41.1/terraform-provider-incident_5.41.1_windows_arm64.zip",
+          "shasum": "a0984b940f5e1460d727e3c3d319ee5435304e6ec47814d5abdf954c3ad5a0b4",
+          "h1": "h1:SrMI9HesDEO2Lk3cbgcWPE58lxjRbul4y1Y4h6VKzTc=",
+          "size": 7456105
+        }
+      ],
+      "discovered": "2026-07-09T13:40:40.706258241Z"
+    },
+    {
       "version": "5.41.0",
       "protocols": [
         "6.0"
