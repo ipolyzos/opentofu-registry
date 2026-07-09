@@ -1,6 +1,125 @@
 {
   "versions": [
     {
+      "version": "1.18.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jupiterone_1.18.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_darwin_amd64.zip",
+          "shasum": "6b5fd905d6b33f69dfa57d0fe05e3bcbe29fcb1cca60fa5ae206ca71fe80bb3f",
+          "h1": "h1:uvCKDU5iyyhKMnTUbHerZeFs/1Jp4p5XCirPxlcKRi4=",
+          "size": 5666379
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jupiterone_1.18.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_darwin_arm64.zip",
+          "shasum": "37d6e2404e6932dd63edf4ca596585a8fc7f68891230f7894c970ba70d2579a9",
+          "h1": "h1:LPJSOhC0nxaJBL6e7d7+CCLS1t3eYdWWGm5zGnt8Ots=",
+          "size": 5506386
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jupiterone_1.18.0_freebsd_386.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_freebsd_386.zip",
+          "shasum": "aae9eda94d721bcd03a764c425ddaabe9ab634ce14c6432408ed65cf7433aabb",
+          "h1": "h1:4cSmxi9fTz9Ek3q7LwkbwGHiqusY99giz+pSUx5UxvE=",
+          "size": 5169970
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jupiterone_1.18.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_freebsd_amd64.zip",
+          "shasum": "e63572768b8788587f49334e0d2fa908696df91b171720cd1dd8aeb05e3f1128",
+          "h1": "h1:Y2hLj6Ee2yqCVIwMnX2mxRrwQxAUQwwecOt1uhuOLck=",
+          "size": 5436548
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jupiterone_1.18.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_freebsd_arm.zip",
+          "shasum": "2d04df1079f875016bba9537d2e58790094035bb34f61f15b6875ae668e2311e",
+          "h1": "h1:Fl0QpCMTD65pvvpBxG6yQby4BSWJUlaiQ4Mv8W/vybk=",
+          "size": 5109296
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jupiterone_1.18.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_freebsd_arm64.zip",
+          "shasum": "1dca17b82cb77682270826150f041279d0b5833bd93ee3f068b512c665a2684e",
+          "h1": "h1:aBM8s88lgtcWFhtRv1oo+qHlybhs8obsUtH/5PI4CC0=",
+          "size": 5008462
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jupiterone_1.18.0_linux_386.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_linux_386.zip",
+          "shasum": "70983187c13c12e96cdd0f48e222999a74c1312ed0b91ec2605e1e6ac6f79edd",
+          "h1": "h1:OFu16N3es63X6T/e4QvSPgKrsaOdZEKbLiemc0Y7jK0=",
+          "size": 5173880
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jupiterone_1.18.0_linux_amd64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_linux_amd64.zip",
+          "shasum": "232a0db2fca974cb6022d9bc0c8c81130711840264c93ccc7c9872e9b251c301",
+          "h1": "h1:7v6HcVsRCTVkSIeRCeF4m0LuoIOSfh/LE/BEKpMbtPI=",
+          "size": 5433074
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jupiterone_1.18.0_linux_arm.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_linux_arm.zip",
+          "shasum": "bbd0c015a5173e9847a8844ce0dfedaef0ced288f312dbce560debe97f7c4463",
+          "h1": "h1:Ddwf6c/GvNHb5KhPGGVl+Y1Uuq2/bRotnBPXo9ZxWpM=",
+          "size": 5105680
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jupiterone_1.18.0_linux_arm64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_linux_arm64.zip",
+          "shasum": "deb9713ba4064b90d218f4f4b303741f91c4e86097040fb925cbf39debb7c7ff",
+          "h1": "h1:1hvTeWaADc+M/6cUcfbGn552psvQCxeXlwPvacDQ7j0=",
+          "size": 5005911
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jupiterone_1.18.0_windows_386.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_windows_386.zip",
+          "shasum": "2ebf4adef8184c5d0f5578c0c765b5618a962753417e7e62fe5a190324b20ae4",
+          "h1": "h1:ZUZfPtYSufLEU7Oys60YjexBFiOGldz+MHdZY9F+oLg=",
+          "size": 5328314
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jupiterone_1.18.0_windows_amd64.zip",
+          "download_url": "https://github.com/jupiterone/terraform-provider-jupiterone/releases/download/v1.18.0/terraform-provider-jupiterone_1.18.0_windows_amd64.zip",
+          "shasum": "ba1ab874a68a81c7caaf9e15230001e3aba56c7379e786ab0042067dbede619f",
+          "h1": "h1:hN0awbdSpC6XDKvhBs7JB9aDDStA7+roeHio93rFzsA=",
+          "size": 5443917
+        }
+      ],
+      "discovered": "2026-07-09T08:23:05.191198687Z"
+    },
+    {
       "version": "1.17.0",
       "protocols": [
         "5.0"
@@ -5497,21 +5616,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.18.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T02:59:57.251431947Z"
-    },
-    {
-      "version": "1.18.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T04:24:16.371217819Z"
-    },
-    {
-      "version": "1.18.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T05:49:06.321284574Z"
-    },
     {
       "version": "1.4.2",
       "message": "checksums not found in release",
