@@ -10318,6 +10318,11 @@
   ],
   "versions_errors": [
     {
+      "version": "5.5.0-pre.1",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-09T17:29:49.411812588Z"
+    },
+    {
       "version": "5.2.11-pre.5",
       "message": "checksums not found in release",
       "utc_time": "2026-03-16T12:46:32.535894969Z"
