@@ -20240,6 +20240,11 @@
       "utc_time": "2026-07-05T14:30:00.267144126Z"
     },
     {
+      "version": "0.0.0-20260630-860a9d5",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-10T22:46:42.451135988Z"
+    },
+    {
       "version": "0.0.0-20260624-ab8238b",
       "message": "checksums not found in release",
       "utc_time": "2026-06-24T04:41:26.27231215Z"
