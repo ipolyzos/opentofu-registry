@@ -68103,6 +68103,11 @@
   ],
   "versions_errors": [
     {
+      "version": "11.4.1",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-10T15:12:57.587814142Z"
+    },
+    {
       "version": "11.0.10",
       "message": "checksums not found in release",
       "utc_time": "2026-06-22T13:36:27.853919487Z"
