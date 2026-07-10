@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nerdctl_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_darwin_amd64.zip",
+          "shasum": "6042fbc1dc3737bae185426fc7fafc0a5e5f5f9cf94c08b04bb218e9064baa50",
+          "h1": "h1:LGnQWKf3hyJA3q0+oUluC+20KmpVFIsG+G9x/Lbmp6E=",
+          "size": 6665360
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nerdctl_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_darwin_arm64.zip",
+          "shasum": "15173e0568695a2008c1a7031017e925a379c9e6bf612b7ba618c9ed15fc5d33",
+          "h1": "h1:dpryetO5+CS731oi9yPXBqomxnsII2dT2riZQ8khkR4=",
+          "size": 6206847
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nerdctl_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_freebsd_386.zip",
+          "shasum": "488130d07b8d79f863efc287dcf9b6cd82560d32bbb46d9b28794f56e6d62fd4",
+          "h1": "h1:vi/Fk3LpJJAoBvOaxIqTqWZ5/luRIa2Yb8os2iU41wc=",
+          "size": 6142232
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nerdctl_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_freebsd_amd64.zip",
+          "shasum": "df59baa686a9b1c5180ae5e60a8158cbabd41d4204ee11f0674f9bb52de874fa",
+          "h1": "h1:r6lTYgcC3CKn7bCYdpRp1P/QgZPDJ56GrSaEGO/8PPg=",
+          "size": 6481753
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nerdctl_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_freebsd_arm.zip",
+          "shasum": "4c83773e365d39f22b6570f2f5663e22d127f5a78e02296da32cf6c42882ee6f",
+          "h1": "h1:aX5DuyaGwA0qPAANRHxmRVw4vJnbPldSAkEbI3APbt0=",
+          "size": 6109278
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nerdctl_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_freebsd_arm64.zip",
+          "shasum": "c0077f98df9bcdaf1c8d7f558aa8610b67fd89c208e5e4497720ad42de35e778",
+          "h1": "h1:2LP08GCQ/O9U+RinEyHZKHniSkCA7CayVxK/Y37VLlI=",
+          "size": 5889306
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nerdctl_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_linux_386.zip",
+          "shasum": "59ec23cae578b6949793ba28747b0585608ae004868485ca98593a4c74599899",
+          "h1": "h1:ouGU9A4GBU0GRyltqXljfaFP0/CNC/hQTR/1VTVsVbg=",
+          "size": 6178045
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nerdctl_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_linux_amd64.zip",
+          "shasum": "461643088af0aa727c981aed5d4684fdb9a17917ecd70ccc7e20d465c57375e9",
+          "h1": "h1:18BqVgsajLtqJelwXqCGVVgyqGtS1VMLGM/eSGf8XVs=",
+          "size": 6515780
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nerdctl_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_linux_arm.zip",
+          "shasum": "07ceb809c6d4e9d191b9243250a9dd49a1678818f58a35d2c547ddf1c76ba934",
+          "h1": "h1:JRcqvNmCoPHZLbFKM9OGLwZHtByHuV4yJjoIMel88VM=",
+          "size": 6139970
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nerdctl_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_linux_arm64.zip",
+          "shasum": "f7c88a89ae2da2f67987991b6fe5a3184e46bae03a6e34a80d3875214f14bea1",
+          "h1": "h1:q8E+ldRlWTRrwOeA7cz+ci1D4AG1l0hJ6hQ6rx9YHIo=",
+          "size": 5921760
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nerdctl_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_windows_386.zip",
+          "shasum": "6543edefa54b8f44003c8b0c7411c7e85dc02bdf887929b93c466ed61a2c9027",
+          "h1": "h1:U2a0j3d+hk+DUeklMAFtS8lAyyNVILL18iZH1Vnn7xc=",
+          "size": 6465358
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nerdctl_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_windows_amd64.zip",
+          "shasum": "6f81de8de74aff54dec5d189ad1c1e578d0d7c0d3c67e5ba59a28d62b6463a3a",
+          "h1": "h1:OYYQ7oR5j5VQlOx4c7KLTrC60WT7EcIVMD6NU3PM2fg=",
+          "size": 6713012
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nerdctl_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/kmaris/terraform-provider-nerdctl/releases/download/v0.3.0/terraform-provider-nerdctl_0.3.0_windows_arm64.zip",
+          "shasum": "aeff3613f1d80d00ee9b8e84e563dfd3b9e02100fed0413aecfdda86501819f1",
+          "h1": "h1:q6BldBK0iiVqvGTafFx98Tks2ZLM0XwYXXivfYOvk1Y=",
+          "size": 6001962
+        }
+      ],
+      "discovered": "2026-07-10T14:15:11.475792598Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
