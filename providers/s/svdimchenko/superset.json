@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.7",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-superset_0.2.7_darwin_amd64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_darwin_amd64.zip",
+          "shasum": "1cf2599e203d7430a79db07021f69aac5c739f1bac5689c790af898c0c7e7fb6",
+          "h1": "h1:J5sxb/gnscDFGZfgx5yZP0qUjqO0Ww0ll1yLs3M0hrU=",
+          "size": 6937660
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-superset_0.2.7_darwin_arm64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_darwin_arm64.zip",
+          "shasum": "d5916b3c91f46487d09bdbc30580495d94777ace858e243f48126c30f6d2078d",
+          "h1": "h1:yu/OY5oQSAlrBm16fvMEWksclaqAeHBYKKYpWzraUlk=",
+          "size": 6538821
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-superset_0.2.7_freebsd_386.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_freebsd_386.zip",
+          "shasum": "4de654a2ff4bee787454a1d61c35cfde73682dbbe673b10087e8bf0a4f31f597",
+          "h1": "h1:ZbFBqXkTGScvkUM53SNCKFES5vHihnTrxwHMSUdNQNw=",
+          "size": 6366012
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-superset_0.2.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_freebsd_amd64.zip",
+          "shasum": "fccaded3ed206f2978e0deff908064b022059d7661a2a21af56ee3494eea769a",
+          "h1": "h1:qGNiCVySTD7LGmbQMSNv8WM+8TiycxhK/Zio1nMNb5A=",
+          "size": 6748932
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-superset_0.2.7_freebsd_arm.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_freebsd_arm.zip",
+          "shasum": "5e56111ca186aeee73b3790f9e2434ff8623df3ab945b96affc80acc699b5f83",
+          "h1": "h1:MXYU3hF0BsatuDgYCIlLjUOUMJaGSM+IUp4yupClRUA=",
+          "size": 6338908
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-superset_0.2.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_freebsd_arm64.zip",
+          "shasum": "0d1c62a481548e79efdf51ce3ca9b747f263ca47a8d4989023417cd331006517",
+          "h1": "h1:go7Gn+SGj8EblzNGwfT+squvTaarhHgVJmZXdKpA/Ck=",
+          "size": 6206003
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-superset_0.2.7_linux_386.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_linux_386.zip",
+          "shasum": "3a9a112a06c44b7743592b29f0b2696de6cf6fda6b6e3e93f62c51a11ed7e1ae",
+          "h1": "h1:ysFNI8q2wDFsjEEIditDvawcJ7SOn+OGkuaXd+Xsrwo=",
+          "size": 6378102
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-superset_0.2.7_linux_amd64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_linux_amd64.zip",
+          "shasum": "2e8199d77bb3b288de1a4ee7f041f185c4f443e64ab174c41337a997d7998e17",
+          "h1": "h1:ymvVpnOOrYezsIzn1yARRYVKNPXD09+GNfZa9ucpH64=",
+          "size": 6756431
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-superset_0.2.7_linux_arm.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_linux_arm.zip",
+          "shasum": "dd45ac7dbeb06f41fd34aa2f4ac4251c06e32e881ce8ed68c96745e04348634f",
+          "h1": "h1:Qbg8X5CP9jt2c3VUTakIwKDZFccxI9fFjQqaXMLuSMc=",
+          "size": 6344452
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-superset_0.2.7_linux_arm64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_linux_arm64.zip",
+          "shasum": "1fec93350b13cbac52116f00d03db6b840601cf70b63141f3d91d514a366528a",
+          "h1": "h1:sPup+75AV+xOcEDuZmulK4ZeLO2yolihXpuRiQ1DJ0Q=",
+          "size": 6212041
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-superset_0.2.7_windows_386.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_windows_386.zip",
+          "shasum": "36859b9ce788813fef7de6295adbb765461183186e57b85d94ac66d8aa7ec29d",
+          "h1": "h1:ViKuOjUxlcKiKs8bid3poXn53u/EHwqBYBKn+wa+zNo=",
+          "size": 6676888
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-superset_0.2.7_windows_amd64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_windows_amd64.zip",
+          "shasum": "c72634bf478f1ebfc07cf8019da4391f901350b86f1f4f76b994c5fc35a322a8",
+          "h1": "h1:dewJo5gZEX1TCQXilzA9QHhcCj6/gGbDiOr2x8JINv8=",
+          "size": 6963582
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-superset_0.2.7_windows_arm64.zip",
+          "download_url": "https://github.com/svdimchenko/terraform-provider-superset/releases/download/v0.2.7/terraform-provider-superset_0.2.7_windows_arm64.zip",
+          "shasum": "61f30ac53c38d34af1b4cbcc1460a9da321e739981f9e597fb96f872f47e90eb",
+          "h1": "h1:xtx3dgfxhfmZoxquVxE4taFBPd7fjw5x0STu1sqy4g8=",
+          "size": 6302534
+        }
+      ],
+      "discovered": "2026-07-10T15:13:16.905277216Z"
+    },
+    {
       "version": "0.2.6",
       "protocols": [
         "6.0"
