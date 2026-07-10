@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.34.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-trocco_0.34.0_darwin_amd64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_darwin_amd64.zip",
+          "shasum": "79ae4120fb6943e4a396cc44ba25426e61140674891538b2ed0c4c82718cd3c8",
+          "h1": "h1:UXfMsNjyiEjSTb8rhS/WAF0pMrJ0oP4V4GgdJqVLrT4=",
+          "size": 7160092
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-trocco_0.34.0_darwin_arm64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_darwin_arm64.zip",
+          "shasum": "9fc8ac6c995b424780845c934e449af55db3ad053a84a46180a6a6f25362c447",
+          "h1": "h1:pspf879lIhYnkVsraDGcWZN3AiCrlZ4Gx2W86IwrgJE=",
+          "size": 6766955
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-trocco_0.34.0_freebsd_386.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_freebsd_386.zip",
+          "shasum": "e9531f3b4028aeeca4772c5b0baef07ec558cd84b8ecfdad12e6dae7d7906e86",
+          "h1": "h1:q77ymuv23tXL5sQ04fx8exI5r2AIIvsqxPdZd3hlLWY=",
+          "size": 6454930
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-trocco_0.34.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_freebsd_amd64.zip",
+          "shasum": "f9140d9fc4efa2f43afa7360210af46606d5ddb7967848d883c7a277dd00aea9",
+          "h1": "h1:KgThJjkJIfAMfxZNI1DlvQaNEFdUYSE9/VpDo+IGW/Q=",
+          "size": 6960548
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-trocco_0.34.0_freebsd_arm.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_freebsd_arm.zip",
+          "shasum": "64a6ab49b671277668b882c907b8f7ef0f093766a92e321525a9b1f31e070675",
+          "h1": "h1:Ek8gid+Tc1BfJ8puDbDkUsbSid50cIg2btzBt9mUsGs=",
+          "size": 6473328
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-trocco_0.34.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_freebsd_arm64.zip",
+          "shasum": "40a5eb59e6b0bbfcce7aadf40d62f5069d27a38bcd7b2c58bddfd684be277e23",
+          "h1": "h1:lkvHQffbDFkT1EsagyF7AGXof7+2n7volaz1W4kPl9k=",
+          "size": 6417573
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-trocco_0.34.0_linux_386.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_linux_386.zip",
+          "shasum": "3835f62f6fa9940bbe57f1f1585705f18b778de8d424af340c98569789d03af7",
+          "h1": "h1:tgOAh1bU4pQfCw7KFz/7RS22Cw7P6u5FMRYa9Pbr9u8=",
+          "size": 6472192
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-trocco_0.34.0_linux_amd64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_linux_amd64.zip",
+          "shasum": "9f14d652ce22d381edf9c73a5c1aa9a4d8f18870251f46071d88921738598838",
+          "h1": "h1:rzdQHLmQKyn1zI4TLzxXHEfliBRxHqS++3lfDLm6AKE=",
+          "size": 6967069
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-trocco_0.34.0_linux_arm.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_linux_arm.zip",
+          "shasum": "caad7db269bcee81039ede6af2d801035bf087840e74537b2b0f0f59dc387293",
+          "h1": "h1:Frw3ZsbwB62BVdrQQXtXcTepLenHa9Nlxy8CYvHC3Ho=",
+          "size": 6482653
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-trocco_0.34.0_linux_arm64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_linux_arm64.zip",
+          "shasum": "7209b8aadb9021fb6ab4dde77e022904bd9f4947926d7b1b9e865aca4c6271f6",
+          "h1": "h1:MVQi53slOnyDiu9d2tD8xVbYowzMP+8jVu/gOxavzbI=",
+          "size": 6428444
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-trocco_0.34.0_windows_386.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_windows_386.zip",
+          "shasum": "1b550debc58d80a41276a94c6e33a6f1a02359a87521f96a1601f704ae90460f",
+          "h1": "h1:m+z9Dba5rkoD3DB+PcXjtpODjDmsJv9TaJ4xskuyDyI=",
+          "size": 6773587
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-trocco_0.34.0_windows_amd64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_windows_amd64.zip",
+          "shasum": "044bf3d6b2cec6fcdb5222571fbd6392e070b8671bedd75d796100e51515aee1",
+          "h1": "h1:bvcd7qZWOHI4EQPJ5BAwDP0paOFDvloDBZYGkNwzL7E=",
+          "size": 7167332
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-trocco_0.34.0_windows_arm64.zip",
+          "download_url": "https://github.com/trocco-io/terraform-provider-trocco/releases/download/v0.34.0/terraform-provider-trocco_0.34.0_windows_arm64.zip",
+          "shasum": "95454a02eac30b4981da9ce89826392d412aee101a724ea898f4e800039fd8ee",
+          "h1": "h1:IsMhJi2jHKwiuotymamIO62pwgeM2ncRBcZp5TcOr80=",
+          "size": 6505931
+        }
+      ],
+      "discovered": "2026-07-10T01:33:42.184682901Z"
+    },
+    {
       "version": "0.33.0",
       "protocols": [
         "6.0"
