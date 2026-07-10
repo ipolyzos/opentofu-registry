@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.1.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_darwin_amd64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_darwin_amd64.zip",
+          "shasum": "b0f3c316827857f14a0529ed3e9e36662453d4d5728000509399df5de556a339",
+          "h1": "h1:Xo/WcH6nHLLbHxuKBFRdbspSxzsrMO7z5dk7MnfmQOE=",
+          "size": 7048888
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_darwin_arm64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_darwin_arm64.zip",
+          "shasum": "09a658f55946038dd434f2a7d202d74c61c24a525e4c6434bbd14387807c8a38",
+          "h1": "h1:ovY7dQo/eeV/TKJgIVkfIMAilSfLKeYyJ4EyJEi7GGk=",
+          "size": 6610756
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_freebsd_386.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_freebsd_386.zip",
+          "shasum": "2990d3b4bbca74df66a275128c8d82a05ec5a7d780b6398ef32896d094d30288",
+          "h1": "h1:a9uhJ9pr9vOZ7qUhki97oB93cFaj1ql14ulQlZ4IkeY=",
+          "size": 6381060
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_freebsd_amd64.zip",
+          "shasum": "4ada5c85dad724d9a096a0dd3c60020a196175fbbdf264e3aa58a3ef476dd5f2",
+          "h1": "h1:1y+7cgvwhk7VA74fF/Gaa95wLExR9CDtYEqLI9EG3BU=",
+          "size": 6883036
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_freebsd_arm.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_freebsd_arm.zip",
+          "shasum": "cfc21166550bf2358580e0aafe0538e15013f681badd54d2f5f9efb6b9588cf6",
+          "h1": "h1:1mdFKIthS31FuEcxjE5niWuTDvNnOEqFdx+GTnodtzE=",
+          "size": 6408005
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_freebsd_arm64.zip",
+          "shasum": "66b8248355966a225a67caf90f2ea11eb6f010e1ccabfeda6d213426145fc514",
+          "h1": "h1:Fus2dVWKlYvnVhsWLefoj3TuKwe4yKWGx/f4I5YKw2Q=",
+          "size": 6304943
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_linux_386.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_linux_386.zip",
+          "shasum": "7b3af0e1cc4d2d067b3fe8ef6222863a3b33543724608a1eb355e014be9dfd48",
+          "h1": "h1:LohJVPvjftOfC01xt5mwZyQbm2RxEJ8zQcMqh0Lp2os=",
+          "size": 6396459
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_linux_amd64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_linux_amd64.zip",
+          "shasum": "95a1ff29d055d75f633a361d1c44f8d7a416d8a00091ea72e18f12c88878a38d",
+          "h1": "h1:XcSwOzjWCQ2HBZGAoFI5rCinoJVjS37VVnhQba+LLM0=",
+          "size": 6888909
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_linux_arm.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_linux_arm.zip",
+          "shasum": "e39bf96acc191589be9998e47a5827b60b74c23d2481cdd78678d65a4f3ccf4a",
+          "h1": "h1:NTy8jux+mxOqMdNBd3hG7d1dp1qEAu/Q6ivfQYPeBUo=",
+          "size": 6416986
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_linux_arm64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_linux_arm64.zip",
+          "shasum": "cb5abaefe45718307b438febe2208a839f33d352a35a76a46beefe11609947cc",
+          "h1": "h1:iuLv0edGpsX1ViunkEO1aE2Aii5+rEisXR2QWNp7HAQ=",
+          "size": 6320103
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_windows_386.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_windows_386.zip",
+          "shasum": "89d5527a2bf3cf55dd68110ff31c675165432fac0747beb306dd7fe826211f8b",
+          "h1": "h1:g1UWQNIt/zmX1zQKHPf5gHlljpY4AxUJ4zyt9WavffU=",
+          "size": 6712589
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_windows_amd64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_windows_amd64.zip",
+          "shasum": "f18bf963a2950618e34ace3f5b25376cca3e8b441d4eb1f3716a4b87c515bbd3",
+          "h1": "h1:D+zbPCDW1UbZ05JH/w2cinKFWGwGZGskC95Icc48GQg=",
+          "size": 7084707
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vnpaycloud_2.1.6_windows_arm64.zip",
+          "download_url": "https://github.com/vnpaycloud-console/terraform-provider-vnpaycloud/releases/download/v2.1.6/terraform-provider-vnpaycloud_2.1.6_windows_arm64.zip",
+          "shasum": "a175977fcc382e0c9db4e2692e330ec38a7e067bfeacca2047275d97189cddd8",
+          "h1": "h1:nMCgYKUwsXOdOF8/T0ghlbHTv0ViPOChzFBJaJ7CLCk=",
+          "size": 6391817
+        }
+      ],
+      "discovered": "2026-07-10T06:56:56.808988534Z"
+    },
+    {
       "version": "2.1.5",
       "protocols": [
         "5.0"
