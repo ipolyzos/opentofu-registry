@@ -3070,6 +3070,11 @@
       "version": "1.6.0",
       "message": "checksums not found in release",
       "utc_time": "2026-07-10T02:37:29.731368486Z"
+    },
+    {
+      "version": "1.6.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-10T11:39:09.828602699Z"
     }
   ],
   "warnings": [
