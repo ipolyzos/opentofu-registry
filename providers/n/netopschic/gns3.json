@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "3.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/netopschic/terraform-provider-gns3/releases/download/v3.0.0/terraform-provider-gns3_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netopschic/terraform-provider-gns3/releases/download/v3.0.0/terraform-provider-gns3_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gns3_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/netopschic/terraform-provider-gns3/releases/download/v3.0.0/terraform-provider-gns3_3.0.0_darwin_amd64.zip",
+          "shasum": "2e228fd092466c6129131a7411fd16238c4d6b8a3717642779d3cd3522bd70d0",
+          "h1": "h1:1rGJDYPhyKyzyGgKRXDaJjpj6TR9xUbfvzciXo32XnE=",
+          "size": 6376003
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gns3_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/netopschic/terraform-provider-gns3/releases/download/v3.0.0/terraform-provider-gns3_3.0.0_darwin_arm64.zip",
+          "shasum": "b53e59ab3c131df1b1e514aa59f5e321b37901d79a78501973e39f40db087e3d",
+          "h1": "h1:H5yy/m+/y19I8Ju+gC36lRGFc8Y/2IX73Rcmc3W+cSY=",
+          "size": 6006281
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gns3_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/netopschic/terraform-provider-gns3/releases/download/v3.0.0/terraform-provider-gns3_3.0.0_linux_amd64.zip",
+          "shasum": "e7fe73462e468e8c82f0c6da6398874cc56ef304684d23fbafe2c4dfcfb75e7c",
+          "h1": "h1:pFT+U4NHp7WH8DWVivs1Ref45CMhOGAlFm7z7lAUmY0=",
+          "size": 6230602
+        }
+      ],
+      "discovered": "2026-07-10T19:51:15.577317394Z"
+    },
+    {
       "version": "2.5.5",
       "protocols": [
         "6.0"
