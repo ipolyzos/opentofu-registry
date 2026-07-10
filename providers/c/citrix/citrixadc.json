@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-citrixadc_2.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_darwin_amd64.zip",
+          "shasum": "5339440cf9ed8343b23264ba1292aa9e041ee7f7d706a01a14fbb466a1766fe6",
+          "h1": "h1:3BfYPxkzZ0kByFsWjr7U0j2SM5x1bz5eMtVzuQUgZn8=",
+          "size": 14174178
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-citrixadc_2.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_darwin_arm64.zip",
+          "shasum": "0d05efee5eae9f6504143c2e945999ca133adb5cfd260ee29b0e6ff8ef3907b0",
+          "h1": "h1:8/0P950ykIAHOUfEML1VSaea+x2TV8dnXvdCpQUgXZI=",
+          "size": 13094616
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-citrixadc_2.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_freebsd_386.zip",
+          "shasum": "693f1a12f6cbf70325ea7d8521198534c123dd41bd0b9840f167f5ef861c675b",
+          "h1": "h1:Jwyc4cK/7wl/IxU9L+/mdfRCVjomHxGShaka56gBoBg=",
+          "size": 12560788
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-citrixadc_2.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_freebsd_amd64.zip",
+          "shasum": "d12b16d3b4e632298d06567d497740c989e7ea1970c50388af92acd3c2e398ed",
+          "h1": "h1:l9X0oKrdFaNFyahrugICVGTJ59i375EuRNCMEu762Vs=",
+          "size": 13875327
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-citrixadc_2.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_freebsd_arm.zip",
+          "shasum": "9aec3435fc54bd09e390a344c9f4309cc3da01150a85eafcc34595ee2f8c0059",
+          "h1": "h1:AVhl1hzQ8j7kgrlKOhbH8voqBbw9cgvPdfU8+MewU9g=",
+          "size": 13101180
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-citrixadc_2.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_freebsd_arm64.zip",
+          "shasum": "cfd343dcf195d74afcece41904f867e34b76340c8a0a9b5ab56afa11beab5601",
+          "h1": "h1:htTtxNAc5cyKbLMcnN6aYiCJLDq33tkW+czebQY01K0=",
+          "size": 12454963
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-citrixadc_2.2.2_linux_386.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_linux_386.zip",
+          "shasum": "461396e92bee7ae7f22760a6700d0582f986618125a5e49978469cb5691c90b7",
+          "h1": "h1:sN/lq1yIolGelLf8ATYryQ9l4JOlpql4CaNDtr/9Zso=",
+          "size": 12584867
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-citrixadc_2.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_linux_amd64.zip",
+          "shasum": "d9d31fd7d9489d6595b6a6a54c808bae9f546bb2888c70b9993a6c1e27df316b",
+          "h1": "h1:7tqWe8kdxzON9n26QL83AUEAu1r1y9z4zon+bW6DBKw=",
+          "size": 13878638
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-citrixadc_2.2.2_linux_arm.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_linux_arm.zip",
+          "shasum": "efaae89c283434c2e6b804891e3bfbfb005c2a11d17fccfda001d9c274cd1f27",
+          "h1": "h1:7zSSrLqSOA3/zWVkCCqLP/uvgP2ZyUHGwDAT4kbnlB0=",
+          "size": 13109003
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-citrixadc_2.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_linux_arm64.zip",
+          "shasum": "33164a1ecfda51fc6d59e3d05e8546d6b510bbd50e41efe7dd169b4eafd2bef9",
+          "h1": "h1:x4rR+tSgWLEUp2MHV5+2RbimXIhEBnx+tay3RbwrLKE=",
+          "size": 12466150
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-citrixadc_2.2.2_windows_386.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_windows_386.zip",
+          "shasum": "d12e9695dd4a905c82c683a28a1a6bc3bdd85c32bfc59d9456b65a753c892e8e",
+          "h1": "h1:/TvP1FHvRiHOxW3Hjn6FAL785ACSFJBZgowaBqxQCt0=",
+          "size": 13396170
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-citrixadc_2.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_windows_amd64.zip",
+          "shasum": "679e4d3260f9b0f390f881b3ab9ff68f53e05507d188f227d42a6ccebb49ec85",
+          "h1": "h1:lLx+qVJARlgAp3fc1H/VVSAyLF7mnknTufGZxow5u6g=",
+          "size": 14219988
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-citrixadc_2.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/citrix/terraform-provider-citrixadc/releases/download/v2.2.2/terraform-provider-citrixadc_2.2.2_windows_arm64.zip",
+          "shasum": "1a376036f2ac8099e96102f8bf3ad88ea2c683fcc1f56c4958f59702116fc1e3",
+          "h1": "h1:9np9CnaDCKaZGkOghC0OX9q1uE3LKsPa+MRrawAtcRs=",
+          "size": 12559145
+        }
+      ],
+      "discovered": "2026-07-10T06:57:35.057813393Z"
+    },
+    {
       "version": "2.2.1",
       "protocols": [
         "5.0"
