@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-boundary_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_darwin_amd64.zip",
+          "shasum": "066096481b5445fcd492e3f011453d1d8752e0157a57d4555558455fcace103a",
+          "h1": "h1:CIgKqkrmawjc6EIoY1ieueDguT6um0wWUB14guhOuvk=",
+          "size": 93806534
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-boundary_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_darwin_arm64.zip",
+          "shasum": "c112fc7f5b4a84665b37ff458f35ba35c20ca2e7124663b49fe097525dff73b4",
+          "h1": "h1:BI2nduWt36T6o+eQPa7qzkL00o3gRmXu3UMf2GuBsQU=",
+          "size": 88704434
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-boundary_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_freebsd_386.zip",
+          "shasum": "210075785ee86e9222d9ac180d8195fb2dd4956d26b678db174ae357112a5c67",
+          "h1": "h1:vDTS2rbNCaAAN74nRNBm2ncmCaRI1BbkC3WxYWlL+Rg=",
+          "size": 85461932
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-boundary_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_freebsd_amd64.zip",
+          "shasum": "96f33303cf9aca2b4ed7e1a7e0ab8bcc52bdd7b4c797337c670a7e70e6390f6b",
+          "h1": "h1:Q6D7J6yin6eS67cn8ElG9+GAa+cWJwF3u9XrQW/nlIg=",
+          "size": 89500997
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-boundary_1.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_freebsd_arm.zip",
+          "shasum": "300b5cef191b79a4d763841e15f1a40cc396c3fca58b9b191c848b31072efd18",
+          "h1": "h1:p9oBaL0oLnCXj8C8pHB6pMEEXJVCTyTAYbfcBYDRoKU=",
+          "size": 83098443
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-boundary_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_linux_386.zip",
+          "shasum": "d9d55d59cf01ff7bb68e65d32163460e539751d493fc5e391183833cbd115624",
+          "h1": "h1:LeXYrXBqrlUhd/blNDvvp+TIGMUvEHE7LxtkMI4J0NA=",
+          "size": 86543257
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-boundary_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_linux_amd64.zip",
+          "shasum": "7f37a8cbb71af7f27f82d7bab307db3d8a6834b0c342696a895f1162a445ae8e",
+          "h1": "h1:jSfbyb3mQO+IvPyNrmwZw73R72wNC45dBccpPNgz9J4=",
+          "size": 91091237
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-boundary_1.6.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_linux_arm.zip",
+          "shasum": "b458f0b414cd4317a0498ec5069901cd141b83329db66acd16622e3b725a5546",
+          "h1": "h1:N9K3+fEyeDkHrjFYxT10XYPl1kD0HTPymd2F1+f/cd4=",
+          "size": 84046891
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-boundary_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_linux_arm64.zip",
+          "shasum": "051e95060cc1208ca99fc523312b9174e94423daa07e96922a8a73a49d7c6341",
+          "h1": "h1:LY6z/RYHudi239zSqx1SJGy3P4MSvV6NLs3WJhJxFYI=",
+          "size": 82912376
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-boundary_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_windows_386.zip",
+          "shasum": "7abd7bffcaf5c27382e102889ab3efae6f4186e2467d17bb4f9cfeb4d5d29674",
+          "h1": "h1:OVNKpMRzsH/+cKIKTCHwvF7Kv+Lqt4O96itiCPXBeAo=",
+          "size": 89039890
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-boundary_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-boundary/releases/download/v1.6.0/terraform-provider-boundary_1.6.0_windows_amd64.zip",
+          "shasum": "5ca00ca48a68390face8b8a98d2f893c662119a3b840d6a6543e9ebdf581701c",
+          "h1": "h1:LIcUN3sghiVc8ZV0w8Ni3zwPM23u0kbzph0tIZWc1Yo=",
+          "size": 92114668
+        }
+      ],
+      "discovered": "2026-07-11T04:47:06.148638032Z"
+    },
+    {
       "version": "1.5.1",
       "protocols": [
         "5.0"
@@ -3043,38 +3153,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T17:27:55.672831324Z"
-    },
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T18:09:15.283930533Z"
-    },
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T19:30:32.107282763Z"
-    },
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T22:00:43.705142809Z"
-    },
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-10T02:37:29.731368486Z"
-    },
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-10T11:39:09.828602699Z"
     }
   ],
   "warnings": [
