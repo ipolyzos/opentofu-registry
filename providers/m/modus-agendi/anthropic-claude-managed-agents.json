@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_darwin_amd64.zip",
+          "shasum": "1662d48167ced3812b3e6f41466d6625dedc26b76b8face8959fbcef5bb34e0b",
+          "h1": "h1:gWQpMKEE5+e3OBJMrt15jeM0bqO4VA2s7irhQuMFVvE=",
+          "size": 7088721
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_darwin_arm64.zip",
+          "shasum": "2c67c4f253d255f643eb115688ad9224d72993b7eeb7f709978c9295235bde59",
+          "h1": "h1:vHg32XLjN6oaycvIPB2Jyo2BVzY0V4YKa6DkcQ9w5tY=",
+          "size": 6591325
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_386.zip",
+          "shasum": "3d5e0d540842615ad7bf848c8068bd59331a9c4ae796b348192643bf9a383534",
+          "h1": "h1:hMNDxyiFwETNveSemD7zXRQ3N7Qk3xUsrTd0k+i61s8=",
+          "size": 6505573
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_amd64.zip",
+          "shasum": "f5c452a0807ff6fca69b92e1bf32c5c01162787f986876c757c7e3d9824ac744",
+          "h1": "h1:GiRDOHDo7RzKc5jIoaeTKVzbJ3XnUs+mi0Blmsacfp0=",
+          "size": 6879266
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_arm.zip",
+          "shasum": "d4fca7c4933e91c197e44fd4c2d2a61b95d666640fe3927fe5cdee6c2be36af7",
+          "h1": "h1:OJKt5J54e3T/cMwa6hi8SnJckH3O35cKO5/PVVkjKTk=",
+          "size": 6481342
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_freebsd_arm64.zip",
+          "shasum": "869c96c53364f918dc240b8ca1763c83bdab11291d524687a1b921594839e465",
+          "h1": "h1:h+aUP8r0WGKTeW7CyMHTLlFJEQrY7/EHUVdXrB/gdRo=",
+          "size": 6239454
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_386.zip",
+          "shasum": "03f4678a32bcfe6447cfdd431be91157c5aa941dce4282458262d2a7354ead2e",
+          "h1": "h1:AKXuj7Bh2Dii6TYL1Ki/K2w2TdUD1rFUmFBopASVkpY=",
+          "size": 6538374
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_amd64.zip",
+          "shasum": "1568bfde2b6fd4c7ea537bc66449c147167786a6d4e9df3ac8711eee59bdea99",
+          "h1": "h1:OF12mJJaAlgHBa/inUXPO9KVdtk94vbXcxDP8dBNL8s=",
+          "size": 6903135
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_arm.zip",
+          "shasum": "6bf37e77927f75def4d1d1347f7f3d2088e4b573d40c68193bd6f55e4b8180f0",
+          "h1": "h1:nGVGep/Pzv62IS62ljYYMRj3z/hA5Cw2nOucQPDWFVs=",
+          "size": 6503071
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_linux_arm64.zip",
+          "shasum": "65dc776f0edea1f27fbebee0a42a43de983a0ae700e07c24cdd902810358090c",
+          "h1": "h1:l/fZQa6JxX/w9sTut7TSzUomr1tQuFl1r3LHG9JoU/c=",
+          "size": 6265688
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_386.zip",
+          "shasum": "55575b37d7ca118a0b6d92e5ba71391342463077db59a39be3214ceb20bd42b6",
+          "h1": "h1:dfLIybdfBLOGkIeNkSF+LQ/tCB6OM1FPtFdWBebK2j0=",
+          "size": 6843530
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_amd64.zip",
+          "shasum": "181fff032f65d9c4700875e30bf44c52b6f9d9563d10cfd844b7852d9ecb1d77",
+          "h1": "h1:LnpY1y4Ekq+xtdsm4VylW034Xwpw2YwVrX1onqNaVyQ=",
+          "size": 7112184
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/modus-agendi/terraform-provider-anthropic-claude-managed-agents/releases/download/v1.2.0/terraform-provider-anthropic-claude-managed-agents_1.2.0_windows_arm64.zip",
+          "shasum": "5634e5205c6a97cf99ad0e34267ced97f7d8655d46375afa1a235a3a0f38d61f",
+          "h1": "h1:nWxjRvP+OEVEthaL19w823EUPCj3D+yQSAPYBm2AMkI=",
+          "size": 6353576
+        }
+      ],
+      "discovered": "2026-07-11T04:47:23.417762988Z"
+    },
+    {
       "version": "1.1.0",
       "protocols": [
         "6.0"
