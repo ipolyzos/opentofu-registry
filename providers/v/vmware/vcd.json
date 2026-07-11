@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.14.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcd_3.14.2_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_darwin_amd64.zip",
+          "shasum": "64491f74816a08145de6c7addab820cfbe279d4d308f1e713cafc0d661453076",
+          "h1": "h1:MgRX6ypN5OWf87+Ab46mLHC4hL3nvSE4Gqu47oXhZqE=",
+          "size": 10453699
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcd_3.14.2_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_darwin_arm64.zip",
+          "shasum": "092e274e787ef4a52f73e3046b20b8fc5ebcd4cfc7c418abb0d17caeb11cebac",
+          "h1": "h1:gvm7uFQyaMjyvX618yDjN4Vm+FlanqhcjhTnMWO7Z+8=",
+          "size": 9557099
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vcd_3.14.2_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_freebsd_386.zip",
+          "shasum": "0a66a020904f434562b11493291c3802b7ec8b1ef7b86a8fbda01227a71eb020",
+          "h1": "h1:jgbMWbGF+do5PPa3X/1N4NN/2K2eZfDx4WLiSu/02y8=",
+          "size": 9548195
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcd_3.14.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_freebsd_amd64.zip",
+          "shasum": "19de630f32a33916f271ff07c1c96fb51967f9657928bb5bbd60ada9a06b7640",
+          "h1": "h1:Fii/L7VGIXoBeDVDpdHfn1zb5ssPptocPwxCWzc5l2A=",
+          "size": 10216147
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vcd_3.14.2_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_freebsd_arm.zip",
+          "shasum": "70c2e3f4917ec962bd72d7ca4327a90f17802e42b4433b6e7eb0c5951029ff70",
+          "h1": "h1:aeDb+dB2tyN6VpIVLoLap8/onwhkZudvYzcDd8Bdwbo=",
+          "size": 9646474
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcd_3.14.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_freebsd_arm64.zip",
+          "shasum": "10f5faeab135a7eb749c8c06198ac17b1e655015a4b364c63f1f81b806e36dc5",
+          "h1": "h1:I2u6guCoynG6Xac2+N5gjSt0PtFcQJZLyuUsrUGF+b8=",
+          "size": 9117772
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vcd_3.14.2_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_linux_386.zip",
+          "shasum": "dcdb76e846a4b9bf0c91399980c7a2b24d24cdf5a3738aa2cfd0baf560701d13",
+          "h1": "h1:pFvJnwyYe8Wvj6QTlUHe7M68hJkrGTI+O+mSXWY0y8U=",
+          "size": 9582807
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcd_3.14.2_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_linux_amd64.zip",
+          "shasum": "6e598346cbe66a7b1037842d74dba8efe701297d12d16f3cf2d33452c933df1d",
+          "h1": "h1:BEo9zgDK9Vw6AikOJAvUpV17rIr43CKf6H8Ao+MA6m8=",
+          "size": 10243640
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vcd_3.14.2_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_linux_arm.zip",
+          "shasum": "0af1498752224558bbcbf6d210a0b74ba2d617880fdf772a9aeb6f9815bf2d24",
+          "h1": "h1:k4GXVDpyNWRyQ+Cl5jrv3cmM8YhjmTL0TbhSf/fHqbc=",
+          "size": 9677705
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcd_3.14.2_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_linux_arm64.zip",
+          "shasum": "1db1167880af79281d3294f31c1889882a7c76688a94c354978cc3c5e388c87e",
+          "h1": "h1:Ra0tOMBk9oCpBZTD2a+7hrAMq2/N1evDN4gDUxHG66g=",
+          "size": 9144636
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vcd_3.14.2_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_windows_386.zip",
+          "shasum": "03e85ea17b10b295778a6539d2c3285e9bbc28aff62cbf75435a1ef32744b8f3",
+          "h1": "h1:eEhr129zTJzZF929oUgjUevwrIwjlj1/JV6TycCiVXQ=",
+          "size": 10073783
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vcd_3.14.2_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_windows_amd64.zip",
+          "shasum": "4836caa2d0527bbe00a470ec228a0fbe405f078f2135f8fe4adadfe763766850",
+          "h1": "h1:Va8oypm0zM3VCaq8+wl5pV4DcIF9Toih6BhE0uUbN5M=",
+          "size": 10493714
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vcd_3.14.2_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vcd/releases/download/v3.14.2/terraform-provider-vcd_3.14.2_windows_arm64.zip",
+          "shasum": "369afa6d7ae0754a4d4c70feeb20016541ea7c75805ef7118c72a07296523c80",
+          "h1": "h1:iSa9rFiKo0G7ke3UXHGynNzEPG7LrigyxDlhqLcMsvw=",
+          "size": 9230161
+        }
+      ],
+      "discovered": "2026-07-11T15:09:33.417711847Z"
+    },
+    {
       "version": "3.14.1",
       "protocols": [
         "5.0"
@@ -2926,41 +3054,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-08T20:49:02.929267883Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-08T21:22:36.456644703Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-08T22:48:18.31585601Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T01:04:18.553010623Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T05:49:00.57820299Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-09T14:37:58.571955133Z"
-    },
-    {
-      "version": "3.14.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-10T06:56:57.241820107Z"
-    },
     {
       "version": "3.9.0-beta.1",
       "message": "checksums not found in release",
