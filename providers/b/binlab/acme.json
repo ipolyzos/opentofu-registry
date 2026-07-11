@@ -1,6 +1,125 @@
 {
   "versions": [
     {
+      "version": "2.48.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.48.3_darwin_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_darwin_amd64.zip",
+          "shasum": "ab766d13991ae94ce4affa7d63cbce725a230a0ae36b7ca4f0b6318446ae5a01",
+          "h1": "h1:ZmNsBkl93GqssI5vh5h2CBLZBAyxWAzp+6FyRdSy7gw=",
+          "size": 22396304
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.48.3_darwin_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_darwin_arm64.zip",
+          "shasum": "07d724250ffc4f030f9bdd41c7bfd0119ef6eab0dcbe1073599db2471f09e821",
+          "h1": "h1:fA1cYvUb07T1gFwQAVolRgYULY/eCn+f7CiS3x6r4ow=",
+          "size": 20902487
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.48.3_freebsd_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_freebsd_386.zip",
+          "shasum": "a3dc44f6c271fda7a8f23ca6b01f02865d45cb5112fe511739e7f4adbeaa7d85",
+          "h1": "h1:ROh3SmwsYI3LkdM6+z4tOI0K//ZvTTq1JP13iqvX1Rw=",
+          "size": 20013574
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.48.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_freebsd_amd64.zip",
+          "shasum": "1111053aaf3c72a244b7e89a431efc0460078a911b5436e032d6125925320436",
+          "h1": "h1:54ZlOjKuXd5MN+P9rVdG6MAKSlWGolMj4B07luuuIcg=",
+          "size": 21746669
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.48.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_freebsd_arm64.zip",
+          "shasum": "43396ca8004b8acf632c1ba52698fcfc36277282fefc7bea6fcd0008daa62d43",
+          "h1": "h1:5j1pbJnrLeKoLPosMyezObUpW9nXxZ6Sdwx8j7x8lsE=",
+          "size": 19712980
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.48.3_linux_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_linux_386.zip",
+          "shasum": "ad8dcaa693a63fc2476683bf43fee5b5e1170ee709938cde6a368dd081cdbcf3",
+          "h1": "h1:2VioD77MTAof/3r2bAjWtP1XRCeKNLTQXvk6n+4W/oM=",
+          "size": 20058509
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.48.3_linux_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_linux_amd64.zip",
+          "shasum": "62c85af10d3e69081bf799887e039dde263c468cd0d6796d8d5e31cfff49b9fe",
+          "h1": "h1:+hAZDDDrod+aG10ZGV4cuT3CDlUh6UiVX7I4c/sTpTQ=",
+          "size": 21788882
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acme_2.48.3_linux_arm.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_linux_arm.zip",
+          "shasum": "e4bdb5954adf825f92f441747120f30c59821ada968b48ed07a024a8ac6f280d",
+          "h1": "h1:GtT/whQIWTdC+Rc5TDpr06BiFY/mceZvbhrahMQobAg=",
+          "size": 20152867
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.48.3_linux_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_linux_arm64.zip",
+          "shasum": "39912f34419687b91fa1c46853cba5682c1e3fee0f945519f60d830cb6b30695",
+          "h1": "h1:3FUxrB5JLeZS2zyrUVffy7PGYKQ+h+fuR4YUZ+4g72Q=",
+          "size": 19748513
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.48.3_windows_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_windows_386.zip",
+          "shasum": "9d04505ae25588b335476a8a6f86299d0e4348a8995e7f5e392dd3ef9d4a3874",
+          "h1": "h1:Ox52Bn6AGis3IJeRRW65yZFM5V7/S68x/w8lbbNMyzk=",
+          "size": 20851596
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.48.3_windows_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_windows_amd64.zip",
+          "shasum": "ec6f063e89a0a59b3d5f1a865e5618668c18cef0e78feafd7f850fd3d7c3e231",
+          "h1": "h1:TA2O/I9CRHyh3YPIZTw9hvrpGBbQwwRPr7fiAVhRpBs=",
+          "size": 22076651
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.48.3_windows_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-acme/releases/download/v2.48.3/terraform-provider-acme_2.48.3_windows_arm64.zip",
+          "shasum": "fe07dc72a78289a9f223b5140ebdbd9d3fc90b09a8d7afa0e6e08e8f010279b3",
+          "h1": "h1:qufj+T3dzfB1B5tuT2fJuJYdby7pf/uojpfaMJymLRA=",
+          "size": 19663681
+        }
+      ],
+      "discovered": "2026-07-11T05:50:42.983044139Z"
+    },
+    {
       "version": "2.48.2",
       "protocols": [
         "5.0"
