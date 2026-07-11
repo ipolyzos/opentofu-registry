@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "version": "v3.17.5",
+      "commit": "e66c98fbc8c13a3805f3117f1c6187e198b85fb4",
+      "discovered": "2026-07-11T04:46:57.890763765Z"
+    },
+    {
       "version": "v3.17.4",
       "commit": "2a7f9c819548a7882b44f07986c16497f418c8af",
       "discovered": "2026-07-04T11:45:13.56722223Z"
