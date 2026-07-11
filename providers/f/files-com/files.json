@@ -69515,6 +69515,11 @@
       "utc_time": "2026-06-20T04:58:46.735797298Z"
     },
     {
+      "version": "0.1.559",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-11T13:07:27.671872675Z"
+    },
+    {
       "version": "0.1.552",
       "message": "checksums not found in release",
       "utc_time": "2026-05-20T21:54:08.250790635Z"
