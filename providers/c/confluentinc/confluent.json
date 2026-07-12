@@ -23811,6 +23811,11 @@
       "utc_time": "2026-07-10T16:52:58.178088373Z"
     },
     {
+      "version": "2.77.0-deleted-deleted",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-12T00:57:11.24051394Z"
+    },
+    {
       "version": "2.77.0-deleted",
       "message": "checksums not found in release",
       "utc_time": "2026-07-06T21:29:52.667811935Z"
