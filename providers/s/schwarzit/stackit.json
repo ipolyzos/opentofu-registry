@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "1.34.12",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_1.34.12_darwin_amd64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_darwin_amd64.zip",
+          "shasum": "00ffa99bc69b6fa307191c05f16c826ed691f1aa12c798e7c48020eb094014ff",
+          "h1": "h1:1NwgGmkoD90P4yodF42XRNWpLG1sBj4wiGDOV5qE0HU=",
+          "size": 7878408
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_1.34.12_darwin_arm64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_darwin_arm64.zip",
+          "shasum": "ab2e13a1e250753498c525e7e2404e46ca1e9d64d4399e80998cb58b4bba34f6",
+          "h1": "h1:mAHHEkehYRR3nZ/Yf4vIoRJeG17X6Yzh0AvUbkTHgv8=",
+          "size": 7397835
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_1.34.12_freebsd_386.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_freebsd_386.zip",
+          "shasum": "d51a58b9060a6c7d795c511adbb63758b4e3e7788862b2417a553e88d9c9b56b",
+          "h1": "h1:BEcey0DlSM4XqzazLxpStKNoMG/VQbP0Jyv3R78/JRg=",
+          "size": 7157956
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_1.34.12_freebsd_amd64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_freebsd_amd64.zip",
+          "shasum": "4b034dd2b66ce90a0dcc5a962acc6f17126c8ea2d5265e026aefeca5b95db371",
+          "h1": "h1:4lSAwc/d/ztzZl42R7X4jr92GVM3yHwPqIhTlW43gHs=",
+          "size": 7657094
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_1.34.12_freebsd_arm.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_freebsd_arm.zip",
+          "shasum": "2a096517f7f777b9681a1ab40b2b31a83232e3ec3ad33d75ac05655dd4d35a7f",
+          "h1": "h1:PdVCZYI8JhSkh2LOnT0wkrPfAQVO/1hjVS8Hc1lbZhI=",
+          "size": 7146080
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_1.34.12_freebsd_arm64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_freebsd_arm64.zip",
+          "shasum": "b8001e9533649d6e257db5b0772b8b169fb40937f4ea6b1389cda1840701f05e",
+          "h1": "h1:6zGMApz8u2IEyPcjbpVgrtBXMvo2FufkUIuE736vavI=",
+          "size": 7001587
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_1.34.12_linux_386.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_linux_386.zip",
+          "shasum": "6e69476ad8a27c2bc51ef3205fe887e10116f40638a117739f609ce5094faaed",
+          "h1": "h1:j7UYKWnBMOcCcGE1qQV5BnvSG05SKYPd9X/FpFtD7Ik=",
+          "size": 7173123
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_1.34.12_linux_amd64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_linux_amd64.zip",
+          "shasum": "0ad4fee95aa5ef56862540d4145d4040b8c9f11a78038d5b1e0b8fdd0bc6abdb",
+          "h1": "h1:QhIZDMwrPKljmC5UB5+zFWk0CehpoK3IWVJVf4kg1rY=",
+          "size": 7666392
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_1.34.12_linux_arm.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_linux_arm.zip",
+          "shasum": "eaa93387595254c66334b929ea8e3f0995985a74208a311f79106569957b146a",
+          "h1": "h1:007cUJPN+M2/NAhl98/Od0LFZRFl37lcAWt42gL505M=",
+          "size": 7150204
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_1.34.12_linux_arm64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_linux_arm64.zip",
+          "shasum": "872b12d5c31cae96370e6095e5831116d1c585e7f7375dcb172663786eb1d781",
+          "h1": "h1:0dMzGW9EFTDhqb+KbKyRKHPv0Sa7dHRvvgaDCcFObOA=",
+          "size": 7008787
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stackit_1.34.12_windows_386.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_windows_386.zip",
+          "shasum": "bb805dd0ad9118a5e0992130342bf39ea5756d8db69c2fa29c72c20e4482073d",
+          "h1": "h1:YLqPUyCzgvaPXpL3oRmWnStyW1/bP9azjJZsIrZag4k=",
+          "size": 7512518
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stackit_1.34.12_windows_amd64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_windows_amd64.zip",
+          "shasum": "eca952cea2f0dc985665dccb7e9fecfc026c6d7f793620458fb9bf2d324ab67f",
+          "h1": "h1:6QCrvoGXxmij0cGyQS8BlF/cZ6swRmq39HfeNOrg7Ds=",
+          "size": 7895033
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-stackit_1.34.12_windows_arm.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_windows_arm.zip",
+          "shasum": "e5c57f71c8c9a95a1815293bfa040b5451581b7dca569a3d8051763c6c7198d7",
+          "h1": "h1:d3+i8D9JOaQqeQ5onna0HAH7OsdjlIfLvc3WeZvRptI=",
+          "size": 7326191
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stackit_1.34.12_windows_arm64.zip",
+          "download_url": "https://github.com/schwarzit/terraform-provider-stackit/releases/download/v1.34.12/terraform-provider-stackit_1.34.12_windows_arm64.zip",
+          "shasum": "247c1d8424b863b82bb709305a68d69898d94d32a41c564a74bad265a9fdf661",
+          "h1": "h1:lNiTaibiUqXuj2yeCHXtVUoE7YLF+NpVLuJHfd4oK/o=",
+          "size": 7098980
+        }
+      ],
+      "discovered": "2026-07-13T12:04:42.346965496Z"
+    },
+    {
       "version": "1.34.11",
       "protocols": [
         "6.0"
