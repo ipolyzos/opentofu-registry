@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_1.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_darwin_amd64.zip",
+          "shasum": "96f2982701fb9c9fd50450345fc0ec2b7ef78a60a8b371a32ace26f6d7eddd88",
+          "h1": "h1:03h+n68yR6Q2QTkHBZPd2Ub9O1r5SH/26kUOVcGdX4A=",
+          "size": 9126813
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_1.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_darwin_arm64.zip",
+          "shasum": "b49e1e558c099a97aad5d0b1f6a65732a8404a871f970cd1eb41e1121c9b9387",
+          "h1": "h1:FliEdvw5UpVujNXcIt4DUAnF5TIIDHNOv9Pdl7jsX74=",
+          "size": 8452915
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_1.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_freebsd_386.zip",
+          "shasum": "e55d862cc13a1a200f4b25c51fc7dbb8a19cfa7cdc4467d42134a3ed7d0be83b",
+          "h1": "h1:B8guDalwiPjUb8Xg+brSwwx6muFRlkfsUY2vueaUyaY=",
+          "size": 8324568
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_1.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_freebsd_amd64.zip",
+          "shasum": "8bbeffbe405bc04c904ac836935428c196c48c373981735b7f4de9d606bacddc",
+          "h1": "h1:aORUV19UATZFt3cX1Esj/K2IHTknPGn3xfETtwnBqX8=",
+          "size": 8898453
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kestra_1.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_freebsd_arm.zip",
+          "shasum": "df62a6cb042113c18a94ff9147942650f6ae94fbfc7ae53535bb50e8f4572ebd",
+          "h1": "h1:5cnFRRnHOxYBCSc7LlX+xD84RNl5CCMqOpxTGLcxa2A=",
+          "size": 8321405
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_1.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_freebsd_arm64.zip",
+          "shasum": "f62980b77594fdd7106b686f6cfb3d2ed921e8bf3dd872d41b769bc36c76b4d8",
+          "h1": "h1:yqGavJXt36whKxLSKWijL0SdVARf+oF7J9r1qmwzpxw=",
+          "size": 8026903
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_1.3.1_linux_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_linux_386.zip",
+          "shasum": "0956353fe6a4ca6443bb460956ff9e0a2b17fa821791bd594e7873bf5497a062",
+          "h1": "h1:osHxTWzckg1+Zv8Jy9LJQlYii6WAmRjgMQDO2Gw0AGI=",
+          "size": 8357589
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_1.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_linux_amd64.zip",
+          "shasum": "0b88a32a5f9223225171e60515e943a190c0e060d27df02267fadd54c7cdfd09",
+          "h1": "h1:i+b18eld5GM52EqAgxgoyygDymPRwPGlI+iZ+2U+hkc=",
+          "size": 8919382
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kestra_1.3.1_linux_arm.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_linux_arm.zip",
+          "shasum": "60b2810892cc7938f7b7109518f41450cd297175388644b4b317ee34d1602130",
+          "h1": "h1:EG/mPtkeKr1kNhOsXUREgJCaG/iT3n0osJPdpa+HJuE=",
+          "size": 8342697
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_1.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_linux_arm64.zip",
+          "shasum": "58321b05e2dbac188dd7ed12bb2c528762f7d1f690fcc4518a6b96200f4d18dd",
+          "h1": "h1:A3TV5OP6DOF3qABI9AXuLl9dQlcFZRiYP09/HVz7CV8=",
+          "size": 8050861
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kestra_1.3.1_windows_386.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_windows_386.zip",
+          "shasum": "d0d87c43955729f2348d571e6aee5e88914788f1952f9afd91e5b67427ea0a5b",
+          "h1": "h1:fKbkOKkxWLvBG6+9cZv+V3eDcHhnH+E1DLoNk+PJpvU=",
+          "size": 8748989
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kestra_1.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_windows_amd64.zip",
+          "shasum": "c68de37407ae5ab7b9acaaa368077cedfe7162bb7f01b098fb03995803a3f0ff",
+          "h1": "h1:WvIXVNP99gX8aklW/4+SAWNiTCRDQxmPM1WfwvE9uFA=",
+          "size": 9177723
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kestra_1.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/kestra-io/terraform-provider-kestra/releases/download/v1.3.1/terraform-provider-kestra_1.3.1_windows_arm64.zip",
+          "shasum": "e106cf3dd485b973306fbd9df7c4974ee4bd1185d639bd4d4e1091320db02d35",
+          "h1": "h1:1xgwtcfueFYK+L9mY8awVpBEigsyM9/KkZhaua7INs0=",
+          "size": 8141816
+        }
+      ],
+      "discovered": "2026-07-13T08:39:12.686574295Z"
+    },
+    {
       "version": "1.3.0",
       "protocols": [
         "5.0"
@@ -6187,11 +6315,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.3.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-13T07:37:38.245234267Z"
-    },
     {
       "version": "0.21.2",
       "message": "checksums not found in release",
