@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.0.21",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coderd_0.0.21_darwin_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_darwin_amd64.zip",
+          "shasum": "a5de94a71728c3f13dd774813621d6c660cbe9175c275d770e33938a7d364848",
+          "h1": "h1:vORRAKBj0+7sdmGL7FGkzRf0x2DegNv4e3lVL6dBCdE=",
+          "size": 12887152
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coderd_0.0.21_darwin_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_darwin_arm64.zip",
+          "shasum": "e8e02e9f9c34effb267d4650b97c20cc91ed2576a06c94764f08be4929863342",
+          "h1": "h1:Qu2ywZaiEY+8yTtFCvb6dHrWgFU5bWJQzjme6TpPmjI=",
+          "size": 12001492
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coderd_0.0.21_freebsd_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_freebsd_386.zip",
+          "shasum": "f07a971cf2ec1e32c6d8e41af49b474512f4b0aa9bac08a951b396dff8409bda",
+          "h1": "h1:IPwe2uGqrLdZ5Y9OVxwd7Z4VBxbdVoCgFPva4AgzMPw=",
+          "size": 11843771
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coderd_0.0.21_freebsd_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_freebsd_amd64.zip",
+          "shasum": "3f5a1acc5ec33635ceb3f9bcbe53f2249a68452a632221a172be2b193eafc08c",
+          "h1": "h1:XQ7fDxhX0IjCyVvlxNs2MS0SFvNd9gp5Spr6+28YjA8=",
+          "size": 12513997
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coderd_0.0.21_freebsd_arm.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_freebsd_arm.zip",
+          "shasum": "c8a251611880ab834559f892114a72ef28ebad9569046c5a0fd44f4c51a81109",
+          "h1": "h1:H+JbUAhVs2cErg85dQ0pLwZoUCVjlIPDtns1Zm2Joko=",
+          "size": 11879314
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coderd_0.0.21_freebsd_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_freebsd_arm64.zip",
+          "shasum": "895dbfe72d155f5b2ef6c6cef3f2d308b233aed397c557e24fba12fe15c03db4",
+          "h1": "h1:VfrV065YKkHeDl/WV43HDfzjFqKzd7sZsi7PbXk56/0=",
+          "size": 11357705
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coderd_0.0.21_linux_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_linux_386.zip",
+          "shasum": "2a20225222fb834a43ca7ca4e929cddd6538714df1f8d9eb34fced90330b6aec",
+          "h1": "h1:zcURLoXnFi91EgoW/vzs/jf5z4YpVmDAGTVSYCM7NwU=",
+          "size": 11860727
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coderd_0.0.21_linux_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_linux_amd64.zip",
+          "shasum": "9108def56a0d639099bb69669e3e633f7d27e5697c4a4f777d1fa301c2ae4590",
+          "h1": "h1:SNeMBwWTklpF5S6asfZZq/1ygYVlzcfmV01RKqiJVws=",
+          "size": 12513358
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coderd_0.0.21_linux_arm.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_linux_arm.zip",
+          "shasum": "310263e01a7a3a761a496302c944773f0208a3700f7afdedd7cf6b3025a23226",
+          "h1": "h1:CYoVcSchvJ96MeUdV9MauMKBno75pu27z4OPeShMqe4=",
+          "size": 11882264
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coderd_0.0.21_linux_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_linux_arm64.zip",
+          "shasum": "6528c63d9b11f2c00264cfa05b93aa3cb586dc67cc4fe4b4c4f34e6864e9178c",
+          "h1": "h1:Y46CaX/LSefA/IEzk9eXVT5ikZwklKLZ8FKRRbH4wKI=",
+          "size": 11361012
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coderd_0.0.21_windows_386.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_windows_386.zip",
+          "shasum": "5e456718eb82f7ca0188bc13091ec26ccff125c3866beaf71ab832a46fed03d6",
+          "h1": "h1:ISdM+UilT0l5I6vdiPTZ0smo+BtFrpMZAq2mTWf854U=",
+          "size": 12350795
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coderd_0.0.21_windows_amd64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_windows_amd64.zip",
+          "shasum": "7e386d22b55b6689b69fe56cb0296d06b3ee242ad9ffbdfe12b921fbeff45229",
+          "h1": "h1:D60NHPGa+jTfrMSHfyXeKTqkIM0NEq/WIse8hJcETTw=",
+          "size": 12803808
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coderd_0.0.21_windows_arm64.zip",
+          "download_url": "https://github.com/coder/terraform-provider-coderd/releases/download/v0.0.21/terraform-provider-coderd_0.0.21_windows_arm64.zip",
+          "shasum": "66e8c13ed14f4757b196262bf3d74861d64229922c4036cbaf156f257ec9d73e",
+          "h1": "h1:W/UC/Ptnz898nmlta8z3ZPSjUMYn1TlxdsSBkdS11lY=",
+          "size": 11437271
+        }
+      ],
+      "discovered": "2026-07-13T12:04:39.19161316Z"
+    },
+    {
       "version": "0.0.20",
       "protocols": [
         "6.0"

@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opengpg_0.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_darwin_amd64.zip",
+          "shasum": "bee179d7a076262e47e1a5579552f0532f00d319e6f314bf47e5bf63024b2e04",
+          "h1": "h1:33jFIAAO3bDb8eMyAcmJNZEtP2UxRBIudyh74WrYeCQ=",
+          "size": 7384855
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opengpg_0.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_darwin_arm64.zip",
+          "shasum": "54069021f40d0b605b906198b1daf29c10361c145fc455b9b8f10597079872fd",
+          "h1": "h1:llu/C2QhArT8Ni8PnL9VwkaDFkJXGKN/p/5ed1NoS5s=",
+          "size": 6821753
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opengpg_0.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_freebsd_386.zip",
+          "shasum": "55c25fcd65932f254f28e9618ddc4cbdb6f7578084229e519b66a877ff022b62",
+          "h1": "h1:lZC8VmcH19s5t/xFHsAhJhknGAc2yaF4YpGj3to/Yk4=",
+          "size": 6875385
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opengpg_0.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_freebsd_amd64.zip",
+          "shasum": "201f5fd7bdfdd779eb474884963065825bf75a4c104f798e523be7282adb238b",
+          "h1": "h1:Ld4T0bbvkfBm0XERYoJ668JQR6J9mYh/PSfAwvYqxpU=",
+          "size": 7188011
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opengpg_0.3.3_freebsd_arm.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_freebsd_arm.zip",
+          "shasum": "f862ea270f79ff35c4eaf0b19d1a85ee23b74fcc1a2b3a1cc2aee63258f9fb49",
+          "h1": "h1:E+aEJAWHPU/16b0UXegPgr1+rDfYmTILxvxk2+aSJNw=",
+          "size": 6833359
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opengpg_0.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_freebsd_arm64.zip",
+          "shasum": "c4ed5c98daef51bd46e4747fedfbc34e01a62ee774402b18c1b93d4878798caf",
+          "h1": "h1:U2ExRTGMBO6chV86zioLmLW/XWVKFerkYG42XIXYm0w=",
+          "size": 6483631
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opengpg_0.3.3_linux_386.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_linux_386.zip",
+          "shasum": "ce423ca9bde7d1945bd64c29e03068cda38a00b350c54fd9b7ba8a5016021b3d",
+          "h1": "h1:UUgkuKN/q8tfSaWEZj7P6RF29oLcruj7Pjk/XlsCHHc=",
+          "size": 6908187
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opengpg_0.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_linux_amd64.zip",
+          "shasum": "777d469d858a91dfef47e1163a994b7dfa923001d40d75e0284c18d5d1625401",
+          "h1": "h1:EFxFYzpmpI0FGuqkn9vej6chaV0ZmsiEBhAi0owkLEE=",
+          "size": 7214077
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opengpg_0.3.3_linux_arm.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_linux_arm.zip",
+          "shasum": "3fef6bc8a4bae65549707af3d1312a224e4e02324b1f363082ff0c7e377f3de7",
+          "h1": "h1:92aWH2ydn1daqC6nnXENn96j/f5QMJTc/r8lUSKh5MI=",
+          "size": 6859378
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opengpg_0.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_linux_arm64.zip",
+          "shasum": "2c0ccccc78ea3b90f70cfe143827c509df6c5ef7d8faf59e1c30d0692afa4794",
+          "h1": "h1:Xidc7O2M4TRmPn1R/WzK4C7yiA3od6rRw0TBU2LwaQ4=",
+          "size": 6511027
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opengpg_0.3.3_windows_386.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_windows_386.zip",
+          "shasum": "eb2f3bf0fba8f17c22825d5d58f692caa6580df1d5eecaa9d1bd70e4ecd96ba6",
+          "h1": "h1:cXAgfyIHgD2qpgIGpyAWVCM3RIuCnbens7QyfX7HdNo=",
+          "size": 7225510
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opengpg_0.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_windows_amd64.zip",
+          "shasum": "83da851ebaee5cab6e31f0cf511a2045fa104636d4595cf9f3de5125e24cbc65",
+          "h1": "h1:UEWqKu+l/i6Y0jTmgBPt5Uo5Amgyda7xISbXF4Na/cw=",
+          "size": 7419466
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opengpg_0.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/coopnorge/terraform-provider-opengpg/releases/download/v0.3.3/terraform-provider-opengpg_0.3.3_windows_arm64.zip",
+          "shasum": "b14cd64adbcc048d2f2bf65336373895d0a3996449c6d26db9dc7bd1622d631a",
+          "h1": "h1:kDVwsIhm/h32uw8+XvlN1lJ6m12fJPOfMEYY9MxyT9E=",
+          "size": 6593702
+        }
+      ],
+      "discovered": "2026-07-13T12:04:39.702200095Z"
+    },
+    {
       "version": "0.3.2",
       "protocols": [
         "5.0"
