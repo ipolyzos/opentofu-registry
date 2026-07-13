@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.1.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mijnhost_0.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_darwin_amd64.zip",
+          "shasum": "7ee0d315518c22631c2db65450f9bfdbbc42aff320554163d1f8029ca5198f4d",
+          "h1": "h1:42LYIlQZIL90Zvs6xjrVvSQEWMQzRWx9qzBRPal58gE=",
+          "size": 6737210
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mijnhost_0.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_darwin_arm64.zip",
+          "shasum": "101263cbbcbf053132c6e2e85c7d3be3da985904c1f98f65c462809f800eebaf",
+          "h1": "h1:j4Y4LRgj/MT+X75tfDfoc7abD4a/BBksfyEtbtltezE=",
+          "size": 6276402
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mijnhost_0.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_freebsd_amd64.zip",
+          "shasum": "10e3fcaf2a7612c4b25b78c52efe1d693869898f4b8c31973e1c02601304ae22",
+          "h1": "h1:8OaRRWXYEBIAVxY8vogUEgZCY6yFz8GRPrgiewRqRA8=",
+          "size": 6548300
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mijnhost_0.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_linux_amd64.zip",
+          "shasum": "cf9671e7eee8b474f924c0c34ea8135adf49dffc013e35196d953918e492adac",
+          "h1": "h1:n6Z7stLJEZtroeZeQHviWS/F7NYAbtRrnow7thVzvB8=",
+          "size": 6573766
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mijnhost_0.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_linux_arm64.zip",
+          "shasum": "d2103741a65c153ff0dfde95c67d4b718674014743d89b0fe40bca9578fb223d",
+          "h1": "h1:wPiVPYvIn6rc6DCK9xpY8BS2p96SXAqqah21JpEQ8qk=",
+          "size": 5977576
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mijnhost_0.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-mijnhost/releases/download/v0.1.1/terraform-provider-mijnhost_0.1.1_windows_amd64.zip",
+          "shasum": "cd34ce0d2200f9e61352e00c8137b54c4926bcaf0434149684a92c5e27f18ea5",
+          "h1": "h1:5rjS9B2fEnphDobgWMMAz3SVG5LCerBTP6fbgTwGsX8=",
+          "size": 6771845
+        }
+      ],
+      "discovered": "2026-07-13T19:28:50.516152017Z"
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "5.0"
