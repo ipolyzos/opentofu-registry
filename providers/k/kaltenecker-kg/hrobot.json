@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.2.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrobot_1.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_darwin_amd64.zip",
+          "shasum": "19ed5133110eb8d7a0f4d7850f4dbd4bcf96a5d06eb16916c957bf13d9eee8e6",
+          "h1": "h1:HuCPucJttZy4X9t5jmtCAmUraVSw9B6/44ZC54IwU7o=",
+          "size": 7082791
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrobot_1.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_darwin_arm64.zip",
+          "shasum": "f63c20f57fb7df5ebb3339c88701a4cc814f57ea03cbb6254446b0089c76566b",
+          "h1": "h1:BVRhU6MyufYxoYxrQ9cOezlJ+dWJwJhCzUJIeZ8rInY=",
+          "size": 6588731
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hrobot_1.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_freebsd_386.zip",
+          "shasum": "4062a44f509d18c503c56dc527e7657716821e84a4aba73bb6534ecc8780d2cf",
+          "h1": "h1:qwfb+FWtdhb4VHMmCnB/8ZWUsOcRbgqIYOI/z6bKHpY=",
+          "size": 6510202
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrobot_1.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_freebsd_amd64.zip",
+          "shasum": "5aebea9380cbc22f1413a4fe6d7ba36566cb4c88b3456373d5152463bde645a7",
+          "h1": "h1:nw8KAetZ0PcyntR7FsbMrh53XvwQ1QwdWx7TsuChBw0=",
+          "size": 6877357
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hrobot_1.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_freebsd_arm.zip",
+          "shasum": "879c25e26cf97be5e7a4b05643866f26c36203d2bf659ce69251bd18084cc58b",
+          "h1": "h1:mEVZ7Cy5ajm07Hs4UpL2+YTOACbqe3Md+EZuO+8CamI=",
+          "size": 6482762
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrobot_1.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_freebsd_arm64.zip",
+          "shasum": "31e8941ea0c1dbcdebbbc61f3cf3b16ece097ee476d97ff3aaa7a463879e3eff",
+          "h1": "h1:Syiyb1m1CryYKdwzpQAu8PXYIcCf4u0gIE3wlCLfUTY=",
+          "size": 6238357
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hrobot_1.2.2_linux_386.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_linux_386.zip",
+          "shasum": "fb6128be80b522c3ccf814b3fda1e35f39e6994812e13471d06cc95bf6a4b5fe",
+          "h1": "h1:1TzkGVVTYlNNdep97VobV7kjc0rgXuLfQS/9N7ydytA=",
+          "size": 6545593
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrobot_1.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_linux_amd64.zip",
+          "shasum": "86a7150f1cce9a463bdfa537e2e1e213769b3ea19e71e253910ea4f61f6c5300",
+          "h1": "h1:Cwg2JiTz96cKvR1zHzJpT0YKUq0Z8D+7SbcAuphIwlk=",
+          "size": 6902658
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hrobot_1.2.2_linux_arm.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_linux_arm.zip",
+          "shasum": "6a86f2e83d029546f75ea6488619f298652ed6fbe853fb6710801a623adc5551",
+          "h1": "h1:dqYnsLD0202erI5c4goHy21E9iHPpr62fuzY7uyem7o=",
+          "size": 6503650
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrobot_1.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_linux_arm64.zip",
+          "shasum": "64573bae98670649446ab25a2134002bce824af6a9334a98859b710240dd1a18",
+          "h1": "h1:IRKN50AJFi6WNNTeqXbu4JCnSWgZHLIGO60I4Sbpvbo=",
+          "size": 6266302
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hrobot_1.2.2_windows_386.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_windows_386.zip",
+          "shasum": "43c0bd1c74175b58b99ca59356d5d79e280822013aea1d0a24662574b7ed5256",
+          "h1": "h1:RqVz8isjBA1JAFg+kKIg+TJ6cLEdTqGYwQTiSjlYyqc=",
+          "size": 6855894
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrobot_1.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_windows_amd64.zip",
+          "shasum": "4d4af7f02f568bdd7a86e65278761530664ee899c9a6576c6a376d0d94dffc14",
+          "h1": "h1:14DGHQFgXPrIXM8V5wfi6sMt+X5/Tn7xn0JXdI64QR8=",
+          "size": 7113884
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrobot_1.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/kaltenecker-kg/terraform-provider-hrobot/releases/download/v1.2.2/terraform-provider-hrobot_1.2.2_windows_arm64.zip",
+          "shasum": "3b6dea7dcec560ee8de5de6124d5932ba5f075c9bd696e66a0a157e302805129",
+          "h1": "h1:7Ia1nwEm3XyETqHIcu4jLQv+KcCzr9bGjnSwegW7diE=",
+          "size": 6355047
+        }
+      ],
+      "discovered": "2026-07-13T17:30:58.030831521Z"
+    },
+    {
       "version": "1.2.1",
       "protocols": [
         "6.0"
