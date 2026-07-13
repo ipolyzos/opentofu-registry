@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.0.33",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tessell_0.0.33_darwin_amd64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_darwin_amd64.zip",
+          "shasum": "26d9fad9fe8ddee096ca844e133e12c01dddef8dc012f16197913023e445128b",
+          "h1": "h1:ThkJvEbjLg9rlrYXsnwmeOWrqvzvnhrbTWTQL1ADvN4=",
+          "size": 6662390
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tessell_0.0.33_darwin_arm64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_darwin_arm64.zip",
+          "shasum": "311c673d8e9ca3d16a30424e8da97c59eb2e3e20b70f43da4db737408f072bb0",
+          "h1": "h1:tL2aX2ypX483UXCMSARjRYUfm2T6r0KdQo4+ktNPdck=",
+          "size": 6216218
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tessell_0.0.33_freebsd_386.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_freebsd_386.zip",
+          "shasum": "616b9c30c3005c37c97fd546cbe34b20ea430ad7ae8299652394e040cac255fb",
+          "h1": "h1:VOLxRNa1UwG7QFFXoBTqOp3oNTLbBUqtRihyRNGmed8=",
+          "size": 6098201
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tessell_0.0.33_freebsd_amd64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_freebsd_amd64.zip",
+          "shasum": "ddf09ab5c10613fe4e2b67e8b4f0fa15e7c4f3377e7fdc71465eae601d421d16",
+          "h1": "h1:pOu+1O4XMSFmIlsdLo5DDMuPlPGQffWmBBrjQDzmXoE=",
+          "size": 6500145
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tessell_0.0.33_freebsd_arm.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_freebsd_arm.zip",
+          "shasum": "dcdebf94e7c596732a31b63fca233243a1110dd499280608857b3fad8189b972",
+          "h1": "h1:Tg9uJ3j+xsegeA1PXa78Iu+hdq+wpWrZZ9kjX+hmKtI=",
+          "size": 6129381
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tessell_0.0.33_freebsd_arm64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_freebsd_arm64.zip",
+          "shasum": "266336ca99070f7989198e030b5143080284fef9642bba9c74e042af4ec60737",
+          "h1": "h1:K/PEH4nW+gMiBPTuGOojBw/ioP7L0k+EyEaJYVEgefc=",
+          "size": 5921058
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tessell_0.0.33_linux_386.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_linux_386.zip",
+          "shasum": "27084dac0215e5c88c584a3d8c1d8d3ba2ffae5e326f974042e2230d20f1c475",
+          "h1": "h1:rQjdjulcZpcXSXt2qRXPXimDsCNVdYyoTZldKD0UJ0U=",
+          "size": 6106144
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tessell_0.0.33_linux_amd64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_linux_amd64.zip",
+          "shasum": "222cc0f9ec3438bf46f90e72329eb8374969d1a1f18572149ee577bb70630fe9",
+          "h1": "h1:SsXTFYED9Roq8yLw086xmtwKQAY7rMe2YiZl9fRlwU8=",
+          "size": 6503679
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tessell_0.0.33_linux_arm.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_linux_arm.zip",
+          "shasum": "e408fd7e1869178862e754498ed8497886f056fec37e1849cd3b225b30ef25f6",
+          "h1": "h1:NqtZeARuwo5YF9/8bzavL6brSVXm0RRKUZfIugtnVHQ=",
+          "size": 6130498
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tessell_0.0.33_linux_arm64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_linux_arm64.zip",
+          "shasum": "8d9ff08fe7658ed080ff3ac59910ccd2db12aa3ffac33b8ba7e11e9c58a7bdcd",
+          "h1": "h1:bKEHRbb9Eakgfq3PooHDq92wDI6oy0xoR4WsTS1YnnE=",
+          "size": 5925911
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tessell_0.0.33_windows_386.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_windows_386.zip",
+          "shasum": "de94dc648c3ec167b93d85c04283983769ef6a02d80064d2f5b9ddacb0e6fa2d",
+          "h1": "h1:EVDS8WMDuBV6KE2hNWNEwtoRiJZ+62cdKPtpFW/HgKI=",
+          "size": 6413154
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tessell_0.0.33_windows_amd64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_windows_amd64.zip",
+          "shasum": "58f1cf2503d0d88ab8c1bc474e94a82a1e9cb1cd89ffe74de0bfef8f6d4b068c",
+          "h1": "h1:4T9lFfuLheyjYlPBbDN23zZjCwNjLZzPhOxJBHlQXQ4=",
+          "size": 6683371
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tessell_0.0.33_windows_arm64.zip",
+          "download_url": "https://github.com/tessell-cloud/terraform-provider-tessell/releases/download/v0.0.33/terraform-provider-tessell_0.0.33_windows_arm64.zip",
+          "shasum": "2bd9c80dd29c12f97106824230785e4c511cb5914c57e00caf03f0087efa0491",
+          "h1": "h1:GhtewNe/mxP2sWFfmTXcBmydHfTwBxNa5Gkv8QOH2VQ=",
+          "size": 6006498
+        }
+      ],
+      "discovered": "2026-07-13T06:27:19.266338533Z"
+    },
+    {
       "version": "0.0.32",
       "protocols": [
         "5.0"
