@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_darwin_amd64.zip",
+          "shasum": "61a66f9ded5ab6ffeec709f8fa67f4ae05f40802bdcc9a1be26f5b4ad7431083",
+          "h1": "h1:Vn+eInxDMa36LSeGfaC2AVf60V30Cb2l36EAjQY72vs=",
+          "size": 7091001
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_darwin_arm64.zip",
+          "shasum": "255af7ee42c847b605db38cf18cdb4617b212c83d7bae5a7a09830c747c682a0",
+          "h1": "h1:wBoeqPZJEz1K7EcGak5UF5virlVSMYD95LwBsjaUw+g=",
+          "size": 6662067
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_freebsd_386.zip",
+          "shasum": "d8b1a08e0aa02655fc9dc25046587abeb9a5b3d2410fe475e2ffd7e9ba30485b",
+          "h1": "h1:kDoHqGg3ctyqaYebTGiCcVO3D4jRGQw3yXWba0aUyEw=",
+          "size": 6488093
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_freebsd_amd64.zip",
+          "shasum": "9a0da5db7241dda067555d39292ad53949bb49d746fb6fdc54add44aa73ea627",
+          "h1": "h1:DNXJuzN/8X5VCceXFxq/AjSAO75SNA2R+qdyZMndTcA=",
+          "size": 6898435
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_freebsd_arm.zip",
+          "shasum": "12631013e35431d947695b2e0fbd1ead8122b51df8a73b4c88e9941a8ee67cb2",
+          "h1": "h1:ZFVkNdMiTg12jFRwXm1ryJ7aFpoFd/b2XLEDFoLXquU=",
+          "size": 6462077
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_freebsd_arm64.zip",
+          "shasum": "8efae09d7f3fcae3115a7bded008e3524fe938f9c892ebee4fda11ebfefa1f81",
+          "h1": "h1:cLNEhQ1Xw575cOEIm9Twa8vtnhevp27Y3LtIcna0/YU=",
+          "size": 6323318
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_linux_386.zip",
+          "shasum": "9922ad30f8dfd1ab0f68db77c176678cc5f888b963cb953312f2e1198a7e66bf",
+          "h1": "h1:C/UPbzRr7tY4ECij+si9b4N+GsO/qH6WOxQb95Jy8d4=",
+          "size": 6502595
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_linux_amd64.zip",
+          "shasum": "59c94ff6f7986db8a88bb0671bca51812147eece3f058d626d1c3d464b82b09e",
+          "h1": "h1:0YyTE+Cm4VN0IEWidTZvHrVZsNqqvAcPcSU5tzf1nWM=",
+          "size": 6904960
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_linux_arm.zip",
+          "shasum": "74ed11e19ea94cfd7737408e3e5c234fc393e6965f62b921ed919d4e61ae8978",
+          "h1": "h1:mLwExkexvFinc+OjMY4G0ffESbaGuZvM3X8HfOiBdZ4=",
+          "size": 6465818
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_linux_arm64.zip",
+          "shasum": "a38921afc6f0aa22ce371a9dd346ba3999afeca5dfd58b96e7bf76d6dcbcf469",
+          "h1": "h1:nbpk3eRmvA2LeTJyen0B7Hu5zpHvvCYizwR9cKqZX2I=",
+          "size": 6332687
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_windows_386.zip",
+          "shasum": "de3de1106b33bbefe5817f30827e7857a3c5336df95400b6cf2cc07139f27b37",
+          "h1": "h1:oyxsFnGwPE3iA5xEu8TzqzFeqHb1O5x1f5M+fp35EVM=",
+          "size": 6808643
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_windows_amd64.zip",
+          "shasum": "474af27d61402bda0cfa9c70856b664531add919cb34658ce7c929969c1566fc",
+          "h1": "h1:1xkiSj7YE0MTM5ny9Afd8+8cGs7ikaenkwZglDpaFWM=",
+          "size": 7116594
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-platform-orchestrator_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/stellwerk-labs/terraform-provider-platform-orchestrator/releases/download/v1.0.1/terraform-provider-platform-orchestrator_1.0.1_windows_arm64.zip",
+          "shasum": "35b1848fbacb0b15ea439d542991d66c3e98664ade98158690b2c9599be7aba6",
+          "h1": "h1:/Sp9sfYpmFOpsjhESMPQ4eEoXtKbhuExZDkv+jX01AQ=",
+          "size": 6423444
+        }
+      ],
+      "discovered": "2026-07-13T15:52:52.929758357Z"
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "6.0"
