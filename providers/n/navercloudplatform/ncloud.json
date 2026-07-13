@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "4.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_darwin_amd64.zip",
+          "shasum": "7fb2b6a65c04ea3d5508d19b4664dad6e6aef4a71214941e42d718a6b6a6ce68",
+          "h1": "h1:C877XW8AYWGytZpzR9JJFLaQSm/itKTCYrehpHdWKBw=",
+          "size": 11242612
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_darwin_arm64.zip",
+          "shasum": "fa2a0d97a07f5185ac213bedfd8fcdbc33205eb76398b7199764f35527517d39",
+          "h1": "h1:j9enXtOu8Lmp9LWuUUyfDPiHn37GEp4w3lDkXOrPrl8=",
+          "size": 10472398
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_386.zip",
+          "shasum": "8ee26c0d8f90d9a54695aa6dc8e3b84afbe9b8a9880b8ef0528822d199ec5770",
+          "h1": "h1:HhKuK+FVjo/4szmYP2bh8VvsUZ6OSKwTDdg7hfZd//I=",
+          "size": 10079442
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_amd64.zip",
+          "shasum": "62c544d8855f3d841f84575492999991159ef2034cb1c33418dbf9ab6ee5f584",
+          "h1": "h1:EMPEI1vr6yfi625nfPSNq/tsmNVLEcIkkbMHv6chNLA=",
+          "size": 10958744
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_arm.zip",
+          "shasum": "efbc39c30affbb4393ede046c27ca399af1d6aa6734e5676178240f26d7503a6",
+          "h1": "h1:HMMjVKTuDsXarbCTE/fgvQEVF7RltDsbbmbzgAlr2Ik=",
+          "size": 10154283
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_arm64.zip",
+          "shasum": "cc0fab828ecff717c3a394aa931c59cdb3f501687ca147fa32a1aa901934f427",
+          "h1": "h1:rGD/78uNLBAIGPxnWPNOU+nfq4yT9eDZye0OZwj+HO8=",
+          "size": 9935842
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_386.zip",
+          "shasum": "bd22a55b536e4df1991446a464ca56ac36a449d5d482796b682e06a38096eace",
+          "h1": "h1:Pm4g69gFPW5/3bmLAPFmNZvkNRHV7NnjdGuIRaKhfCI=",
+          "size": 10098862
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_amd64.zip",
+          "shasum": "d72a1a6334383c44974a62b19066fd52a97714b6ad160cf794681911c010b4eb",
+          "h1": "h1:/nUGIS+x7NfWSOuZ/KBwOxHKJOypBUrR1NUob/oDhtw=",
+          "size": 10971531
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_arm.zip",
+          "shasum": "1dd2e1644cfc6c02ae1fd813674904386a102f5d29eb54b33078484fb40dfdc1",
+          "h1": "h1:i91JbxLwzuPNh5BmZyn8S9wRRhIhUEi0sBlmkqC5bqE=",
+          "size": 10166158
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_arm64.zip",
+          "shasum": "1960dd8fbf12c05818e05d68f82363af1d5025457b15636ff78de734d5ac7844",
+          "h1": "h1:FXpJJqRXONTvAo6HZwGUSW7Quy5ohiqgUhCnkuSSuc4=",
+          "size": 9949886
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_386.zip",
+          "shasum": "ed29bea197ef32adb40323adb56c209f3fe61dfb3045902a0147e96df1661b92",
+          "h1": "h1:IH1SJWNZcZI/2E7nbeErnWWP4DnFo6QZEImwTL6o0MI=",
+          "size": 10634634
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_amd64.zip",
+          "shasum": "d0c2e8e8c542c6569cb5a40185e52141eeae253021f903a5157eb931e8dafba1",
+          "h1": "h1:Bj/wkQY+mYjPZ/0271HQp3tP63zhtlxgWPxCZgbR7Ns=",
+          "size": 11250404
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_arm.zip",
+          "shasum": "35c363d9474ba52e69b1370d55a97e547af276c26e4f456db3ffe2db187ada36",
+          "h1": "h1:GCltY6hvo/neWFmoS4xWJ/zWqhHEM4nfqM7NBImBJrA=",
+          "size": 10386374
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_arm64.zip",
+          "shasum": "9d2b92e5808542013517caf30a0950bc31de5bfa26a8a447d980a1ffc1ba60d9",
+          "h1": "h1:KEZEwmegFYBMtMRSQRgotQz6/l+D4DC6AdIaqpnFlNo=",
+          "size": 10045251
+        }
+      ],
+      "discovered": "2026-07-13T07:37:38.926531181Z"
+    },
+    {
       "version": "4.0.5",
       "protocols": [
         "5.0"
