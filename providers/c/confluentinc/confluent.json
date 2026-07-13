@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "2.78.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.78.0_darwin_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_darwin_amd64.zip",
+          "shasum": "8a703905a3a9e0704c1bffc92b841c3038011683b43aaa740988ef54f863efa7",
+          "h1": "h1:hQkHT9wYOh9ViUo1GLYQxZ4JAML60jNL/+2JCQRkwQM=",
+          "size": 11813815
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.78.0_darwin_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_darwin_arm64.zip",
+          "shasum": "b06f471066b7a258e5f38a8be97cf41bd8435cd29af937e08680888262f9ec3e",
+          "h1": "h1:yu+y/n2Go2CdAMKkOhqQAFBghziaGKp5GLzx7oVs5CM=",
+          "size": 10923041
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.78.0_freebsd_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_freebsd_386.zip",
+          "shasum": "c931a4947dee3a6f974b24cdb6a3f0dbaa3606efc8046cce34c441093805ae02",
+          "h1": "h1:+uLD+MhHvDAlc0NA739hphpOhjD9qazWTbwG4ebxNyg=",
+          "size": 10533220
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.78.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_freebsd_amd64.zip",
+          "shasum": "7e39f8a6e9304d2f98a350fab826f7724f11de6d1d92d357b919f65f03bab892",
+          "h1": "h1:hNyCJ8Fm7wrVXqZEemzU1s8ynFF9mndNN+gBPSrnhr8=",
+          "size": 11514782
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.78.0_freebsd_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_freebsd_arm.zip",
+          "shasum": "81ce7155deef54114be4596b9ad93eba6510fc8dbb836348492e4fa260d062c8",
+          "h1": "h1:R6CeG6XRJkpagliV31pQn7NkLfyJiDM0fphoIU7GdMI=",
+          "size": 10636785
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.78.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_freebsd_arm64.zip",
+          "shasum": "630467716351445fd74cf361ea6ceac5f685d4ed0fdbb299a6628f868e3e3c43",
+          "h1": "h1:2NA9OjEiON++QwCYPSj0F99ZkTNqs7nEHEB5WWzQ/Gs=",
+          "size": 10350835
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.78.0_linux_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_linux_386.zip",
+          "shasum": "2685f3172b3fe5507a45fa1f377f83b86575672f74bb16ce81667fbe3b2d3633",
+          "h1": "h1:9rVZMclqY20stGqnMp5/Edx7soN5YE5VJ4C9u5p2/Vw=",
+          "size": 10595505
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.78.0_linux_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_linux_amd64.zip",
+          "shasum": "2b15f0e9139208bdd4d2de8f3229b750398029a51c10fcb675b2c1d29639083e",
+          "h1": "h1:EYU7XPkgwZLMosJ/fv6kV25heSCJ5ngUF6nnlRWhnUs=",
+          "size": 12989671
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.78.0_linux_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_linux_arm.zip",
+          "shasum": "b0df34ea4cb6d14ed63f2e0ad34d6d2e63d629a3d0314094799d163dcdbce4ec",
+          "h1": "h1:SO6H0FlAuiRAMhxpPGCVmH6ohVBY+C3XOLqMeeSaxxY=",
+          "size": 10675428
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.78.0_linux_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_linux_arm64.zip",
+          "shasum": "0f6b4f3b1b69fe26b4a8356bb74d3bdd00e056c32548352975e587c6a160874a",
+          "h1": "h1:lJgs77JFT9eWL1OWmAkh+sHSNqK4pK1OAszbfjOjcS8=",
+          "size": 11607735
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.78.0_windows_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_windows_386.zip",
+          "shasum": "30af92d4a4f1e4728fa3ef50ce9830316b078e250edd391fb5aafea75381f57c",
+          "h1": "h1:ZQIMyerE03Zf8wmnF14nThU0h/4qYKNt1QNGlTl0Pr4=",
+          "size": 11134637
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.78.0_windows_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_windows_amd64.zip",
+          "shasum": "f0599cc421661d7a1c565ae43bd275290d35104e57f3e681f3f1b087934f87d2",
+          "h1": "h1:qsTbkHrkhK5E86L0B0x9adtzl5bpcaEWZLGl/SJiQgE=",
+          "size": 11857046
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.78.0_windows_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_windows_arm.zip",
+          "shasum": "699783a7d73d4be3b052d18960637c124fbb0a34974858dc1c2253fffd59d74f",
+          "h1": "h1:nhkfGx1bMq7byyiv/SsPb/bj6w4XkKKcWgRkugZYBTY=",
+          "size": 10895642
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.78.0_windows_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.78.0/terraform-provider-confluent_2.78.0_windows_arm64.zip",
+          "shasum": "7bc2cc5edd7a1d0637f5a794cecd28b7fac16ec88048c5750df7172efb0f7657",
+          "h1": "h1:CFjX1c+iw//hMEcrv8L7JGuPFTWuJWNTVcHkqlN5B2w=",
+          "size": 10491727
+        }
+      ],
+      "discovered": "2026-07-13T22:04:20.439954661Z"
+    },
+    {
       "version": "2.77.0",
       "protocols": [
         "5.0"
@@ -23685,11 +23822,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.78.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-13T21:05:44.368267266Z"
-    },
     {
       "version": "2.77.2",
       "message": "checksums not found in release",
