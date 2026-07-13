@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "4.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_darwin_amd64.zip",
+          "shasum": "fe580f50653b81d60727b7f217613821463dc43a392aca3aa1335263df5353ca",
+          "h1": "h1:NNpEvFvPs4G63ZoUkaSWNn4dyS1HF0Red74px0khgac=",
+          "size": 7506446
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-rudderstack_4.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_darwin_arm64.zip",
+          "shasum": "ed27f1c42c51e71771edaca8bc2447c1acaab9980ecc5bdffa148f485f68d9dd",
+          "h1": "h1:x+mE6bx2L5y4q8VrlTfglOq6gJYIqfGnxgES2JBMs8A=",
+          "size": 6951462
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_linux_amd64.zip",
+          "shasum": "79ceb8a01555dde71c989499e02829d1b9bff571c01bddaaf720cf13b1849b9c",
+          "h1": "h1:0niKxoIgnJ2YRqg2CxJol64uIia26FxVWVYCldwz+Yc=",
+          "size": 7347180
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-rudderstack_4.10.0_linux_arm.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_linux_arm.zip",
+          "shasum": "9e38f7058953cb9fee6de743217633d6e9371c3c29f77d720308bf732322a2d0",
+          "h1": "h1:ekvtpRLOCIc/A+XqSw5kPcg/7jy3Mq4rUPYNHIjos3w=",
+          "size": 6964295
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-rudderstack_4.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_linux_arm64.zip",
+          "shasum": "cf0556910ac697baaf890408343b9ce0d44557c516951b9e53dc907ae3ad7e3c",
+          "h1": "h1:VUpP09McLcVZRqrnBBFp/DeYeTKJhoxSgotWoz/7wdc=",
+          "size": 6638630
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-rudderstack_4.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_windows_amd64.zip",
+          "shasum": "c122a8b8278bf0c36078a33a3ce5034e455bde774031789de4e5d7d637f9ca23",
+          "h1": "h1:QxIwqS+pCs2L4ES1x011ETndxi+/NVs4/s+ebMe4tPc=",
+          "size": 7560817
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-rudderstack_4.10.0_windows_arm.zip",
+          "download_url": "https://github.com/rudderlabs/terraform-provider-rudderstack/releases/download/v4.10.0/terraform-provider-rudderstack_4.10.0_windows_arm.zip",
+          "shasum": "fe981270c62842e83628ceca571d645fa863a48c86e4147058e75f1932aece2e",
+          "h1": "h1:V5e6VDovMi3B9CFquD8h3CHQwZhctSvmZOd9kuCac+Q=",
+          "size": 7124055
+        }
+      ],
+      "discovered": "2026-07-13T07:37:40.439563678Z"
+    },
+    {
       "version": "4.9.0",
       "protocols": [
         "5.0"
