@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.2.37",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-plural_0.2.37_darwin_amd64.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_darwin_amd64.zip",
+          "shasum": "0dd027aa49a723e74c83d88c5477899946f8e54c5daa13f537c710c92de29c83",
+          "h1": "h1:HSQJxxXZ2ntG1svQbBqBTN7da6Jp2/SXivC58d2RcgY=",
+          "size": 22859025
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-plural_0.2.37_darwin_arm64.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_darwin_arm64.zip",
+          "shasum": "7f416861dd3069f26242f1b9274f491e6718052036fdbe3b424110f09747d7fa",
+          "h1": "h1:Yg3rcUOrDZ8g7WMn2fWEP2QpKlySKct6U1gPjCJU354=",
+          "size": 21036810
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-plural_0.2.37_linux_amd64.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_linux_amd64.zip",
+          "shasum": "18c5cd4094d88330073b2cf2bc57cba0621d9847b2577fc8c7f5b7745ab082ba",
+          "h1": "h1:wk41XMub6ggshusHKSSI9xDm86NsOCJ+DJZ1qUy4/Wc=",
+          "size": 22339065
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-plural_0.2.37_linux_arm.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_linux_arm.zip",
+          "shasum": "a4071d7902864b935278705f370902f6b3f1132394d20bd3611fb999179009b1",
+          "h1": "h1:KsgAyX6DOsJFJC3b90FE2r39vgbPYw12BpwFfqlrNrs=",
+          "size": 20981904
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-plural_0.2.37_linux_arm64.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_linux_arm64.zip",
+          "shasum": "73efca1550f1a477079de610d606d9ce7071bb49e55e70c0936884c400625cbf",
+          "h1": "h1:qF7KawouLeONsvmdkktuASJB36vLBRa083CUak1iQOA=",
+          "size": 19974874
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-plural_0.2.37_windows_amd64.zip",
+          "download_url": "https://github.com/pluralsh/terraform-provider-plural/releases/download/v0.2.37/terraform-provider-plural_0.2.37_windows_amd64.zip",
+          "shasum": "61edcf42a7d3b1a6cc2dec8e81ce544d3b7ef07682106abd4ded4d56d12b88a5",
+          "h1": "h1:RLY8H7EgZ40Rflp9WKswCVCbmjdIkUOjLUOJYkujf8U=",
+          "size": 22979635
+        }
+      ],
+      "discovered": "2026-07-14T06:27:42.790113456Z"
+    },
+    {
       "version": "0.2.36",
       "protocols": [
         "6.0"
