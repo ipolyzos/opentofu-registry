@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.11",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-logfire_0.1.11_darwin_amd64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_darwin_amd64.zip",
+          "shasum": "1007b2e68df9c942f39021c57bc616f48d82885a1d101fb6817efa454f45fbb0",
+          "h1": "h1:DxqI/ao0vjca1fxh8YrM7P4uPDvQ7b/Z09N9nrTm1W4=",
+          "size": 6852448
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-logfire_0.1.11_darwin_arm64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_darwin_arm64.zip",
+          "shasum": "eda65e9851d1f7f25a7e56434c6b9f696d27917b1d7e38c904cc1fd7ed916ce7",
+          "h1": "h1:JHNcd2U9ui06SacOo+b6aLuDx33DBFGZWku7USbm+34=",
+          "size": 6380715
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-logfire_0.1.11_freebsd_386.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_freebsd_386.zip",
+          "shasum": "3416e77509c4f675f0ff83903fa1346c17a4639c9b95606127b9b4360bfe1f72",
+          "h1": "h1:/mlawtH1Num5wqKABwrES94zdkYGw8ETbMOgzGVE3WU=",
+          "size": 6304072
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-logfire_0.1.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_freebsd_amd64.zip",
+          "shasum": "403ad2143b7a4e6d3be992a20b3cc1da0aed8515cecb6ec753df769dd03ea0dd",
+          "h1": "h1:FJIqp/JLQjXX+Tlihb0t5bIAydh4VbdHGsP78hLIYpI=",
+          "size": 6660351
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-logfire_0.1.11_freebsd_arm.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_freebsd_arm.zip",
+          "shasum": "7859175418684d143f0902233671e40f94e16142d37fc17a01ab86b7d630f3a5",
+          "h1": "h1:uWIQtSfSUUIKgaMmelUsd4066EzNRqyp24amMHsrems=",
+          "size": 6271210
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-logfire_0.1.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_freebsd_arm64.zip",
+          "shasum": "41a942f9e654490e61a629f042b74f491c69b49c61c6a8a244a3b26d35e1644b",
+          "h1": "h1:9mUTyCqXnBinlVym9qvXvjI8Lx6iDWfaL306m4uBzLM=",
+          "size": 6050415
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-logfire_0.1.11_linux_386.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_linux_386.zip",
+          "shasum": "56f3521e3fb09874ede7c916a9fcfe29f40027c8565ed930cf185760d2c11ab3",
+          "h1": "h1:iM+X/tHKef3qm7Q2p6RR0eEy/I2wfOAFS//5RGs6qac=",
+          "size": 6333500
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-logfire_0.1.11_linux_amd64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_linux_amd64.zip",
+          "shasum": "5812414d3e638392d835c3ce85047eb60685bd8015a91789091211c122e8650f",
+          "h1": "h1:wBiM4xQcWBaJzAKmvONs5VxRUYd/14VX4Q8cdhzcxv0=",
+          "size": 6687177
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-logfire_0.1.11_linux_arm.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_linux_arm.zip",
+          "shasum": "3bf64aa156316ee5f8436e0976550bf209490cb93b0545cf4f516e1963276e9a",
+          "h1": "h1:c430wqGRnu0/7v8nsE9Isf8prsHKF90Y0qC/glTv4I0=",
+          "size": 6294947
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-logfire_0.1.11_linux_arm64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_linux_arm64.zip",
+          "shasum": "ef5527937ec8bc95dd2fa3d3127d938060ab5b71273637269ad759031b2795df",
+          "h1": "h1:1O9FniVPHJvDdj4cEqhiUsDIfA56cV6bVm5lS5TTY6c=",
+          "size": 6072635
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-logfire_0.1.11_windows_386.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_windows_386.zip",
+          "shasum": "3ceb48240210d46d7beca9c52964c4afe70ec6131ff7c2544084ce89441f3ac4",
+          "h1": "h1:lCssMqobX1E8KQRqymOcKdhQbiP61XhP9I6OmkIgAyU=",
+          "size": 6624912
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-logfire_0.1.11_windows_amd64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_windows_amd64.zip",
+          "shasum": "7dc1ce53dfc9e7b84f53dbaac7e2a97f14ea9a07fd0bacfee7157497d88fd3ac",
+          "h1": "h1:/v14XK66F1AQAAcOUFwKrPk3MVBi9uS1vUZcw0ZAGug=",
+          "size": 6885034
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-logfire_0.1.11_windows_arm64.zip",
+          "download_url": "https://github.com/pydantic/terraform-provider-logfire/releases/download/v0.1.11/terraform-provider-logfire_0.1.11_windows_arm64.zip",
+          "shasum": "f18b2219530e00e61b2e76b2b28c8d69d58e83f3f3b3c0f1d4f99b160097d5a5",
+          "h1": "h1:WtgmQ/K/SnST3Z5/zleHFLU1DzgdOwDjcsMyckJrV4o=",
+          "size": 6156213
+        }
+      ],
+      "discovered": "2026-07-14T13:08:41.096257929Z"
+    },
+    {
       "version": "0.1.10",
       "protocols": [
         "6.0"
@@ -1407,13 +1535,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.1.11",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-14T12:35:07.904473913Z"
     }
   ]
 }
