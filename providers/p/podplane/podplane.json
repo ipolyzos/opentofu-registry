@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "1.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-podplane_1.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_darwin_amd64.zip",
+          "shasum": "26b291150e82ee57c7e17fee374999a14dc94a59b05d547ae5b2e8918a83bd97",
+          "h1": "h1:3IHzPXrY2kmTDRjNlcb0kNnSEO1ktcAhWSxb1BqAIZQ=",
+          "size": 14920402
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-podplane_1.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_darwin_arm64.zip",
+          "shasum": "154d771060ddb96cb33c7c21f1c013cccb7d9f9fefc5ae10ac0c476fe1fac5d8",
+          "h1": "h1:lyCdEi8oD6IQNsYg8Po8sOKNUnIt/ig1pd5vYyZDfZA=",
+          "size": 13850105
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-podplane_1.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_linux_amd64.zip",
+          "shasum": "a0d6254d666e32a45e7ebafc6eef5b770564b2f064a0a621756cc0816cbff7d8",
+          "h1": "h1:yZVHE6PnVrwqo0soSMyd8fThzMMLairJvRl4oQxZDlA=",
+          "size": 14533982
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-podplane_1.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_linux_arm64.zip",
+          "shasum": "99c68dae442a0f965cd000dae4ea736f24073a2932b30ad729446c825288c3ed",
+          "h1": "h1:LQY1amLbVcOcMLE8hvkRidqhijX5VvK17wvwyPVg78s=",
+          "size": 13116399
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-podplane_1.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/podplane/terraform-provider-podplane/releases/download/v1.2.1/terraform-provider-podplane_1.2.1_windows_amd64.zip",
+          "shasum": "de87adcbf93d6d58d420df9d60b1c26f8d8bfc0da021a3a30d5df8e5d1d0cf6a",
+          "h1": "h1:qt/QDYk4MUs2K+TomvN8aHol1FpuzBl62U67gkNRpz4=",
+          "size": 14942745
+        }
+      ],
+      "discovered": "2026-07-14T07:57:36.917942166Z"
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
