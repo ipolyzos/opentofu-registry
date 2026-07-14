@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.6.20",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-netris_3.6.20_darwin_amd64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_darwin_amd64.zip",
+          "shasum": "52c4f3ccd03e656be248f74eb04132edbfcd2ef23ddd686069b497fa12b6a5ba",
+          "h1": "h1:ZR4MQ/2adFy62fJW9/ey91H20U8qLyUzKvvSTdKjhJk=",
+          "size": 8580041
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-netris_3.6.20_darwin_arm64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_darwin_arm64.zip",
+          "shasum": "d97d8800464f623348bad855a52f248ce55ecb49043978bb03f8b72484dc73e0",
+          "h1": "h1:FQYx27zxQuVCVOhr7rPY8wr0ll+3uQ612K+uLOfXXkI=",
+          "size": 7876788
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-netris_3.6.20_freebsd_386.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_freebsd_386.zip",
+          "shasum": "2e86d09197c4c686a1fcaad98e6a4bfc88b6aaa1ce24a6eb83ba4d29a3da34ff",
+          "h1": "h1:HEmhCrErXDEzcc2oS46nUmxpdr/eoIVoSFtglT9V+YI=",
+          "size": 7829925
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-netris_3.6.20_freebsd_amd64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_freebsd_amd64.zip",
+          "shasum": "2d1f604308a2ff4a1aafbcb591c82ad33cf2697ce9dbb711bc397edc91ce72c6",
+          "h1": "h1:UedQQiGoIo5Z2z7kEA+0woJH1HgmNJa408VlJY0s8uU=",
+          "size": 8368297
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-netris_3.6.20_freebsd_arm.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_freebsd_arm.zip",
+          "shasum": "9fd257faf9b5870d21db1527fd15dd8810eef9d3a7c65d31986288bdc34c4fc6",
+          "h1": "h1:ASPu38u+PIta73dsNjZ49t5ueH+X1xLwXqcYRCcpefI=",
+          "size": 7876952
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-netris_3.6.20_freebsd_arm64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_freebsd_arm64.zip",
+          "shasum": "060784282981e25ec08d444899c2b08d108e15a59dc50f9b806875c87edead66",
+          "h1": "h1:4ucOf1VkgyjyZto4Ju+tw46OyI7ltcdUVHuUGXPkFzw=",
+          "size": 7500435
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-netris_3.6.20_linux_386.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_linux_386.zip",
+          "shasum": "93da7f7066b3180d2c7afdc6ea8ca0e6b0553ddafc5b45c2fc4dbcd0c2b42b7b",
+          "h1": "h1:U1SYfKbtA/p0oUqKvK9FVsNHWLLJJNd8RfNbrVFVkf0=",
+          "size": 7872239
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-netris_3.6.20_linux_amd64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_linux_amd64.zip",
+          "shasum": "8368d5cc9230208423e8a3636187a2c0c650f3739f5c509441c44d71aa7c06f2",
+          "h1": "h1:Zpltv835UhW71v3+5IPoQHbY1SBwB6JrinVzzZ3L1kg=",
+          "size": 8402039
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-netris_3.6.20_linux_arm.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_linux_arm.zip",
+          "shasum": "6903d944e8a0c7678978bdb675e467a5874f11119ae61fc7651435519b14325e",
+          "h1": "h1:OVvUG/uYYgNMYP0c1hjL+dOcS1UrVZDUXaTKt5uk8fQ=",
+          "size": 7905132
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-netris_3.6.20_linux_arm64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_linux_arm64.zip",
+          "shasum": "34bdc0cb264cdfdecbda6fbcd66a7c63902a50fd483d0ebb173c1f6e918fceb6",
+          "h1": "h1:7pShs1FHpFTBUHACTToLI17kAxDqn/uP5P35PSPYCKM=",
+          "size": 7532903
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-netris_3.6.20_windows_386.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_windows_386.zip",
+          "shasum": "696a0ea98ad1a1d78df5e12f0fc13ea08d70d68ae622a02a9e6d74a57dfb108c",
+          "h1": "h1:ZoxbZKOvrIbwWfQkmYeMVnjh1vjkl3EcY2c6VqgTEfY=",
+          "size": 8274360
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-netris_3.6.20_windows_amd64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_windows_amd64.zip",
+          "shasum": "fd2b0128fb23437ed8c8edfc1fbe0c91ac67ff734c089f387bd0f68bc0f2fc7c",
+          "h1": "h1:9w+yMk8XE7SBfeOwFH60FvtA27IZjsduOcVWhICiaBA=",
+          "size": 8645400
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-netris_3.6.20_windows_arm64.zip",
+          "download_url": "https://github.com/netrisai/terraform-provider-netris/releases/download/v3.6.20/terraform-provider-netris_3.6.20_windows_arm64.zip",
+          "shasum": "cbf277fc22aff94dc09d650a99fd0b7dec9748a09b8ac2c7bd5dda0226ab269d",
+          "h1": "h1:/sxySoiXWPfQoGZe1HdSbg7yR74mboDMz1a2M6OGwX4=",
+          "size": 7640992
+        }
+      ],
+      "discovered": "2026-07-14T06:27:57.245020328Z"
+    },
+    {
       "version": "3.6.19",
       "protocols": [
         "5.0"
