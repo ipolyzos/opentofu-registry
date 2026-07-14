@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.1.11",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_3.1.11_darwin_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_darwin_amd64.zip",
+          "shasum": "392ba6bb76b83facf981ef1f405ec7885be841667a632c31345f4e0a167c5d80",
+          "h1": "h1:QhuGoSo5EdsKT6EJBTrSFcbTaiic++v4w6ITobGLk/s=",
+          "size": 7834558
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_3.1.11_darwin_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_darwin_arm64.zip",
+          "shasum": "72cf0a0e4bb4496b6fc59c549b6535e5643faded75221a0f593d59b8663ee6a0",
+          "h1": "h1:gMnCoeE9sD0+yw4gb1/0RH5sHaro5uiGUfGzyB5PUoE=",
+          "size": 7298789
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-xray_3.1.11_freebsd_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_freebsd_386.zip",
+          "shasum": "7b25622d8c445710eb18b4c6668b35b727e9aa545b771c3e256e0968aecb6320",
+          "h1": "h1:aoOOlwJXfDxSEDpOvFzoOqRUBm0dr3ggFudBPWT6JNE=",
+          "size": 7191962
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_3.1.11_freebsd_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_freebsd_amd64.zip",
+          "shasum": "6780e3cce2f263933539f38226467aeca6cb656bdfa1e029b3f341fec23b8e19",
+          "h1": "h1:hDjMz+IHRPZmtYodtXVzWUN/fZaqCYfuy0TQEefwP0Q=",
+          "size": 7632180
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-xray_3.1.11_freebsd_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_freebsd_arm.zip",
+          "shasum": "7fce8cb7d8ad10417727eb4833137a7c362b380e7066e81ec9e68153fa017a86",
+          "h1": "h1:CkglSDlMSHtCIHdZ1c2JJwilfWBzk8nK0xPEyafV+4g=",
+          "size": 7195430
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_3.1.11_freebsd_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_freebsd_arm64.zip",
+          "shasum": "eaba098b8e0bfffa6cd6b5a5af08059a0d20eb98ec55114fb13623a1f5f21484",
+          "h1": "h1:EguG82DSJHJfwejojCBVdA5EyzIPLZLvHYfN/kkb2ms=",
+          "size": 6935303
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-xray_3.1.11_linux_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_linux_386.zip",
+          "shasum": "c5ec0409b69ef87e9df9c9893ec8222ed0321ff2756f060d4e3f671f5bd8c6ce",
+          "h1": "h1:/zbJBwBc7gfWf4vFODuxrh41HUGYHZ91drE13MSf9HE=",
+          "size": 7222962
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_3.1.11_linux_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_linux_amd64.zip",
+          "shasum": "8fccedd7f1389953e59a127540444ba39d1af82c74ac1bbfe3b1a435cd6501b6",
+          "h1": "h1:XHqoQO5d+76TDQB5x8CuVZ8UreTcS/5aYfG/kFBs72s=",
+          "size": 7658156
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-xray_3.1.11_linux_arm.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_linux_arm.zip",
+          "shasum": "26e6ec0af22a0053fc6644fef5a062ab41ab903a9e28d20b36185e400794b3fe",
+          "h1": "h1:mda1oS9hpN7feQRXbiZpzjvCYdLTiVRUTT+2saWiJC0=",
+          "size": 7218981
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_3.1.11_linux_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_linux_arm64.zip",
+          "shasum": "4d1ebdad6170c50e0e555f35570b800e1afa7e97ac15717b0eceae12b0aec6c6",
+          "h1": "h1:SljX+gVQ2x2cqTVaEd7mO1yVmKi1l2nP/Hm6kkwPE2I=",
+          "size": 6957539
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-xray_3.1.11_windows_386.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_windows_386.zip",
+          "shasum": "b031345e5338d23b071dbbe1a553524ca4a04a0c7f1a1c80f06475ae937a6a75",
+          "h1": "h1:X9RpYxd+SCWJzdSnUh8OkAwHEHwsMw9FaRLXBfwegmI=",
+          "size": 7563398
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-xray_3.1.11_windows_amd64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_windows_amd64.zip",
+          "shasum": "acc698dfd12c2ea7e3c2daa5bf1010fd1931f55a1d5ef148f415b510972ff5c9",
+          "h1": "h1:NRNglugktZTdWPY6D3w2RjoUovHCpPv4WLyqNK50BWY=",
+          "size": 7880995
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-xray_3.1.11_windows_arm64.zip",
+          "download_url": "https://github.com/jfrog/terraform-provider-xray/releases/download/v3.1.11/terraform-provider-xray_3.1.11_windows_arm64.zip",
+          "shasum": "62940c6edebc60802126f26248068b86441349ee646d52dfac7544b899f19690",
+          "h1": "h1:YH9MfC98CKcp8Z8wnmHRrcyyDNDAgeHEGz9q6D+pCFk=",
+          "size": 7053917
+        }
+      ],
+      "discovered": "2026-07-14T10:08:26.403002528Z"
+    },
+    {
       "version": "3.1.10",
       "protocols": [
         "6.0"
