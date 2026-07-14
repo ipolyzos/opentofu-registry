@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.7.3-ironashram",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_darwin_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_darwin_amd64.zip",
+          "shasum": "bbe44c1e7f14aa93b7a837e59a3c37e357b0ffc399b5c62a50b476404930fc06",
+          "h1": "h1:po+sY/8WAoMW2qTu3ARbh50kkh3SPKbkALOgbE4GJi0=",
+          "size": 8176857
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_darwin_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_darwin_arm64.zip",
+          "shasum": "d89900c913d5ffe15a7fb2989ec95122d3137e22087a562fbd88859ccc6fe83a",
+          "h1": "h1:oXWLS0ejyT51JQhrfV1O5wBTyMQUeKoepW5EbGMKgbo=",
+          "size": 7613654
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_freebsd_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_freebsd_386.zip",
+          "shasum": "4a92819f6f73b07788de7044e4807824f9c7e2d04c20ddc993080472eb1fb266",
+          "h1": "h1:rEEBeaCRFB/LkUHFbKOEmWuhnAkO0M0a9VmjpmxAB0w=",
+          "size": 7485973
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_freebsd_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_freebsd_amd64.zip",
+          "shasum": "5f7fcb4aec9830696b46aeb37b5f01ba6c223392b719b9991cf647a51ec16062",
+          "h1": "h1:BqC/z2VbIHvtkFwSDDDUd7wfPJvG/m+sMFkAAufHwaY=",
+          "size": 7950272
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_freebsd_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_freebsd_arm64.zip",
+          "shasum": "b0ac1a15ca436a6b4905d677cb8515862c30d7d1b17d1ccee48f606a74063969",
+          "h1": "h1:zrln5U/EavAZeXiGcr4oGxxa1QFnrLQd7fvmvph2hx4=",
+          "size": 7217288
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_linux_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_linux_386.zip",
+          "shasum": "fd02bdfda6f8d5ac900b59797e09fc49c318668c5fe73ae1a2d59dfbbe992ffd",
+          "h1": "h1:bISSATIigAZhgEh0DVgYykn0xX/SOAuESroG/mXvgHI=",
+          "size": 7670941
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_linux_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_linux_amd64.zip",
+          "shasum": "c792782b896f2803b68e8fcd337b1ccbae87658c67fe4ade8da84dfd27bfb9cb",
+          "h1": "h1:WBFG6ds0oo398FnUG85ffZgta0VvQhAjYxvJrCR+1KM=",
+          "size": 8142283
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_linux_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_linux_arm64.zip",
+          "shasum": "1a029c4a7c5a16047bc7195d3ca09d9d7040f232576001afa09710c989c5d553",
+          "h1": "h1:INOkwWcJ9swuTAcmBPj8RrINBt+d9tCWLcT4YbvOyRU=",
+          "size": 7389646
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_windows_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_windows_386.zip",
+          "shasum": "8595165582f4e43934d29e41ed2b1fb600a3b97d51e156e18f5e7d95c03598aa",
+          "h1": "h1:bh2Kbb/ouyJLRwm3PAG1xE8tVf1aKsCrqUL5AVsbQyo=",
+          "size": 7878030
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_windows_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_windows_amd64.zip",
+          "shasum": "3db353975ba093e6ee9a4413c2b489a93d19ffd18aaff5e31115f1d72f4bb857",
+          "h1": "h1:CFa5q5bzfVY6l9pxsqqXTK1kqwZ+8R+5Ds9SQ2LAC50=",
+          "size": 8222731
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.3-ironashram_windows_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.3-ironashram/terraform-provider-synology_0.7.3-ironashram_windows_arm64.zip",
+          "shasum": "02af75c0dd3eba0b73b113a819246bc7b0fbfadf03450e2b8cad7350e81c3a61",
+          "h1": "h1:8TLZLfpuyP3jxuI0hFig+HglK4JO5ftKSpg+rjsPJeE=",
+          "size": 7352649
+        }
+      ],
+      "discovered": "2026-07-14T23:51:59.77260372Z"
+    },
+    {
       "version": "0.7.2-ironashram",
       "protocols": [
         "6.0"
@@ -111,6 +221,116 @@
       "discovered": "2026-07-14T23:30:59.263173106Z"
     },
     {
+      "version": "0.7.1-ironashram",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_darwin_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_darwin_amd64.zip",
+          "shasum": "6d6ddf9168ab8d286032baf55d55ac35856fe75466d821d3a0f936f927ac19a6",
+          "h1": "h1:FiV00sxuAP/OdpXobo6Ut2gH9YBjUrShGSk02/ER55A=",
+          "size": 8176490
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_darwin_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_darwin_arm64.zip",
+          "shasum": "9ae8d80ab41556b4703c79e3b601d647e91369edfb58a9267c04c87f264edbf8",
+          "h1": "h1:vyOgemi9fyW147hH13J/Jk8kL9WfZr4CUNTNWcXEbIY=",
+          "size": 7613736
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_freebsd_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_freebsd_386.zip",
+          "shasum": "abd11bbff59449fcdbe61d726d1a1a0038621a9adcd64c8112bf4c07a803f285",
+          "h1": "h1:yCtW6ak6m73HCxbJBovR5P4tvfok6/bRys5ZFocTras=",
+          "size": 7485678
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_freebsd_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_freebsd_amd64.zip",
+          "shasum": "cb7d756c63bece05ae4be9b7c19c0ef11791422948ddc2fe6310349639cf3b48",
+          "h1": "h1:an04qzxh0JaJSyQZmOdw3Ld0xTBZhG26yJ3ej/HW+bE=",
+          "size": 7950103
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_freebsd_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_freebsd_arm64.zip",
+          "shasum": "91073b36621419d279fcc65670387202a5bd46e7d7a473f240700ecfb6597190",
+          "h1": "h1:L434L8IrXZFq+6HRocjs6wskmr8iyoquBlTo02Jqctg=",
+          "size": 7217169
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_linux_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_linux_386.zip",
+          "shasum": "14c5d649c6d4e2e415a7d8f18446a2eccdf30432cd1d0f1f90cc2ecc845f283a",
+          "h1": "h1:6ZVfmTU/nHYh78OFbshH3t3tORSUtaXMpI8d4Ob4JaA=",
+          "size": 7670776
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_linux_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_linux_amd64.zip",
+          "shasum": "0b7d9cfd34b8053faf090c12a6dbbbcb4c38ee0c5d178de47bc157ee25867dfe",
+          "h1": "h1:2bunmce7cqWwEoqiR68+Hf9P9lS8PMQ43A2FjLjcu+M=",
+          "size": 8141840
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_linux_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_linux_arm64.zip",
+          "shasum": "c9ff5c15f007232e8d5c3b90ebf06cb79536bcc7a2c3447261fa6f9b6d8bf5ad",
+          "h1": "h1:DuYVj37uDMSvfe7S7WB20VCXy0K/goM73sDdEl4UAu8=",
+          "size": 7389467
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_windows_386.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_windows_386.zip",
+          "shasum": "b0644847d5f983d2d62e3d4ceea7da5f0b16756114c5ecadf45b44fcede1b3ff",
+          "h1": "h1:uca1NCHC0OP1ElIqADpHRY1gc+8nV/UEDcJEp+53Cb8=",
+          "size": 7877827
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_windows_amd64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_windows_amd64.zip",
+          "shasum": "a30f3cdd8d531a966e52ef75a415e6086d6ee947d2f7bf3a45fd9627c6fa0b0e",
+          "h1": "h1:nTDiCxKgsHG/SUJxyNsKxRZlzEXMrbRuytFJ7UVJ9UE=",
+          "size": 8222319
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-synology_0.7.1-ironashram_windows_arm64.zip",
+          "download_url": "https://github.com/ironashram/terraform-provider-synology/releases/download/v0.7.1-ironashram/terraform-provider-synology_0.7.1-ironashram_windows_arm64.zip",
+          "shasum": "3f535e73012b8ab5d0dc804348f580e8a73b220ab3480b456bfa8b6d59fb4aef",
+          "h1": "h1:TIflD5bTU6qr8BjW13lxcL05AtMV9HocPfnSaZxeF3k=",
+          "size": 7352517
+        }
+      ],
+      "discovered": "2026-07-14T23:51:59.772605609Z"
+    },
+    {
       "version": "0.7.0-ironashram",
       "protocols": [
         "6.0"
@@ -219,13 +439,6 @@
         }
       ],
       "discovered": "2026-04-21T00:00:00Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.7.1-ironashram",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-14T23:05:05.145551999Z"
     }
   ]
 }
