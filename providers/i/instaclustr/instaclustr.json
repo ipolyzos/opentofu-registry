@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "2.1.88",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_2.1.88_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_2.1.88_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.88_darwin_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_darwin_amd64.zip",
+          "shasum": "8e7da55c9b48eb4aaa0b05262f2e2db5712a2b39ce05e5b4f654f3356d0a44d0",
+          "h1": "h1:uCFARuQdyLKsLue/nJSYQhoORN6gLAdM5TGz6Ndm9Kc=",
+          "size": 13977954
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-instaclustr_v2.1.88_darwin_arm64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_darwin_arm64.zip",
+          "shasum": "d0ed1b7ac336907ce26b52110af30a87531eeee96df4cdad1b25a3b219be7d82",
+          "h1": "h1:Vq31LCC2r90l10GpKadn7ShV+kXmxsOoFmpkDG34mZs=",
+          "size": 13279335
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.88_linux_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_linux_amd64.zip",
+          "shasum": "2f2a80547f1aabdc0f87e90f03368e34fed50ba38eb4279971b1d383c162ee73",
+          "h1": "h1:Zd7A4s8vlJRu8Tr/z++UjFy1SDIvfpmoa0+w3GAH/K8=",
+          "size": 7120818
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-instaclustr_v2.1.88_linux_arm.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_linux_arm.zip",
+          "shasum": "4b478905dc6b19fdcada63b16dee8cf2b1aef1da1088ca59114dbf14a10b07e8",
+          "h1": "h1:dRan01F4kRL4WI7Rv815Zpa5u5kXZA0uBbGtfFQrSrE=",
+          "size": 12776045
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-instaclustr_v2.1.88_linux_arm64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_linux_arm64.zip",
+          "shasum": "b652a8e27fde38a802492ddf988ab229a9ea0d8d431101288198dcecaf3cef99",
+          "h1": "h1:a2CC6KBUVlWc22jEXUSeyDR8hUjqGdsAGHRnZHjixBg=",
+          "size": 13123499
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-instaclustr_v2.1.88_windows_386.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_windows_386.zip",
+          "shasum": "e401aa0eced727f582c18dc207635168f98561926a8ec9e62bdf6d11adf2f97d",
+          "h1": "h1:bdhYRqajiaf1oqlPjitYiC9yZbOI+NKxT/WpYlcsvnk=",
+          "size": 13440630
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-instaclustr_v2.1.88_windows_amd64.zip",
+          "download_url": "https://github.com/instaclustr/terraform-provider-instaclustr/releases/download/v2.1.88/terraform-provider-instaclustr_v2.1.88_windows_amd64.zip",
+          "shasum": "cfc4c822673a1de438ef3b2fa2f3384272deae2b191336deae46200377bce092",
+          "h1": "h1:J+lXZsSWMtGoU2OBo0VGY3ZIH5yIBj/oNhvaZAnyWOY=",
+          "size": 14145206
+        }
+      ],
+      "discovered": "2026-07-14T15:14:14.428464052Z"
+    },
+    {
       "version": "2.1.87",
       "protocols": [
         "5.0"
@@ -25613,21 +25687,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.1.88",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-14T10:50:55.45491139Z"
-    },
-    {
-      "version": "2.1.88",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-14T11:28:20.237098711Z"
-    },
-    {
-      "version": "2.1.88",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-14T12:34:52.917582424Z"
-    },
     {
       "version": "2.0.224",
       "message": "checksums not found in release",
