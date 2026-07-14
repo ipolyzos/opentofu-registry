@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "7.3.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-instana_7.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_darwin_amd64.zip",
+          "shasum": "f467705132d474d8f3a1d0aa0b68bef686552c6e6de20a4508316147f17b563a",
+          "h1": "h1:BQqBGdF4i0O7eHO2CxG5OIqPV1dH5QHOCyQLhizTSHE=",
+          "size": 8141342
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-instana_7.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_darwin_arm64.zip",
+          "shasum": "dff565a20771572876075f17588474d9d710e21c526897998084670635a3409e",
+          "h1": "h1:FXX8SYhJ232rIxN0ehrLZhBJi9haqAuny9jDp6fWgiY=",
+          "size": 7554147
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-instana_7.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_linux_amd64.zip",
+          "shasum": "a1c52ada4ad4f5f90d0e8eda20bd80fb2a2d4de812840e040f1af9288518787c",
+          "h1": "h1:zYmkfeE5WKc/vBjihey7tvYhX72RYecQSXEcbeyvZzc=",
+          "size": 7937136
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-instana_7.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_linux_arm64.zip",
+          "shasum": "d253d481b0aae3af3d1ccac1e0cd6bd3cce1742fd486147e275e6e7e119c8af5",
+          "h1": "h1:6DL65v7A0fUNyeN//CmJ9sSW6qF4C+D6LiGSGO2sKCg=",
+          "size": 7190550
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-instana_7.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_windows_amd64.zip",
+          "shasum": "99fefaec2c9b21ec2db9aa6272bc0a8f1fb5a1d6ec520b4ecfb3a1316346c8c8",
+          "h1": "h1:rGTJrlsVdg9JWAjX+cH9X5Dl1LABW9Of0Oc2iNtaBVE=",
+          "size": 8162034
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-instana_7.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/instana/terraform-provider-instana/releases/download/v7.3.3/terraform-provider-instana_7.3.3_windows_arm64.zip",
+          "shasum": "022522bab4608b12f3e085dd72b5339ccd384f20b79d40e8eae4113ae32e38a6",
+          "h1": "h1:/+b4Zqpk7LonYAo3nDuu4W5yWj70hDVHScMaaCqQ6oc=",
+          "size": 7282589
+        }
+      ],
+      "discovered": "2026-07-14T06:27:36.200770269Z"
+    },
+    {
       "version": "7.3.2",
       "protocols": [
         "5.0"
