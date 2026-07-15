@@ -7017,6 +7017,134 @@
       "discovered": "2026-04-21T00:00:00Z"
     },
     {
+      "version": "0.0.0-20260715-3ba37ca",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_darwin_amd64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_darwin_amd64.zip",
+          "shasum": "0bc2cae0ea4b2b71575be2b82a69b1b59c60288bf80c73bc180caea56338dd4a",
+          "h1": "h1:vlgGSEy8pnXz0bdrqkps0XdMUhkxMYcLpwsRSS/c2qA=",
+          "size": 23492955
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_darwin_arm64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_darwin_arm64.zip",
+          "shasum": "69f99cdade9bd0e53e4450057282960387e1506620def1ddd30a8182f6adf346",
+          "h1": "h1:gsrRXAypejQYXHKmXGLsKUADEAFp+HaEl29z6FlyLh8=",
+          "size": 21375301
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_386.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_386.zip",
+          "shasum": "2829abbb96c4e175098cacdd50c3059483383526a65d5948d4e19c1f98b17c04",
+          "h1": "h1:Th9cnZ+rLFJt7XXDRqzSNnXwu8LxyirQq/2BpB92khQ=",
+          "size": 20413185
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_amd64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_amd64.zip",
+          "shasum": "cb325b778232c26cc640310db1d907f866267347b06735215a72412c3e61b5e0",
+          "h1": "h1:gFDWWdi/9ax2fokxw0832rTpriw+7/OVoQ61UJykF3A=",
+          "size": 22834136
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_arm.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_arm.zip",
+          "shasum": "c9fa1b30330d699774749237d0c57115d3fec335393b0ce0ed1e8004b402d05e",
+          "h1": "h1:EeMB7QjTC4mWq4w3U18UoPtyqKHJBiAjiWDgo+1+V0Y=",
+          "size": 21082549
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_arm64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_freebsd_arm64.zip",
+          "shasum": "ea80fcc0211879505abf98e00b760fed6512f8d35e83dbb42f114c38413a21f6",
+          "h1": "h1:A4mKfHR9VOCMns1g9oy5F5MX9E6joq5l3aK4Lqup/E8=",
+          "size": 20079025
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_386.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_386.zip",
+          "shasum": "9654bdd3ba9616175989dc853f08e73f4f6504f335d312dcbf47be3d2f0cd47d",
+          "h1": "h1:ia+6ekoNnWx11+YfMis2qhTG4v4+dcsY+bP1+SZi17A=",
+          "size": 20478155
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_amd64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_amd64.zip",
+          "shasum": "aca5bd83f56a6c007d478e4b32714b72de5147581c51f2cc76392fd96b9e501a",
+          "h1": "h1:YSzrCiWETQoFUXzG7TvMysq2/R7aiUB2gBP/g34e89c=",
+          "size": 22856163
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_arm.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_arm.zip",
+          "shasum": "e7ed06ddd7c073aa046bcfce8b6a93ac2a6204b0be76be92115a83eef669178f",
+          "h1": "h1:1DK0hJgDF6yUDS8OkNkcsgeItBItc7rrvtLMPNjU3kQ=",
+          "size": 21104799
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_arm64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_linux_arm64.zip",
+          "shasum": "6cab1c13a0edd523ac993ed01267b027e7e0eb93ed74b0432ed2bfb39b6e1e88",
+          "h1": "h1:Xa2IBzCXox3vtudqwUnB5cVp08Q272ue0AnNkqs7niw=",
+          "size": 20100623
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_386.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_386.zip",
+          "shasum": "d0495913d6857a635de04948675ceda94150c86ab9dcc265f343beba8401af4d",
+          "h1": "h1:1I4tnSExKw5Bxt5zWrkX84hC1lll2pCz2qXK/CiRoeE=",
+          "size": 21755180
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_amd64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_amd64.zip",
+          "shasum": "181bd653cdb62f341cdcf4c5cf6488e341626423861badd0ffc061271d6d0d6d",
+          "h1": "h1:ixAt8KhLE1GknBPevnNU6J+uXH/kOtIy8EVTJYqHK+Q=",
+          "size": 23431623
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_arm64.zip",
+          "download_url": "https://github.com/elastic/terraform-provider-elasticstack/releases/download/v0.0.0-20260715-3ba37ca/terraform-provider-elasticstack_0.0.0-20260715-3ba37ca_windows_arm64.zip",
+          "shasum": "4744817d0c2209df3a863a1b9b0b3ea82d4691e2cb67601cdabf69dd85ccf1dc",
+          "h1": "h1:GDSx1P3286Wr68Mtbte8+9IjdqvhAo/bshskZpB6qh4=",
+          "size": 20227257
+        }
+      ],
+      "discovered": "2026-07-15T03:36:02.700354181Z"
+    },
+    {
       "version": "0.0.0-20260711-dc6034d",
       "protocols": [
         "5.0"
