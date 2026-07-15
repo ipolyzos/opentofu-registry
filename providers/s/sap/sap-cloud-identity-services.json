@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.7.0-beta1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_darwin_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_darwin_amd64.zip",
+          "shasum": "397acd18b0c331f4798dcfeb01d93bb281a6ff665c9186b673cbad7ac9dc42fa",
+          "h1": "h1:ThGO9/bUdHPIYmjNyp+KmX6SVX3L9sWmDXnbKFtgRh8=",
+          "size": 7204364
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_darwin_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_darwin_arm64.zip",
+          "shasum": "27acd31a1f5f3d05362d6849f73f2c57b2eacf7395792cdd2f7cc2afe893b4b4",
+          "h1": "h1:2QKnHiWwlyugLLZXxR6XQaS9sd1TOjYzQNCJ2itaXcI=",
+          "size": 6696790
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_386.zip",
+          "shasum": "334e8946eb6c655ac9cec3a25c4fcb80370cb999a9f7a8387a4f1e98fd3d33f5",
+          "h1": "h1:27BV8/sC0q2SEDF6ND0pkf8n5YWGW93znMMEJoi+reA=",
+          "size": 6597590
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_amd64.zip",
+          "shasum": "f31629f741a6f53f1863ec77eacf77c8756d915109749fb38f29de733a09f03a",
+          "h1": "h1:0lHNxo0SaTasq1wddhihC/JWZAa+GULZNk3c4ARq5Jk=",
+          "size": 6993061
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_arm.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_arm.zip",
+          "shasum": "b6c3722f4926c64c65f564b9b84b767eba09c9b4eb7566ae54c65ac1df762a60",
+          "h1": "h1:Tf9toAAr4xFStkknB7ogBfwzore5paxYvE326UQWNPU=",
+          "size": 6579443
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_freebsd_arm64.zip",
+          "shasum": "ecb6086e5a6d5c90a49dc5db081769fe20c06b48d81fee84d4434b5217db056e",
+          "h1": "h1:AFt09QK94DxXI3fezoWl2g2CHUcpq8cuuzzf+OvQ4fA=",
+          "size": 6341861
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_386.zip",
+          "shasum": "41bef9b185a3706bf8b8f18cceb08933e5c8a95a6e2a31d3bdc201a4f98b1fcc",
+          "h1": "h1:bBajyQ/oiuqeIx+FzM1Y0Xt9nqopRPIO8Q6k3qd1oqs=",
+          "size": 6631510
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_amd64.zip",
+          "shasum": "388d966dedb29e1823376f56d5f58c924f85eb1b0e73928bc5df119f83e07e99",
+          "h1": "h1:KwYj5bDw5youjbrRsd2Hb09SfwZCfAXCuJ40fNJ6qWA=",
+          "size": 7017016
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_arm.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_arm.zip",
+          "shasum": "d794937991a2c660f1701902edbc1bc463d27e4a6b7e4a41035bdcb4198e1c54",
+          "h1": "h1:UP943XqwlQGD3esGEOBHYjO1Js5yC9tRU1neqGGbSfU=",
+          "size": 6604715
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_linux_arm64.zip",
+          "shasum": "198eabd3ad0760c11784b769f849b12797697e6003ceffba92595b04330858ff",
+          "h1": "h1:KzxrXTLcI06YWE2LP8SOhYwQK1d4Nrkd8rSiUg2DTcM=",
+          "size": 6367399
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_386.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_386.zip",
+          "shasum": "efa0a5afbf3d1260439b23340992646720f70df04cf00cf083a4721c4ad191cb",
+          "h1": "h1:xzq7eoxUuxgHNb3QY0DoDkU0nb4ahtOeoPhItK1uYvY=",
+          "size": 6945298
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_amd64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_amd64.zip",
+          "shasum": "fc1743627b8c2297bbf3a4dbe107819232034e4cce47904bf2e111458558bab5",
+          "h1": "h1:BPwyM+eclYh5YDkGpxRbRGGjrKSCtP8PGgNpXBsILwU=",
+          "size": 7227174
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_arm64.zip",
+          "download_url": "https://github.com/sap/terraform-provider-sap-cloud-identity-services/releases/download/v0.7.0-beta1/terraform-provider-sap-cloud-identity-services_0.7.0-beta1_windows_arm64.zip",
+          "shasum": "4dd8201ce1705bd9e00709fdf4dc76c60d19a102a8325c0beea8a3a76d620846",
+          "h1": "h1:+9zQLMFVxsYd/jEsq2m/7O4Ghd/of6p0Jpwx/slexQk=",
+          "size": 6455067
+        }
+      ],
+      "discovered": "2026-07-15T09:02:19.041680624Z"
+    },
+    {
       "version": "0.6.0-beta1",
       "protocols": [
         "6.0"
