@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.1.87",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dockhand_0.1.87_darwin_amd64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_darwin_amd64.zip",
+          "shasum": "afb689f87a6fbe00f2a80d7b92719dedcff4cdceba062cfc3725ecbd337e0872",
+          "h1": "h1:zTnLAScP53038Wh8kaN8/RHj4/9eF10QJASiTRlTI5w=",
+          "size": 7111402
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dockhand_0.1.87_darwin_arm64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_darwin_arm64.zip",
+          "shasum": "a5d27e9124d65d5c2be01533058ed1bcc788f70e3a84539d4bc9be484184aa72",
+          "h1": "h1:b4f94srgKmNbX1WaB30I2t+dmKeW275vyimNxG6kMrM=",
+          "size": 6573226
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dockhand_0.1.87_linux_amd64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_linux_amd64.zip",
+          "shasum": "f0869f5133d41bda494ceaf5c406647abb460992c190fe91ccea847e1c1836a0",
+          "h1": "h1:l0n/KOo4AJG6p97iEc3WnWZQ/rIVhprvqhLCkv9sYrU=",
+          "size": 6946097
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dockhand_0.1.87_linux_arm64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_linux_arm64.zip",
+          "shasum": "c18eb84fbf76f51c0326b3990b3b34a159fe416abb248d02114d9c145af3769b",
+          "h1": "h1:q6z7SES6V1Wn2TyGaDn94q+/H3PUXwyNpWHxh1fMzWw=",
+          "size": 6256441
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dockhand_0.1.87_windows_amd64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_windows_amd64.zip",
+          "shasum": "0a967c9f337958bc1ee0deab49ee5cec973788fc706f44053c913fd1bec336fe",
+          "h1": "h1:bGqLEpWg7tCaxvaDGZHR1gkDfaecVd8oPwWQu+Tdp9U=",
+          "size": 7121736
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dockhand_0.1.87_windows_arm64.zip",
+          "download_url": "https://github.com/kalebharrison/terraform-provider-dockhand/releases/download/v0.1.87/terraform-provider-dockhand_0.1.87_windows_arm64.zip",
+          "shasum": "22e64840e296a09a332f8de7a9dbfba296268a7f06e066e810245a1511fdb858",
+          "h1": "h1:E2zqS6Xml+fgJAdmxR+l9oQu25fDdqqsIxN7ShgRhIQ=",
+          "size": 6333449
+        }
+      ],
+      "discovered": "2026-07-15T11:15:06.845241626Z"
+    },
+    {
       "version": "0.1.86",
       "protocols": [
         "6.0"
