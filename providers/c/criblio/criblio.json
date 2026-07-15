@@ -11086,6 +11086,11 @@
   ],
   "versions_errors": [
     {
+      "version": "1.25.4",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-15T07:17:40.823064021Z"
+    },
+    {
       "version": "0.0.21-goatify",
       "message": "checksums not found in release",
       "utc_time": "2026-07-10T08:07:43.249508731Z"
