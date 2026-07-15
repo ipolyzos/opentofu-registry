@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "5.8.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-configcat_5.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_darwin_amd64.zip",
+          "shasum": "98df0690ead83bae89e12e7054ffa42c588975104c07335c30b7fb2887771037",
+          "h1": "h1:JStsNG8YqU4gMM1Yly5yqyEG7OyOEpYJ7VhTlPsIU5U=",
+          "size": 7677582
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-configcat_5.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_darwin_arm64.zip",
+          "shasum": "31d370393954bd01d0f314991dff124aedfade29bb19c4bcdcca4cf127edfaab",
+          "h1": "h1:cMNVFBob+sEuXZjts0sCNn1khESLv3Cok5cQXYUcUOg=",
+          "size": 7153658
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-configcat_5.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_freebsd_386.zip",
+          "shasum": "b86f7a3ab3bd51ed44644bf987018158097db8840dd8719e3e3e590af49a8675",
+          "h1": "h1:6KuAbsJrR3UcTxbJ0vEd/oQ3Zct90tAON2GqaMuh0AY=",
+          "size": 7006150
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-configcat_5.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_freebsd_amd64.zip",
+          "shasum": "a258a7064c99d19695ae2fbdc771dc6a766dc9414c28709e0f698c420b39aebf",
+          "h1": "h1:OHA8++8s67XXUcv5cKK2d8ozgEsHKSneXHuYsTspVvo=",
+          "size": 7463262
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-configcat_5.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_freebsd_arm.zip",
+          "shasum": "c548163feee91350ce353f806b183a89fed1ea50571f5a5ba0c0c5a4ff547408",
+          "h1": "h1:2DBwrO5Aey/G23+C3P6t7ucrujYdqRSlNA9s81/KSZY=",
+          "size": 6986003
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-configcat_5.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_freebsd_arm64.zip",
+          "shasum": "34132a81b30667ba01585608acd1c1f49d9a92b6f0653dc9756469d1b8a4094f",
+          "h1": "h1:2eRJBYlwkEX7wYxvondU458UbDGHLWyzqrAHbRKtkkw=",
+          "size": 6775472
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-configcat_5.8.1_linux_386.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_linux_386.zip",
+          "shasum": "ebc06c78f40b9a08cf6408208089f56038bc3d9c22e4369b409734b5493d5e93",
+          "h1": "h1:dEND4TToJkRTxN6NHTVcMf+P6lp4Rwm29p8j6vI9OJ0=",
+          "size": 7040265
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-configcat_5.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_linux_amd64.zip",
+          "shasum": "17bd8e1509e5e175fddc138d18fb9ec2bd09a3a48e074d3af33f055bfa4c3ab6",
+          "h1": "h1:RGCcaGgn8wGokDP/HcBmiya2pAJtz1iP3+K/Z537lqc=",
+          "size": 7490392
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-configcat_5.8.1_linux_arm.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_linux_arm.zip",
+          "shasum": "eda2acacf4570d0357ad18261d25797305089bccf6a971008ab5fd60872d3b2e",
+          "h1": "h1:8F/JKz0vIjTT3YP+eQuXnIX39ZEdMwh7CmjjMJON2Fw=",
+          "size": 7009369
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-configcat_5.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_linux_arm64.zip",
+          "shasum": "a94e1fddab0066a958eaa6f5decb04d9a0929b044aa1c0bfd9580e91efa0705a",
+          "h1": "h1:8Vx7taPitHyTh7QjDGk8fdwtwKefVPxOs6VbK1gS3t4=",
+          "size": 6801759
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-configcat_5.8.1_windows_386.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_windows_386.zip",
+          "shasum": "ab9e9dbfcca09c7703357be906bf02036de50fd8d1f01e5004575b1dbca65f57",
+          "h1": "h1:SrghZN4cfFQUYSZgSywJ8Gv4+wBm+JJkYueFXj38YOE=",
+          "size": 7372107
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-configcat_5.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_windows_amd64.zip",
+          "shasum": "cb3c3738651792339a9f91d319b07bdd4edf8e9cafe535dc15ec09dd4cf4193d",
+          "h1": "h1:tZKzNZbXDy7VSf5Ow6gvYVmQUvENBt9JL5TVUedMryQ=",
+          "size": 7711775
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-configcat_5.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/configcat/terraform-provider-configcat/releases/download/v5.8.1/terraform-provider-configcat_5.8.1_windows_arm64.zip",
+          "shasum": "3fd2351fa70a7f73e5aa7f20a59d3eae5329ecec2c4dfedc3c54780d31cee372",
+          "h1": "h1:+/uRR/V75tpMuzpEJ44ae3d5efClhjlNZy00u//mnH4=",
+          "size": 6886998
+        }
+      ],
+      "discovered": "2026-07-15T14:11:37.896267282Z"
+    },
+    {
       "version": "5.8.0",
       "protocols": [
         "6.0"
