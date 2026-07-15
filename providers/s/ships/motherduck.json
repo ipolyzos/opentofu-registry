@@ -1,6 +1,53 @@
 {
   "versions": [
     {
+      "version": "9001.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-motherduck_9001.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_darwin_amd64.zip",
+          "shasum": "cc4e0b3c754148c737b62a6421c8b212ad8b4a9a4801e36a3a861b7e8bb21533",
+          "h1": "h1:Fr6wg3vBdW8WOvYcdc2vh8PSbF6bDVa4nYc+ceEExN0=",
+          "size": 23342381
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-motherduck_9001.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_darwin_arm64.zip",
+          "shasum": "51ee185f6a8210cc7f07ff00a0f350ef36b299265a73455478cc969cc9b9f4d0",
+          "h1": "h1:qCb8eJwSgdg1B2XvfYBLnBUUC9wDtJWT6wnu/gpQbbc=",
+          "size": 21038883
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-motherduck_9001.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_linux_amd64.zip",
+          "shasum": "c04ccfc18af3c47cf251bc9cc99d577260226da80ad0fbecae7946ed12c102d7",
+          "h1": "h1:SSqjrwkJhF/iN6huF6rURBrKkxMRJy+iJn1gi7Sjl9E=",
+          "size": 25587132
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-motherduck_9001.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/ships/terraform-provider-motherduck/releases/download/v9001.0.0/terraform-provider-motherduck_9001.0.0_linux_arm64.zip",
+          "shasum": "b4ef64392bbbc1e6da10317719a7234c9df21d7327d86f0de498d6bccd1a46fe",
+          "h1": "h1:XWEM+Hwh0kKAWOU7UqEGnxEby+XCOn25wjy7FWENxtk=",
+          "size": 23549927
+        }
+      ],
+      "discovered": "2026-07-15T23:34:32.123568846Z"
+    },
+    {
       "version": "9000.0.0",
       "protocols": [
         "6.0"
