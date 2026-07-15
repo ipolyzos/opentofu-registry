@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "8.23.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_8.23.0_darwin_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_darwin_amd64.zip",
+          "shasum": "e9cc5b0ad0bdb6aefa7895c4432f80779ce38d349474f61103cc998f15d175ab",
+          "h1": "h1:9eBelbTiZ2gNHrj8UNqMUgxdNVXqxbHUpMhx2fUj8u4=",
+          "size": 71069799
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_8.23.0_darwin_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_darwin_arm64.zip",
+          "shasum": "d8e84d66866874258c55005dd3975618b657afed1c93ce00dcb034a13b148f55",
+          "h1": "h1:pdG14kh/kjy7NJzvneQSKNOGHLCpjdsbxgMKzCB3OmA=",
+          "size": 66177174
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-oci_8.23.0_freebsd_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_freebsd_386.zip",
+          "shasum": "bbde8b1e9ae7ad2c6138dd1593146eedecb661156d661ad27e27d72d6a3e95ad",
+          "h1": "h1:Ccz0hs9l7ArtWS4ZDUXVT7o+TRVbYJ/2yEpuGIeO1co=",
+          "size": 61559169
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_8.23.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_freebsd_amd64.zip",
+          "shasum": "670d4a2c3969707c3dd5ca7d2c98ba2f76c584757436808e562b160b161c0d58",
+          "h1": "h1:tocavHW8MYR+lf5MpyDmO4n4qD46SLhPIIwA89qvnvI=",
+          "size": 69150378
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_8.23.0_freebsd_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_freebsd_arm.zip",
+          "shasum": "3035adb18aa91affe1e2efb02957200f268076cea0d12a412287e38850d86062",
+          "h1": "h1:rrHLv0ox9OHsE6P3hDD1U0gMsJN3z4vLGqov1qPCKH0=",
+          "size": 63471604
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_8.23.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_freebsd_arm64.zip",
+          "shasum": "898cca18728cad43d493a1d14c356159c6841e217a8afd82842a2d85ef0c5915",
+          "h1": "h1:EP3deGsh6hOlwcm80AEAs4bsnZZnjgdDzpujyxd5IKU=",
+          "size": 62233330
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-oci_8.23.0_linux_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_linux_386.zip",
+          "shasum": "46c729106ee7dd6dd8a550281b7bc37bf630a9c1704667a11671085d814d7a53",
+          "h1": "h1:wNcuP4AU5SQP270I8uWj3wuj2dIsJ22roj5pY5BdECI=",
+          "size": 61725863
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_8.23.0_linux_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_linux_amd64.zip",
+          "shasum": "dd58cd489b2e19bd2042c40082e0d928454147722946b03b97967ed9b5c72244",
+          "h1": "h1:iP3kj98qWJBf0fJCbQoRBvTq5X4S1yEe3U/UxebDsvk=",
+          "size": 69186692
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_8.23.0_linux_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_linux_arm.zip",
+          "shasum": "3006f63241644b557ae80cafd4d954c3a24aa6f16e7d21b8224433993f2c9eb5",
+          "h1": "h1:E/ng9MiMfcHQzd8Yo7oobIWTKVSgj5Orngtg733/u8Y=",
+          "size": 63511969
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_8.23.0_linux_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_linux_arm64.zip",
+          "shasum": "41e7151dc48661aa8584ed2539762b23bcad232859e62ea2357614798d56f7dd",
+          "h1": "h1:IFgZWZmD3+quxoR+7XwBoVTBDzW2K2oNr1d3nGXW/+w=",
+          "size": 62277063
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-oci_8.23.0_windows_386.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_windows_386.zip",
+          "shasum": "7273327664fdcf1759b4d7d8b463b4052e1003b6f53c50e76e012fda57f70a2c",
+          "h1": "h1:Ur8DqwAIx39cJrtPENk5gu6IVeklZ054VZwytMHKDb0=",
+          "size": 65428432
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-oci_8.23.0_windows_amd64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_windows_amd64.zip",
+          "shasum": "afb807a113767ebdb1b79102387e27d609af3bec0894a0948dd1d5c8f81b851b",
+          "h1": "h1:RLN/vRXJD6lyRvseEC9QIyZ+E5y+rD0X4ORLi3WciuI=",
+          "size": 70725920
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-oci_8.23.0_windows_arm.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_windows_arm.zip",
+          "shasum": "76a4b602ddaa14f055b2703b5822942d849ed8b690c1bdeecaaa24a26891a18a",
+          "h1": "h1:eSkMZYHshz0sjC9UvKWidUZjzOZ06kRspiPPfKDvW44=",
+          "size": 64318645
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-oci_8.23.0_windows_arm64.zip",
+          "download_url": "https://github.com/oracle/terraform-provider-oci/releases/download/v8.23.0/terraform-provider-oci_8.23.0_windows_arm64.zip",
+          "shasum": "cdf443c5ce5caf5df803ae5ae5d5125d3167c9a4cb6fdd0bc4aa1ddae56167f3",
+          "h1": "h1:tSx5YUlEgkOoYL2fCr2P3RIBeFwXGijHT0/ll+Mxjsg=",
+          "size": 62485132
+        }
+      ],
+      "discovered": "2026-07-15T04:38:51.828801612Z"
+    },
+    {
       "version": "8.22.0",
       "protocols": [
         "5.0"
@@ -28679,16 +28816,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "8.23.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T02:21:19.612741681Z"
-    },
-    {
-      "version": "8.23.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T03:36:12.003212815Z"
-    },
     {
       "version": "6.8.2",
       "message": "checksums not found in release",
