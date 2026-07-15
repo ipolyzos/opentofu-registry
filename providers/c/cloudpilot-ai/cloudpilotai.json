@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_darwin_amd64.zip",
+          "shasum": "3ab2450e12b350279f9d0e843b6449b0c216bd770a135e5e829db3b9784083b5",
+          "h1": "h1:Ms+W3YBuqyVxsvTgfbYdCK8dvhdR4ZVgjVu2UCQym38=",
+          "size": 14614730
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_darwin_arm64.zip",
+          "shasum": "154b78ef682803d1dfdefd9de828b45057acd6916e1e417c521cc4566df07dea",
+          "h1": "h1:UNegwzXu6qDSzCRadEQTv0aOjyhLBil1MYWq0DMKZAQ=",
+          "size": 13390555
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_freebsd_386.zip",
+          "shasum": "ee92be987bb64d2516c3791dc70ee5e3333cca0d911a03643edee4341e992e03",
+          "h1": "h1:yxoAQ0lcvzX8F87HUP/+HRoS3lKRIK/lcbo4FHQ2jOY=",
+          "size": 13276916
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_freebsd_amd64.zip",
+          "shasum": "f12a1c343e8665572efa9ae3eaed0749066dda8f043a57ff29138b340f9f58a8",
+          "h1": "h1:5o5CqhOujA29R8paCLG988MhUfvd51+sZKwG2s2sd3U=",
+          "size": 14343172
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_freebsd_arm.zip",
+          "shasum": "021935811f7612b2e4b5efdca99e66d58dc1256bf57aca58d171a5a096556c36",
+          "h1": "h1:83gGVJAbnS0r8B3iZUvGzzAuSC00vGtAoxPg8u1m8Cw=",
+          "size": 13433987
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_freebsd_arm64.zip",
+          "shasum": "7cc23ed048ab0c46f31dda8d6f1d1570315a7362741b6944d7a1c8fe8cde3a9f",
+          "h1": "h1:UR/5hunOSigM9mZ+Ww4PO5SQwtQc3hlh/a41dRxqGSA=",
+          "size": 12772560
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_linux_386.zip",
+          "shasum": "4a0fdec178aea35b6e6d8f5b5b016da4e6615140a02a7309f4d37a86f7e5a046",
+          "h1": "h1:7o4Lr5cRqX4/py/IELS38pSkNWpZuwfR/QYLcJDSV38=",
+          "size": 13330172
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_linux_amd64.zip",
+          "shasum": "3c90cfaaf768bf3ebc1e45c06bccc626814dc06e53150fb3e48cf7bf7b1394ba",
+          "h1": "h1:n3FTVGsJnmYjqqOLZurLKiFyhBLU3fvsp4PHjFFKTD0=",
+          "size": 14371903
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_linux_arm.zip",
+          "shasum": "226521b008289407bbf9f351f2a0dc7dcdff5c53b87736d858c3a93144cf49d4",
+          "h1": "h1:oK856XP/1xU6fYorx4S27vWdbM4TpoupgNt4wccmVjo=",
+          "size": 13461790
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_linux_arm64.zip",
+          "shasum": "395ee88dc8d8fe67482870ae44d386e35242c98de44e81f04f561917cab518f6",
+          "h1": "h1:OzyartW77kZWtLCShH+SbHLOQ11Gzyf+sCuoffIBLyU=",
+          "size": 12804775
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_windows_386.zip",
+          "shasum": "b6e6c8dd6e8bfe2dafeefefccf95cf990b0c78c54619f00b536db4f4190dcfd9",
+          "h1": "h1:aZCfmWTGAn0oDEWdl/LgksU3khdWwR08264dGqAgDFQ=",
+          "size": 13997602
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_windows_amd64.zip",
+          "shasum": "bb43890558ecb60574dfa9a69a63ba6eab5bc601cbaf65173654e7dedab04fb0",
+          "h1": "h1:djaizS26lO2rKaWtvdVLPwk0OR5JY0p2D4bkjQYiBBE=",
+          "size": 14758312
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudpilotai_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/cloudpilot-ai/terraform-provider-cloudpilotai/releases/download/v0.5.1/terraform-provider-cloudpilotai_0.5.1_windows_arm64.zip",
+          "shasum": "bc86e9f4059a921e5e74f93d7a1555f9be7152b460ada8c89f59ef6926486a08",
+          "h1": "h1:67XOdRkr/M6WLvNsVO0NNrhoNHHyF8gGTTV2TRnT26I=",
+          "size": 12894325
+        }
+      ],
+      "discovered": "2026-07-15T11:15:30.480789898Z"
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "6.0"
