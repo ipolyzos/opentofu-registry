@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fpcloud_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_darwin_amd64.zip",
+          "shasum": "166602a182d3499fd57427a83994b9e754e6194cd975dfda207fc80c79abe9cf",
+          "h1": "h1:84WRqD2AWhjyPKIO63pwTrPz7V07qoowbLer7OSWRNc=",
+          "size": 6927788
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fpcloud_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_darwin_arm64.zip",
+          "shasum": "ec300f0a6b4f39dbe5389e05596da80524235a90e55112533b0c0513b433ad49",
+          "h1": "h1:Ocv2lZhf4pMj3mHYduBW1lZJH+15oU7WuokYc26HcuM=",
+          "size": 6441479
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fpcloud_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_freebsd_386.zip",
+          "shasum": "cc563088cbde02b580e39b764faf0e8e35f2d20fecb065b1121ad7b4ec93eb97",
+          "h1": "h1:tsNi1Qt3yGm4IqnPfdM+M1FPGmUc7ietEyyB55n+JAA=",
+          "size": 6373148
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fpcloud_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_freebsd_amd64.zip",
+          "shasum": "2e78bfb93d572a12140342628082d4c8956d1bc4b933b80afde4b8a02285cec9",
+          "h1": "h1:YpkvUb8mmKpsHJvZ6MWvDJnW/dZFaRu8rvwDRkQl8ns=",
+          "size": 6721015
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fpcloud_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_freebsd_arm.zip",
+          "shasum": "b01a44d2bb3908eb4f849ac60ec9b4ee3016ae5c9c3d8862fd3b7388acd6aea9",
+          "h1": "h1:w5AnYcSj9oztAPWHHXVvmk1h1RL+y2aCx6oB8CaKk1Y=",
+          "size": 6342166
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fpcloud_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_freebsd_arm64.zip",
+          "shasum": "576aef0308708c1b6ec028284b61f9dcad00a4d8a248ef44e476ddcd6a4ebe87",
+          "h1": "h1:UaFe21fmW90oALf7dlATX8YlbjEv0bjBUnNhs64Gb50=",
+          "size": 6097569
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fpcloud_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_linux_386.zip",
+          "shasum": "e2161fa6cec5b5ebcb63908bf61346d88e776b24915b727765a8c363f17998bc",
+          "h1": "h1:Uns3O8+z7xXhBIfpUZMLJw2Oewxk935Tz0v5nNWZ4qM=",
+          "size": 6404461
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fpcloud_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_linux_amd64.zip",
+          "shasum": "9d7c8fbec6d2c46330cc2adaa71b529d9b06b2b50af54b19e33fd808ba7082ef",
+          "h1": "h1:BGK8tw156CmX1xDY6dKECC4nhDIYthNhEe+2qvAXRr0=",
+          "size": 6745818
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fpcloud_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_linux_arm.zip",
+          "shasum": "5be4f4f231b441709ea0c150d8648dc9369f1fb17e0e66ce2800c4817b742dc0",
+          "h1": "h1:kbdamVOOzFNjOLfPa7HgbzMgF0KDmhlI+qJ4euNvhiU=",
+          "size": 6365910
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fpcloud_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_linux_arm64.zip",
+          "shasum": "a60a82107d803e14a4822ade02105c1d08cbf2e2f179f92be93be2887f4c62f1",
+          "h1": "h1:y6K1HafdvM3r2QzIQ0zEuOTmoqILqgF2U8H4DYoHhmI=",
+          "size": 6123612
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fpcloud_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_windows_386.zip",
+          "shasum": "5c21da80718cdc6d6a3b69767384a272f6ab7aa1768f2fff5ce84023686d47d0",
+          "h1": "h1:KKSCRUnI/8HOKmYMVvLrhEdTjm9IodF1rHQSHgoQA0k=",
+          "size": 6703755
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fpcloud_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_windows_amd64.zip",
+          "shasum": "22155e0fd875407473908baa1a1019d1a3478ccf51c9972277300859d0da23b5",
+          "h1": "h1:WfjB0Kvmkm0+yxyTMfmTMVjRezcjZiMsHTDQeNOKgno=",
+          "size": 6949605
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fpcloud_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/fogpipe/terraform-provider-fpcloud/releases/download/v0.3.0/terraform-provider-fpcloud_0.3.0_windows_arm64.zip",
+          "shasum": "106ff1cad773537260340d0a3efcfcc3a2bb585ccf72ad49966b91baaa2dd54e",
+          "h1": "h1:5O4a5ttJVd08x7iKISzt1RgjdCWGfB20YvfFErrVW4s=",
+          "size": 6208708
+        }
+      ],
+      "discovered": "2026-07-16T14:39:47.197046037Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
