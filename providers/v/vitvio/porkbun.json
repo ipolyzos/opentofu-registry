@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_darwin_amd64.zip",
+          "shasum": "b9221c7ed6be44c2622038bba0889f1290e31bf806abb7010aa323a3e32fbcae",
+          "h1": "h1:wi7y1G7uSBKxoJNz5Q7HNCBKSDb62LkzJxxREMIEI0o=",
+          "size": 6281148
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_darwin_arm64.zip",
+          "shasum": "042c8a57aebf4bb2ceb75a5a28ba84e2889e63a6fd9c1f3e2845b8f03e91d141",
+          "h1": "h1:3Vqsq1IEqySIzAe7aPTGn2q36OPPTl+b04zvIeHgsTM=",
+          "size": 5922472
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_386.zip",
+          "shasum": "cb56cf26f7c246f9ac9776dafa52ce4de383c98905e0c978212eaec3dc88a4c0",
+          "h1": "h1:tSrDdHwlriQLTgUL3X+kUZQH9dN/MG3v7eg5ufWX/PE=",
+          "size": 5775829
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_amd64.zip",
+          "shasum": "4d7bb7b38ec2de2f70ffb0d6849b77183693aaf8899988d39d4888029c33b65d",
+          "h1": "h1:1xwDp+2v0DI4Xz7+G8HS2nGYSZdcQuvsdtKhBwD6iWM=",
+          "size": 6109522
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_arm.zip",
+          "shasum": "14a2563aecccd3468a9fb00388473840946f45aa3b0a540c0b857d153135f27a",
+          "h1": "h1:V798cJWlDB/x1tej2lXlHoexm8vrKpv4JHJIN18e1as=",
+          "size": 5745628
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_arm64.zip",
+          "shasum": "38e43f607dcde4ddbff00c678f286138a9a89cf536bd30643389f12f3a5a86de",
+          "h1": "h1:4XY8gnNA9r0/WdcLAd7XLIiNJl4LCJ39m53IWPSIYwc=",
+          "size": 5625991
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_386.zip",
+          "shasum": "6cd741a1abc8d4c6f731812bc664eb312f94e696550787c6e33b8632f876ce9d",
+          "h1": "h1:zKo7TRRHOFVcm8YtehNDTD7R8UclkAULJGMn2FrC2ns=",
+          "size": 5790053
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_amd64.zip",
+          "shasum": "051e2821cc588badf77d32994e972469a23f84a0e48070d42444ab8432fcf609",
+          "h1": "h1:3G4z54Ksg84KBepkysxTdfp1YOwoh0uqhKDKS/NKiyw=",
+          "size": 6115794
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_arm.zip",
+          "shasum": "1e6e97c304037ad0c96631c3017dd02dba90a2c846652ba5855024a4a6f746bf",
+          "h1": "h1:o4X7Y1XVb4YtC8OT722zOlUC7lE7OiL/Aek15vEJrBI=",
+          "size": 5748130
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_arm64.zip",
+          "shasum": "c331f5a551f5ba765deb274f779f1bffa4e5ac09c539d7c84a6624c945a0057d",
+          "h1": "h1:z/6B/7YDCoNDgZqh3TKYKxnpDRuzqLqEFRrFONlEbyc=",
+          "size": 5632685
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_386.zip",
+          "shasum": "d224a093bce61cd2fab1a0a26b2f8db68f2d3768b8ad6220943e2944a57b9c4d",
+          "h1": "h1:QMzBEVLSUcikA6YQf0sy6UrK1s/5/ZGJ/rZyfUolngc=",
+          "size": 6057295
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_amd64.zip",
+          "shasum": "eaff1e14f354aa855d4e19b545a9a57586d05bc8d39ef0c3d6e224f20472b9af",
+          "h1": "h1:P5pyMjF7RQ+jZFOxN7qW++2oiC6p3Co2zNQrXbZwEOI=",
+          "size": 6305291
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/vitvio/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_arm64.zip",
+          "shasum": "9bb9fe52e5849bf7107bb43a1fa59923c5ee0b2d354c399a4793fa756de2f2fa",
+          "h1": "h1:OHkWly8eLtP7AFXbm/6iJgq4eWg9U2aew2hiMWbc/jo=",
+          "size": 5718585
+        }
+      ],
+      "discovered": "2026-07-16T22:05:48.084181545Z"
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "6.0"
@@ -139,11 +267,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T21:35:15.505879563Z"
-    },
     {
       "version": "0.2.0",
       "message": "checksums not found in release",
