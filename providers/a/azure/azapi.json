@@ -1,6 +1,125 @@
 {
   "versions": [
     {
+      "version": "2.11.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_2.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_darwin_amd64.zip",
+          "shasum": "8377df97253638c6fea0b2f6e02835f06bd58e8c6864371050111d37e2352182",
+          "h1": "h1:PwcKyTY5M8J9jTZ17wnhDc3/ki/KHndCf/bjQNrGcpE=",
+          "size": 41506172
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_2.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_darwin_arm64.zip",
+          "shasum": "87f891986bac05ddc5c75938eeae5bc53b45adef22dd9d8b202e5fa4f978cda3",
+          "h1": "h1:ugg8/PgFN9EGskrKfWpaqEmiiyjEG7y6AgUhe8fnAVI=",
+          "size": 43556484
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_2.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_freebsd_386.zip",
+          "shasum": "2e1a2cbef57ae39a4e8f70d900ae07cf9b751f70cbcc92172cf627e984d2d32c",
+          "h1": "h1:7CpVoLr+1BRl9i1B1Sz2KTyg3UcCyBljdZHuDFpIvVE=",
+          "size": 40809284
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_2.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_freebsd_amd64.zip",
+          "shasum": "53130ebb58fd9a9a8e916e234253ee38916303f69c26100574f4f0d66d19327e",
+          "h1": "h1:6YGiLkN6o4/ckZNujBlCRpgP8k7GDIMDwA3IRfo6/9Q=",
+          "size": 41266428
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azapi_2.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_freebsd_arm.zip",
+          "shasum": "97e827f791c2f33c23f37a98d150a5d8c244cfa8967d5c6f742dc5757b1377d3",
+          "h1": "h1:nVPHop+ukE/O6H5zV0EogREbiEgR6/TYdkG/dBllLmg=",
+          "size": 40712447
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_2.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_freebsd_arm64.zip",
+          "shasum": "1dc85011f0dc8480d34d4fab9fe90de56e171d99b8b19d7b65b0f3ed2af20376",
+          "h1": "h1:TiwQJe9B3PPfn+Fl02phPFQdtUh8uIokJkHAXaiTsp8=",
+          "size": 40388182
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_2.11.0_linux_386.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_linux_386.zip",
+          "shasum": "27f2f26c1e42a648d250d5911722f7aeeb5f15ed2982bea5c55075c39b8e0848",
+          "h1": "h1:TgCqetEYQEHVWSTTjjWrHuDur69rlFTboCN9nMpXAa8=",
+          "size": 40854499
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_2.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_linux_amd64.zip",
+          "shasum": "8cf0b1b1e064ea0bc4c785e68f2b239a57ffece529b21a60b415b9d310a610a9",
+          "h1": "h1:N7fwvwD7BAPC1VZMONfI8Dy+M80WTsQfC0Dk0ktvZm8=",
+          "size": 41298708
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azapi_2.11.0_linux_arm.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_linux_arm.zip",
+          "shasum": "9cb08cdb6e54bc380bd22add9522767c45457b322a26cdad7d7bb33d07ba3aa7",
+          "h1": "h1:XbCdFwqAwDmSIwsKuFhRBgh5T5k06hKb3NYS6K6bf4E=",
+          "size": 40745396
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azapi_2.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_linux_arm64.zip",
+          "shasum": "05ae9abf23abf003229e9e04734fce2b881974b0df4313083a890d9f67b1fc35",
+          "h1": "h1:o1rYhfIES8PgHLPeIcNl1a2xIne7T13W/Ks3dy4eLf0=",
+          "size": 40420933
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azapi_2.11.0_windows_386.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_windows_386.zip",
+          "shasum": "21f84feed46eba054575e5866dfef2e1073b7fc129d789ff16a1fc53802bdcd9",
+          "h1": "h1:skevZQwKtjJL7XdNU7Kh6dQginBETJJyQMkSxT82lqg=",
+          "size": 41239422
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azapi_2.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/azure/terraform-provider-azapi/releases/download/v2.11.0/terraform-provider-azapi_2.11.0_windows_amd64.zip",
+          "shasum": "6dca6143c9eb3184574eaf67a6294bf4378416efa4de1dd3734af53043e499f2",
+          "h1": "h1:SfbC7Fp2gMGXOzZlPHcirTKDNhKjXYjymMtD/PGpD68=",
+          "size": 41526241
+        }
+      ],
+      "discovered": "2026-07-16T14:40:31.726899269Z"
+    },
+    {
       "version": "2.10.0",
       "protocols": [
         "5.0"
@@ -4643,36 +4762,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T04:39:09.699206797Z"
-    },
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T05:36:36.636626673Z"
-    },
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T07:17:45.731898058Z"
-    },
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T09:53:57.875087735Z"
-    },
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T14:11:42.436057057Z"
-    },
-    {
-      "version": "2.11.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-15T22:34:25.0034685Z"
-    },
     {
       "version": "0.7.0",
       "message": "checksums not found in release",
