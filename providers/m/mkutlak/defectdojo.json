@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-defectdojo_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_darwin_amd64.zip",
+          "shasum": "4d316b6995e1c05e6f3196436a149a566aaf7136fe10e94a5db734b5a5f0f5ef",
+          "h1": "h1:lYdDZtYvnPCVnJM7ecm6Whgv+vVVOaOu/UjyrevRyg0=",
+          "size": 9030441
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-defectdojo_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_darwin_arm64.zip",
+          "shasum": "2723ae3aae6778ed83bbc46236222228ad885bb6c01bf53e62fbef166b66ec82",
+          "h1": "h1:raeqnSzHijRsKjCCU2sNpPhrzC7oS0h7P3uDJ/HbJLY=",
+          "size": 8410857
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-defectdojo_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_linux_386.zip",
+          "shasum": "71624faa7684295d912c69062787c113460b790c20b34d4b0f85712e293b050b",
+          "h1": "h1:bPtlJI48w18XfGmZLHnk6Ay/ouxZNK3YBszzB4MzD34=",
+          "size": 8326091
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-defectdojo_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_linux_amd64.zip",
+          "shasum": "12eae8b25e9e31859f6b955c784a2d5efee3740f5751be9ddddd094d1ec3e578",
+          "h1": "h1:P/9Vu7qumGsPW7ubAVo1sQGYjR8i/VgfYDoxXVCsr+0=",
+          "size": 8791183
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-defectdojo_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_linux_arm.zip",
+          "shasum": "1f4aa41dc45038a26b8d10f318b8907a137ca80b8895e5d2fb7f22c9b3e0c397",
+          "h1": "h1:RsBWMMW4/mguFANbUPruuyqIyyIUR2qEQZE5+nWEcF0=",
+          "size": 8291171
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-defectdojo_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_linux_arm64.zip",
+          "shasum": "41491a475261e546324c44a27ffda968d6630b823138e88acb0e2ed3e750fc5b",
+          "h1": "h1:Y322+53bJun08laWMGl4wSc+C+3RsHz6RBqLCTSjrfg=",
+          "size": 7971459
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-defectdojo_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_windows_386.zip",
+          "shasum": "3ccee6f650fe7a003bfb08be74177e4fb4e6c02b573c69adf02e311e47a6a980",
+          "h1": "h1:61ZTq4PToSCpKD1f6+PFc9DQX8o13Tma26Lreaqkdyo=",
+          "size": 8714708
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-defectdojo_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_windows_amd64.zip",
+          "shasum": "87262ef76abb749c38efd2666f57da7388b22c2a5089a1654414418323fb5f50",
+          "h1": "h1:6TPLc2XV4aURV53p6tZF/RewP+TOonTS3E1CbgUBDEI=",
+          "size": 9070452
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-defectdojo_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/mkutlak/terraform-provider-defectdojo/releases/download/v0.5.1/terraform-provider-defectdojo_0.5.1_windows_arm64.zip",
+          "shasum": "3fea7dce5c0e28d618635ef64824e57535af85889c5398cbcb822c3352ca48ad",
+          "h1": "h1:sE9uS7R6j2YqELJeCJI2WbnByqHpMjerZXG9lmC05ow=",
+          "size": 8061701
+        }
+      ],
+      "discovered": "2026-07-16T15:19:34.268486133Z"
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "6.0"
@@ -494,11 +586,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.5.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T14:39:26.290684073Z"
-    },
     {
       "version": "0.1.1",
       "message": "checksums not found in release",
