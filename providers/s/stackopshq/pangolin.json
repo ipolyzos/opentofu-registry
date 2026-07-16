@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pangolin_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_darwin_amd64.zip",
+          "shasum": "2e5a4f37903104ce5a766317072c0fc13ae1a5caa40db05137d3e322d1f305f3",
+          "h1": "h1:cy0PNjpHN/yfFJAQmAuatSOWKvsEGqjwEh/w2JVlZiU=",
+          "size": 7028410
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pangolin_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_darwin_arm64.zip",
+          "shasum": "e0f04dc17b74e49c4858c1682bdf8fba17681bde974dd3c6ddf196b8c781496d",
+          "h1": "h1:rMo3qB/ZW9LeJkDgu96q7FXJI4YcDa4kYEKfTFlcFZc=",
+          "size": 6547197
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pangolin_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_linux_amd64.zip",
+          "shasum": "2ae9cd17a0d37d5b29a9db9094c0487d6f1dc05929fafb6b516b54fd7e6597d4",
+          "h1": "h1:JfINVAltxKmSnZ+cggNgWcEojLK1xKWDivKP5KiSRhM=",
+          "size": 6853352
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pangolin_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_linux_arm64.zip",
+          "shasum": "127e8a420a4de00700f25c37148e32c7c8e73dbaa2182b7ff9b6cca3097c176a",
+          "h1": "h1:o7rPFhociTPEgIiM2F1ziy+vQZeiUMUN6UZpwAh5xLo=",
+          "size": 6228637
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pangolin_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_windows_amd64.zip",
+          "shasum": "471bb080f32f052c52dc00169e02055539d6653272a66268172c3348b3cc67ad",
+          "h1": "h1:aGMoPvJVZAqhAezQ7lmIvyXtvwenl8Ip/sznFFN7MD0=",
+          "size": 7063199
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pangolin_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/stackopshq/terraform-provider-pangolin/releases/download/v1.6.0/terraform-provider-pangolin_1.6.0_windows_arm64.zip",
+          "shasum": "f6f857fa927737e1cb8359feeac9dc5f6c4c4d98a1f03c57cb0bcc1e24f9f32d",
+          "h1": "h1:zC1cMbb5mUH4s4KWk+gOGn41dsYG0HJhjhmDS7CuViM=",
+          "size": 6316332
+        }
+      ],
+      "discovered": "2026-07-16T20:36:17.197969717Z"
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
@@ -1172,11 +1237,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.6.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T19:49:56.066126354Z"
-    },
     {
       "version": "1.3.9",
       "message": "checksums not found in release",
