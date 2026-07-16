@@ -1153,6 +1153,134 @@
       "discovered": "2026-07-11T03:38:44.639078786Z"
     },
     {
+      "version": "0.19.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-seerr_0.19.6_darwin_amd64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_darwin_amd64.zip",
+          "shasum": "bb6a5b27f07ec0cd4d68c8046883aaab62f04d089dcb61dcd07aef5419a4f0b6",
+          "h1": "h1:RQWVBWdjwbwjK6zuHtLMs7kblJdIQDeaSiEVGfA/BDQ=",
+          "size": 7031197
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-seerr_0.19.6_darwin_arm64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_darwin_arm64.zip",
+          "shasum": "fbde622e0b9e07a294f32db5b3c9ddff588413b1e84f764ada62d106c2ebbc8e",
+          "h1": "h1:KwtfSZM80ST0C859ufqaVs7lYawdJJ8Z9RdXITUGY8w=",
+          "size": 6543095
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-seerr_0.19.6_freebsd_386.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_freebsd_386.zip",
+          "shasum": "689d03f645e9e18d1edcf871e7f638e79fdef7946090b63137d2b6b2a766dfa7",
+          "h1": "h1:mWdWwxza0KMMerC9RpB2R/NU2RkAbpu3+jNPEbVDXwE=",
+          "size": 6446809
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-seerr_0.19.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_freebsd_amd64.zip",
+          "shasum": "56a464690a977764019654815e4b85552f2f2b59781304424134a0fff5d17c9b",
+          "h1": "h1:owJZzOnyVprg3jybLdvfdsewOR3Ud9Msfps3GULwxQ0=",
+          "size": 6835953
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-seerr_0.19.6_freebsd_arm.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_freebsd_arm.zip",
+          "shasum": "1297647e095c7d83e4307f037233dd6680933f185e1221bdb771d0f6cd705307",
+          "h1": "h1:HHJZseppAsVroMiIP9nWwIS5K4XHFcFtQIcSd2fFw+E=",
+          "size": 6434461
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-seerr_0.19.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_freebsd_arm64.zip",
+          "shasum": "3f8ac7e6aa3bfdfb193c937ae2b9096ff39ce392eb510cb8dc7d4a780d925203",
+          "h1": "h1:cHWGlwITrkPeK89G4LHgRBhLOrYBw4dmHWzm1QDKCLk=",
+          "size": 6201036
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-seerr_0.19.6_linux_386.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_linux_386.zip",
+          "shasum": "c90511fe55be8502d81425fab595007cb9b34b8a0b5c8ac8610bded3696b5d48",
+          "h1": "h1:na+WS32aFkB0fcXO8dluOH1p+47YXmXgyQPmzlfS1gE=",
+          "size": 6475976
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-seerr_0.19.6_linux_amd64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_linux_amd64.zip",
+          "shasum": "7e938b77c50c4fb5ba25711ba6c86d6544a1f983094e0ba221eab1a44f8ac81d",
+          "h1": "h1:KNY7tJogRZi43DtwOF3MVl2LGIMoNRs8Wl7e2PrSz28=",
+          "size": 6860010
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-seerr_0.19.6_linux_arm.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_linux_arm.zip",
+          "shasum": "16b7bd653ec692a2345675f6d5101f1c4a927b022252fca7dd33d4a93570beed",
+          "h1": "h1:gwrZGHJr+hPnnPtFi2KV0FVyZ8QDKBj4Fg9VsFhikX8=",
+          "size": 6452953
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-seerr_0.19.6_linux_arm64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_linux_arm64.zip",
+          "shasum": "faa31c4f79da4b3258fe88ba296be9ce4072d02f00cfe9bb718c617b9439fe33",
+          "h1": "h1:AEU5QxezCPW6Xhrtz/IHEYuyFS2pOPEDB5ofgfs7xEU=",
+          "size": 6226125
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-seerr_0.19.6_windows_386.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_windows_386.zip",
+          "shasum": "d7122c9a6816ea17ae58249f0fc84628143de0a1f392589b2ae0f82c3f02f4ac",
+          "h1": "h1:cBSABm19vo9pNcqmJEsC6EYqxKduLXwDzlv8ipY8E1k=",
+          "size": 6778030
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-seerr_0.19.6_windows_amd64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_windows_amd64.zip",
+          "shasum": "5b929159568174228644bd92a343df6b9ec1b43cbe9187cbabff8824241dcfe9",
+          "h1": "h1:uSpOaepsqgD5TAjrzXISFpfzoxfs9DnlZi5dZP94ZD8=",
+          "size": 7064572
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-seerr_0.19.6_windows_arm64.zip",
+          "download_url": "https://github.com/josh-archer/terraform-provider-seerr/releases/download/v0.19.6/terraform-provider-seerr_0.19.6_windows_arm64.zip",
+          "shasum": "0a617fcaa6c94c47f502b41600652b5d16c0783497a69d9029a50dd8be5445f1",
+          "h1": "h1:5Hp39g58jeCgO2oD239F1a4xplEls9Bt9gd1WKsI0TM=",
+          "size": 6310662
+        }
+      ],
+      "discovered": "2026-07-16T04:44:30.061204933Z"
+    },
+    {
       "version": "0.19.5",
       "protocols": [
         "6.0"
@@ -7505,51 +7633,6 @@
       "version": "0.20.5",
       "message": "checksums not found in release",
       "utc_time": "2026-07-15T12:55:51.429360869Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-05T09:19:41.821032757Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-05T10:13:54.458332451Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-05T11:32:26.08505365Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-05T13:50:51.87656673Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-05T18:06:14.269385549Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-06T02:59:44.005053103Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-06T19:31:04.874058526Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-08T03:39:31.817542079Z"
-    },
-    {
-      "version": "0.19.6",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-10T19:51:05.335407745Z"
     },
     {
       "version": "0.19.4",
