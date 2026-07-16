@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-allinkl_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_darwin_amd64.zip",
+          "shasum": "011de1483689e9cfd70f68fa394a1ad8cade87b24a5bd0238f3e82a1e90d784d",
+          "h1": "h1:QVwcUecpBpbp6jHsI3YmlxEIkjeooVZJl4szlwNAZVg=",
+          "size": 6952128
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-allinkl_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_darwin_arm64.zip",
+          "shasum": "1b199d9e06d76eea8890ca85aa2c756023596f06bb2c42c4a6ea4a5d64473dd2",
+          "h1": "h1:lrDBueINTTrWd5B8ptXezPC8CIS0aQuV7os8ysx04ZQ=",
+          "size": 6464657
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-allinkl_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_freebsd_386.zip",
+          "shasum": "0e950f9ff53fde34d2a4588bdd0a2ea96a62cf574865f4b21affa6923ebe08d8",
+          "h1": "h1:C7KhUpL4TlypaUs/+qbOAJ5eUrWAZuGXfMM/u+XpM7s=",
+          "size": 6395300
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-allinkl_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_freebsd_amd64.zip",
+          "shasum": "e1be5a2ec750c9bc56b00addcef64f615b82901d59df49f72acf3bfaab4e22b1",
+          "h1": "h1:6gENWQMC2LoqBGVk5mt+C1cKErq2l8u/THnIXyPVTtA=",
+          "size": 6749964
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-allinkl_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_freebsd_arm.zip",
+          "shasum": "87427c2d29576194373277efd54255d144f0807ae2ee69d617d73db4d5896b80",
+          "h1": "h1:jhkdtbxEXpPyyFOTOlfZqo+xFTuaL2iRIvfi4RhYLJ8=",
+          "size": 6359851
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-allinkl_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_freebsd_arm64.zip",
+          "shasum": "5efbb6d85e1215d405251f5d47694bed5cfb56f9ff2cc64cea9d744161e7434a",
+          "h1": "h1:MRi6Zg0a5eMR5kXaswGb0XSbRiIWaxY8CiWfnVRXxc4=",
+          "size": 6123746
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-allinkl_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_linux_386.zip",
+          "shasum": "1b1a7f07d7997a3403615fe2e4f785bf47223fbc4332b738a9b74f576a1ff737",
+          "h1": "h1:5g8R9MhBa3ozsnYfnU9qU6GFazx1K8vYxsJaMnVYC+4=",
+          "size": 6427981
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-allinkl_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_linux_amd64.zip",
+          "shasum": "babc7bccafc870da95ffa575dd62784a51a317cc1916e7c448155c410dfb75bb",
+          "h1": "h1:SIeOHNMdevG9tcwnKKWv14WbUt+kLNZO438OHYs5eUY=",
+          "size": 6775387
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-allinkl_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_linux_arm.zip",
+          "shasum": "54722f0e08dc86a670a6bce59160e6724213b3ed2026721aa312072d442dbdde",
+          "h1": "h1:Imt7FfIvhZVCUoLzyjeUrAVG0oaNJzV5bkh7V8amLmg=",
+          "size": 6386646
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-allinkl_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_linux_arm64.zip",
+          "shasum": "105efaa37a8e888830bb3d44ecb187bb63825beccb9ed5fc862e3b1f8488b796",
+          "h1": "h1:otl9XZ8cubpvwm4tTDDyK7FmBuwnQgkRzIOTwQlEHCo=",
+          "size": 6148785
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-allinkl_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_windows_386.zip",
+          "shasum": "dbe3769c22db0a75d7ec7affe80f7a43a5348437276df704dd5db45375163a72",
+          "h1": "h1:NRhd9W5cE938jvaEQ9XueUc4GkWLzrXxE67qmQ4vsMA=",
+          "size": 6722917
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-allinkl_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_windows_amd64.zip",
+          "shasum": "38cc74e426f38f433ecad06f6a46bfe00df11a55856c940cd733a7ef3f75b804",
+          "h1": "h1:svS7Qni7Wj4lcJ9YX3mwaauqPdXFH+ftnDkDDslcCuE=",
+          "size": 6976074
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-allinkl_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/johnnycube/terraform-provider-allinkl/releases/download/v0.2.0/terraform-provider-allinkl_0.2.0_windows_arm64.zip",
+          "shasum": "1d99d28a373bca506b046968cb7a39dd406611c99a5632faaeb90f7b8773906b",
+          "h1": "h1:ERsSxS1PUoCX58gKTDlYOCEVJa6rh8hZmE/7QaiQITg=",
+          "size": 6232765
+        }
+      ],
+      "discovered": "2026-07-16T18:49:05.813678733Z"
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "6.0"
