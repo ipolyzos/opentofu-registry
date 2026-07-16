@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.1.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_darwin_amd64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_darwin_amd64.zip",
+          "shasum": "adab1d2e413400e19aecbb1fd32ce20a415457cd72cc368cb42bcc227ba8fa52",
+          "h1": "h1:SgEYHRzw4ltozdIjWojhyi57e+ZiGKSPbLUnrfHxUlY=",
+          "size": 7367065
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_darwin_arm64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_darwin_arm64.zip",
+          "shasum": "8a3b237ad7de632d1cf0ff3ff49adce170d8b8b4d3336b0f03acbdd12ac65c5e",
+          "h1": "h1:m8oToQutel4NRFO6/mkHxQcE0enGSW/f+hslk1MraHo=",
+          "size": 6959839
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dagsterplus_0.1.9_freebsd_386.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_freebsd_386.zip",
+          "shasum": "7f33b94119458df74422a583b8a0cd8592e25c1a8a3615927afe2777b688de4d",
+          "h1": "h1:7+Qpo57hu5P8pX9QEddsQs0yk+DntwuUojuGwqTktcI=",
+          "size": 6748121
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_freebsd_amd64.zip",
+          "shasum": "8842ba08d12eb0d1966375a2de0de275133efda68b04a33a2e69d9653c560fd6",
+          "h1": "h1:07GMFIbYh4OV8OKt2tUY/35otuzx0O9AMybX2I4gnoU=",
+          "size": 7151573
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dagsterplus_0.1.9_linux_386.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_linux_386.zip",
+          "shasum": "de2db59da9c99f4380c931e93aa49c8f4177ab0436550116fdbc169c72f6589a",
+          "h1": "h1:KjwrRM4oH6kLQtL6h4t3mOMJ8KIXhRPvypuxAZZ2D9s=",
+          "size": 6761223
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_linux_amd64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_linux_amd64.zip",
+          "shasum": "1e41c783d0c7cb6e807d4f5db7bf906cba6aee26b7cff934a6cad624e5ebcd3e",
+          "h1": "h1:xrmNP16ZGYvP0mvMx7QeVfstNzy7+N7g3pMfPpBCikc=",
+          "size": 7160583
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dagsterplus_0.1.9_linux_arm.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_linux_arm.zip",
+          "shasum": "c5c261af855269c5dea395ca5ec61d0d9e87e2746287ffbd8823cb91f7a4563c",
+          "h1": "h1:8O+5pXJj7ijDa87v6W8NdNdZeI/COCLDVm4OEeadacI=",
+          "size": 6725094
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_linux_arm64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_linux_arm64.zip",
+          "shasum": "20d4e05e53f93c11f63181687a243bb1ac22c6012898f6e1601c254f48c4de2b",
+          "h1": "h1:bs/SJyvbuQVJm/JnEpZGJMmgG7e76iyXn9yNCzsXQAk=",
+          "size": 6594446
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dagsterplus_0.1.9_windows_386.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_windows_386.zip",
+          "shasum": "189a72b15c2a39ec29089f6241016716c50b0104e6dcff5e9785f4ed42a81deb",
+          "h1": "h1:HM8AdO/nBxglLtxpA5kEx/P34vvv/EglgE2FrLSD7h4=",
+          "size": 7080723
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_windows_amd64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_windows_amd64.zip",
+          "shasum": "0c07be5ee86d5859f6453d4a5daa93dad48558d2686e31a16b883c443b765d41",
+          "h1": "h1:cukX5fSCReyJ76uvIo5oPJdIXoXEj5bm/s7aYhhpqmw=",
+          "size": 7378341
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dagsterplus_0.1.9_windows_arm64.zip",
+          "download_url": "https://github.com/dagster-io/terraform-provider-dagsterplus/releases/download/v0.1.9/terraform-provider-dagsterplus_0.1.9_windows_arm64.zip",
+          "shasum": "763f8d83989f8cca78a2f94bae83c0dce6d93f852f4ed2c71a73a39a0cfb5472",
+          "h1": "h1:2rGkcwHpD5R2BAF889qD+SPQD1ROsrWx+nlVjNB99z8=",
+          "size": 6687010
+        }
+      ],
+      "discovered": "2026-07-16T13:52:21.741991231Z"
+    },
+    {
       "version": "0.1.8",
       "protocols": [
         "6.0"
@@ -989,13 +1099,6 @@
         }
       ],
       "discovered": "2026-06-16T21:07:20.905990017Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.1.9",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T12:42:21.274542906Z"
     }
   ]
 }
