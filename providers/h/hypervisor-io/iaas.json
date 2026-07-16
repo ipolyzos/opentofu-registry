@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-iaas_0.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_darwin_amd64.zip",
+          "shasum": "6c301848b1e5651c2d20a07344d322411e6b4b043b2fed3f666b6e7f2c3dec7c",
+          "h1": "h1:8UIBI4xrteYb/iYFLzAs61KhpuxtFvywEIpso6YalKo=",
+          "size": 7342267
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-iaas_0.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_darwin_arm64.zip",
+          "shasum": "366fe81d61f583ae554058052bf76c12ecb03175d1fd71211262f8ad2281dc86",
+          "h1": "h1:hlHKbKLhrJ9fJ22cIySEJWr/ElvmLnWLoimygD46BF4=",
+          "size": 6819192
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-iaas_0.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_freebsd_386.zip",
+          "shasum": "2de86edb41c5115fb7cf805f20401a584d853c178150818fbd00e965eae71166",
+          "h1": "h1:chYImew0VpIg/HeotFUyMGJ2XUL4uQB8t0N00CsDRs4=",
+          "size": 6732340
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-iaas_0.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_freebsd_amd64.zip",
+          "shasum": "8a4d70c0f2517ee38936a7da98fec55a94672cfce7cd87e0b9077d1e60e9a4ab",
+          "h1": "h1:i9fs9PZKHitNvVn18/a/HiDDzOvNfmm7ejjWR6yqtWg=",
+          "size": 7136286
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-iaas_0.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_freebsd_arm.zip",
+          "shasum": "16412f177afe13741ae2678f7a4571338d334c63b437f1ee4ed8b89e86702d98",
+          "h1": "h1:2ZX3YV+P6dVzM23ctsIY8EbIAt2rjzmssp8i2W6uRW0=",
+          "size": 6714118
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-iaas_0.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_freebsd_arm64.zip",
+          "shasum": "88d7b96581d5338fd75b0606caf7c151017d3be9a0bba2ce38fa4aced5707b91",
+          "h1": "h1:teWC4Fi5ZwpkE8MCtC+WJu8XYoZESVgBEK4RzGIoPw0=",
+          "size": 6465074
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-iaas_0.2.3_linux_386.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_linux_386.zip",
+          "shasum": "640502e534b7882b94888906dc2034f53bddb4934a448e297d7af248565a9d34",
+          "h1": "h1:S1i0/bS91PKlgR6yyi4RydJ1AsTh4STNlkhADWp8Ecg=",
+          "size": 6765480
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-iaas_0.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_linux_amd64.zip",
+          "shasum": "d081b1f0ac2e80d49598b152a0d9cac34214c5b341810381949af018e2e7e561",
+          "h1": "h1:StI0xiCrOeV2bzprOk5f6zazOcju2TquMj3mxb9xSVo=",
+          "size": 7159911
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-iaas_0.2.3_linux_arm.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_linux_arm.zip",
+          "shasum": "43e586bb47a0a4dcf698766cd1a405140346a3b0715f9bf97a983f42f19beaf4",
+          "h1": "h1:1eoYsjsrISrgLkeGYI8cmVz6YNvOdy5qMvbZmzkEtkM=",
+          "size": 6739800
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-iaas_0.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_linux_arm64.zip",
+          "shasum": "e2e7742dc2a9ba4075a90a30d5ae20a0e33573841bd4d9846f3c1eb89a7a98ad",
+          "h1": "h1:pObD7bcUU4biJEz2QbFpnv3PGRCfIV1Kt+ibM+/AXZQ=",
+          "size": 6491741
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-iaas_0.2.3_windows_386.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_windows_386.zip",
+          "shasum": "c33052477ee759cd0af4129c2c53dacd14f3b78ede03a0fa7f465d88b06d3ea3",
+          "h1": "h1:zxTr/W/Y5s9xrYFsk/AZcOAGxIvUDJcNDVfgwjmzZak=",
+          "size": 7084289
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-iaas_0.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_windows_amd64.zip",
+          "shasum": "4a4a46b7a30e5e53e7dbbea85bdb36faa56335e720d63dcdba7c1912b3ecca7f",
+          "h1": "h1:71xJ0SyJ9AGXTEcaVIjlDut9CNC7NzZc/rQDXDEIgeg=",
+          "size": 7368839
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-iaas_0.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/hypervisor-io/terraform-provider-iaas/releases/download/v0.2.3/terraform-provider-iaas_0.2.3_windows_arm64.zip",
+          "shasum": "084a622cdee94f26ed6079cd8d4f175cfc7536271003f1a139d862308890eacc",
+          "h1": "h1:iLR51+xOaII03GPcL4wBQsQYLQ022X2sEVOyN7mccJE=",
+          "size": 6575686
+        }
+      ],
+      "discovered": "2026-07-16T22:05:50.997066913Z"
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "6.0"
@@ -511,13 +639,6 @@
         }
       ],
       "discovered": "2026-07-06T09:08:29.404661499Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.2.3",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T21:05:52.545917829Z"
     }
   ]
 }
