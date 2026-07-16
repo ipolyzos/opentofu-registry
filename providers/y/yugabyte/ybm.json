@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.34",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ybm_1.0.34_darwin_amd64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_darwin_amd64.zip",
+          "shasum": "11155b3948f3c300a0ea8de39d0e3533383400f3a4b3409bd41d766f097fdb53",
+          "h1": "h1:Hxm/Gnry9kq3U7nyCZOCvPtXO8Xgjkr318NCZqsj9q4=",
+          "size": 7428840
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ybm_1.0.34_darwin_arm64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_darwin_arm64.zip",
+          "shasum": "9c2797dbb153047493feec81fb70709114aa206025337f65f360e51e97267052",
+          "h1": "h1:vV62K6HuXQB7QR/FZWhLE2nga7QtOjiPb0Crh8noSrw=",
+          "size": 7055564
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ybm_1.0.34_freebsd_386.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_freebsd_386.zip",
+          "shasum": "531f295df9dabbb4946fde8d1e27cec7344ef2ba081e895353f6bbc313616dae",
+          "h1": "h1:mbr4grrpE+HUm0Sjvo4KbfACtZTw1njmHrHQ+pL4CT4=",
+          "size": 6676217
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ybm_1.0.34_freebsd_amd64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_freebsd_amd64.zip",
+          "shasum": "b56b15d1637cb6aaa98a0bba13e6edefb5e8da511ef565aef2e4044bd8125fde",
+          "h1": "h1:yWwWQw0kkp2SnRPYhOzzn7P3CCcY+yC/Pfldj2PsFq0=",
+          "size": 7232644
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ybm_1.0.34_freebsd_arm.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_freebsd_arm.zip",
+          "shasum": "dd8fc245da6c23b8fa220e6943235fdb362eff105cb32010a440f0d9d1d6402b",
+          "h1": "h1:dLi1o2iw1yLlNHIqQhXy2ElU9ByGVRYQi2UFetRXE2M=",
+          "size": 6657205
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ybm_1.0.34_freebsd_arm64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_freebsd_arm64.zip",
+          "shasum": "911620500259deeac8c18a0fc4a56f4d1672325d61c76945d7c885775c8d21ad",
+          "h1": "h1:M9roHnr5MysRVJD8NVsZ/5yGpN61f3MW+TC9tsm5Ujc=",
+          "size": 6691047
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ybm_1.0.34_linux_386.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_linux_386.zip",
+          "shasum": "7f99772f9961435bd8ba3a0d5bb865b7fbe9919619632f4ca38923bcc0c3c807",
+          "h1": "h1:XLztseNayMLfToBugu8L9E8n+h6dyS8WQwQYJv6IZCw=",
+          "size": 6701143
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ybm_1.0.34_linux_amd64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_linux_amd64.zip",
+          "shasum": "b68fda2072c7d2bd2d37dbb9a683fdf969235f711106edcdffea12d1dbdfee53",
+          "h1": "h1:acAucSU0W88+J34TWGVZIZAsWfIMPZjYsqMymqMwwAw=",
+          "size": 7241801
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ybm_1.0.34_linux_arm.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_linux_arm.zip",
+          "shasum": "97d4060c75d5ed1fb7c45a725bba52b780732d96fcff35d46aae81bbae2b6efd",
+          "h1": "h1:Fw3qz+o4mQ61LXBqUxmcCWnL1HcnjHEIbNAuamQvGr4=",
+          "size": 6665327
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ybm_1.0.34_linux_arm64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_linux_arm64.zip",
+          "shasum": "5240af20369998c0f82737d8c0f9e8c08d53e961317b7218ed2efd0ee820dc87",
+          "h1": "h1:GOLFi/oCbj3FiKB172d5+wBOCtuezUg8Oi+dPkJ4nI4=",
+          "size": 6702033
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ybm_1.0.34_windows_386.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_windows_386.zip",
+          "shasum": "81869b88014aa6a37edf0eeaaeb0ab8f6b090392bbd28396cceb3951e3feaebd",
+          "h1": "h1:nZQWb6F+ygoeoEnVIE0xpWAqkDLYwyMqx636QQK8yjc=",
+          "size": 7015528
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ybm_1.0.34_windows_amd64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_windows_amd64.zip",
+          "shasum": "4464650ca61d182200e74bebf2e9f241f36fa0a874b45963954f67eaf35c89cf",
+          "h1": "h1:zKfgMCeg6mgaNHfhHpDC23yIBPKTOqRZ6SG5mcP5vxw=",
+          "size": 7465086
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ybm_1.0.34_windows_arm64.zip",
+          "download_url": "https://github.com/yugabyte/terraform-provider-ybm/releases/download/v1.0.34/terraform-provider-ybm_1.0.34_windows_arm64.zip",
+          "shasum": "10b17b19f4330a558fed34fb352665502b34fb0b1e342de8f90862ff972c3bd3",
+          "h1": "h1:YM/29SLDJ32Y6pLqRTaZfEX/NWQNhyE1KGt5/wg/e3w=",
+          "size": 6784027
+        }
+      ],
+      "discovered": "2026-07-16T17:27:35.414953949Z"
+    },
+    {
       "version": "1.0.33",
       "protocols": [
         "6.0"
