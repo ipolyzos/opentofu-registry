@@ -24028,6 +24028,11 @@
       "utc_time": "2026-07-12T07:54:17.351997289Z"
     },
     {
+      "version": "2.77.1-deleted",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-17T16:08:46.384699555Z"
+    },
+    {
       "version": "2.77.0-deleted-deleted",
       "message": "checksums not found in release",
       "utc_time": "2026-07-09T05:49:31.542130896Z"
@@ -24116,6 +24121,11 @@
       "version": "2.77.0-deleted",
       "message": "checksums not found in release",
       "utc_time": "2026-07-12T07:54:17.337134479Z"
+    },
+    {
+      "version": "2.77.0-deleted",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-17T16:08:46.259552323Z"
     },
     {
       "version": "2.76.3",
