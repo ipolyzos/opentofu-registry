@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.11.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-anxcloud_0.11.1_darwin_amd64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_darwin_amd64.zip",
+          "shasum": "922ed135c464fbb80de08482ec9eb19369a2d96de7ea4e24b77101123e614cb5",
+          "h1": "h1:OpF5fHjQEdouUTir27aYvLVMUkfX52hoUlbDrccp4Ns=",
+          "size": 10049597
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-anxcloud_0.11.1_darwin_arm64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_darwin_arm64.zip",
+          "shasum": "1b448f972500ffa8127fb06926f2132ecd64371f25ef26d6a1e401fe767e922c",
+          "h1": "h1:HIqaFRMFqRZCyghPF4bmn2G2nwJCtGeWwLBej+CKE7c=",
+          "size": 9268175
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-anxcloud_0.11.1_freebsd_386.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_freebsd_386.zip",
+          "shasum": "022fed7a75055cefeb28844d0816cc6b2af49cb91e43ead1f604f0eec5cfef6d",
+          "h1": "h1:O81tnDVkc5luZbPWn8eJRvbRUHPBRb5fuDF6zX6Ip8c=",
+          "size": 9208785
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-anxcloud_0.11.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_freebsd_amd64.zip",
+          "shasum": "fc16f4a7a67a43b1096fd35677abce2ce5f246dd045f06edf14b3edceebfc97e",
+          "h1": "h1:jXk+vgQHkg+ZSBklJdD1fs2cuNohRW+z7os6lzmuzfE=",
+          "size": 9803652
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-anxcloud_0.11.1_freebsd_arm.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_freebsd_arm.zip",
+          "shasum": "4c3b6f750b2b9f54199d0584d044fb1df25da5fd261c737f726d15d581e288ca",
+          "h1": "h1:wfKNiK1IvghUoIouAtnWr2wgMpIfyQElDNdMee7C7Zc=",
+          "size": 9189608
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-anxcloud_0.11.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_freebsd_arm64.zip",
+          "shasum": "e14f22fdf3440d1df4062dce1c1e2b7363a07b1e52c350e670fd1e5bbdf158a3",
+          "h1": "h1:0cQ8QFgGWuyDm9pRMtxKbrOEhp4kMJKWWrxurBJPXOs=",
+          "size": 8819558
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-anxcloud_0.11.1_linux_386.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_linux_386.zip",
+          "shasum": "6f753aae13d9a66b4df4259041eb9c6b3ee6924160d739038d6aba0079f280e0",
+          "h1": "h1:LgK2KrsnledKsFmeN/4lHDHS4g0WmQY+oatxzxDsXno=",
+          "size": 9255377
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-anxcloud_0.11.1_linux_amd64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_linux_amd64.zip",
+          "shasum": "fe144cd249230945e37cf35943dc49d517af9e07e9a5fe814cdf48e012d893d2",
+          "h1": "h1:gZqUlFABpmOiKRIj0nnr596eRvt+s01cM9R1O6Vj+80=",
+          "size": 9838887
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-anxcloud_0.11.1_linux_arm.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_linux_arm.zip",
+          "shasum": "7d4fb85025e6e74186ab6b769f7a13d808c8a4eb9b636dc5bf436c98fca3a284",
+          "h1": "h1:TZufm7MrG35Ohzvw82DBz2Ut+G+bcWa+8ZWTYVMhw80=",
+          "size": 9219207
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-anxcloud_0.11.1_linux_arm64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_linux_arm64.zip",
+          "shasum": "49a12d6620a2b23ba2444634653436e4122fb3917a052c2693d728d98fbc0293",
+          "h1": "h1:7kQqkF4l3fX20tNBCi+I2MjjoTIGyiuJDm5qxAi6NLU=",
+          "size": 8853149
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-anxcloud_0.11.1_windows_386.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_windows_386.zip",
+          "shasum": "f0da362e1b437dbb55a2a2351cf3c9fa0e8ea91af2da8052a68d21e2918f88bd",
+          "h1": "h1:JiG3p2Y1rAeByEaQ0nBUjzayoFa+nxAna0m8SbWPQHw=",
+          "size": 9679324
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-anxcloud_0.11.1_windows_amd64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_windows_amd64.zip",
+          "shasum": "8815acfb3e7cfb22fa3af09d6fe75d12214ceb3ae9fb44c1f001dcb9ee0b6a1f",
+          "h1": "h1:GF6oj5lfUesaXvOjFIISVuTtoO/+c+3vbE1uaEx1bhM=",
+          "size": 10097340
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-anxcloud_0.11.1_windows_arm64.zip",
+          "download_url": "https://github.com/anexia-it/terraform-provider-anxcloud/releases/download/v0.11.1/terraform-provider-anxcloud_0.11.1_windows_arm64.zip",
+          "shasum": "f54bfa3691cf31ddb4d9fde2c560bfbfe8dcfde231ef00dbada3683886747fe3",
+          "h1": "h1:D6tRL6HmJf/vO1avTFoOZW8INC9MbnHbxOEVHwEGduc=",
+          "size": 8946324
+        }
+      ],
+      "discovered": "2026-07-17T11:43:16.579193468Z"
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "6.0"
