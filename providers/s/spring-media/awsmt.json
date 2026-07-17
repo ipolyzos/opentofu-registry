@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "2.5.14",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsmt_2.5.14_darwin_amd64.zip",
+          "download_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_darwin_amd64.zip",
+          "shasum": "9cdb13f99ed52e9dbecb90a8f6a3111fd6c9e9b8a7328aea8674710df8c5c658",
+          "h1": "h1:RijIoSNc/blJb1Z7Y4qUyBUC5KLo5f01QK1NDp67dB8=",
+          "size": 8232159
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsmt_2.5.14_darwin_arm64.zip",
+          "download_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_darwin_arm64.zip",
+          "shasum": "445c1e95c1cb0f7484d37b11bf2f54818ae8d1121c62ea3df88c0c25b95b283c",
+          "h1": "h1:qhaVx7JgkK+npJWiJsJ97BAE91lqENFcgjl8X/HqHEA=",
+          "size": 7655192
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsmt_2.5.14_linux_amd64.zip",
+          "download_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_linux_amd64.zip",
+          "shasum": "3cdc97753cc08bc2e3ff4eaff27c5dff59a9a8a8533596677c9c4d042a746925",
+          "h1": "h1:SM7Zp72BmCQATS4mKGwe+vyadpkYo+kqaFV2eu3AyAo=",
+          "size": 8045655
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awsmt_2.5.14_linux_arm.zip",
+          "download_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_linux_arm.zip",
+          "shasum": "ea6b8f3c12fe18e92bcddd376e1f22ae57495c675524f2e6111c1bcf8dd64ffe",
+          "h1": "h1:UXAuOX1naLbyPGcmstNTMReKS6aGta5Vb2zLQ45yR3o=",
+          "size": 7499945
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsmt_2.5.14_linux_arm64.zip",
+          "download_url": "https://github.com/spring-media/terraform-provider-awsmt/releases/download/v2.5.14/terraform-provider-awsmt_2.5.14_linux_arm64.zip",
+          "shasum": "6d34f0f4f26955b5558d922b87e4342c3134d4c2bdf10f99bc0abe2b5b556316",
+          "h1": "h1:XbiK1R7gYI9mXblUQWyNdbsNhuX1k8d5wRBFVGEwsXQ=",
+          "size": 7290001
+        }
+      ],
+      "discovered": "2026-07-17T02:22:47.291005795Z"
+    },
+    {
       "version": "2.5.13",
       "protocols": [
         "6.0"
