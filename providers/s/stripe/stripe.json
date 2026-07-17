@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.3.0-beta.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_darwin_amd64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_darwin_amd64.zip",
+          "shasum": "2ab11bd88587cfd9919badde0e65bed51905c9254201af6be5fbefde8eeee8c9",
+          "h1": "h1:OCjmuN1AD/vlogUqASZwye+gavonzT5MfNkLKKqZP/Y=",
+          "size": 10599053
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_darwin_arm64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_darwin_arm64.zip",
+          "shasum": "6850f01e8641c455e0fa10a67e697c08e44197108baa6a754b909fd28ac1970f",
+          "h1": "h1:8q4drhII4Yf/hyqA1JKUooV8AnqmMzzSNTvvb9E0ecg=",
+          "size": 9747299
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_freebsd_386.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_freebsd_386.zip",
+          "shasum": "0fc5cdac38ca09b2f58718234db76547bd18d6afce0ce09c4557c2095f4bf9a0",
+          "h1": "h1:7CAxtzPYEL+Jtvom4Rv91a1xWn0PiBIvs5Q95244R2I=",
+          "size": 9135976
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_freebsd_amd64.zip",
+          "shasum": "febba1d68fd4079f45bbc9681c4bc5cfd0bf88ee1d74ba59a71009d826f8aff3",
+          "h1": "h1:m/pqDKiERkSlEc7X1zLUIAeLMzl8KSERwLUfGD5rpFQ=",
+          "size": 10203915
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_freebsd_arm.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_freebsd_arm.zip",
+          "shasum": "d52720208ac82f4b537d62a4ba1bee816908af166364fd7f41e9eb002f1ac579",
+          "h1": "h1:oxsayVTHaZBn9/oV3994z70kVotCGygGm9nMsBK9SOA=",
+          "size": 9573641
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_freebsd_arm64.zip",
+          "shasum": "d9e8ae2bf51aff776ec9b6070a5583b958f85a4a3b503b2de0f5c8216be75350",
+          "h1": "h1:EIzpLDPIIRPDujwGXFotAtGNUBnZlp7peGRn/4xR8DE=",
+          "size": 9091685
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_linux_386.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_linux_386.zip",
+          "shasum": "c6de1848fd28e6f8d4ee43969e0b8061c723ea759a3492ffc714c71b6a8cb827",
+          "h1": "h1:EuqptcK/lqCDMMcXwc/zAcOL6TR4cKs6Sy/n/PeNzPs=",
+          "size": 9153803
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_linux_amd64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_linux_amd64.zip",
+          "shasum": "5978506d2acd83f6fc00682954d50c3483356f89e8036de8c56a95ca7cdc7dd3",
+          "h1": "h1:NmP2Vn6mDrX73m3ttXaFTGAmL+guCD8lJsU7AXK8PwE=",
+          "size": 10211190
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_linux_arm.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_linux_arm.zip",
+          "shasum": "8650a5624772e41db3c176308adca471b97e9c3b98b910575f9c6dc2468653f6",
+          "h1": "h1:kIR1aVF4Xmd5VWFmG1ESxQp8QjseG55QkdDKlNpIz08=",
+          "size": 9580250
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_linux_arm64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_linux_arm64.zip",
+          "shasum": "79cea184949fd72c8e083acd4c0081b876640c4fd11bd773723505143a1a1cf5",
+          "h1": "h1:TcV5F6CUasZlGasoiQOlZtxNOXScqx0n647XxSDEjtA=",
+          "size": 9095507
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_windows_386.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_windows_386.zip",
+          "shasum": "00ea7efe965002cde14b95e1340b09e017cb0b1bb69145cd6179c35526d27406",
+          "h1": "h1:fpCSER+AJl/QGYeChOvsG95GRb3ROjAWamA9MYkBaZE=",
+          "size": 9763476
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_windows_amd64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_windows_amd64.zip",
+          "shasum": "546ba9bab20fdaa7b68dea7eaa18c8ee5cd29157c565c4f3acea7c37c3a4de58",
+          "h1": "h1:JF6yg+X0voFZtqU2JWDz75GcxkTJ6f4hW4iL13gQyQY=",
+          "size": 10487075
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-stripe_0.3.0-beta.2_windows_arm64.zip",
+          "download_url": "https://github.com/stripe/terraform-provider-stripe/releases/download/v0.3.0-beta.2/terraform-provider-stripe_0.3.0-beta.2_windows_arm64.zip",
+          "shasum": "9bcc6f26693a4263427a8a3bbbc78605d57a0d343b1899a5ffd147d0247b104c",
+          "h1": "h1:+/eGXxgo0OGcjka3KVTGH8oQkVYo+fGjMgPm9Omzkpc=",
+          "size": 9202319
+        }
+      ],
+      "discovered": "2026-07-17T22:03:41.313504021Z"
+    },
+    {
       "version": "0.3.0-beta.1",
       "protocols": [
         "6.0"
