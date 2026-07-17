@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.5.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql_3.5.6_darwin_amd64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_darwin_amd64.zip",
+          "shasum": "d4140d8310b359f8cf438c2661a9f2bc86cc0a7e2dd19fdba2987ffd58c64480",
+          "h1": "h1:y+xWqwkohjotn2MgxrktnuTQAVfkVZRz+NxhOgXDbHc=",
+          "size": 6602812
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql_3.5.6_darwin_arm64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_darwin_arm64.zip",
+          "shasum": "cee65833104e2b6ce10569d6c84369fdf2182d3a1b787b946cecbbb36eaed28e",
+          "h1": "h1:XmcZCK0Q6SCykt/zBs7mmtAM9Wa9kRU1zF8rl+MeQLI=",
+          "size": 6230295
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql_3.5.6_freebsd_386.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_freebsd_386.zip",
+          "shasum": "afd01a312bec955c1839c9cb7681afcfe5cfd09cae4eaa1cba1788f6f44cfca8",
+          "h1": "h1:sIWbzLEFviUVqB5z3aFe8ACS+rejRI0R8QZW1d5sc+o=",
+          "size": 6002569
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql_3.5.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_freebsd_amd64.zip",
+          "shasum": "da380b1d486d1e9a35b70f9f99a59fc159aa40a98d7d277de93695adabe6abce",
+          "h1": "h1:ZO+dEnI4YTvRITz8uPII7eDf/hkvCZbPhfP/b4sHSI8=",
+          "size": 6439592
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql_3.5.6_freebsd_arm.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_freebsd_arm.zip",
+          "shasum": "568c8256ff9cbdbf1ac7e41a510da9195710a090b386b7dab29da273f0be0a15",
+          "h1": "h1:PuXHzp3lB6rB9OPj+oAaLLtUoYm0IedMSZKIMg1tPME=",
+          "size": 5981216
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql_3.5.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_freebsd_arm64.zip",
+          "shasum": "f87f1a4efe0fa7ba6380452c598e5edadbbeb6db47ea2ea3439434badd1c8189",
+          "h1": "h1:XSvS2hW1L/fijCufIDu9in/JXNHu4xa7n/3URy7hidM=",
+          "size": 5935919
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql_3.5.6_linux_386.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_linux_386.zip",
+          "shasum": "6226d7408da0fd12f68d1b1a71ada72513b0d39640e5d745a909ed3b6dab52e9",
+          "h1": "h1:fJqSozLs/U6R8i5SdyjlagzSnHRb6n6+ux70vnwgj0w=",
+          "size": 6016471
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql_3.5.6_linux_amd64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_linux_amd64.zip",
+          "shasum": "78d4ad5766e91f864e75c2c2746be4c47cc76a87d8c0994f86644f9e835e267f",
+          "h1": "h1:A888cl6jn04LfC9nGBpFIlpzZ2t84n2GLfXy+bbywr8=",
+          "size": 6444187
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql_3.5.6_linux_arm.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_linux_arm.zip",
+          "shasum": "3ce32771187f71121b0d48b4aefc125e430d52d8b6ab78929e99c92c8226731a",
+          "h1": "h1:x1k/tpOPNEuttgnyYfXOF9YUzU5bmR0eB0aiZKa+woY=",
+          "size": 5989807
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql_3.5.6_linux_arm64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_linux_arm64.zip",
+          "shasum": "34497905f3f51863c828b1ea675de7ff3ffb7eefc2cc0032a5d42af587b924c7",
+          "h1": "h1:QmIYNit6PgDKvWo01ZnymcNZhzIyanva00cPICMnpsc=",
+          "size": 5944645
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql_3.5.6_windows_386.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_windows_386.zip",
+          "shasum": "e87372c27a30ae9c6d0daf198452c3a4ea9d225cd08d81029db5814f63319e8c",
+          "h1": "h1:EpWtigjA02pV+UKnB0/lYFypphJCrx7vIC8ofR3CWrs=",
+          "size": 6300046
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql_3.5.6_windows_amd64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_windows_amd64.zip",
+          "shasum": "53a8a1f603901fd76b88f9f3b09b1b5222b5c2f79e77a629e1139f34c323aeb0",
+          "h1": "h1:SuvtZ/jhiy0K9FDuTNKm+mSKlO/9ADTME/bWEWXdlzs=",
+          "size": 6639124
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql_3.5.6_windows_arm64.zip",
+          "download_url": "https://github.com/skysqlinc/terraform-provider-skysql/releases/download/v3.5.6/terraform-provider-skysql_3.5.6_windows_arm64.zip",
+          "shasum": "0db4caf64bf4a53064b688a44de6b863d6df14841f401a21e3c2ac00706421c3",
+          "h1": "h1:xH7u/j+tcgxf6RtZY+3lhx3fDge2y7gME01QiUIX7+I=",
+          "size": 6027576
+        }
+      ],
+      "discovered": "2026-07-17T11:06:28.337438707Z"
+    },
+    {
       "version": "3.5.5",
       "protocols": [
         "6.0"
