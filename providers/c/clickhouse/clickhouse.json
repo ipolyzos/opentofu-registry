@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "3.19.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.19.0_darwin_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_darwin_amd64.zip",
+          "shasum": "dc885f8cf69840f24987d138e9b94d18034e79221b15cbb3b866c63b3cdb15b6",
+          "h1": "h1:RJha0oJTTvj1u/b9El0QMPTR2zP3/az+x0O+Q6xWsag=",
+          "size": 7638076
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.19.0_darwin_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_darwin_arm64.zip",
+          "shasum": "89360630added3cb7ec9c4fce2d78565bfedbe2964acb59bc91bd12af1504c55",
+          "h1": "h1:TEte88YhuRUsJTlx/tfIgG4qZcE+I9rCcPJM3rFn2b4=",
+          "size": 7082358
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.19.0_freebsd_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_freebsd_386.zip",
+          "shasum": "9850134e87a6400cd0310f90cca93544fa46f330467850f5c11ef8ce4ea453fe",
+          "h1": "h1:vf2BkGPfF9wWMwLAweZsdyBQo12LL17PwRBYd+1r4sY=",
+          "size": 7002866
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.19.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_freebsd_amd64.zip",
+          "shasum": "ad51275910a3dfdf7dbf9194acabef634505e953d24081202dcd3036b99cafc4",
+          "h1": "h1:7FlMTRJnuUnobRCXvzKVeH2ilNioTiu7/Vj1u3xJ34o=",
+          "size": 7418335
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.19.0_freebsd_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_freebsd_arm.zip",
+          "shasum": "5737a14bfb10d361192357c89c095510e8905f11c7c744c0b723f853433faf1e",
+          "h1": "h1:l92UqMswKRfy2zMhVGtA44BXWQn7BxMnAclHHNGHzI8=",
+          "size": 7004856
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.19.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_freebsd_arm64.zip",
+          "shasum": "e844750bea7d7087e826849cdf1ead4dc2fa994183597201c3995de54707f240",
+          "h1": "h1:yHsRBeiEzuoDYnIY3tUJafJOnS1IUt5w8wL/ds5Pnik=",
+          "size": 6708610
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.19.0_linux_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_linux_386.zip",
+          "shasum": "968556fa25a703200f77d141cec51f764ef7b23cd93dbbb4e3d161fdb856e6dc",
+          "h1": "h1:qSCr0ZzVcHvWM56kZW8JmLkRd93ywvJWhXFcKTSuJx8=",
+          "size": 7035621
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.19.0_linux_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_linux_amd64.zip",
+          "shasum": "dcce66f8447d20f51d4c3eccd337e27251b4b4715f4128e174dca47bd4a65629",
+          "h1": "h1:EP6/qjQhxG9wygl/vCW2ZK1JMorcdF5M370cBzsQsis=",
+          "size": 7446551
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.19.0_linux_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_linux_arm.zip",
+          "shasum": "9331856cca405ca0bf73a3177900efb46b61a68f8c23066bee7bcfec75a1037f",
+          "h1": "h1:B7dqbf1BDVz4i+N3IhsFvnkmlAhbgc4q5eXQs6YHYjI=",
+          "size": 7026953
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.19.0_linux_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_linux_arm64.zip",
+          "shasum": "27bde8d8988fe694179565dc9868ed659539173af588ccee1e6da69cf6315664",
+          "h1": "h1:bfVL5v/uXUMoa7O8BUKAp4XSUduC+lpBpEzqwTtSqfs=",
+          "size": 6738853
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.19.0_windows_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_windows_386.zip",
+          "shasum": "0dd00086debdf966962f250757aa63c5c9e3554bbd494ad103549a5a6a9e4790",
+          "h1": "h1:Gl2ygiEaNihD0DAdr4WdHF/Tv/CNXeINdxXCRYOZUpw=",
+          "size": 7368740
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.19.0_windows_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_windows_amd64.zip",
+          "shasum": "9832848d6f8c8ee2afea29866050f8cac8548df3e6df107ba4a8019dac6ea67b",
+          "h1": "h1:l9Pz8zHx401mOWlTFsLrCmioAOBIscYbylvPoYng62A=",
+          "size": 7659052
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.19.0_windows_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.19.0/terraform-provider-clickhouse_3.19.0_windows_arm64.zip",
+          "shasum": "fc90df951d06d33855de84ddea3853e8c2f3c960fece72d68617ea9b3e5dd5e3",
+          "h1": "h1:bsKxPQkMDq1nGGjp8ZKeR2J6RW8WSVQnqAgXsRQv0Fk=",
+          "size": 6822175
+        }
+      ],
+      "discovered": "2026-07-17T13:51:45.971266666Z"
+    },
+    {
       "version": "3.18.1",
       "protocols": [
         "6.0"
@@ -16057,29 +16185,9 @@
       "utc_time": "2026-07-17T13:08:44.667750581Z"
     },
     {
-      "version": "3.19.0",
+      "version": "3.20.0",
       "message": "checksums not found in release",
-      "utc_time": "2026-07-16T19:49:50.20009367Z"
-    },
-    {
-      "version": "3.19.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T20:36:17.769607507Z"
-    },
-    {
-      "version": "3.19.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-16T22:06:20.975896617Z"
-    },
-    {
-      "version": "3.19.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-17T00:53:23.845729118Z"
-    },
-    {
-      "version": "3.19.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-17T05:51:44.316008655Z"
+      "utc_time": "2026-07-17T13:51:46.502070714Z"
     },
     {
       "version": "0.0.8-beta",
