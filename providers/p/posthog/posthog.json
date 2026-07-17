@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.15",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-posthog_1.0.15_darwin_amd64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_darwin_amd64.zip",
+          "shasum": "8feb7074b5933d2fd149931bc9f5409c2d1c11068536669127e01e0ef60f0716",
+          "h1": "h1:YAaVlHYCCMfnxsuF0SCzuj8IACxZkGcml1Ls1Op5BB0=",
+          "size": 7145264
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-posthog_1.0.15_darwin_arm64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_darwin_arm64.zip",
+          "shasum": "4a349cabe35f92e45db086d0c6a7f011e77a51c8384dea59605636ee6247af4d",
+          "h1": "h1:H4OgRSCEcSaMxYI93zOnBtYsnReY4rL4CyLpRLCSHeo=",
+          "size": 6668754
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-posthog_1.0.15_freebsd_386.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_freebsd_386.zip",
+          "shasum": "29fe496c6938af003b4855792ad55fdd43b3046806b9b18463a96b373f1175ea",
+          "h1": "h1:4GaO8u49FhQMcaDztqXOJD8ef0vI1mu3W1iY5sQFiZI=",
+          "size": 6545272
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-posthog_1.0.15_freebsd_amd64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_freebsd_amd64.zip",
+          "shasum": "809e9b71ceb78c01b9b4d5bc6795b9cfaa7706bcd08c8d47d97ef79479f902e0",
+          "h1": "h1:aC7dwgeRVgSvkP4aPGEUCO/clbLXdFRNhTp4mn552s4=",
+          "size": 6940028
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-posthog_1.0.15_freebsd_arm.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_freebsd_arm.zip",
+          "shasum": "dd1bd03e0307e5314f8d0898c2f8b29c7522134434ce617ac7d041ae0f38c280",
+          "h1": "h1:pCUjLCatzQwI1vle8S4Bhc5eg6+vYFMg1v7TWva8ZJQ=",
+          "size": 6514708
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-posthog_1.0.15_freebsd_arm64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_freebsd_arm64.zip",
+          "shasum": "d3b554d656e0d72f1b43a6d9c7b8ea7e7adec2c3d693b913ff6b8cd839ffd596",
+          "h1": "h1:qZTyRH/VsdTmYJ2KXuGRPKW0kqAV6zrUw6+GFYj4ISs=",
+          "size": 6318613
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-posthog_1.0.15_linux_386.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_linux_386.zip",
+          "shasum": "765bb8b637772d2b5c001d780f51c5b4a2844541ad2fc34f18bf3f7d15787a58",
+          "h1": "h1:q+oEU4A+c7PoGjqUoEbjLDtPEK2w0N9skx4ybEzs4Ew=",
+          "size": 6574594
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-posthog_1.0.15_linux_amd64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_linux_amd64.zip",
+          "shasum": "4fe0de58ac37e6af5a31fd24b4d58c44c2c660a180a6108f589422af410205f9",
+          "h1": "h1:UXhkrg4htnmtBG8eNQy1RHrQ3CL0Id0rNThP+nl1LlI=",
+          "size": 6967604
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-posthog_1.0.15_linux_arm.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_linux_arm.zip",
+          "shasum": "12e38e576bb9b7ef2996b2a10cfdbd48fbe9a5d6dd8b2b1aed3ede29994f717e",
+          "h1": "h1:sqzleqCAWhWpziPPtrHaBAHb4CG05HOhZd5dlp4Pp9Y=",
+          "size": 6536512
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-posthog_1.0.15_linux_arm64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_linux_arm64.zip",
+          "shasum": "e6f7bb2107031410b6fe82154923668e28e2d0704f32b1cd6834a0f2b65ddc3b",
+          "h1": "h1:IKgKvJrKUrBQ2NTHWKLPmVMjlOVTvR99XdwuO6RPJdQ=",
+          "size": 6341511
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-posthog_1.0.15_windows_386.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_windows_386.zip",
+          "shasum": "63159a274f7b4c0240ff240f2d85af7cbbd5f76e6888948a47a768db9e31d48b",
+          "h1": "h1:R2LYrjmyPaSjO0/lAGvGhkyhh7clUFTajmXt+ADZuLo=",
+          "size": 6872438
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-posthog_1.0.15_windows_amd64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_windows_amd64.zip",
+          "shasum": "17c3c95c3d0097030e17ebfbe43d1f841b50b28f4c8dc70c186f9a08d85b7a2d",
+          "h1": "h1:OQoZsSPmaZpgaJqlUIdEKVvh+dCqaEihiiqC+P9PVWU=",
+          "size": 7174234
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-posthog_1.0.15_windows_arm64.zip",
+          "download_url": "https://github.com/posthog/terraform-provider-posthog/releases/download/v1.0.15/terraform-provider-posthog_1.0.15_windows_arm64.zip",
+          "shasum": "8ad511306e860354b20d3199f2985b959843c956af33c52b8bed916c8bff798a",
+          "h1": "h1:HcXQXoDhjennbgFVjuvNWF0WaFSfipwf2dPX8yomePQ=",
+          "size": 6426417
+        }
+      ],
+      "discovered": "2026-07-17T09:56:15.94077147Z"
+    },
+    {
       "version": "1.0.14",
       "protocols": [
         "6.0"
