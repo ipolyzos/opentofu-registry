@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "0.13.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-b2_0.13.1_darwin_amd64.zip",
+          "download_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_darwin_amd64.zip",
+          "shasum": "9f1e3509ea5778e61fda5d9eddf3e0cc0e0bd940241a2a3bc76a02aac5c15423",
+          "h1": "h1:pG4FacUyGSToRM68EkwaH8qBHHP6GLHKYzersA8wW0I=",
+          "size": 19730057
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-b2_0.13.1_darwin_arm64.zip",
+          "download_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_darwin_arm64.zip",
+          "shasum": "10a82dbadd26ff3401b4be0216e2334ce054855b21b35aac3b73d87344007f61",
+          "h1": "h1:Y+wku11muzAv46c/R+F/aRZJ2Avvixl2bT+y1d8dtuc=",
+          "size": 18662993
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-b2_0.13.1_linux_amd64.zip",
+          "download_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_linux_amd64.zip",
+          "shasum": "a7c98cc368d60d35ec419a634a50714a6ac967ad2a6b3dd168b269798da36d1d",
+          "h1": "h1:EzFvlZbga2AmrJMRJPfN0TwRozKCxsWJSCJbXFY2S1M=",
+          "size": 34821039
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-b2_0.13.1_linux_arm64.zip",
+          "download_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_linux_arm64.zip",
+          "shasum": "313a455e2e66433944b4189672b511040003d4c8f9baf5ef9b555433bd26b160",
+          "h1": "h1:HcwbhTAZKXqz+WtrrZ/YEyqhli1CE3j6SeGa21DWras=",
+          "size": 33574269
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-b2_0.13.1_windows_amd64.zip",
+          "download_url": "https://github.com/backblaze/terraform-provider-b2/releases/download/v0.13.1/terraform-provider-b2_0.13.1_windows_amd64.zip",
+          "shasum": "72addf06d7e70423bbfcbb2fed8e112054a0084141776744c9a32938dca00f9d",
+          "h1": "h1:dMsfvu7an9H59WNlx4CIeo5dU9ZjrdHGAZ+lo+NMvwQ=",
+          "size": 20033498
+        }
+      ],
+      "discovered": "2026-07-17T09:55:52.450342502Z"
+    },
+    {
       "version": "0.13.0",
       "protocols": [
         "5.0"
