@@ -1198,6 +1198,11 @@
       "version": "0.0.9",
       "message": "checksums not found in release",
       "utc_time": "2026-07-12T02:36:47.679393851Z"
+    },
+    {
+      "version": "0.0.9",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-17T11:05:58.214714186Z"
     }
   ]
 }
