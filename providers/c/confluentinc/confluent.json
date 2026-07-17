@@ -23838,6 +23838,11 @@
       "utc_time": "2026-07-16T22:06:23.596643249Z"
     },
     {
+      "version": "2.78.2",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-17T00:53:26.887605326Z"
+    },
+    {
       "version": "2.78.1",
       "message": "checksums not found in release",
       "utc_time": "2026-07-13T23:32:07.050284647Z"
