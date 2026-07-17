@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "2.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-crucible_2.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_darwin_amd64.zip",
+          "shasum": "bb83282376c5d359937370c7925c56d71cb4c8fa23ea5756e7c0926162f1f54a",
+          "h1": "h1:GIW6X4Xo6WQSfoOWtGb9CQgDOjufGTxIby57oKrZUc8=",
+          "size": 7235231
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-crucible_2.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_darwin_arm64.zip",
+          "shasum": "75ce27b906aba2ee29155ebbe7cb5a577c07e52cfa5e81e8e112325548473367",
+          "h1": "h1:caPeQlbNbjwe1RqJJJeVK6ai4l7F8zazUZTPIa7FAiI=",
+          "size": 6718158
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-crucible_2.7.0_linux_386.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_linux_386.zip",
+          "shasum": "a8b226dd93c79902cecf30142206c740e057ac83853f63b6ef7be6c6a1fff01b",
+          "h1": "h1:lyP1xV//iWfiICRqzGthJDrYt2YMbDAqMeWSa/xhXNw=",
+          "size": 6680326
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-crucible_2.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_linux_amd64.zip",
+          "shasum": "a7f7cd183cb0f389dd9f85ff5d2a0f1e1b8a68740f3553dc034a33afed721561",
+          "h1": "h1:zO2Ks3oNBpDQVEfzB9BRvbR8lCJxlqyzBR1PKjvk12I=",
+          "size": 7045777
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-crucible_2.7.0_linux_arm.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_linux_arm.zip",
+          "shasum": "ae47944a95a548e1dde3da2ea0f9be30580179e1ee1491efe18c379ecf7cd680",
+          "h1": "h1:Coec7DJEoExxBd+d9akIOYBlUmkAYD2YRibbXD11LTM=",
+          "size": 6640237
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-crucible_2.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_linux_arm64.zip",
+          "shasum": "b3f4747e119e28abebb2799db1ff5ee981b304c2c9b1e08bc01df7249d3086ec",
+          "h1": "h1:AliAXOOxMPdGXO0odJuLXzyOHveUWUaJkKe944cHdKY=",
+          "size": 6386799
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-crucible_2.7.0_windows_386.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_windows_386.zip",
+          "shasum": "5713b63ff4b9e555fe654c1606b537c32f937d4c109521ab1ee4d97e062c5d1c",
+          "h1": "h1:RdTqQcJOdq5Y2LDiaGtvAsjIqWA01LB5ynbdZ7tPOuI=",
+          "size": 6993302
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-crucible_2.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_windows_amd64.zip",
+          "shasum": "ba22388b97b32f800b97559a48d6f6efacd0881f6185444291bbe937cf46d7da",
+          "h1": "h1:ZrFDfLDc926+yaQdTIyxRnAIHY41hv4WTOhZLeM3DSU=",
+          "size": 7257916
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-crucible_2.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/cmu-sei/terraform-provider-crucible/releases/download/v2.7.0/terraform-provider-crucible_2.7.0_windows_arm64.zip",
+          "shasum": "bb09042c6f45142dcff296983b71089767e937fe8d0e9ace974a0bb9cb09bdfc",
+          "h1": "h1:dw/sse/Ge7V6KAzrdj3DGAE+pGJlR5VjPb8TfSfqGjk=",
+          "size": 6473441
+        }
+      ],
+      "discovered": "2026-07-17T18:36:00.822435764Z"
+    },
+    {
       "version": "2.6.0",
       "protocols": [
         "5.0"
@@ -1335,11 +1427,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.7.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-17T17:37:35.743512246Z"
-    },
     {
       "version": "2.1.0",
       "message": "checksums not found in release",
