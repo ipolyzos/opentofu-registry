@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-butane_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_darwin_amd64.zip",
+          "shasum": "866e4a1225a669a8ac49ec9617335b93defd09a6b8db399ea3e666b87a48acf7",
+          "h1": "h1:jntl5i4TMexJYl8k7MrQaE4iiAFTNjal28Oo2Wac9rI=",
+          "size": 7888623
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-butane_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_darwin_arm64.zip",
+          "shasum": "085cc5642d95c27cddf952217929005ad63abc9ae5c1618ce967cb1b161c8721",
+          "h1": "h1:RgMysgEk5iaFSXjr5VW4bddiD7+HmJVYTt700yyF0wo=",
+          "size": 7277693
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-butane_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_linux_386.zip",
+          "shasum": "ed35aacf4ca4d3c979cb47407ee217937365d029342779912f279612c05debac",
+          "h1": "h1:Wu6K/+Y7YGOf+XGXrvTlASDd32tsT6KiJiY5Vs6sSC8=",
+          "size": 7252116
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-butane_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_linux_amd64.zip",
+          "shasum": "cd48bb6e07cdeaba0b29803850354db05480d27d3c76879d2092f2c9d9320c0f",
+          "h1": "h1:6vNzbGy2ZEgiQtUNM5ynOwm86K+t2xXqUBx3BHWLOrU=",
+          "size": 7698527
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-butane_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_linux_arm.zip",
+          "shasum": "c791b2ed9c96e739156576b95799e70465ec554b8ff5a819969e48fcb711bf4b",
+          "h1": "h1:7XbGTQfEvoywDOyr9SCeAnhB4MxE9uKonLuSRR9Jgq0=",
+          "size": 7250861
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-butane_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_linux_arm64.zip",
+          "shasum": "e91009c1e7ce550621045c7fe8e2fc2e9c7bc0a0f60b832ffe303d5184ff6c7d",
+          "h1": "h1:kACLWvTVclVPCJAGWjNNO6G5k4junfkggYrB4T3Ji6o=",
+          "size": 6937400
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-butane_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_windows_386.zip",
+          "shasum": "97778aee0aee3c139f8bc30a52149937beceddd62fe63b49db0f1147121ba782",
+          "h1": "h1:X/qA5fU23Ikt47Ve5wGPAI/gzI2StuWhOpM4/iUOG1c=",
+          "size": 7606297
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-butane_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_windows_amd64.zip",
+          "shasum": "61f8299ecafee6f0d83ac4629f5e736e85db7cd1ae811aa5612d580332bbfe8d",
+          "h1": "h1:aV0RkE77yASKlE8EY11VnSZW32fXafOGXdd3gQTKdlQ=",
+          "size": 7918322
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-butane_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/ties-v/terraform-provider-butane/releases/download/v1.0.1/terraform-provider-butane_1.0.1_windows_arm64.zip",
+          "shasum": "0579047d5183e24b189ff52e3cd75350c28e17f136e180f6119442d23fe67680",
+          "h1": "h1:tUCsh+zF1iTSZkHOWrjEvfhzG4DKng2IcP/aS69bKUU=",
+          "size": 7028040
+        }
+      ],
+      "discovered": "2026-07-18T19:06:47.621412186Z"
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "5.0"
