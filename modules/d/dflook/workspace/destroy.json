@@ -1,6 +1,31 @@
 {
   "versions": [
     {
+      "version": "v3",
+      "commit": "85e0b9182aeb98e81f16941001540cd8ebe1867a",
+      "discovered": "2026-07-18T22:50:38.615927106Z"
+    },
+    {
+      "version": "v3.0.0",
+      "commit": "cb12c89bf2502c00e811d63f920d461e90e891ab",
+      "discovered": "2026-07-18T22:50:38.615928619Z"
+    },
+    {
+      "version": "v3.0",
+      "commit": "b41487c1957d3314d4fa00bdc5c5310a41c09a2c",
+      "discovered": "2026-07-18T22:50:38.615929791Z"
+    },
+    {
+      "version": "v3.0.0-ghcr",
+      "commit": "a67f4cecfc1d1e8565ae8afb960aea4664b25252",
+      "discovered": "2026-07-18T22:50:38.615930693Z"
+    },
+    {
+      "version": "v3.0.0-dockerhub",
+      "commit": "110eb495f67c298ef351d236cea348fecf27a55f",
+      "discovered": "2026-07-18T22:50:38.615931855Z"
+    },
+    {
       "version": "v2.2.3",
       "commit": "4cb4b0ee88bb6f8d8033c43554fa5e6f9df41905",
       "discovered": "2026-04-21T00:00:00Z"
