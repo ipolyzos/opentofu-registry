@@ -1,6 +1,98 @@
 {
   "versions": [
     {
+      "version": "3.5.18",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_3.5.18_darwin_amd64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_darwin_amd64.zip",
+          "shasum": "649ea00e43f7b1a51cf7371f605795a787d5d34ae24d8d3c322bb509c9bdf251",
+          "h1": "h1:0oQkZXxn8NYP+td2WSUeTdHwxZRW72NOJjYMH3F9/Mk=",
+          "size": 7357710
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_3.5.18_darwin_arm64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_darwin_arm64.zip",
+          "shasum": "ca984cf0e01a82432503cc9b2172631fbbdfbbcdba9c99d8daec3d6413f7aa9f",
+          "h1": "h1:FwiRy5dUbjlVXZQWn5Jhrby9b4arvybfg22xNPtwfCA=",
+          "size": 6843962
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cidaas_3.5.18_freebsd_386.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_freebsd_386.zip",
+          "shasum": "9f74ca902309176beea76700b7e1ebbe3fa940b17417450c3987a73600007601",
+          "h1": "h1:Un6s35JAl5NkiYCkRjwo8hLlkDiC1sRxNG93H33RPoo=",
+          "size": 6737680
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_3.5.18_freebsd_amd64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_freebsd_amd64.zip",
+          "shasum": "6ad6bc9997583d4dabdb9ae020521e912c1b648ab14dbf53d109166fed34deb3",
+          "h1": "h1:Ou2ERvUcP30FaiUME9OnP27oUneOiC1Q2g08FdR+eFo=",
+          "size": 7152744
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_3.5.18_linux_amd64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_linux_amd64.zip",
+          "shasum": "d90dd387c7d6e1bde584ee2fedce373fda07144f144f186333420e8fa10c53d5",
+          "h1": "h1:KilNc0fZQMTu767P8CYSHuarF4NjZk+pwcwUWIJ0lhM=",
+          "size": 7180842
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_3.5.18_linux_arm64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_linux_arm64.zip",
+          "shasum": "1fb5096540441aed08dbee3ffd3249cf0d04ee4b533a1f52e58298a9c06682ae",
+          "h1": "h1:dZ8CEDBefMs5Gk+G/PwvaFx+m79SS5khmLGCWCY5YGI=",
+          "size": 6510363
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cidaas_3.5.18_windows_386.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_windows_386.zip",
+          "shasum": "240a0fbd83939105ddc549fa8b5db8cf0ab2491c28371078f4166bffd163b4cc",
+          "h1": "h1:Nh9rUzSt90VBjK5T5xYLSmyDnnA00tFo/h62V/Tn3vk=",
+          "size": 7084595
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_3.5.18_windows_amd64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_windows_amd64.zip",
+          "shasum": "933ae7a247736ef37f3f16f56f3f84a5a775713a2ab89ba5e5d09250e730797b",
+          "h1": "h1:/jmNRykMJf6dvw8sMeLbbuafhq+lcNSMEn+o2m5QIWg=",
+          "size": 7388175
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_3.5.18_windows_arm64.zip",
+          "download_url": "https://github.com/cidaas/terraform-provider-cidaas/releases/download/v3.5.18/terraform-provider-cidaas_3.5.18_windows_arm64.zip",
+          "shasum": "b6174e0cc8f29afd19e73c6eedceb25ad3be0dcd980f48a39e520bad943d7409",
+          "h1": "h1:h2bdeO77Xb3xnsl0uQVHJb6Q+bqzEZN4HeDubPSHxWE=",
+          "size": 6599588
+        }
+      ],
+      "discovered": "2026-07-19T20:07:13.816174024Z"
+    },
+    {
       "version": "3.5.17",
       "protocols": [
         "6.0"
