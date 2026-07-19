@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zcp_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_darwin_amd64.zip",
+          "shasum": "156d1b2da53898482073dda32d5e53876f3121e0d7de03a28cf10a6af8e1f691",
+          "h1": "h1:3wAWg4YvePcEXO1nq4WdpvYxF1u+vwByTAspyJhFMcM=",
+          "size": 8106888
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zcp_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_darwin_arm64.zip",
+          "shasum": "b7a469632a00cd36f01ab553cb68b71fc34dcc943d77dce2ab5a637ca5d98a98",
+          "h1": "h1:Z3T35tg0b2HTuaJri0OTTc/bzPAv57xw7XugzXPwNvI=",
+          "size": 7506287
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zcp_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_freebsd_386.zip",
+          "shasum": "4a39bb0ebb6e1ae9a040e07d9cfd05bff89d638c6a7e7d642e1df64390970462",
+          "h1": "h1:XwJHbUFBLZC4QV3s4jz7fhoTL0DGVShgK2ykjgINQ4k=",
+          "size": 7408490
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zcp_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_freebsd_amd64.zip",
+          "shasum": "aae2360b121e64043c2acf007a2f6db667a1038a77abe37a0953fd3bd0d1ce97",
+          "h1": "h1:is36REiCnLtvOnL5No7uCmF/gXRbX/zlg6AqTaPWLjY=",
+          "size": 7843143
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zcp_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_freebsd_arm.zip",
+          "shasum": "a8ce1d639ed88c74c9e591e2b461c0706927370a9accb06951ee314a3ead8514",
+          "h1": "h1:yYeZj5RTsB0i9gyduP37oa/XV9L0E2oJKNah3yW7bIQ=",
+          "size": 7368745
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zcp_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_freebsd_arm64.zip",
+          "shasum": "0484f7d8aeb25095a6c9d3f0627d3d2bf86d246c30356051dd0cb229327d14eb",
+          "h1": "h1:MHKmjo3HH+mH1BxEQkMdqFu3c7Y8aew5zCln2cMZkSY=",
+          "size": 7086475
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zcp_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_linux_386.zip",
+          "shasum": "f68caa4d6bb3f8ec22e3ff1546db6299e7b6a17597a11dad9c4f3a2e060fac91",
+          "h1": "h1:GKjMZfI3Nb5DlWPjGnzanUliIVtBRFynqtYDVpAu/co=",
+          "size": 7443034
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zcp_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_linux_amd64.zip",
+          "shasum": "5591bc0d48de722484e5313c1fea0a29ec665167b59d0f6ee8158e837ef3904c",
+          "h1": "h1:llsfRjK4AuRASQrR9SUMYGAhJtUWItDIKbWKo4E48y8=",
+          "size": 7867230
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zcp_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_linux_arm.zip",
+          "shasum": "ecdb62d28e4d5cf6cbb15a47a8a8e4fbb582947d5ef1c30421429b927d36e29f",
+          "h1": "h1:F75QfkZYBVTFBsh33ND9UkGUomn4fNCsSidC+hMQo9E=",
+          "size": 7396037
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zcp_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_linux_arm64.zip",
+          "shasum": "ca0686f46cec2db43514c7401339c49b9f2020fbe1c2e8b9ba63f27f7b77dcc0",
+          "h1": "h1:4FEi4B3DucQzfurEgm/mftrAEeqX+SZChTPjrYEfeYg=",
+          "size": 7116342
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zcp_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_windows_386.zip",
+          "shasum": "db561bfbd45f5d840cdf6eff04f27569c149061914374e7913cde4746f2cf269",
+          "h1": "h1:ZuUDcLgQvW1U6O2s62cswgGHD7HXruWnvvPVNmPAPnI=",
+          "size": 7771173
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zcp_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_windows_amd64.zip",
+          "shasum": "5c02279145a6861780df4a25e90f5c1419784a5e017ae72646f3d22bd1d3a125",
+          "h1": "h1:sQZlFIlLPBNthoeIOLdFQ2rvPs3otyj4YQ7x7SW1xdc=",
+          "size": 8079817
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zcp_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/zsoftly/terraform-provider-zcp/releases/download/v0.1.2/terraform-provider-zcp_0.1.2_windows_arm64.zip",
+          "shasum": "ffe464f2c1c71b7f1a43d5d97c422b8c229a7bf9fa8597759d48b365621551b5",
+          "h1": "h1:aadgIrv8ntmhaBIxvE/fOMZgs0fDgERYtbq3WT++xfU=",
+          "size": 7190115
+        }
+      ],
+      "discovered": "2026-07-19T00:55:18.856383212Z"
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "6.0"
