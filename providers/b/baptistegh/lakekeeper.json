@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "0.4.8",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lakekeeper_0.4.8_darwin_amd64.zip",
+          "download_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_darwin_amd64.zip",
+          "shasum": "d9acb63c41cf2d81dbefbb9a8c308c1cdcdb148159af01f3b4855c12ec335cd1",
+          "h1": "h1:66ffldK7EDz4Swryushhw2FQ5gql7OsNq1ahveJN4f8=",
+          "size": 16990949
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lakekeeper_0.4.8_darwin_arm64.zip",
+          "download_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_darwin_arm64.zip",
+          "shasum": "8193bfaaafd3b1aee4d0e0b0d168cbf3f5a54acef0712571ff11da6ea3e10fec",
+          "h1": "h1:Z5V+yNDLjFD9n8oPi6lLX4G6993zOYW0NDII3pMJ30M=",
+          "size": 15340418
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lakekeeper_0.4.8_linux_amd64.zip",
+          "download_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_linux_amd64.zip",
+          "shasum": "5ff9550716b7fda2ad971e0d72f46e3da926bdd1376a0ac547704fa15c07bf6f",
+          "h1": "h1:MTCFP2UUNWoua7B55sYAIfVhvAR0kYv1arDiq0LyNI0=",
+          "size": 16577097
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lakekeeper_0.4.8_linux_arm64.zip",
+          "download_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_linux_arm64.zip",
+          "shasum": "d77229b51a5cd3a0332ce4d0b05fa6cf560c6abea230ddff7e1947202d918795",
+          "h1": "h1:EBHRWVYJsin8PLurNN4UZmhjAloILXJqE2WGOUZbVJw=",
+          "size": 14523759
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lakekeeper_0.4.8_windows_amd64.zip",
+          "download_url": "https://github.com/baptistegh/terraform-provider-lakekeeper/releases/download/v0.4.8/terraform-provider-lakekeeper_0.4.8_windows_amd64.zip",
+          "shasum": "fc7c656c7f4bf477398ac4e7637f62e99286d0bca2e3a4d3dd9b70e2d3ef69a6",
+          "h1": "h1:wPHJcsYzGpvaF9teRP92dWEplL1oKQV0grkHa3GgRRE=",
+          "size": 17043575
+        }
+      ],
+      "discovered": "2026-07-20T13:14:03.68712745Z"
+    },
+    {
       "version": "0.4.7",
       "protocols": [
         "6.0"
