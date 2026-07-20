@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "2.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_darwin_amd64.zip",
+          "shasum": "a928b88cb5a1d78a0f42a1d7faa079c19411f2b1f96cb5e720667c3965c5b10c",
+          "h1": "h1:Z6ovn3QwwsIsGixRPeXTNb6k+9fcK/fsN6qGn54chHQ=",
+          "size": 7714937
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_darwin_arm64.zip",
+          "shasum": "8b7e4e0424ed174ac88fafc54ace29b6f0bb186882b12a3d0e9c96385013f8b9",
+          "h1": "h1:WvE599dXJdpSxT/FsUPJu/MgjkFQaQC6MvAqYJ6YESE=",
+          "size": 7180381
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_freebsd_amd64.zip",
+          "shasum": "4b8a8ddd65dd2dfc51447856ed3512882391b6351f1da6774bbb9e9d0e6783c1",
+          "h1": "h1:Y8gGJQn1DtaxD8LuOLE7MkzQ/xydRavPP830RBajRDA=",
+          "size": 7508445
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_freebsd_arm64.zip",
+          "shasum": "ca611f007a287538d59827ed2b0779b30b9c45bef9403f81dce8d97c34e12939",
+          "h1": "h1:8fYUoXchGLndlt7oTuquzExGvdk+Agf6Rfwzn7u2bns=",
+          "size": 6816847
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_linux_amd64.zip",
+          "shasum": "7febf666c0493512b9df180f3346f6ab2be3459c7fba9ae638171a4bb42ab643",
+          "h1": "h1:lLaFACnUVP8uXLNj/fgcIqKyKxHphxyzorybs15IVig=",
+          "size": 7533570
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-truenas_2.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_linux_arm64.zip",
+          "shasum": "2d6b9e309d7def40232c73a11b8d71023a605dc21fd7fda0c058e1063ba82dbe",
+          "h1": "h1:zCGXx2R49mFUYc3HWsduO+qE5e1wOVQ0A0LTzyq+9jo=",
+          "size": 6840752
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-truenas_2.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/pjsalty/terraform-provider-truenas/releases/download/v2.3.0/terraform-provider-truenas_2.3.0_windows_amd64.zip",
+          "shasum": "2fc5710ddaa2aa68f89802f82f465148a21a91ada887b9a07faed00e02cdf2b7",
+          "h1": "h1:fffp1pCQvoyjRiZS22s5tfS7syuSxxbn7Et2mx8Lefc=",
+          "size": 7741525
+        }
+      ],
+      "discovered": "2026-07-20T02:37:26.958475679Z"
+    },
+    {
       "version": "2.2.1",
       "protocols": [
         "6.0"
@@ -813,13 +887,6 @@
         }
       ],
       "discovered": "2026-04-30T00:35:27.257773807Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "2.3.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T01:31:47.266321949Z"
     }
   ]
 }
