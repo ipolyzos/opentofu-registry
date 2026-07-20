@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-plane_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_darwin_amd64.zip",
+          "shasum": "cee4700fd5752138ec7acd91a393e64cc3e43963167d02037f2947f9b21d8c14",
+          "h1": "h1:1sJ07zyBiLAzKIeYsnqsF2anklTK7x+7HnF55avaov8=",
+          "size": 6846868
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-plane_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_darwin_arm64.zip",
+          "shasum": "17ead83754024050c4c7296c94023cd367af998331e5a65e19f2f95ffa20e67e",
+          "h1": "h1:AhxB91H/OT5bXAWt6yDAnCsHkgO7rqEnR3MHvwbqZgE=",
+          "size": 6369040
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-plane_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_linux_amd64.zip",
+          "shasum": "3a7eb4740980ee5c80172aeaa5bb18ae88e8c4c417acc274805bd60b272e15d9",
+          "h1": "h1:s5dQz36atAznCuvYCviyRf7CPRH/nWLtXW0PNw47f4s=",
+          "size": 6667090
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-plane_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/v0.1.0/terraform-provider-plane_0.1.0_linux_arm64.zip",
+          "shasum": "f334c62506d2f548f2a270d055ca81631728d9f060839ff8a2acdda7023c8e42",
+          "h1": "h1:zlqkenV71HmBzhDbr2F4EiYtGoTn59ZcVyOM7JHP7xI=",
+          "size": 6051804
+        }
+      ],
+      "discovered": "2026-07-20T23:34:31.131482859Z"
+    },
+    {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-plane_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_darwin_amd64.zip",
+          "shasum": "bacacb561e00eeaf569ec1716e5a77327417addd9c5bd3ac2a29ae7872237791",
+          "h1": "h1:CqSPTAQ5gxcBbFfc0uZ534wvAKH6T86l2ydQ8vVFrg4=",
+          "size": 6846942
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-plane_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_darwin_arm64.zip",
+          "shasum": "b930012b5d6845c0c857610ec2960e5c084e2c8356203c1d312e42844081e6fc",
+          "h1": "h1:HBygreoX4tA5CjqaIT6k6er/gERXApa5XKY68rviKys=",
+          "size": 6369513
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-plane_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_linux_amd64.zip",
+          "shasum": "3b78ce27340b71da6fb391e0373e5b9f9b00c54cb900260a9bfc2d55eeff2579",
+          "h1": "h1:Vt4HHI8eiKF3S6SL8Bcb3hnnlXC8Ex3orHfhns8zWZA=",
+          "size": 6667041
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-plane_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/ptrck-sh/terraform-provider-plane/releases/download/0.1.0/terraform-provider-plane_0.1.0_linux_arm64.zip",
+          "shasum": "f628c5c77392855c483b848a12db52fdd54e548b32b26b05bd8d60070df8d7ae",
+          "h1": "h1:4WrGh5T+7rKCB2eBBtZtka8Oqjxk4CIDLkYuj95af0w=",
+          "size": 6051879
+        }
+      ],
+      "discovered": "2026-07-20T23:34:31.131923775Z"
+    },
+    {
       "version": "0.1.0-rc.8",
       "protocols": [
         "6.0"
@@ -144,31 +238,6 @@
   ],
   "versions_errors": [
     {
-      "version": "0.1.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T06:30:33.157676669Z"
-    },
-    {
-      "version": "0.1.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T07:38:45.923480678Z"
-    },
-    {
-      "version": "0.1.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T08:42:50.676544983Z"
-    },
-    {
-      "version": "0.1.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T10:44:03.739347939Z"
-    },
-    {
-      "version": "0.1.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T15:26:20.781667858Z"
-    },
-    {
       "version": "0.1.0-rc.5",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T06:30:33.243124761Z"
@@ -192,6 +261,11 @@
       "version": "0.1.0-rc.5",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T15:26:20.821471504Z"
+    },
+    {
+      "version": "0.1.0-rc.5",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-20T23:34:31.585241672Z"
     },
     {
       "version": "0.1.0-rc.4",
@@ -219,6 +293,11 @@
       "utc_time": "2026-07-20T15:26:20.816984965Z"
     },
     {
+      "version": "0.1.0-rc.4",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-20T23:34:31.527243632Z"
+    },
+    {
       "version": "0.1.0-rc.3",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T06:30:33.115629262Z"
@@ -242,6 +321,11 @@
       "version": "0.1.0-rc.3",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T15:26:20.85490982Z"
+    },
+    {
+      "version": "0.1.0-rc.3",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-20T23:34:31.646202197Z"
     },
     {
       "version": "0.1.0-rc.2",
@@ -269,6 +353,11 @@
       "utc_time": "2026-07-20T15:26:20.964194275Z"
     },
     {
+      "version": "0.1.0-rc.2",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-20T23:34:31.523255494Z"
+    },
+    {
       "version": "0.1.0-rc.1",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T06:30:33.141583783Z"
@@ -292,6 +381,11 @@
       "version": "0.1.0-rc.1",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T15:26:20.794748393Z"
+    },
+    {
+      "version": "0.1.0-rc.1",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-20T23:34:31.562211322Z"
     }
   ]
 }
