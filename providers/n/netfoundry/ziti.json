@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.1.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ziti_2.1.1_darwin_amd64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_darwin_amd64.zip",
+          "shasum": "456fff2bb666e4f63dfefd3b695c347bace43b859db680f68fe35612054e53a5",
+          "h1": "h1:BnaQVnCM4Tx1IIHQWX+753Tjc8b2lHRuLhatn4BOK88=",
+          "size": 7513888
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ziti_2.1.1_darwin_arm64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_darwin_arm64.zip",
+          "shasum": "2dc315c2163d9ecb6b7d395265bd617a1b77fc66a8f40a47ee27e57ac526eba8",
+          "h1": "h1:ON3HpSZ3dPZLY1atBrILmVf3/ElU7Bt3YqCeWMV88s8=",
+          "size": 7078477
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ziti_2.1.1_freebsd_386.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_freebsd_386.zip",
+          "shasum": "928bf7e1254569575b8ab9f8ec7feb08997b29e4caa9521cb1cb7a2974581d2c",
+          "h1": "h1:OcWCqOwMYtYQXu56XROM8oTQ9I1jQt1rUmj/lMCMwfg=",
+          "size": 6802446
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ziti_2.1.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_freebsd_amd64.zip",
+          "shasum": "5b21b4998cd4945f6d3280df9311f4b27d0dc3b60c43bb8a720797e894812309",
+          "h1": "h1:vuWKft/asgseyrpjN6TWGG7K+SsOdMWEFxl+cIboZKc=",
+          "size": 7331215
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ziti_2.1.1_freebsd_arm.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_freebsd_arm.zip",
+          "shasum": "481f95d36e88678b29f98597099d049d556a2fa6a4a9525f1b2c044f453890c6",
+          "h1": "h1:FJqxMVVvCTzREzE/aPIYCmJH34stut9aCkYtBKlin5s=",
+          "size": 6786614
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ziti_2.1.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_freebsd_arm64.zip",
+          "shasum": "3b96e753bcca2a2e011d2e36f1f97ba32fe64032268dae4894c44df6b90ba43e",
+          "h1": "h1:l533x2PasUuOEJAgDfpEP5lx8zG6o2XTtNwRY4bNEZE=",
+          "size": 6744933
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ziti_2.1.1_linux_386.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_linux_386.zip",
+          "shasum": "16d6280795702ab3b59b1b1121a6442770d99300c9bb96cb385620acbf43f27d",
+          "h1": "h1:NWZWxpyQe/aKV/eznz0bs19gCr0TIXm5R8D/0q0DN+w=",
+          "size": 6818270
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ziti_2.1.1_linux_amd64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_linux_amd64.zip",
+          "shasum": "02d52533e5ec56ce62fedc825729ba261ebf310d330c68fbeac964462a1faacc",
+          "h1": "h1:nUmb3OPu7fyVMNAiID4ghfxLxl60Y5pvpvxfch9Xqrk=",
+          "size": 7338017
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ziti_2.1.1_linux_arm.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_linux_arm.zip",
+          "shasum": "b524c3cf7d40e5fa96866d04f973f5599a1df3e199c163ede0c15dda4256b56e",
+          "h1": "h1:SuoDPOpAEmjKsqxAtV4lOrKjaTH7aO+rtbRSXvH0To8=",
+          "size": 6797725
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ziti_2.1.1_linux_arm64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_linux_arm64.zip",
+          "shasum": "23952d7e40d4f2a1565acf41cfb4f01b4131eed42e070b4ca290d70a75002e80",
+          "h1": "h1:MLYko35QuOG7r5pWWfilSxx6d4aSW8z+VgsJow4E068=",
+          "size": 6759205
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ziti_2.1.1_windows_386.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_windows_386.zip",
+          "shasum": "6481944c18574d1f94be01c163d9b4e26e7d803bd1a678c57d91481be17f31bb",
+          "h1": "h1:RP0QZHCe75LAZ7IfuLw3Hmp1ISjOHVuiKI4TpNri9Fo=",
+          "size": 7139807
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ziti_2.1.1_windows_amd64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_windows_amd64.zip",
+          "shasum": "a30610fcb95b25c4a591a4149d8bf3be9904467650ad7761a16012e5538780c2",
+          "h1": "h1:c4jyG3t0s7kh/1xftrlajoQPfF80IMernfOS4H4ApVM=",
+          "size": 7548855
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ziti_2.1.1_windows_arm64.zip",
+          "download_url": "https://github.com/netfoundry/terraform-provider-ziti/releases/download/v2.1.1/terraform-provider-ziti_2.1.1_windows_arm64.zip",
+          "shasum": "3c40bdeac0e40fdf677118993358be7cfcead245479dc5b57d95b1b07a1c7dbb",
+          "h1": "h1:bLfwj2oz3wd5nGHnoeNjXLcMCikwct6mIbm1tjP+XOw=",
+          "size": 6839997
+        }
+      ],
+      "discovered": "2026-07-20T12:27:26.54274821Z"
+    },
+    {
       "version": "2.1.0",
       "protocols": [
         "6.0"
