@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.52.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitbucket_2.52.0_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_darwin_amd64.zip",
+          "shasum": "d150d48ddcd04fe1ae88eaf023904c41de7f4db5d3d093d994d713198984138c",
+          "h1": "h1:nr6zqO1oxD70K+CYoZhGJRabqqPIDuKz7yG3TjaGNBQ=",
+          "size": 7992818
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitbucket_2.52.0_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_darwin_arm64.zip",
+          "shasum": "a521874a767e338ba1dc576ebdcb397c61fc9dc175a286db56c80349e7b2b88c",
+          "h1": "h1:xDfs2KsvfVouZDJ9IHv+w1weRU464N2NCX6QxUlGl0k=",
+          "size": 7395661
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bitbucket_2.52.0_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_freebsd_386.zip",
+          "shasum": "08f173ef46f4331ed7de71751e0006f1246124e6b67c2d177e4571a4e835c027",
+          "h1": "h1:jjsFUfAoS+FR7/Djhc2T+7Wje6vmzNqs+jv0vGciKbs=",
+          "size": 7330474
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitbucket_2.52.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_freebsd_amd64.zip",
+          "shasum": "79555cfd853e472acb504092b01202eb841f1054de36c8d95a70951032951e7a",
+          "h1": "h1:Nx10goKL8trC3qrgTPt/tT1wbgKGAA/UDAeUj2zUQj8=",
+          "size": 7790762
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bitbucket_2.52.0_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_freebsd_arm.zip",
+          "shasum": "d5041e661e2dc3719d0a61b47df7d42a4588e33ddd4b1a899c04190ec8ab0520",
+          "h1": "h1:dXpZLWnliG22qEdqXURnKJv1VeapW+Asp6e+X7PM5l8=",
+          "size": 7346201
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitbucket_2.52.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_freebsd_arm64.zip",
+          "shasum": "0d0499370ecbd9060dce9c858d9821501ce7e4e88a0145e50363cd50c0572ce8",
+          "h1": "h1:vJPtxyPURyrmlhcokcBPJPuajrh5i2DObuWG2uPgl2M=",
+          "size": 7037341
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bitbucket_2.52.0_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_linux_386.zip",
+          "shasum": "0750f3f7736ed0dce83272574937423989b9f81d473577a3abf0bd203ff01eab",
+          "h1": "h1:83TqF5gNxmquUwQzmTyzlqOvPr/hpqMqRerW0SAbW/s=",
+          "size": 7362035
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitbucket_2.52.0_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_linux_amd64.zip",
+          "shasum": "90a8e81c6572383e501414184f018a8707fd6b8b9f852d7dd41f795d2b9f5ac2",
+          "h1": "h1:PUZxxa5HhQj/Pcc6ZfOuNvemomZ1LRRxoddwakxOZVY=",
+          "size": 7817228
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bitbucket_2.52.0_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_linux_arm.zip",
+          "shasum": "982d06bf713b193fa40a61db65d784383d5a4fb10728fe06d5a1510a33c94efb",
+          "h1": "h1:UDc6P17sl56iCEKyn6Z/QJOmrzT1ppS5aKQ10RezmG8=",
+          "size": 7369012
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitbucket_2.52.0_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_linux_arm64.zip",
+          "shasum": "cabff46396f90893f3c1b3f00a715fe0a66f9e5cf6a7fb081551935813ce236d",
+          "h1": "h1:FmkiF5sRmQI/MkIe+zkjLOIAkM8rOUUGl0WsvzhNkxM=",
+          "size": 7066270
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bitbucket_2.52.0_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_windows_386.zip",
+          "shasum": "da099552de20838c35897cfa3b20cf4d076bec1ad7af12dc4b5415e792ec7909",
+          "h1": "h1:ONCAqfAiIf+EGekRQ0yxYdX94ar3YWOnr9vtSbIWUe8=",
+          "size": 7716952
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitbucket_2.52.0_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_windows_amd64.zip",
+          "shasum": "7a95c271d9e336ba134277410c9e41e5676dff99cf81d294a9b4c884ffa74752",
+          "h1": "h1:IyaWV1sLbJfsmeYqBv7yw2LLSRWUUcczikYW/bdcj0Q=",
+          "size": 8028599
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitbucket_2.52.0_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-bitbucket/releases/download/v2.52.0/terraform-provider-bitbucket_2.52.0_windows_arm64.zip",
+          "shasum": "d754bf2ced8cddba68a4de4cd5c7cf23d10f77faf9837876f62c10021825ba9a",
+          "h1": "h1:xBCNU+cBchwgXJv3siy7l87fNYciFfLxiYrpgrfuKEs=",
+          "size": 7144719
+        }
+      ],
+      "discovered": "2026-07-20T12:27:31.810497919Z"
+    },
+    {
       "version": "2.51.0",
       "protocols": [
         "5.0"
@@ -8307,11 +8435,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.52.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T11:41:38.814560277Z"
-    },
     {
       "version": "2.45.0",
       "message": "checksums not found in release",
