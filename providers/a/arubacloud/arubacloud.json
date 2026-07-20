@@ -1,6 +1,143 @@
 {
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-arubacloud_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_darwin_amd64.zip",
+          "shasum": "31d06fce7c47816661445d1b9426c8f8998d94137b1000887fd08d41c8e9944c",
+          "h1": "h1:kNmxXGlkDXUK0xjaFhfrJACVtDqAwziuXKk9+QnRYRI=",
+          "size": 9585753
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-arubacloud_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_darwin_arm64.zip",
+          "shasum": "402394c94d346389d6bfb0416da9d7a87e9e4bbce81a9866b49babb1005ace5f",
+          "h1": "h1:YlkYiqHrdFbTCobbi/tlGydZ1Bup5/BAZNAwBNdGKNM=",
+          "size": 8900371
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-arubacloud_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_freebsd_386.zip",
+          "shasum": "70335bfa0129a2d0028d08584ed8e2f80fccfadad936c5843d0ba4061ccae7bb",
+          "h1": "h1:cjRBo8BzwE+aZa/G3oOcNWRmVdglKvCys4E/BGPPfPE=",
+          "size": 8519290
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-arubacloud_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_freebsd_amd64.zip",
+          "shasum": "d0f4addc94e825028e016a252d9a16f519d31ebeec2c79524a059347685be4dd",
+          "h1": "h1:z0yg4i0/4WoqjOTifKlyKPhtikTXFvHhAonooC3ELR0=",
+          "size": 9304450
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-arubacloud_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_freebsd_arm.zip",
+          "shasum": "d5fde4a24fdf06fd384e29abe49985c8828f543e97180e8a5414e4be90f07508",
+          "h1": "h1:BPGIRpF/SSloz9cvlajkP1wTe0I8Wpc6fFxh7C0yArI=",
+          "size": 8503446
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-arubacloud_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_freebsd_arm64.zip",
+          "shasum": "5240a13f9c5db78bcbb6585f4a167a049df5da5f0e3a81f862ca2e9b6b2e3e54",
+          "h1": "h1:2IMV2TROrybijrpgOf2NLo5vQ5Ps5LcCgGUXr9LJfFw=",
+          "size": 8412024
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-arubacloud_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_linux_386.zip",
+          "shasum": "e8fdd961f6a11659fbbb3e2f7e6c27a0e6330d3b2dad0aad4281b6abd2fbaa52",
+          "h1": "h1:fSEUAN9yjjTH6VAp47CO7k+PUC4Ta+v+0PUgaNNeVWo=",
+          "size": 8535718
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-arubacloud_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_linux_amd64.zip",
+          "shasum": "8c37d386e35c160b300b1b0fba376e56e04d43d7d27fc651566cd6ea145d862c",
+          "h1": "h1:akGXlWzOulmAl8mUB4bJnGCb8oYxvZ2oYiSk/y+Qr3k=",
+          "size": 9311017
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-arubacloud_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_linux_arm.zip",
+          "shasum": "14394748767e74f7e399539660dceb286892103accd9a7977846c97cb53c039f",
+          "h1": "h1:CuOkExDZ9qmMHdPNUdavoTbEgWikM+w86O8pE8uFbCE=",
+          "size": 8506967
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-arubacloud_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_linux_arm64.zip",
+          "shasum": "1e6e79574da55b7e59686d6ffb787d77d3b15547e4c04cd24761a55ccf73d127",
+          "h1": "h1:PghdRcJXIGsgcvGuk/sA82q4/uh02uPbGchXGyqBLMY=",
+          "size": 8416925
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-arubacloud_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_windows_386.zip",
+          "shasum": "279a524ffa6a857a243ab020eba6a485f4d2901534da07f13ae9284f218dea78",
+          "h1": "h1:gO2VCvOX+8rGoaZzizlMzuMmP1otEIwVGNVQDNWFwMg=",
+          "size": 8969114
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-arubacloud_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_windows_amd64.zip",
+          "shasum": "010c03810efec4deccf2af305318352efa944f2a02638b3cafc9d0efed24b877",
+          "h1": "h1:6LZFmk/K8uNU4XbK/QE5yCm0QMytnBGz5C0G/++bckE=",
+          "size": 9581913
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-arubacloud_0.5.1_windows_arm.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_windows_arm.zip",
+          "shasum": "6520174a1201d9ad2847158991f8f4ed0c8d192e51c73dcc3910c6216c661845",
+          "h1": "h1:/+w+s88pw3X6uLGETimPxHg5btgPd6Qw1HOahoi2k+w=",
+          "size": 8706995
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-arubacloud_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/arubacloud/terraform-provider-arubacloud/releases/download/v0.5.1/terraform-provider-arubacloud_0.5.1_windows_arm64.zip",
+          "shasum": "6e5883392ff2fe588e025bfb731e8284ae5e9c52dac05ee3e35d84dd1e1a358e",
+          "h1": "h1:3bYCSdYXdqt7wb0WfKypU9k5vwrH97WtdBpLLNDsQRo=",
+          "size": 8511347
+        }
+      ],
+      "discovered": "2026-07-20T12:27:47.525906813Z"
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "6.0"
