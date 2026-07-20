@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.4.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_1.4.2_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_darwin_amd64.zip",
+          "shasum": "35abc622c0289412803bf724794e576404c78267e22233fda944f3abee89c2ef",
+          "h1": "h1:PxON7EJcKReOrP8uFAZ77+HlcrRmUqxaaKrYiVzmYNo=",
+          "size": 7303370
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_1.4.2_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_darwin_arm64.zip",
+          "shasum": "46ab2474f059e5ecf9110f4374da2f3af18c37acb6816d6b5bbcb58e86a81184",
+          "h1": "h1:2KzZVpfLCK0evXVVwE42T/D2Ij9AcjWlXns8F9fGkSA=",
+          "size": 6799481
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_1.4.2_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_freebsd_386.zip",
+          "shasum": "efa312bf676cffbafd2af63668c98621ac69c571cd46b0eb70da27a58fadd8e9",
+          "h1": "h1:JlAAnesgE3m0CmgxPGuL0l6KydAP855+xsGbVsPrgdo=",
+          "size": 6695110
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_1.4.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_freebsd_amd64.zip",
+          "shasum": "a4e3c2dd2efbf486ec684ae1616307ddc4f6c6632654d0f70c450b56692993b3",
+          "h1": "h1:HI7kTlD/7lAn5Us6HXiVT3pwfNbeyXhY3BvUC4CcP8Y=",
+          "size": 7101228
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-airflow_1.4.2_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_freebsd_arm.zip",
+          "shasum": "09fd1ca2f9cc3566e9a2db698217f217b6aa1c1b7ee2fd3723d19e028f6e538e",
+          "h1": "h1:7OFvdrIxlXGK6XHUArV3MnuOak94jYUQ8Ty3jaEEyjs=",
+          "size": 6666053
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_1.4.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_freebsd_arm64.zip",
+          "shasum": "7174288b680adc534e742cda5048055b40ec7d8cf3b44c2f70ed2ffed483393a",
+          "h1": "h1:xvExVjlpb+SnhsPnjGUL9y6flxqww2+5HxaXrDcM58U=",
+          "size": 6441996
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_1.4.2_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_linux_386.zip",
+          "shasum": "c0249636420aaf17e85da0e98a51911f3f57956120ab106436acfd9ec728a32c",
+          "h1": "h1:ccfMh4EiCzV1aVk2gH0MKVnTKLKS5nZjJUYV1y+uf4I=",
+          "size": 6726929
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_1.4.2_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_linux_amd64.zip",
+          "shasum": "065f8291f7717f8c645584b5cb1081a02a5315e8a4fabeacd431cffb6d065f03",
+          "h1": "h1:/Wl3/t7XYp8TKmHrJhLR/KRglICwWQiIB/Bof7WBtsk=",
+          "size": 7124977
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-airflow_1.4.2_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_linux_arm.zip",
+          "shasum": "4ad71b67afc1817c51eefa5854cec0b805c9eba9d94cb5630d515236e08b951b",
+          "h1": "h1:u8gDmgFshGclY7ffyQ/zG3Golxgvq4BkGw/c+QbGE6U=",
+          "size": 6688208
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_1.4.2_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_linux_arm64.zip",
+          "shasum": "3f3249d4a3ab81855892633d4578b2fd26e5155b4c2e651abace8ecbac2cd3e1",
+          "h1": "h1:MgJqOSBeaA+QF5YVAaz0kMwvLYgNMDHEkzvPjhXi2Gg=",
+          "size": 6469002
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-airflow_1.4.2_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_windows_386.zip",
+          "shasum": "92a0fa67c55bfd112ef3572707ba887a9df649d26201e8e24991127b1c2d066a",
+          "h1": "h1:nLgdRnG768q1V3n0EGnG2vVGAwzl2qmAkr4MlFpu+yk=",
+          "size": 7035061
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-airflow_1.4.2_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_windows_amd64.zip",
+          "shasum": "940e45acb3842122b71caf1e2a71ca2c75b836e941f017628bffa760c17bcc7d",
+          "h1": "h1:uK6M7C51XSz8uSNk3tx4li812H3zrtUXhILffYFORas=",
+          "size": 7337105
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-airflow_1.4.2_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-airflow/releases/download/v1.4.2/terraform-provider-airflow_1.4.2_windows_arm64.zip",
+          "shasum": "875e53a055a6a27d4a29aab01da91cb13a9fc06195e80da6202299845d57170d",
+          "h1": "h1:cEqiVGaTG4USikWYHUWNBcoZDszWBDK7OeQuzDYyRuc=",
+          "size": 6550845
+        }
+      ],
+      "discovered": "2026-07-20T02:37:38.447685891Z"
+    },
+    {
       "version": "1.4.1",
       "protocols": [
         "6.0"
@@ -5722,11 +5850,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.4.2",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-20T01:31:57.295672597Z"
-    },
     {
       "version": "0.16.0",
       "message": "checksums not found in release",
