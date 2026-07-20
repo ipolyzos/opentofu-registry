@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hubspot_0.1.4_darwin_amd64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_darwin_amd64.zip",
+          "shasum": "c0d25956ebdf3d4802dc122d7a4fbad1f1fe4ee86f6d56bd352d5db98ad79931",
+          "h1": "h1:iKiKXlmaHctgLvGjWCEfHd63gBoHCZi0ebcKyD5/E4I=",
+          "size": 6907504
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hubspot_0.1.4_darwin_arm64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_darwin_arm64.zip",
+          "shasum": "246dc17a9ce70fb2123e146f0f526239f0dd533d03ca2694a6c3e903ddcd42b8",
+          "h1": "h1:w0NUm4+zakIRi68s8jfvhSXv6bF7XwL9B3Pb0yzhvPo=",
+          "size": 6425385
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hubspot_0.1.4_freebsd_386.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_freebsd_386.zip",
+          "shasum": "56b41bde99315d0339c9b41a53c9c07cf5a803a5e66f00130a0225577ebad534",
+          "h1": "h1:tniMyAPwmz7IbE5S/JzPsdgppm/ZxwJUwHNJJzS2yCE=",
+          "size": 6353246
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hubspot_0.1.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_freebsd_amd64.zip",
+          "shasum": "e2f7de4ba96887de52448a6ecb8d6e2618734403690636b70e866aaea8e542a2",
+          "h1": "h1:jsG6rZaCOQ1o4c+wbcQrp9E/WCCotCoNTi0ZovlN8oM=",
+          "size": 6706415
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hubspot_0.1.4_freebsd_arm.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_freebsd_arm.zip",
+          "shasum": "5a0a005f805dae8e3b8ee7fd97e83a61fb26058675b11e34ad529687c55c0f30",
+          "h1": "h1:3LZIOp36u6sWumOu8AJ8yGqknik6P/xI71nT9h0cEbM=",
+          "size": 6324191
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hubspot_0.1.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_freebsd_arm64.zip",
+          "shasum": "816c17c17c7311642f2f0526e744159a93f312b2b698bc3651e45294e07e29f2",
+          "h1": "h1:xQncervq9st7wk225+gg3zdVoyApWCFJtRlIY9kaS0Q=",
+          "size": 6087276
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hubspot_0.1.4_linux_386.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_linux_386.zip",
+          "shasum": "c3cd5495ea0d895155656b09e77514d22e3cf7bcfee15484567304de80170f4e",
+          "h1": "h1:B9rdlEtV40bThtkeoBGuMeyI46bma4+4coROwy0RdDs=",
+          "size": 6387659
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hubspot_0.1.4_linux_amd64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_linux_amd64.zip",
+          "shasum": "6b15b148a7541eaae16cc77dec9c390f68a3934756de27cb22224bf69889cf9e",
+          "h1": "h1:0ydDIXGb/0C71DdNGjcinIaQ2JHwcq1sxMvEpr3egAg=",
+          "size": 6732444
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hubspot_0.1.4_linux_arm.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_linux_arm.zip",
+          "shasum": "ab0c2ecabd92bc94e7f45e5d8a996547b751adf2a473a1b7569ee4da21e9ac22",
+          "h1": "h1:P157TgNa1In7iOaib7EGKY8GfBu899gPToLomfXIf20=",
+          "size": 6346767
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hubspot_0.1.4_linux_arm64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_linux_arm64.zip",
+          "shasum": "f2e099ace4c442eb1f74f8226e7339bbe8432036647d0ee7a756b7c0dc29e139",
+          "h1": "h1:shwVR/gQRh5oWsZ3hKpExDkKFb/1qUeej1zZVat+kmY=",
+          "size": 6111446
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hubspot_0.1.4_windows_386.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_windows_386.zip",
+          "shasum": "343c896cb1872a926ae673eb4bcbbecd8a6224b22d8f28fb42248c9286563b49",
+          "h1": "h1:Ve7U0h5IqRrbsSZ+9lWUVcaNkabczE+kmnaMzOO/IXU=",
+          "size": 6683643
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hubspot_0.1.4_windows_amd64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_windows_amd64.zip",
+          "shasum": "9395e0985e21f9990407be659ba75ec829a101dc350483613a646f39727cf7f6",
+          "h1": "h1:NsJ6tWEQ+weK+uFUTJ2mqdSoQxw4L83fuuPIXKVHVGs=",
+          "size": 6933004
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hubspot_0.1.4_windows_arm64.zip",
+          "download_url": "https://github.com/jackemcpherson/terraform-provider-hubspot/releases/download/v0.1.4/terraform-provider-hubspot_0.1.4_windows_arm64.zip",
+          "shasum": "8d1b15c80c98147d6d0566b29bee7ffa26500825e2e9ae440784ea7b00e42213",
+          "h1": "h1:wkrr+qLLoA99K9CPzUBTMPZeH8U6XKAZgihx7DYSYqI=",
+          "size": 6194095
+        }
+      ],
+      "discovered": "2026-07-20T06:30:31.554009188Z"
+    },
+    {
       "version": "0.1.3",
       "protocols": [
         "6.0"
