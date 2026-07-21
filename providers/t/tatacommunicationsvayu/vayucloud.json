@@ -1,6 +1,89 @@
 {
   "versions": [
     {
+      "version": "1.0.0-rc9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_darwin_amd64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_darwin_amd64.zip",
+          "shasum": "25b7282dcf7cc3eae2d6605bff24f70dbeef65c49f3c71617ca99ea21285c9f6",
+          "h1": "h1:OQ+FQfHiHsXTLpzakazJ5sT/x/SqGmKXfkoZfRQBt3A=",
+          "size": 7133181
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_darwin_arm64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_darwin_arm64.zip",
+          "shasum": "3055e6e825e7a6e7e0acebaef27e29c51caa16e09fc77a5a3367c58461d29efd",
+          "h1": "h1:VC3JJ5NSiuOqdUwRQLFw/QgtPXMb2M+K+uiwUV7uis8=",
+          "size": 6638171
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_freebsd_amd64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_freebsd_amd64.zip",
+          "shasum": "ee88137b200e0c0e4e8a8015ca51d709057a5f2ed6a867cf853a33ce7a896ac7",
+          "h1": "h1:ACwb6uehurKdNJ1MIjweTl2ylZTfJUB82ANRUJUCc54=",
+          "size": 6935728
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_freebsd_arm.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_freebsd_arm.zip",
+          "shasum": "43dc4431beb6ed0e282836124bb6e4f270cac79b0c2134ffa5e89ad41d404aab",
+          "h1": "h1:mrDUJ4gaY9QRKfk4JRlRvdgtbRiTNRYzIu1KbngQ+HI=",
+          "size": 6529676
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_linux_amd64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_linux_amd64.zip",
+          "shasum": "419e90f7f3aa4fd3e5559641fc3803ff3e1c179ccf00b8889a2488bd669a2986",
+          "h1": "h1:o60GqgDe2PKgPZI9TZDak4ikzhcnil6nT75IHyEDNQc=",
+          "size": 6959168
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_linux_arm.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_linux_arm.zip",
+          "shasum": "86c045ce9491f985f12836f17eae1512fb17b6fcfb1cb2a04ae9a0960835db1a",
+          "h1": "h1:iegQJp7yQH+YQ/iyh/FGzyUlCYWqHIlnPpCAGXjsxIo=",
+          "size": 6553560
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_linux_arm64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_linux_arm64.zip",
+          "shasum": "237aa96363ef27ea65ee596e996120066397bee0a02664eec510fd60133a15f6",
+          "h1": "h1:GOqDbEUqlglXxTCSDJKluwILK/EhZewUlKhNeLfphUk=",
+          "size": 6320573
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vayucloud_1.0.0-rc9_windows_amd64.zip",
+          "download_url": "https://github.com/tatacommunicationsvayu/terraform-provider-vayucloud/releases/download/v1.0.0-rc9/terraform-provider-vayucloud_1.0.0-rc9_windows_amd64.zip",
+          "shasum": "c7900667ce42270f1314a05a6be6a2f3f567317071747fb6b1cb71c5ccc7b5ce",
+          "h1": "h1:ZxuKi7g7AgnIF0b/L8IeMjq4P7NUqKsICKl7vx1EUXk=",
+          "size": 7163202
+        }
+      ],
+      "discovered": "2026-07-21T10:33:22.416565326Z"
+    },
+    {
       "version": "1.0.0-rc8",
       "protocols": [
         "6.0"
