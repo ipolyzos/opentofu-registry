@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.18",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-openrouter_0.2.18_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_darwin_amd64.zip",
+          "shasum": "3795dda46006f6f7e0f41f33508d15f756df023692503311dde2d9a12c8fc96c",
+          "h1": "h1:rWale/F4cooQvP3qp0eMV/O9Hv0+PW85Uezv4Iir8GI=",
+          "size": 7097750
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-openrouter_0.2.18_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_darwin_arm64.zip",
+          "shasum": "14be5ca66321a5a66fb9c0bed34288d6eec8ac900162264a0af29d6ee2378583",
+          "h1": "h1:G1ZNXqyGWAtn7Ihu+2RXLeZJDNz/XyIfDag8YemPbuk=",
+          "size": 6459986
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-openrouter_0.2.18_freebsd_386.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_freebsd_386.zip",
+          "shasum": "4dfdbd8474c52da2c192d6f804c2d5e52b49855507e90f98b7fee867a035b1e6",
+          "h1": "h1:CWfHu0La3IkG2g8l1mMEWBgJQWHYiL6YxaRaCs90Lmc=",
+          "size": 6380802
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-openrouter_0.2.18_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_freebsd_amd64.zip",
+          "shasum": "13ee0636e1a61df6a9f84db60f0e9d80a3c36af3abebc890d0df76dfb6285f21",
+          "h1": "h1:OgXgA6U7o/v2YlefuN6OVwEE3yCruHw/QB81O6Vh8oM=",
+          "size": 6738367
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-openrouter_0.2.18_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_freebsd_arm.zip",
+          "shasum": "1ffa0d580765f92202923bf10b38f7afed358593d19b10d6cd4207a7f93ff7db",
+          "h1": "h1:Jb8A6ZCoNCbWHxbtc1eOfvwREZDdGWwC8/hB1e++MFI=",
+          "size": 6349807
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-openrouter_0.2.18_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_freebsd_arm64.zip",
+          "shasum": "1a27700c2b226dbae345d67e7cfbe85896b4f952ef8c865788ab3a380c2ba97d",
+          "h1": "h1:Mvw7P4WrF9gk3iOcgh8cTmeun7ThL8eFk6wovzNlk3U=",
+          "size": 6113005
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-openrouter_0.2.18_linux_386.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_linux_386.zip",
+          "shasum": "218c5fc44740737be3851e77f25fd1fc07df4fcd6adb1f62b7ea7cb2ac9608cb",
+          "h1": "h1:mDVdIQFrOah4lZmFs49vPy4hEi3Z7HIDu2/TDOHPeEk=",
+          "size": 6415821
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-openrouter_0.2.18_linux_amd64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_linux_amd64.zip",
+          "shasum": "a1ccde919e205bb54a88ca8135ba986855ab9f1ec33ebd0055d9ca59028449d1",
+          "h1": "h1:B+3c4nYASdO5x6/Dzq1tOCJ6pIjMDrqHy9mRrFUxX0A=",
+          "size": 6763103
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-openrouter_0.2.18_linux_arm.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_linux_arm.zip",
+          "shasum": "bd4c630544a81366cc357baf29e700447a59a59e5c70513041ab0cfb9961416a",
+          "h1": "h1:C46P5zoMLhn5pSUccLmKfXsqMHkoLWZnqKxQrPT7wHY=",
+          "size": 6375401
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-openrouter_0.2.18_linux_arm64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_linux_arm64.zip",
+          "shasum": "6c2c22499ea47f3f78971651de590f25c1d2b891e984836c8e610fb6bdcc8114",
+          "h1": "h1:37C8lUahQ6++U1W9fGHGWdevlEP330ZJBWHI2QEjyzo=",
+          "size": 6139864
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-openrouter_0.2.18_windows_386.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_windows_386.zip",
+          "shasum": "d8925191879fc16eb6e42bca3dea966dfa489a514e4358eae39a74f5ad7c9dda",
+          "h1": "h1:0UUMCYxxpEZGKdaMbQEGBG7x/eRm316cdezACFyonC8=",
+          "size": 6711832
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-openrouter_0.2.18_windows_amd64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_windows_amd64.zip",
+          "shasum": "f528fad9331705de0568472f5ebc5a28815877d3eaba93d4e710918767417fce",
+          "h1": "h1:QhF6YuYevSDyiiQGVMQBUzYyGh89x8u7M2qKP1MCiLI=",
+          "size": 6963031
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-openrouter_0.2.18_windows_arm64.zip",
+          "download_url": "https://github.com/cloudopsworks/terraform-provider-openrouter/releases/download/v0.2.18/terraform-provider-openrouter_0.2.18_windows_arm64.zip",
+          "shasum": "7e5c28b6b42f462d3556b0c26280c476cd6264bdbfa074a3414b9067489efe64",
+          "h1": "h1:rnFzeBIB3iBnMSJy7wovlbU2pegnYSus9kKfBgigagU=",
+          "size": 6221828
+        }
+      ],
+      "discovered": "2026-07-21T21:24:44.635152271Z"
+    },
+    {
       "version": "0.2.17",
       "protocols": [
         "6.0"
@@ -1410,11 +1538,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "0.2.18",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-21T20:24:43.179673594Z"
-    },
     {
       "version": "0.2.13",
       "message": "checksums not found in release",
