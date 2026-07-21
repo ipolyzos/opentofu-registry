@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hyperping_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_darwin_amd64.zip",
+          "shasum": "89923e962804c35be015e86bc73571266b17d6b8c31322bd1070d5b986034d2a",
+          "h1": "h1:NNWS1ALZqTBQPoulE1++wwWhNMaPrhrYzUPfAinSG2w=",
+          "size": 7245840
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hyperping_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_darwin_arm64.zip",
+          "shasum": "d96113d106a62b52997292a418285a0b3747910c855c43aeae1702d73dbd23fe",
+          "h1": "h1:R/MYiMPyi3qa6WgFfp/p8ye4yQmJ9ITaSVf886GlHg0=",
+          "size": 6736744
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hyperping_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_freebsd_386.zip",
+          "shasum": "5c38e0eb7e9d44c64166361c8a6b996aad4ed227d67962c33fc5acc6bafd357c",
+          "h1": "h1:d800hL3fwkpWbsSryIWsjTWP4XAjMpQqUqKwRfiC3rI=",
+          "size": 6646349
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hyperping_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_freebsd_amd64.zip",
+          "shasum": "c11c55fa868fb3b04dadfb82a7ebe12d931925eccf62ff26288af144bdf18355",
+          "h1": "h1:4e8fIE4rcKCmP4s9KGSkHidpo5l3kWnhF+MW27C13eE=",
+          "size": 7036355
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hyperping_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_freebsd_arm.zip",
+          "shasum": "2b4dd7d5907055242caa335ec96e94542fd59caba735159f8c5582a3548b2f65",
+          "h1": "h1:86IiUrvUfDaTYNEZSFGFaB4jifvR1As3GmOy6GDDNbE=",
+          "size": 6624859
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hyperping_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_freebsd_arm64.zip",
+          "shasum": "f1e671057312fe414f3c301bf2e6908d98f15735fed4c8e6fbbc993baf1bfaeb",
+          "h1": "h1:jJ7PbhnWgq5tc9hg4dnPqxz/W532cYm3QZBAUo8x9b4=",
+          "size": 6381185
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hyperping_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_linux_386.zip",
+          "shasum": "8338cc32ff6ad9d508b0f47a730cec0c763f54c5efc4b0f79f77b2233485c47c",
+          "h1": "h1:m3oS+Ccu5ZmHCmJ/TIxlnBFGClzcbvbJhwWgEvJzsxA=",
+          "size": 6680348
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hyperping_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_linux_amd64.zip",
+          "shasum": "18e236f7ec063f48e5282052eeebce066bb522fe2460d2e53f1d3e2f82a884fa",
+          "h1": "h1:Nh/maNXiKB+AZ+XGLxmjKQWGqin0LT890JMxJit+T/E=",
+          "size": 7059932
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hyperping_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_linux_arm.zip",
+          "shasum": "2b70196f04bda0590c77cff870f73f7d5bc972714d71e8ef34d8e2c9ce36faf8",
+          "h1": "h1:AL6tCnecGg4Ehm+6afQExn6IKJMnfyEKc9SAgPhxgU4=",
+          "size": 6652717
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hyperping_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_linux_arm64.zip",
+          "shasum": "d6ca4ccbdd8c148931d507e287d4e244bb466d50954203a6ced94becdd8a98d3",
+          "h1": "h1:de5+W02Si/c25mC9HOf0UIbBpaCoD/1ZqDz40qA9fRY=",
+          "size": 6407590
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hyperping_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_windows_386.zip",
+          "shasum": "828c09538f27b8ff7a19ad0e7046f93d9d39b5fc7f17cc60112af871956cde56",
+          "h1": "h1:Y2owZF+AK2+4ILXJ0BhsVw8wtatVn6jcFCpNap5G3Fw=",
+          "size": 7002390
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hyperping_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_windows_amd64.zip",
+          "shasum": "422ead9c283036e92c17e5dd2d5f4fb2c26a98f4a9cc44d9a681f95030a29e6d",
+          "h1": "h1:4CQxHGNt8nes0CyJH5qcvqC5TUtBw4YcLARIw4Js7t0=",
+          "size": 7277557
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hyperping_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/develeap/terraform-provider-hyperping/releases/download/v2.0.0/terraform-provider-hyperping_2.0.0_windows_arm64.zip",
+          "shasum": "7dad34e8995210dd1e323f52b1400e3b68c3af6af776acae1521ed9b362df50b",
+          "h1": "h1:fcsGjEJx/18DCV1AOYIBHZkGa3f9oNRQ3PWwbrLe50w=",
+          "size": 6499452
+        }
+      ],
+      "discovered": "2026-07-21T08:41:40.172494108Z"
+    },
+    {
       "version": "1.12.1",
       "protocols": [
         "6.0"
@@ -6658,11 +6786,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.0.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-21T07:46:12.786523806Z"
-    },
     {
       "version": "1.0.2",
       "message": "checksums not found in release",
