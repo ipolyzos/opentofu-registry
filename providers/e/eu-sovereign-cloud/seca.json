@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-seca_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_darwin_amd64.zip",
+          "shasum": "4eea7da5a8c7fab89d2de7949f670577fd46eac3196488d7274060d01c22f303",
+          "h1": "h1:zgGpzdiQ6P1D08g1xU53IOB3GufpjgyV/vcYM1hn0KU=",
+          "size": 7528171
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-seca_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_darwin_arm64.zip",
+          "shasum": "ce1f03944b00ddd93af350d13ad5a7c7f0358705bbb021a241e5f48903b02635",
+          "h1": "h1:cv0QWo8RV9WKE5+/XUZ2DjD4SZMotbousuN5yQwGsSw=",
+          "size": 6988814
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-seca_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_freebsd_386.zip",
+          "shasum": "03ddd45773ac7d63d583823e28720d38a873b0da5bf20a031d07b89eb2707a5c",
+          "h1": "h1:NKdJIJTlzKOlwC6T7JC/OHuQpZuFB1cLDwAicjILqVw=",
+          "size": 6890872
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-seca_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_freebsd_amd64.zip",
+          "shasum": "cc3b0173c312783851688d46bb13a1a39a35995e9d42d77cd1e9857e3e8e8e7e",
+          "h1": "h1:EGpFjTTjrIYQzGf337fWtS1LdDQbI2q8IBxwGzPEDNc=",
+          "size": 7307606
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-seca_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_freebsd_arm.zip",
+          "shasum": "5fd716b9d8bd6e4d2b0c0dd756320ec4b7ceb259f68f4068ae258cd15c70cc75",
+          "h1": "h1:+sRdbL/Nwiul6tiPj43cS7MSCbxFF/w9B+zlj8y+2A4=",
+          "size": 6861722
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-seca_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_freebsd_arm64.zip",
+          "shasum": "ce4eb2257a29370d62ce27ff491e669b92e425fb44ef06f27e00d66d6dbccace",
+          "h1": "h1:3QuwTKfm5UV7+xc0lEzXadNlxTVqKzbZ/jjG3s+h3mU=",
+          "size": 6611959
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-seca_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_linux_386.zip",
+          "shasum": "de7098140c120e0122bd8259c989fb281bee35776e15d711f68e914b4a4ce61f",
+          "h1": "h1:a0SvaPGPjbyRGbh0Gk84i5zz7xbiTQ8yGacxcaXA3T0=",
+          "size": 6923000
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-seca_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_linux_amd64.zip",
+          "shasum": "c8018a51b54a4abac851dadb883a248888f7d05fc65b09d3f98a1abcae13cbef",
+          "h1": "h1:GndZ7wESXXUKl64Kx0pxSc7JxwiwOQpVKkKDAO84eG0=",
+          "size": 7332534
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-seca_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_linux_arm.zip",
+          "shasum": "22328fb5c81b2ee0bc5ae245b522df9677c6ff880e5c2cf5ecd85ee85ac46381",
+          "h1": "h1:uOO8PQy18caIGKjt93/f7ND4UTWsA4utdwtI8XeVj70=",
+          "size": 6884985
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-seca_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_linux_arm64.zip",
+          "shasum": "ef952af1b2a100463548998cda31c4a4f6d6ef87d1d7d26c41f7efcc3e3c351e",
+          "h1": "h1:RVi1T3gO9YJjyGy1bRdLsMrxSexVo5LznwbCqRrIYlY=",
+          "size": 6636770
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-seca_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_windows_386.zip",
+          "shasum": "4b94c337d6da4cd1e41f046c192b3956de4af11a2da5e648722d1681637a7577",
+          "h1": "h1:neCBWRr4a31FAMTLDYryA2yLW+yVCFJ3sNqQ89ZNEm8=",
+          "size": 7252792
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-seca_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_windows_amd64.zip",
+          "shasum": "534e5d512f6fb73b386e4cbb02061aeaec380093bd376ea7a8feb1790c442bfa",
+          "h1": "h1:YaIJ+GYckogcCMIKJAa8sDHuFTuGEnDvmkxVcMBSzp8=",
+          "size": 7548402
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-seca_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/eu-sovereign-cloud/terraform-provider-seca/releases/download/v0.1.0/terraform-provider-seca_0.1.0_windows_arm64.zip",
+          "shasum": "46bfa998483b4dd2951ec6d9058cfd73d2b51d8e069ae5e4de2b74e4a10e951c",
+          "h1": "h1:AlQhRzX5PiNF1YDT1mk0RzZoZI1yXahKZ839MCdtGGw=",
+          "size": 6723783
+        }
+      ],
+      "discovered": "2026-07-21T09:34:04.639741232Z"
+    },
+    {
       "version": "0.1.0-alpha.1",
       "protocols": [
         "6.0"
