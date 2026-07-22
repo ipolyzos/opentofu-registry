@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-archil_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_darwin_amd64.zip",
+          "shasum": "6c2c015531db4c6a324c4e1b6a0382725e4779f758ee62a5c037df28959b9f65",
+          "h1": "h1:b2dFDBMudi4dkufu4MAuflCZb7K9+W88vBGPg6V+Pm0=",
+          "size": 6809509
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-archil_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_darwin_arm64.zip",
+          "shasum": "630e30e70230ac673579bb6c1d8f633f872e536527482d646563ca56acea58b1",
+          "h1": "h1:9yrLBNCbInuECv6W5PfysLj/3Mq+sqo+whRB7qO7ZRM=",
+          "size": 6349488
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-archil_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_linux_amd64.zip",
+          "shasum": "95e0a786bcc67d144a24988dfe027544b7ee06430e6198d8286aab228c7b3277",
+          "h1": "h1:Elo2WVBiEmZ6jHeq2fWTqL8aKtHW5Kg0OUL6VUXiJrk=",
+          "size": 6644384
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-archil_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_linux_arm64.zip",
+          "shasum": "148e351637979445b0168e99eab5566ba3cd96986a789cb65b6de3125bde6b54",
+          "h1": "h1:HaGRE6BYHQzg4pUx19lvg4iye7pQ+S6n4PDq7f/UWRw=",
+          "size": 6042130
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-archil_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_windows_amd64.zip",
+          "shasum": "d0744586371c592a099ae02fd76ca2e811593cd71799bf75e845d8f091acb5fc",
+          "h1": "h1:mNktNLBjSSkdlYg8wMW/hb+MWWzTYgQnjYID1kM5bSU=",
+          "size": 6840082
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-archil_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/archil-data/terraform-provider-archil/releases/download/v0.3.0/terraform-provider-archil_0.3.0_windows_arm64.zip",
+          "shasum": "052a3211513bc0dbdad4a32e5a6ec1fa3620b85fb510e8cf0e94699d2c2d2613",
+          "h1": "h1:krg2+siJPmP4HKUT86E53kjzp1jxuhmKiYpJ5bEx/ho=",
+          "size": 6124613
+        }
+      ],
+      "discovered": "2026-07-22T17:44:02.779570207Z"
+    },
+    {
       "version": "0.2.0",
       "protocols": [
         "6.0"
