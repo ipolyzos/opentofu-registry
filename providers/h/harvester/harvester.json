@@ -1,6 +1,53 @@
 {
   "versions": [
     {
+      "version": "1.9.0-rc3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-harvester_1.9.0-rc3_darwin_amd64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_darwin_amd64.zip",
+          "shasum": "07ee1e0ad664d712575e96599fdbc1ae92381db89d8783c30a9bb3bfc831e846",
+          "h1": "h1:h101XkMztTavKGWVSfriEN6aPRwOYBWK16rqvSEkjf8=",
+          "size": 21857900
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-harvester_1.9.0-rc3_darwin_arm64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_darwin_arm64.zip",
+          "shasum": "27b071bbc8996bcf6a160d5d783e79946e250d4211dcd3f81e21559e7e1cb113",
+          "h1": "h1:DqHRPKNZZf5p7s4xsIjihKNeenzML1SHPp8XextGFI0=",
+          "size": 20249701
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-harvester_1.9.0-rc3_linux_amd64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_linux_amd64.zip",
+          "shasum": "d47048f085a4c3199454aad022b474524345ac4ee322d46880a91e722a62d10d",
+          "h1": "h1:lmOZKPfkgz2cDORPoSiRijsJaRhMOMvAtCzaC94gfIQ=",
+          "size": 21391668
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-harvester_1.9.0-rc3_linux_arm64.zip",
+          "download_url": "https://github.com/harvester/terraform-provider-harvester/releases/download/v1.9.0-rc3/terraform-provider-harvester_1.9.0-rc3_linux_arm64.zip",
+          "shasum": "8d4b054291cea354027b760355b9567f2b1b80d377255d8d2ee066f90cd2d586",
+          "h1": "h1:Op2k+SbgGLjOgjESvFtHd7UF66LMdvBcCQUrgGAmPEY=",
+          "size": 19186283
+        }
+      ],
+      "discovered": "2026-07-22T08:56:48.240042593Z"
+    },
+    {
       "version": "1.9.0-rc2",
       "protocols": [
         "5.0"
