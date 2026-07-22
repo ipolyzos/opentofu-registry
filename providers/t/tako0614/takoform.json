@@ -1,6 +1,62 @@
 {
   "versions": [
     {
+      "version": "0.1.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-takoform_0.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_darwin_amd64.zip",
+          "shasum": "9d45427fb35fc3eb45f4dfab71048bc641e962058a411fb5d5961667d7bcda39",
+          "h1": "h1:pn3nQ3hgnUX9salxK4x+kLNHm6N5yOLZHgompDLTmnA=",
+          "size": 7032640
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-takoform_0.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_darwin_arm64.zip",
+          "shasum": "a82852edfdb97206a558c07eba90af7148eac983978b1594f320470b1518c321",
+          "h1": "h1:lGB7Qtyo/w8lVolQ9ib4dz64hwZ9jNFuErsvo74CAVQ=",
+          "size": 6538676
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-takoform_0.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_linux_amd64.zip",
+          "shasum": "ba8f7ab99eaa0232db93fed8726aa24e1552156abd01a1b26c98985aa54b30c8",
+          "h1": "h1:pDPthGnzU5XdK4Ik54uhhJp1Or+VsAgsqKPtosJ2q9I=",
+          "size": 6858471
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-takoform_0.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_linux_arm64.zip",
+          "shasum": "caa89a598c9b50c45f31b97bbff391ef8d47eca7a5f802a62e47deb4e5547d71",
+          "h1": "h1:GQHl58eJWZ9ZKn+NVijwlg+STvoDJdS4B/ozkVDSBD8=",
+          "size": 6231851
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-takoform_0.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/tako0614/terraform-provider-takoform/releases/download/v0.1.3/terraform-provider-takoform_0.1.3_windows_amd64.zip",
+          "shasum": "c421058410d0b2bd0405129ee0e4f9393753cebd0d8b27f2ac1a7cb752dc925f",
+          "h1": "h1:cadJkI9m2uqwxCW/XnhHMENoDw9PyFBaP5wgIddnxr0=",
+          "size": 7057290
+        }
+      ],
+      "discovered": "2026-07-22T08:57:22.021764867Z"
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "6.0"
