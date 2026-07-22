@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.5.23",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_darwin_amd64.zip",
+          "shasum": "229874d809c59d317f38bdebf5d3ba4a54c71d34fc334aa547f5fae20352141c",
+          "h1": "h1:Efj/oIgmsTHBWXUsCSuu4AGCfuy2tQ1sMunK/EhUzik=",
+          "size": 8188344
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_darwin_arm64.zip",
+          "shasum": "303b9f14407d825898b53c530faa24f4307fb218fae033801195c94a8b87bb9f",
+          "h1": "h1:tKQ70e8MyibIRL/SAm1WY8Dhefch/mLZpmvDKO5Si0I=",
+          "size": 7586630
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-catalystcenter_0.5.23_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_freebsd_386.zip",
+          "shasum": "f8bfee2051c105bbc40b386b52b75614dec95b6d7953552b4165ee570ec23180",
+          "h1": "h1:nrNJ99PdbgcnVCJC4MrxGQdHsj5hxF4i168XH3XM1LE=",
+          "size": 7462075
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_freebsd_amd64.zip",
+          "shasum": "4a4cc23385271c34d5735c3bacadcdefe4bc0672ccc1f073441b2ffd45d7ed6c",
+          "h1": "h1:xh69qngYQutn9TGbCNYP3CX0sKaAtRT9+uaeltUPUqo=",
+          "size": 7983167
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-catalystcenter_0.5.23_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_freebsd_arm.zip",
+          "shasum": "7e891186c043d3384be5c95f70f562f626b77e12bf58ec46d335b817fefed8c0",
+          "h1": "h1:nqksodfqhkFGwrphK0+VKyOsmShusnzXkTu7eWJhKWE=",
+          "size": 7481440
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_freebsd_arm64.zip",
+          "shasum": "f10392923a664c46535cf7d9e759101c4e64256f15134aa4570aa31405dea481",
+          "h1": "h1:mYEyFf62qw5lWGxWGJbVPe54XiWbqCbaVBvgyGJz7bE=",
+          "size": 7206935
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-catalystcenter_0.5.23_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_linux_386.zip",
+          "shasum": "ed8cf026caa167924791697f2735a370fb7bb288043f611fb8fbf800cd96a993",
+          "h1": "h1:G50Poo/tXQ5W4R35LuYCqo2FNlsG3IIAF7dlfVKUpTs=",
+          "size": 7492770
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_linux_amd64.zip",
+          "shasum": "0a23ec464e3c08b13abdcdd86c35d42e04df834696e6bcda3e6a17c5abc7a2f4",
+          "h1": "h1:uF4TXo3UJxbYnXtvqdu21JNpKTmeVr3AkefpuuOm4b0=",
+          "size": 8011688
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-catalystcenter_0.5.23_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_linux_arm.zip",
+          "shasum": "9b9ff6425bcad029e8f593239579831189bd13dba73ee97d4ce7a4fbd203633b",
+          "h1": "h1:vrG3q9rgZmR/dXhGoBiGIC8H1Mm6pnQyE/qAEi3zeSw=",
+          "size": 7505972
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_linux_arm64.zip",
+          "shasum": "37e5a3953ec34df32695f8c77e01d72aa01af19f3e2a76cf28ac81fb8c3aee74",
+          "h1": "h1:c4e7Fj4oY59S28nYERyFT31VL+mOvd2h0AAXMyIh0Dc=",
+          "size": 7233620
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-catalystcenter_0.5.23_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_windows_386.zip",
+          "shasum": "c10eaf2f93478da2302afd72c8e91c2cb6ee6b233940fa4382b900db9cbc1dea",
+          "h1": "h1:YPZhU0m/pbIViTDciDzoGwx8T7sC+elmb7mWbLGMjRo=",
+          "size": 7849564
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_windows_amd64.zip",
+          "shasum": "c361c8f60641ae614e522717993fe91ff19e941e81937bc736a98ffe65185215",
+          "h1": "h1:7Zp/xUE7yD2CZQk6MGJtQAW+KQS4D0oDjFPzokzaMIc=",
+          "size": 8222327
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-catalystcenter_0.5.23_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-catalystcenter/releases/download/v0.5.23/terraform-provider-catalystcenter_0.5.23_windows_arm64.zip",
+          "shasum": "4a0333a983e07926c705d6d4a502884109852fdd29611db01f29f22f11ef7494",
+          "h1": "h1:XASVVrmo6VAyjELG/sRQiHQufUAlLeEF4vK+Yi97dlg=",
+          "size": 7315655
+        }
+      ],
+      "discovered": "2026-07-22T12:46:00.782765717Z"
+    },
+    {
       "version": "0.5.22",
       "protocols": [
         "6.0"
