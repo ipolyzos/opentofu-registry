@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-grepr_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_darwin_amd64.zip",
+          "shasum": "5669958d074423d96cde899d64e9dd04b9ce9c7a670bc4421e79c1bece97d962",
+          "h1": "h1:XhftuVOlpRv2MgpI5huj3/uKDzXUk8RCXoHguFQ+giY=",
+          "size": 6743644
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-grepr_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_darwin_arm64.zip",
+          "shasum": "3c54af1208d2540538beb9e87ee02c62a2ef5135616cf0b5f64878f65835cac4",
+          "h1": "h1:FyMLeCx8aGNqb3xgL1dVfp0lDY9wfEt7kv1H70QL0EY=",
+          "size": 6364347
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-grepr_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_freebsd_386.zip",
+          "shasum": "af5ca9f9feddab2d7f143696405bd386aca5d8ffabc8f7b9f0847f8fb191c061",
+          "h1": "h1:CxpElNYSYcDQ4AEGoViKIJLAKeK3WJns+XYaLjLasag=",
+          "size": 6188363
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-grepr_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_freebsd_amd64.zip",
+          "shasum": "bbc34cc974254f41b05a5e090373c758731e9f12698dc4ce5653e3b4899895be",
+          "h1": "h1:minDEz9HFudhK3ai6fgo/qXp0HH8gVOPOLj4mTQQXKQ=",
+          "size": 6556188
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-grepr_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_freebsd_arm.zip",
+          "shasum": "8c4bfcb938d3d956e86dae51333dfaf7463093eb090ca094ea8051d8346b244e",
+          "h1": "h1:z4/iytHzmu6aIpIHWxF+oTmoQqHsWBebfIGg4sE4vc0=",
+          "size": 6155601
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-grepr_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_freebsd_arm64.zip",
+          "shasum": "17082c4ec3dce8e58bfb7704d700df556c30c37cc40aaed843f090d94fc48e49",
+          "h1": "h1:f0HN4MExVkV5v9q6IVA9QxZBLjuOcji7HPA6hNp2U6I=",
+          "size": 6032306
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-grepr_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_linux_386.zip",
+          "shasum": "df7f0d946fbbbdf0d851cb2682f364f5bd38c4b3386386d4f0bd0d3f733c64ea",
+          "h1": "h1:Q3WFonVZTJ1n/mOyTou4aYtA2k9Frv1b2MvP4yvpFOo=",
+          "size": 6200718
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-grepr_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_linux_amd64.zip",
+          "shasum": "2d14beff2bb1dbc50259b4f0ad004989e667a3504edcbb7fd208bf9117c9a4cd",
+          "h1": "h1:eulsWnD5tFqvQnGF0C7JkJ/HGzaVAKblabcJVPHc0TU=",
+          "size": 6561757
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-grepr_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_linux_arm.zip",
+          "shasum": "b64e81f2dfef6ba3fd571450f4497a22442feb71c125b3bae819bb60284cc7f0",
+          "h1": "h1:Sjl1ZLNSafJ6JdC6/0RKMwZwn2Is6nR5sJ27mbxAMlk=",
+          "size": 6160355
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-grepr_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_linux_arm64.zip",
+          "shasum": "254ed901c83394d79787c562ed08232eba0f07ab3b69ac551220205b324426db",
+          "h1": "h1:zVeGEqleYd+6sHJaCVrUKsevKUghpa8imfD/farg0DM=",
+          "size": 6040545
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-grepr_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_windows_386.zip",
+          "shasum": "747c7588bf95e6b25e165380bd623ae5dd4264faa1c258de940c61fe176a1941",
+          "h1": "h1:Ary10Mr2WXrKxEUVccnsC+Re0jxx84G0ycm6NlbULzU=",
+          "size": 6491683
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-grepr_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_windows_amd64.zip",
+          "shasum": "63230e088ead56a6354a1e1dc47c7bcfa0df7ad4b17b0492ea5e5e69b3a1f2af",
+          "h1": "h1:tvpIDp7FcbWTBUcdbcqBSZa2QeQkAp8310YTiCyu9s8=",
+          "size": 6766660
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-grepr_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/grepr/terraform-provider-grepr/releases/download/v1.0.0/terraform-provider-grepr_1.0.0_windows_arm64.zip",
+          "shasum": "2fc363d64221488b2835dd90eed2cb14aa21c0558135b32e7ac515d355ae5420",
+          "h1": "h1:voDOxHGOgVcDXaqbIgKCjhrNslRHXkHmuHiVqOe20ls=",
+          "size": 6130198
+        }
+      ],
+      "discovered": "2026-07-22T14:42:40.334151097Z"
+    },
+    {
       "version": "0.1.0-rc1",
       "protocols": [
         "6.0"
