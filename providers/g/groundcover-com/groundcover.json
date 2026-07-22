@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.20.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-groundcover_1.20.0_darwin_amd64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_darwin_amd64.zip",
+          "shasum": "9ad1b6b46b5b9ae7e0cc04b71dd8c9b60eb2968b2fe68691980034c37d75bbf5",
+          "h1": "h1:Nlbc9nIiExQgNw+pTn1rekxD+zNaaeWjR400v1Kj+4M=",
+          "size": 9181350
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-groundcover_1.20.0_darwin_arm64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_darwin_arm64.zip",
+          "shasum": "ba3b626d72b2a38ddbf36e931effa0d0de1c4266e359640465bbfd4d84491ab2",
+          "h1": "h1:KWFuRd9MHgFHmKgh9zKgwadBfKQiy+hzcQLnNhlv88E=",
+          "size": 8551378
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-groundcover_1.20.0_freebsd_386.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_freebsd_386.zip",
+          "shasum": "5142ed51b2ef9f37c6ccc66a1cee6fec5533574108b57ce4745590850f6174d1",
+          "h1": "h1:XOBqyrnZ8UyMNhT2TSGr/0kuF+Zs2ykgz52iUDTkTBQ=",
+          "size": 8405004
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-groundcover_1.20.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_freebsd_amd64.zip",
+          "shasum": "cbeeee76df7834a0cde8568ab35aecb8e712135443d980502e3bc323f7bf3ed6",
+          "h1": "h1:nj/HX8PKUPmHYcz9rWufUfNGiLXwEGGxAuR+T1D1uEc=",
+          "size": 8937897
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-groundcover_1.20.0_freebsd_arm.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_freebsd_arm.zip",
+          "shasum": "173e253ba98a5f10662af7145e983ed1d7992b76a9922e37f873706bc9567216",
+          "h1": "h1:qvO9eWdHewK2GjWwzklU/MJ3wM33flrUdTEOamYFlNk=",
+          "size": 8383652
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-groundcover_1.20.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_freebsd_arm64.zip",
+          "shasum": "e06f205edbfe61af4844575995ff7c5282e0e22be4e2f79a160c35d14db9aa34",
+          "h1": "h1:SeHzIOHTxIGvvCTsQA07MHi2AO+nZnPyP6y7CdlFaHM=",
+          "size": 8096804
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-groundcover_1.20.0_linux_386.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_linux_386.zip",
+          "shasum": "2a092832955255b7536b1e7c541f7aaea9328cf3cd4abad78cd2502713d5e264",
+          "h1": "h1:n1zG7GQRbPe6RguP42s4wpQaq54jr76W0mjwo/aOwT4=",
+          "size": 8436459
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-groundcover_1.20.0_linux_amd64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_linux_amd64.zip",
+          "shasum": "ddac02b07eac5519f48445846c4951899d742f203b943d4d6c74e7f7b491f134",
+          "h1": "h1:FDT7jf6yQqczQEE7Bzu7rGbCgYbJb7yaqEagspQ1/2g=",
+          "size": 8958539
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-groundcover_1.20.0_linux_arm.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_linux_arm.zip",
+          "shasum": "f6dc7386280063c942d06dd65574889ebcaeafdb0ca52d69ce19c7e4a832b6bd",
+          "h1": "h1:A/PD5ak5IyCS1uEyn4SxFXWMJ2nK2G0R1zzvA39M3hI=",
+          "size": 8400056
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-groundcover_1.20.0_linux_arm64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_linux_arm64.zip",
+          "shasum": "8d0517354ae7f73edf9351c52a9486a820984d92c71ed9779f0bc02cd2139d6a",
+          "h1": "h1:1Zp9UhvDIAlidZnfUTYTqXMjldOeR9oV++7gdm0PiNw=",
+          "size": 8123696
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-groundcover_1.20.0_windows_386.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_windows_386.zip",
+          "shasum": "056c706195dc18aa20ea5879af3c045f5239052ebe07ec1a18d2a378e43f7d49",
+          "h1": "h1:ASbhZO9Dc2G2XShaGzB004LAF8slH8v7aSRUeNglwZw=",
+          "size": 8840600
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-groundcover_1.20.0_windows_amd64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_windows_amd64.zip",
+          "shasum": "1aeb5bc6884ceb8bee6af6d18112287162d809c388e076d5e3908f69cf52553a",
+          "h1": "h1:HCBvYHDyZZyvXqIjSSKAKcumBWD/iQkBUrVR+LUMzTQ=",
+          "size": 9222490
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-groundcover_1.20.0_windows_arm64.zip",
+          "download_url": "https://github.com/groundcover-com/terraform-provider-groundcover/releases/download/v1.20.0/terraform-provider-groundcover_1.20.0_windows_arm64.zip",
+          "shasum": "43b9c242ec60d9bb286caa7aec4c157aa21c975d09553dd40ad477ed24eaa08c",
+          "h1": "h1:q49AMEIiQsbk47fGxg7Eum/otJNrznykqdEMhblW3Kc=",
+          "size": 8221587
+        }
+      ],
+      "discovered": "2026-07-22T18:39:00.242387798Z"
+    },
+    {
       "version": "1.19.0",
       "protocols": [
         "6.0"
@@ -7665,11 +7793,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "1.20.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-22T17:43:41.301022329Z"
-    },
     {
       "version": "1.16.2",
       "message": "checksums not found in release",
