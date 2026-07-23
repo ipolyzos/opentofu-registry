@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opensearch_2.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_darwin_amd64.zip",
+          "shasum": "a6c92378efd44bd14c6f9ee33a934a866135b806e3a8af4800d5f83207d31e16",
+          "h1": "h1:MDzS5m2wJlIhP96D4a2exb3Zu90mz8CGcHyP6oL1YPw=",
+          "size": 9588522
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opensearch_2.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_darwin_arm64.zip",
+          "shasum": "5e500306b7d871921f6391f3c532beca142b12b5f519f27a433673ceb9c97ecf",
+          "h1": "h1:Ax3yCiAPmPCii9YZ4GR21QQDjV5e5jINkv/EVV1CtsM=",
+          "size": 8872988
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opensearch_2.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_freebsd_386.zip",
+          "shasum": "b4e24932ac44baa016887e4f0027420cd32e684733933e43bc2bde6563d5ab05",
+          "h1": "h1:MehiJXhAuzQtJ6TMam3j8HiYWRLo0CLm2HxSpM28HcU=",
+          "size": 8673902
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opensearch_2.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_freebsd_amd64.zip",
+          "shasum": "8be1491109b57c888243d0d94cf1e21449d563154fad2452a3faf4a17ce66df4",
+          "h1": "h1:O9HfsgTN+Khc9iAD172YGwvJmzbK+TxPDZ6ommBR5hw=",
+          "size": 9347358
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opensearch_2.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_freebsd_arm.zip",
+          "shasum": "672cb28a24a2341711c654e57b9361c136b91c04a00fbc5417130cca7e3b5cb2",
+          "h1": "h1:f5LIw4TAr/iZ7Fs6Nua0ZfLE5dku/D9mOl671ny9oDg=",
+          "size": 8905161
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opensearch_2.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_freebsd_arm64.zip",
+          "shasum": "ffb99e6f14968627619b600322e7f0b0462914252f92f2872483e5765e5c12ae",
+          "h1": "h1:M1feM5eeaHE2OYVRdsPRDZyjiFqH3azquvLRIe8HsoU=",
+          "size": 8400064
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opensearch_2.4.0_linux_386.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_linux_386.zip",
+          "shasum": "f11b8e2bd38a0c22cb8880b3a390919efc6dc209fb9f612dfa9e2481f1cfb45a",
+          "h1": "h1:N73xokiiE/PPtbESUGz+FipmNaGEi2whRTuhLa+g8DE=",
+          "size": 8719111
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opensearch_2.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_linux_amd64.zip",
+          "shasum": "1e735e2df053b7ed5ac3dd02a30ffcc2717592101f2d09fff520a05d45e1b96b",
+          "h1": "h1:PMoUHApu4GCyIQ/q8WZCRGHGR8Nu3HLnEbQtN8q6UNE=",
+          "size": 9379384
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opensearch_2.4.0_linux_arm.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_linux_arm.zip",
+          "shasum": "7a9aaf08a0e5e04f39046808d171ac6615f4015788b9ea5d55a9d9a70011e5a9",
+          "h1": "h1:UfgUBatNBjJJT9L5GsYlts8Lcshk0Uwdzy60KDJ9LEM=",
+          "size": 8932919
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opensearch_2.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_linux_arm64.zip",
+          "shasum": "754c7c8b1264f392ff9e47b33ff300169da3dc2ef91af83d7f18b41b3a0e79eb",
+          "h1": "h1:PFCVh5EuNquvTfS2Y+5jpRF23sivKR1e+EQvSSIlwOc=",
+          "size": 8430666
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opensearch_2.4.0_windows_386.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_windows_386.zip",
+          "shasum": "fd57861441c13811641c0c03854763fdc0196999c43cf17bd1a61c9de8546147",
+          "h1": "h1:n/5P/IwFDz6OntA0xBddNM4iDXAbJqtN6+H/fX2BzoE=",
+          "size": 9155693
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opensearch_2.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_windows_amd64.zip",
+          "shasum": "c1d90199ceb4429e9a081a6a763e01212a6b63b93142c026a22622adb951a4ef",
+          "h1": "h1:VCpxmiXSihOGtdaUzNkNH2MWNHVLcBxvt8mT61W2IUE=",
+          "size": 9674009
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opensearch_2.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/opensearch-project/terraform-provider-opensearch/releases/download/v2.4.0/terraform-provider-opensearch_2.4.0_windows_arm64.zip",
+          "shasum": "1c6078b6e374ac005134157a49e414b67e4fa688fe57d1d0f1a264c7a0f10bc5",
+          "h1": "h1:x34BBka52Ghv5EKSngZZclKuOJeS2Dr0oXVW1b0Z078=",
+          "size": 8524634
+        }
+      ],
+      "discovered": "2026-07-23T20:37:18.726483615Z"
+    },
+    {
       "version": "2.3.2",
       "protocols": [
         "5.0"
@@ -1372,11 +1500,6 @@
     }
   ],
   "versions_errors": [
-    {
-      "version": "2.4.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-23T19:44:52.724742997Z"
-    },
     {
       "version": "1.0.0-beta.1",
       "message": "checksums not found in release",
