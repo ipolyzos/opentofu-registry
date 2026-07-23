@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.2.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-unionai_0.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_darwin_amd64.zip",
+          "shasum": "37882d5f770836310e0917321687c8053aa87629f073f7ee65664d8dc0342d97",
+          "h1": "h1:0I5XMG0nB89fCjwLMnZUhM7iSE4Ah0MNZwHkta27Ak4=",
+          "size": 7797106
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-unionai_0.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_darwin_arm64.zip",
+          "shasum": "63a47f8d768730798c463691994652ba040ba9d45b1731f59aee9440cdd52f48",
+          "h1": "h1:Ccm9q4UUmBRP4W5FQNfnKDp8FmObWWJsoy1Dsd+yDhQ=",
+          "size": 7409286
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-unionai_0.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_freebsd_386.zip",
+          "shasum": "ab88096622bdeb60b8470b4586dbee0cb37d0042f0b2701e5384e5ec9d18a32e",
+          "h1": "h1:S++BQ6BY/pp3Xq5tw55345ca6+/BHA8IOusLmfUfbeE=",
+          "size": 7173359
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-unionai_0.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_freebsd_amd64.zip",
+          "shasum": "b89892e147e3ac864e0c927b02b4e1e5002dbbb7765915806295c41ab435b284",
+          "h1": "h1:ynKbAuatVriWIOfPJO/vcw2D1dKnySIFFPStepfB/1E=",
+          "size": 7562791
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-unionai_0.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_freebsd_arm.zip",
+          "shasum": "f4f265242404ed72def112de4291ead1548b4d6660469c293842e144e344e2e2",
+          "h1": "h1:txQDPl3mNPmzJl0ZDl2HA3PIiasOOrogDBAGEKn1Ea0=",
+          "size": 7141242
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-unionai_0.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_freebsd_arm64.zip",
+          "shasum": "15eee4d8b5202c3ec6e47917df8b55bd79c7365ea2679580f3678523f0c0053a",
+          "h1": "h1:qsnrVK8BlM8oQJKdpWMExxzAROzjT9soBI+Knf8hwdM=",
+          "size": 6995646
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-unionai_0.2.2_linux_386.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_linux_386.zip",
+          "shasum": "7f49da200815216bdd73206c40dbc85c70a8f08c62f64bd97cbf4552d1bcfb8f",
+          "h1": "h1:V4MpNmlr/At6DWnXktOh3mRzmyut1rtJ1mGQmvkrsfs=",
+          "size": 7195664
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-unionai_0.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_linux_amd64.zip",
+          "shasum": "b56b25932e64e647026c0fe462db241e9385f3e4bd1fbac49db894da6eb3d881",
+          "h1": "h1:9sVH5csD6bFGwb0d7FFJgLergiU/Kj4gGqTeNLW9uOo=",
+          "size": 7577325
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-unionai_0.2.2_linux_arm.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_linux_arm.zip",
+          "shasum": "eb4bc4708e4bc746b1765484de0d615a0d65b019768c9fa9c79056c7d91d2286",
+          "h1": "h1:gFK4juSLSdaCn6L2OJJe/mtZjtEyblriifKpPojKU94=",
+          "size": 7152180
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-unionai_0.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_linux_arm64.zip",
+          "shasum": "c9d2160548e74165af978d6c0ff46ce52ba10eb59017ac9335abc6c6bee23153",
+          "h1": "h1:CJsXDMrxIj8WNqAmcWiwBpeqlFKv7YFEkAOMhVfTo1Q=",
+          "size": 7010264
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-unionai_0.2.2_windows_386.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_windows_386.zip",
+          "shasum": "0806fcd4898bb4974bc67917b9359611dff792742cebed6e5fe6fd38a2a52835",
+          "h1": "h1:UYX1Gm24tcOeG51q86rop5740yI/wky3D28Bv96pejU=",
+          "size": 7537670
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-unionai_0.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_windows_amd64.zip",
+          "shasum": "e990fd9b150649898c8fc502d7893bcf3ed692b30b4dc8df076b5988a15873c8",
+          "h1": "h1:4iS3/EWLnOZv/oDiMEuOvMQEnMKUeRlm7MJ9eMTjHX0=",
+          "size": 7826651
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-unionai_0.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/unionai/terraform-provider-unionai/releases/download/v0.2.2/terraform-provider-unionai_0.2.2_windows_arm64.zip",
+          "shasum": "713239ada0505b7366342df1a2b2adeb4247d64765385ae1035fea7f09d907a2",
+          "h1": "h1:K+tdL5PbtgW0g6EP0wGhVI/SRjc2B3DD1MjbXZCwTqU=",
+          "size": 7103371
+        }
+      ],
+      "discovered": "2026-07-23T11:23:20.792354392Z"
+    },
+    {
       "version": "0.2.1",
       "protocols": [
         "6.0"
