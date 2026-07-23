@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.1.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zstack_1.1.6_darwin_amd64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_darwin_amd64.zip",
+          "shasum": "f3957aa99d0d905acfb554c48e64fda6fcc70e7fbdacf441bac17360f0c5977d",
+          "h1": "h1:e1ffG8wfY7rv7D4ooPnKBbM0v569DPJzS1+zQqhVNzo=",
+          "size": 8641566
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zstack_1.1.6_darwin_arm64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_darwin_arm64.zip",
+          "shasum": "325571d091d0774ff37f806ec396256855a03e0bc93717dbc9115e80b7ca87bb",
+          "h1": "h1:fJAg1WAjbLarm0eB1tWF5sy9GI5r3J9gfoYuqTQ+bQg=",
+          "size": 8119678
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zstack_1.1.6_freebsd_386.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_freebsd_386.zip",
+          "shasum": "ed94918dcc2439eb0a6e7d5838c9ce58cf2aa55f73c3bfd309de36be7dd8abc7",
+          "h1": "h1:Cm1jg+VdhWR+Q9ciLVqAujkd+JlsXYMBCfl6BuFVzVU=",
+          "size": 7856559
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zstack_1.1.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_freebsd_amd64.zip",
+          "shasum": "eb10ce98ffa9443dcb8604e86a0930def0aa92c89a37caa302776366c9f93dd0",
+          "h1": "h1:Wf+Lv0RICrIl0sqVoDSFT2Qs0YKn/c/2+3OvbAgahEA=",
+          "size": 8355831
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zstack_1.1.6_freebsd_arm.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_freebsd_arm.zip",
+          "shasum": "0e8977c683d14d6a94f3409b3481a2dec7ee4a19fa7d1fb005ec535cdbc6c9f3",
+          "h1": "h1:9zMRl0jhp6tS6t8iwZcsO7JbCBbYvizfkjodoFhwklw=",
+          "size": 7857441
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zstack_1.1.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_freebsd_arm64.zip",
+          "shasum": "e454242ddd1f49a7bb62c75510bda91147969c24a14a2b8e09c058c15a708bd2",
+          "h1": "h1:yIr00UKJ1y+R3Aeos2GCATTWh4+leCDciQlfzAZKbUE=",
+          "size": 7633389
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zstack_1.1.6_linux_386.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_linux_386.zip",
+          "shasum": "8ffa06d33bc5ef4e137ed06fa7b2c925ea6fbfd3b3cd1a6cc6d0b4ba1a12cbe4",
+          "h1": "h1:fO/tBWiKEJBId6aWf8l4Pnwk/kHe6YVXGRUnp4VrNqY=",
+          "size": 7883524
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zstack_1.1.6_linux_amd64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_linux_amd64.zip",
+          "shasum": "c70fc2b3e0b92448dad29a732c2acd50df1e94a3a6328ba952fcb1e7760c9c5d",
+          "h1": "h1:TSCG4G6eEaZuPfsFfemzRZYehQJLmwrMi7a3FUZrNqM=",
+          "size": 8378145
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zstack_1.1.6_linux_arm.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_linux_arm.zip",
+          "shasum": "5079d58a9e282360d4a0bbacdd52a06ea3fe730f56356dd8e585852579867387",
+          "h1": "h1:Tp5zaF3Qi3VhO2kTJaaH7ah2/beRQJNPYHROaCLamD8=",
+          "size": 7877101
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zstack_1.1.6_linux_arm64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_linux_arm64.zip",
+          "shasum": "ec9f4434f4fe2d830c02ff5bae8b6324a702d4f670855feba01bce3387ce5f6b",
+          "h1": "h1:AaP8Y02mhAYB9IwB1zikhk64grUhEKivF6ODTCr+Lpk=",
+          "size": 7652699
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zstack_1.1.6_windows_386.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_windows_386.zip",
+          "shasum": "b4ec97193a8e0feabf6cb82e798335eca8c33325cd54a73f53b573b225518dfb",
+          "h1": "h1:j2PMOerm3IAuT2p/rqaiPDcPs/YMSWXI4JYXRwT3TZE=",
+          "size": 8301263
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zstack_1.1.6_windows_amd64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_windows_amd64.zip",
+          "shasum": "bb987243ee1c2046b940ee24c60508cd331c7d8d72e9cf2bdcbd245f1c3e5d71",
+          "h1": "h1:Oi/+7xyl6g4P8l2VTfDsnnE5PGMBH+p13K1uX9gOI0Q=",
+          "size": 8687534
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zstack_1.1.6_windows_arm64.zip",
+          "download_url": "https://github.com/zstack-robot/terraform-provider-zstack/releases/download/v1.1.6/terraform-provider-zstack_1.1.6_windows_arm64.zip",
+          "shasum": "46fda738a0b4b94f2335a12f8450e1063766362a597be02acadd52abe26b5c35",
+          "h1": "h1:3h3offC6FTMIlpQls7tYcvFIKRq2yoYbcT5fFORVnhs=",
+          "size": 7791681
+        }
+      ],
+      "discovered": "2026-07-23T03:52:30.3633228Z"
+    },
+    {
       "version": "1.1.5",
       "protocols": [
         "6.0"
