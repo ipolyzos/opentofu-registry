@@ -987,6 +987,11 @@
       "utc_time": "2026-07-22T20:11:07.900945367Z"
     },
     {
+      "version": "0.1.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.282647292Z"
+    },
+    {
       "version": "0.0.5",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T12:03:09.536723956Z"
@@ -1010,6 +1015,11 @@
       "version": "0.0.5",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T20:11:07.947405834Z"
+    },
+    {
+      "version": "0.0.5",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.263256107Z"
     },
     {
       "version": "0.0.4",
@@ -1037,6 +1047,11 @@
       "utc_time": "2026-07-22T20:11:07.887874406Z"
     },
     {
+      "version": "0.0.4",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.277924137Z"
+    },
+    {
       "version": "0.0.3",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T12:03:09.568994222Z"
@@ -1060,6 +1075,11 @@
       "version": "0.0.3",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T20:11:07.960875434Z"
+    },
+    {
+      "version": "0.0.3",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.278089668Z"
     },
     {
       "version": "0.0.2",
@@ -1087,6 +1107,11 @@
       "utc_time": "2026-07-22T20:11:07.925803865Z"
     },
     {
+      "version": "0.0.2",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.358522933Z"
+    },
+    {
       "version": "0.0.1",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T12:03:09.502160999Z"
@@ -1110,6 +1135,11 @@
       "version": "0.0.1",
       "message": "checksums not found in release",
       "utc_time": "2026-07-22T20:11:07.953947889Z"
+    },
+    {
+      "version": "0.0.1",
+      "message": "checksums not found in release",
+      "utc_time": "2026-07-23T05:01:39.291062715Z"
     }
   ]
 }
