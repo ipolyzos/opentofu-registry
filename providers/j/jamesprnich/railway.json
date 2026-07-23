@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.11.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-railway_0.11.5_darwin_amd64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_darwin_amd64.zip",
+          "shasum": "4ccdb57c20bb6492404627d09fd20d6edcd04b3bfc54ac104bc53120f31b5bfb",
+          "h1": "h1:Pq+DD83fVDJY8aO/cPcaOHChUHf31DthrRyiWnyFap4=",
+          "size": 7145823
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-railway_0.11.5_darwin_arm64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_darwin_arm64.zip",
+          "shasum": "1b7698b074b454c454d5541d5d60503648f1e910b99a3dcc9b4e1e442dfd2445",
+          "h1": "h1:Bdcv/Q3l4bHuTrbsHFmqGUVsSc+OrlcZ2ia+7JjgYB4=",
+          "size": 6663551
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-railway_0.11.5_freebsd_386.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_freebsd_386.zip",
+          "shasum": "33cd26cc8a2c4a5cc62986f93ccfa9bf60b97f2992d06ed6665f93c1e2ca6220",
+          "h1": "h1:cpYE4Y7gFlJ2Yym7Z4TsSm7vzKUFh4YfBSdHCkrysYQ=",
+          "size": 6568324
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-railway_0.11.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_freebsd_amd64.zip",
+          "shasum": "c8e6051aba5bb294a2f3afddd4f210f86a79b342da0c554e895990ab2efcc3f3",
+          "h1": "h1:DTt5zUyjRVJJcecTY1eliftBvMHyWUqiE4rleHnX/fw=",
+          "size": 6946431
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-railway_0.11.5_freebsd_arm.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_freebsd_arm.zip",
+          "shasum": "024f8cd46d90600e89606d7af36f6281c266f7a4dbbd44631b712c369b1f4e49",
+          "h1": "h1:lnOVATwRkXH+shwOfHjJ+pbBgLImnJFr6JqpoffVOno=",
+          "size": 6536431
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-railway_0.11.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_freebsd_arm64.zip",
+          "shasum": "33f86fde05355b2acdd70bab4b5700c453e5dbe25162032b5d0108de76131e71",
+          "h1": "h1:j8EC3Tu7NaSqLtOnamvJQ02Jxrjm20L3HiO10ueSSmM=",
+          "size": 6315257
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-railway_0.11.5_linux_386.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_linux_386.zip",
+          "shasum": "91cde6168deb06c49b81e7cc3075124c6e721e228181bb9cd70c03f2d99c8aff",
+          "h1": "h1:+4ln1UbOoMCtuYsnuS7p+Nl8mD/pJzoGoJO4FP06cb0=",
+          "size": 6598055
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-railway_0.11.5_linux_amd64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_linux_amd64.zip",
+          "shasum": "5582ebfc34c1e99ed5b5ca30ffaef5a131c89328cfdf3fbda17f472e5290a4d5",
+          "h1": "h1:J6WyWtAkkWlxDsUvWXY62wzrKBJDAbptjsMMGlmIszI=",
+          "size": 6973407
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-railway_0.11.5_linux_arm.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_linux_arm.zip",
+          "shasum": "4d997ecc5d977a5de961e2518e9d9bf3c6750c8c71b8e53b14a77e99c4dbe08b",
+          "h1": "h1:fwZMFEI5RHHovCvXYGiRhllGHF4bB9XK1l20r1KeC50=",
+          "size": 6558519
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-railway_0.11.5_linux_arm64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_linux_arm64.zip",
+          "shasum": "de1e58e47f93d95e2f7a88f56a6ee499f280d657c78e8b2029e4e88236682cf5",
+          "h1": "h1:uyzxFiC83hlZnYX/yJbnuZblm/iCtmWMVM6HfLWUEPk=",
+          "size": 6342192
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-railway_0.11.5_windows_386.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_windows_386.zip",
+          "shasum": "13602af8594da7e9d3d1b28fe4ae4ba02ac150120ab07b9c9d8092927782277f",
+          "h1": "h1:fM+oLkdQnsG6JEyxklFfJf0SPoPsWu4D7FOhh5FUqpc=",
+          "size": 6895576
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-railway_0.11.5_windows_amd64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_windows_amd64.zip",
+          "shasum": "d7521d27597486d07923c96edd81860bc831f40c6bb0dca60a4efdb24cc15e37",
+          "h1": "h1:y+SSLu5Sl4QNcbL0LpbRw2iURk+CsOXT2j8Zt5cOH9U=",
+          "size": 7174705
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-railway_0.11.5_windows_arm64.zip",
+          "download_url": "https://github.com/jamesprnich/terraform-provider-railway/releases/download/v0.11.5/terraform-provider-railway_0.11.5_windows_arm64.zip",
+          "shasum": "06648361fb06304fae787bc4f89169544815edbfc2c65251ffb12d9f4f249b56",
+          "h1": "h1:mYehz8P4XRKqXNH6ouP4Dl4GJU9ETGVeNZMZXELebbk=",
+          "size": 6419935
+        }
+      ],
+      "discovered": "2026-07-23T05:01:32.945497755Z"
+    },
+    {
       "version": "0.11.4",
       "protocols": [
         "6.0"
