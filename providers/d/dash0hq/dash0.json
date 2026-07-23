@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "1.15.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dash0_1.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_darwin_amd64.zip",
+          "shasum": "443f975832685ab651c62a1ff0247806bd6442daf7b061f8d2de512796b9dc2a",
+          "h1": "h1:RVjoAfr+kt/TewI928I6G4E/yt3wj91xBthChgFN530=",
+          "size": 8277233
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dash0_1.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_darwin_arm64.zip",
+          "shasum": "eaf460542b2b639aeee8cf725e8e2d13ad0bbf253a68f32896190c9a8789f833",
+          "h1": "h1:K8jpstjzj70qmcJ76qgYpuRqF2so95Y/1mX8a5sFUkE=",
+          "size": 7682017
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dash0_1.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_freebsd_386.zip",
+          "shasum": "ab0a8f0b75bf342b50e9cc3ae326179b493666e24a7228f5a1dcfba08b5419eb",
+          "h1": "h1:usXoQgvd6hD4S69dy0HMpSTvutbPn1VAugfRv6QXVOY=",
+          "size": 7573699
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dash0_1.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_freebsd_amd64.zip",
+          "shasum": "9503fab20b27c566e0f280644180e2b9b8ff64105d91bbb382386c4e088c4c96",
+          "h1": "h1:y7uzggs4YL9bCBgFSJY83zJmSgdUrzWpqkWVcCakwnc=",
+          "size": 8038593
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dash0_1.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_freebsd_arm.zip",
+          "shasum": "8b014f511e78fa41e799dfd9a18065d869e78cf40023196c56ff8bd20e84f365",
+          "h1": "h1:EyVh4reyc8yZDXpzSgUC0cL8tGFcq7yM/kPoXnMBkHY=",
+          "size": 7537677
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dash0_1.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_freebsd_arm64.zip",
+          "shasum": "309a8939b1157eaf9b0139fd85aec31fb39c4c836d64ac7242dc304639501923",
+          "h1": "h1:5sfG5ABs6FyLcDes6lDW4Bg9sAdmpmbOTff+ewEbbTg=",
+          "size": 7268917
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dash0_1.15.0_linux_386.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_linux_386.zip",
+          "shasum": "c7c6bdc2a3a7adf06e0ea548b1c175e676bbc6db28a676700b8437dd525d52d2",
+          "h1": "h1:oJ/0i8F6ZbbQueUjs5Btsfd3NKhczAEhgqFdEJv9AXA=",
+          "size": 7611048
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dash0_1.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_linux_amd64.zip",
+          "shasum": "7bb27f1c596c58220078dad470767639a1c8bcda602f9ffab7bc6860ef4b2d21",
+          "h1": "h1:ieWK5dRQlya3skOtOnRRzvYKNPlhUnCHz10xQq9ywNc=",
+          "size": 8067713
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dash0_1.15.0_linux_arm.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_linux_arm.zip",
+          "shasum": "567d168bdd8c51d32cba58fd053664f2970806b06cb3239b9f2d566059f3e844",
+          "h1": "h1:+G8JPyJbkn4MIsUHA5GVsVYhCtQ6/bpoG+ZDbW+5WRY=",
+          "size": 7560268
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dash0_1.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_linux_arm64.zip",
+          "shasum": "a26ebffaf2827fa3013c83e16e58e910a7c99342365a1d29dc95432a44c3c9e1",
+          "h1": "h1:w4wbbghBGZOiLd6wWh5gY5FZ57xho1Sk3OCq+YJEciY=",
+          "size": 7291624
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dash0_1.15.0_windows_386.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_windows_386.zip",
+          "shasum": "e3fc4eba38275adf9d7a35d88ba24e604d38abbfbcf87e6ee01d7a3a5cc2039a",
+          "h1": "h1:E19fImOzCLxiDa2fWtcxrL5IdyIpIEN0oWv8qEDNyvc=",
+          "size": 7964197
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dash0_1.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_windows_amd64.zip",
+          "shasum": "aad416f4dc9fe20814cc200f4a0f9b0ed5d2457f118d060897d7370d725df01b",
+          "h1": "h1:qbMtxfMdCh0GPgmHH4uwt9ilfxdwjSkSR+uIydQxCnk=",
+          "size": 8302838
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dash0_1.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/dash0hq/terraform-provider-dash0/releases/download/v1.15.0/terraform-provider-dash0_1.15.0_windows_arm64.zip",
+          "shasum": "7c3903eade7ec68281edda2a71382d1903009ba9e0d895acbb1f6b45e425da37",
+          "h1": "h1:wwDdYQgmWeKdz4E/LNJ/ST91AAH0g6mWLf65qDobbxM=",
+          "size": 7386007
+        }
+      ],
+      "discovered": "2026-07-23T15:14:48.979272008Z"
+    },
+    {
       "version": "1.14.2",
       "protocols": [
         "5.0"
