@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.2.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fly_0.2.4_darwin_amd64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_darwin_amd64.zip",
+          "shasum": "55163196de92cdecc91624ef918462f247839df9c379f600042a6b1c6790f256",
+          "h1": "h1:uOULtTAu/40FDedfn+zfPygC8zdVOO9q09y+8w8oVRw=",
+          "size": 6982113
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fly_0.2.4_darwin_arm64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_darwin_arm64.zip",
+          "shasum": "626c74ba766b8fdbbcf114ed4df2ebdfa835834049d2a5bbb9a488cd23248d2c",
+          "h1": "h1:3dxJ7CkTXCM7nJ3aO8g2MWdXl0VyIiGzrZ5AS/Rm++U=",
+          "size": 6507786
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fly_0.2.4_linux_amd64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_linux_amd64.zip",
+          "shasum": "d9c475e00adc3dee88ee92c067560fa05dee6cc7bf038cd49cfd2efc9ad2819e",
+          "h1": "h1:Y4i7KErx3n9cwZTx1/ERL5hZOPVlrd9ssXs6FU2hlqY=",
+          "size": 6821895
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fly_0.2.4_linux_arm64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_linux_arm64.zip",
+          "shasum": "cf02406570699a964557934b10e7b0b1eaab12062c9002773d419d52a5f8de59",
+          "h1": "h1:s+QoQczNNK+8JdQK/gCf6Y4L+VF4UIBr7Niq9gx5fEs=",
+          "size": 6201386
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fly_0.2.4_windows_amd64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_windows_amd64.zip",
+          "shasum": "ca84c00978e615d08c14f4e0194623b632fe4cd467ee39949714738bfa60d37a",
+          "h1": "h1:Vt3RmYkWTdgdJp4GhfgfJIxBRzhF/71VwGIAe3hz4OI=",
+          "size": 7028733
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fly_0.2.4_windows_arm64.zip",
+          "download_url": "https://github.com/stategraph/terraform-provider-fly/releases/download/v0.2.4/terraform-provider-fly_0.2.4_windows_arm64.zip",
+          "shasum": "0b854cb5143a10f83bd935a2bdd7c52716ecb41d81d0975a3ca84c999c984ed9",
+          "h1": "h1:miA8ms6CNF3EZnkSOzPQcVV4VE9AZ0rezMbLgeF7+T0=",
+          "size": 6284328
+        }
+      ],
+      "discovered": "2026-07-23T19:08:16.485932045Z"
+    },
+    {
       "version": "0.2.3",
       "protocols": [
         "5.0"
