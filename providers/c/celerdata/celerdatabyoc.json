@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "1.5.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_darwin_amd64.zip",
+          "shasum": "de150bd4ea5be416dba6a9503cbe982b4085cb6ef7bfd765cdd0373afb64f01b",
+          "h1": "h1:rCiW2n6qXDaRviBLBTePKxR8BfY4L0Q3uESMBE3G5GQ=",
+          "size": 12175518
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_darwin_arm64.zip",
+          "shasum": "ae5157103283b6fff9aaee1c035f08833cf714e6871c73c23aa40a7d68b998c1",
+          "h1": "h1:L3bdWpVhIRs1cYTusKkUDQ6KEHDL2H8/0iOo0Ad8ec8=",
+          "size": 11714848
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_linux_amd64.zip",
+          "shasum": "84565c7b524d469c3155ec0baa70884d3248381a92cbdd33c85ec0e24d286921",
+          "h1": "h1:MLClcs+2RqHN9pXu7iDvAOF4N5qGtHBNKsyd+ktNgTk=",
+          "size": 12307730
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_linux_arm.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_linux_arm.zip",
+          "shasum": "915fb1c8d0fb441b86b5381ff2d1816737a14fcf4e9b9eac7e82512c89632521",
+          "h1": "h1:pOpj3gus91fvazYvXWBQK/OfuZ/3p/HNez/3gKyp/Yw=",
+          "size": 11397164
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_linux_arm64.zip",
+          "shasum": "0fbe2cbfe948b059fdc5aaa17be11d2a34a07656154c799dd7d6b849d695d640",
+          "h1": "h1:RksG5+/P2P6niBLMy6FLNBDWnFVibpMBZnDKC4AqdMI=",
+          "size": 11537468
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_windows_amd64.zip",
+          "shasum": "36dc5eb70ea1cb6debdedb38ee5503f958f84c69aeee4a26c89482dfe487ad85",
+          "h1": "h1:b3fsa824nlNAT1zgta/UWAWbRW7sXkuihlD48WCX5Yc=",
+          "size": 12407887
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-celerdatabyoc_1.5.3_windows_arm64.zip",
+          "download_url": "https://github.com/celerdata/terraform-provider-celerdatabyoc/releases/download/v1.5.3/terraform-provider-celerdatabyoc_1.5.3_windows_arm64.zip",
+          "shasum": "dff0956626629fab3dc5be2d91a8b66bb2076f726e3e97ad428683c152faa369",
+          "h1": "h1:DrEKCcozLZ3KEmqt0xvu+zR6U750ERdd+wAVl3NqSoo=",
+          "size": 11537788
+        }
+      ],
+      "discovered": "2026-07-23T17:01:49.319685663Z"
+    },
+    {
       "version": "1.5.2",
       "protocols": [
         "5.0"
