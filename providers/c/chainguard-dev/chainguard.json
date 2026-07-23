@@ -1,6 +1,71 @@
 {
   "versions": [
     {
+      "version": "0.4.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-chainguard_0.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_darwin_amd64.zip",
+          "shasum": "06695fb1d9e484c769f0b8d14eeac97b61d967f32a0973dc8168bff31de0c5a8",
+          "h1": "h1:KyuDMFAtQWQ3guWxWRZ3B7osyfQ0y8voJBqUEOdBzI8=",
+          "size": 11385936
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-chainguard_0.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_darwin_arm64.zip",
+          "shasum": "44b2c10f9075bcdbc3af89ef0f931cf46171472855a8e42f4cd3b96bfae727d5",
+          "h1": "h1:DXC9nJBxQDBjaH6KE2BisadLFOvO98Pi3iCSNcq/pLY=",
+          "size": 10586009
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-chainguard_0.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_linux_amd64.zip",
+          "shasum": "5719624be3d8a8cec6a3536b36384469e3f96179ba6d3b14dffc2bfe0c6cc6d6",
+          "h1": "h1:SGminCoFm8hjTxyfhXXB4XAcRebVK4VDeVvSMiAS5so=",
+          "size": 11113247
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-chainguard_0.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_linux_arm64.zip",
+          "shasum": "e6be11ecdc7f98eb49e596ae3ae09dff44e71f30216d17a6c958f0e026248522",
+          "h1": "h1:TeU/CVtG/M5jTuNgrP0+LfcWqNtB8dud+ruylHVHGqQ=",
+          "size": 10081733
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-chainguard_0.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_windows_amd64.zip",
+          "shasum": "e4ef668d3b6760dfa363ebb93a2be3cddd31c1f5b79e8d49db919d9f548d65ac",
+          "h1": "h1:NCj3ZvDKtelUopjY+dVUSKWxScyF19QaHjqe+txOj4s=",
+          "size": 11434995
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-chainguard_0.4.1_windows_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-chainguard/releases/download/v0.4.1/terraform-provider-chainguard_0.4.1_windows_arm64.zip",
+          "shasum": "609954fd22b65603cdde112cac02f02d7224b96b204c65a7ac7ff0a37bce845b",
+          "h1": "h1:X3bWxrpGaEx+lvBWfsIHi0AmKWL0aceWcunCqvsfbVw=",
+          "size": 10195353
+        }
+      ],
+      "discovered": "2026-07-23T15:55:06.116747107Z"
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "6.0"
