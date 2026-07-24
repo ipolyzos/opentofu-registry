@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "4.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadog_4.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_darwin_amd64.zip",
+          "shasum": "6a81e85391aeae885774c29960cd75cec2a5e1b33f007f780fb0e4cb2005e7f8",
+          "h1": "h1:m/A7XCKyaipVaC3I05CxTTjIDm15hVB0ClrE1WZ8Te0=",
+          "size": 21823724
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadog_4.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_darwin_arm64.zip",
+          "shasum": "84328b673a94428462a946267f525f6901d4aa4accfddc1821e2667bd8c68822",
+          "h1": "h1:WZnyTuxbI95ysb7ti0fR6XQyyuRtRoMJoa4U/CqK8nY=",
+          "size": 20264269
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-datadog_4.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_freebsd_386.zip",
+          "shasum": "9f9d90314e1f4b4113354bb0650021fbc3409bc365309a8b15ac4f6d677c50cb",
+          "h1": "h1:CXH9636dlHwKoeAefJBntEHy/79ncNnBdTW1za9afVk=",
+          "size": 19426317
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadog_4.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_freebsd_amd64.zip",
+          "shasum": "aa167ff25ba098934c227dba8f581c1ff538159409abcb26ea7743da18fe8965",
+          "h1": "h1:ho2VXLfXRdNl5r5NR9Uzt6JwmujIQ6j33ICDR/WuWvw=",
+          "size": 21271585
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-datadog_4.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_freebsd_arm.zip",
+          "shasum": "2bb5691c3c57f9c0eb376c1782424c5b2d3d529a1563659cb8e19e2839bfa110",
+          "h1": "h1:sUC1BjHSJMBW/rg2Vb+fdNMZ4vsfY50G3BqEXuAiwT0=",
+          "size": 19667392
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadog_4.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_freebsd_arm64.zip",
+          "shasum": "c9f799ad84f907bdd0b76b7c41df120bd6abf12c3fcad0a54e159101a8b7a6f0",
+          "h1": "h1:jRS2jRZ+59tRnC81udlFTPyamStaGXQUDXLOGVSAQU4=",
+          "size": 19125192
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-datadog_4.16.0_linux_386.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_linux_386.zip",
+          "shasum": "4f27daccb52430a065c823b165e2c3c19353813746f614199b9c2f98ef4c38e8",
+          "h1": "h1:q6tOOiA625olMgAKyfTwgwWQaB0OeeF3MVX6itI0zGc=",
+          "size": 19503440
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadog_4.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_linux_amd64.zip",
+          "shasum": "c2996c7c175fc6e3d96a92e9da6d1f35b7d66aa935b731900fcc762589c33d41",
+          "h1": "h1:IXi+eK0ePAe+3xonp4lfHwN5pvvgfYBksI3MPRnw0WM=",
+          "size": 21297624
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-datadog_4.16.0_linux_arm.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_linux_arm.zip",
+          "shasum": "91d369c022c60401d1f5623c22d4f38525544d53a93c0b7e8027c886484be154",
+          "h1": "h1:NIEyYbi33KWO5TbMZfxKxzg3s106bZk2nxK9VCJ5FEU=",
+          "size": 19693235
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadog_4.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_linux_arm64.zip",
+          "shasum": "dd7cf2bbc9e747e04173016ccdd4836765b9ad4e79647d4cab6e3803345e7f44",
+          "h1": "h1:q5WO080eebf6DaKHa9QZHLsasBn3e0n3unVmiGfTHHM=",
+          "size": 19155439
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-datadog_4.16.0_windows_386.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_windows_386.zip",
+          "shasum": "76dcb342d58e659aab864c06253d78919f2c6dd459df34b68a05cefbd9b17b12",
+          "h1": "h1:e2AD8YHDREKl/J323HnTQT9himZasJy99pV7UmZtGt4=",
+          "size": 20497556
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-datadog_4.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_windows_amd64.zip",
+          "shasum": "735a85c65a2fdc53cd5056e67b0024af7ba282626f4cd132604edad5d31583b6",
+          "h1": "h1:W+CYFnj+G/ml7P7Rh2u4p/H+2/PbKjqQdPMuXaPnJPc=",
+          "size": 21835816
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-datadog_4.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/datadog/terraform-provider-datadog/releases/download/v4.16.0/terraform-provider-datadog_4.16.0_windows_arm64.zip",
+          "shasum": "66d8e8eb47fe75af1203b611f25a9ba7afecdbab876c0d6530a5bc8ced6d76a5",
+          "h1": "h1:5w03BDpqP9/YU1gcnINly0iDNqIVdjs2JlfRTAXIo+Q=",
+          "size": 19283241
+        }
+      ],
+      "discovered": "2026-07-24T15:45:57.799709459Z"
+    },
+    {
       "version": "4.15.0",
       "protocols": [
         "6.0"
@@ -18688,21 +18816,6 @@
       "version": "4.16",
       "message": "checksums not found in release",
       "utc_time": "2026-07-20T23:34:26.980441959Z"
-    },
-    {
-      "version": "4.16.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-24T09:31:26.928492768Z"
-    },
-    {
-      "version": "4.16.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-24T12:25:59.274567066Z"
-    },
-    {
-      "version": "4.16.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-07-24T13:34:24.080935913Z"
     },
     {
       "version": "3.13.0",
