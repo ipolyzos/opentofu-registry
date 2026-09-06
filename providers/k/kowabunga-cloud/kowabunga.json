@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "0.57.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.6_darwin_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_darwin_amd64.zip",
+          "shasum": "42f1ca875eae66da3f781873919258c08e418ec571ba71d477439c54ff9cb1ff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.6_darwin_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_darwin_arm64.zip",
+          "shasum": "a9cba01c5a8bc7deeafa6c8d7abb36653ef6d9d4f519920baf838c9082777f12"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.6_linux_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_linux_amd64.zip",
+          "shasum": "3f786613e4a19645ead7730810577c5debb4910fb03d6a5a87fedaa5ad4a8643"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.6_linux_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.6/terraform-provider-kowabunga_0.57.6_linux_arm64.zip",
+          "shasum": "5a2b99b4034a462bddc0a2ec6546fcda7da7b7b43298cad0ca8ce18714729fb4"
+        }
+      ]
+    },
+    {
       "version": "0.57.5",
       "protocols": [
         "5.0"
