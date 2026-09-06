@@ -1,6 +1,82 @@
 {
   "versions": [
     {
+      "version": "0.57.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.5_darwin_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_darwin_amd64.zip",
+          "shasum": "6fc7bbb1c1d935fe7ff8809dd7c131eb585ada3622233ec29a68c4dcea41a301"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.5_darwin_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_darwin_arm64.zip",
+          "shasum": "7cbc5527300d92de83743de0944dd227727fcb9f6c11ebe5bac7fb822e254839"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.5_linux_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_linux_amd64.zip",
+          "shasum": "5868d7e7ad410974fc2634f98d8ba0cfda6b22c4212e22e6f73d66db8ec9a290"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.5_linux_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.5/terraform-provider-kowabunga_0.57.5_linux_arm64.zip",
+          "shasum": "3ceb523422119a11617b99d3a9b273b775e8a228687b73ea88dc27f6cdd2982d"
+        }
+      ]
+    },
+    {
+      "version": "0.57.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.4_darwin_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_darwin_amd64.zip",
+          "shasum": "7de11475f2d3707a695bca98312725bb7a9b10d0927f748e96a7c0bf38e727bd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.4_darwin_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_darwin_arm64.zip",
+          "shasum": "4d951b6e257ee444f6a8552a9a1e81c80f6ea78bd2cc743e3191029a6b88c51b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kowabunga_0.57.4_linux_amd64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_linux_amd64.zip",
+          "shasum": "0cae58752c919453b39752831b78afc5171aecb9ad49fffab2f96b34c636392a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kowabunga_0.57.4_linux_arm64.zip",
+          "download_url": "https://github.com/kowabunga-cloud/terraform-provider-kowabunga/releases/download/v0.57.4/terraform-provider-kowabunga_0.57.4_linux_arm64.zip",
+          "shasum": "511f428972220bf96c79cc975a88f4fce2ae427766ab91c586934daa564d813c"
+        }
+      ]
+    },
+    {
       "version": "0.57.3",
       "protocols": [
         "5.0"
