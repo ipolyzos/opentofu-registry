@@ -1,6 +1,58 @@
 {
   "versions": [
     {
+      "version": "10.1.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aviatrix_10.1.10_darwin_amd64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_darwin_amd64.zip",
+          "shasum": "bcfebf40646dbb4aeebad592a2a0c4fcba220a7fa52f6752e1970a476aa19f54"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aviatrix_10.1.10_darwin_arm64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_darwin_arm64.zip",
+          "shasum": "6a9cfb09db77959227a5933abb33f082a131acfe880bb055a2a91509122b3f46"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-aviatrix_10.1.10_linux_amd64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_linux_amd64.zip",
+          "shasum": "b69de2e972bfce62ca6aa9881be4e9e44ed6259bb77fbdfc482f58adbbba7ef6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-aviatrix_10.1.10_linux_arm64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_linux_arm64.zip",
+          "shasum": "5db947f1e957156680b5b43f7124458a9a6ddd17d95dde23693250e3a98a7fba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aviatrix_10.1.10_windows_amd64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_windows_amd64.zip",
+          "shasum": "9e31ed963fe2776f5d0308fecff1e61c6d529e46737e2fca80a0f030a819a09d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aviatrix_10.1.10_windows_arm64.zip",
+          "download_url": "https://github.com/aviatrixsystems/terraform-provider-aviatrix/releases/download/v10.1.10/terraform-provider-aviatrix_10.1.10_windows_arm64.zip",
+          "shasum": "669e4d98ab7c29e6a951d7eb467434a58ed5ea4e800ce2141569e942f60132d1"
+        }
+      ]
+    },
+    {
       "version": "10.1.0",
       "protocols": [
         "5.0"
