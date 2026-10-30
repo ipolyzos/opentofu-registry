@@ -1,6 +1,93 @@
 {
   "versions": [
     {
+      "version": "7.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_7.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_darwin_amd64.zip",
+          "shasum": "ad5c071de1c3aa792120d5ff65ceeee17ae9ffdc20d1625cbdc469df2e95c6e7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metakube_7.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_darwin_arm64.zip",
+          "shasum": "4abcefbbc753d396bddd4d7276551f51ecbd126da76b5d35d74ae19a79774f71"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_7.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_freebsd_386.zip",
+          "shasum": "0ceb989e024aa827f6a523bd2f1ac898b05d6c0a07adc1e86de0cc058241fa6a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_7.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_freebsd_amd64.zip",
+          "shasum": "872f6d090c50d60d76d3d86170c4a996aa59341f9e9d808a3fe7dc224bafa41c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metakube_7.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_freebsd_arm.zip",
+          "shasum": "4f51bab1a9f305b96c70337602140ea7f0d81cb78e9f515551e596d1b396d0cb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_7.0.2_linux_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_linux_386.zip",
+          "shasum": "4b050e08e2cda6c67ac4f74b920a3f02ef71a29d1c15b3b2b4a9ea8b7f686d40"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_7.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_linux_amd64.zip",
+          "shasum": "82b3638e801f6f79588c2361fe1ebeecb4151717bfaa2cd766d1292d363c7eb8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metakube_7.0.2_linux_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_linux_arm.zip",
+          "shasum": "6dc41a5963bc0a3aa40bf25bfd7082ad77ea94485d04be198a194e730076356f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metakube_7.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_linux_arm64.zip",
+          "shasum": "98213385cb8e4cba41ebf1334ae746743e58e487b9ec1e25ecf431ac2ef7ca01"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_7.0.2_windows_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_windows_386.zip",
+          "shasum": "a9c9e6532d339aea5a641ef78285a059f09c524eea636d4ef0aafdee3fcc210b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_7.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.2/terraform-provider-metakube_7.0.2_windows_amd64.zip",
+          "shasum": "4b390d71a82b348a95e7ebc572b7a833fcf882fc025880394b6b64808f9248f7"
+        }
+      ]
+    },
+    {
       "version": "7.0.1",
       "protocols": [
         "5.0"
@@ -258,6 +345,93 @@
           "filename": "terraform-provider-metakube_7.0.0-alpha_windows_amd64.zip",
           "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v7.0.0-alpha/terraform-provider-metakube_7.0.0-alpha_windows_amd64.zip",
           "shasum": "2cc795e19473ae4f262e74f319b3e832d1c12e2407f55e992281085db22450de"
+        }
+      ]
+    },
+    {
+      "version": "6.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_6.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_darwin_amd64.zip",
+          "shasum": "862388916cc75daf35a5352ba1f65689a4a1c82ab9e9e547a1295b2a913e35bc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metakube_6.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_darwin_arm64.zip",
+          "shasum": "9de10f5131273b42906308474c330e4ab63dbfe2f061c21aceba0611558c6160"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_6.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_freebsd_386.zip",
+          "shasum": "aa335cc06b4d66a7f97fa097d89616cf78d97d78a9ff422b204a852172b1d29b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_6.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_freebsd_amd64.zip",
+          "shasum": "1a362f0686beea0f91518c7d7c88b3963e652ff367d145f1f6e42297837f54a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metakube_6.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_freebsd_arm.zip",
+          "shasum": "64fa85bcee7c2134149a0aab6643426be668fd77b7904d5464da7a7ffd7a6dd0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_6.2.0_linux_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_linux_386.zip",
+          "shasum": "e13fe88810986eb2b478f7a41139503424f6a27a5534b4c3b261ea1da776c095"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_6.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_linux_amd64.zip",
+          "shasum": "506fa70edfd4c9634be21e0d0081faf6543f5046e930372ad760c6f7deefe9a5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metakube_6.2.0_linux_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_linux_arm.zip",
+          "shasum": "efb0b74ed349cf90f9bbec6d966a0efe421b94e0dc6f7bc4630542d8a97f3f23"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metakube_6.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_linux_arm64.zip",
+          "shasum": "60a5c249e44c9e4b22bd2dac38f1e9bbba39b2e2aec98999258be2fe80f84473"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metakube_6.2.0_windows_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_windows_386.zip",
+          "shasum": "c32f0b87b20ef7f1478a0e43a7f6368f35ce79a04673d262de528bb33626aeb5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metakube_6.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-metakube/releases/download/v6.2.0/terraform-provider-metakube_6.2.0_windows_amd64.zip",
+          "shasum": "24594a1f2660706ddfde02156e2872969896042e9b53d5b68527b7505d233df9"
         }
       ]
     },
