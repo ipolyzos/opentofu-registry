@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.6.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-curl2_1.6.2_darwin_amd64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_darwin_amd64.zip",
+          "shasum": "1b5409871df55ececab47c74810e371bc0fb7b485f694ca9cefa9208a8b0939e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-curl2_1.6.2_darwin_arm64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_darwin_arm64.zip",
+          "shasum": "1195355cb52cb1b8e372582229e039b8cac5fe3d605c07ce95d2dafc25511576"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-curl2_1.6.2_freebsd_386.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_freebsd_386.zip",
+          "shasum": "34a5dc84e2809663843771b09a5618e5d29f825a514d9f04c1ad17fc4ac027c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-curl2_1.6.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_freebsd_amd64.zip",
+          "shasum": "d72c91ee0bd2bbd4397d1ab6584526c0c1045a274b4bcca9351da63a324a370a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-curl2_1.6.2_freebsd_arm.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_freebsd_arm.zip",
+          "shasum": "482837b4e8d85a2f5a58d955c178c24f7b02339b62f78ee8f76a0c0e814ee642"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-curl2_1.6.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_freebsd_arm64.zip",
+          "shasum": "da88a697623c5c9458295909e77ff6853988c5856c2e67e59da4b1943184068d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-curl2_1.6.2_linux_386.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_linux_386.zip",
+          "shasum": "713a6723f72bec63323b080a94c7f23ec4fc499322ceaf46348598bdc286375e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-curl2_1.6.2_linux_amd64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_linux_amd64.zip",
+          "shasum": "cafb193941a7a9b8792bf1d04c48e388ea6433d78649fc69110425b4465a7bba"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-curl2_1.6.2_linux_arm.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_linux_arm.zip",
+          "shasum": "ee225d81677b957e29ab670034c160069758d936eebe1b00945a7edc6287ce21"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-curl2_1.6.2_linux_arm64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_linux_arm64.zip",
+          "shasum": "9027e35f5a304773c67ba77a99e7fd0d42c41e9bb5fef0965fe301cce0d013ba"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-curl2_1.6.2_windows_386.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_windows_386.zip",
+          "shasum": "9229b42dad9949551cf897803e12170690a55282498012bdc79b4ddcd7911d07"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-curl2_1.6.2_windows_amd64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_windows_amd64.zip",
+          "shasum": "0c0b5f90373b0e9021fedaa73b3d0dad84150536d3528dfd628cdcf99736b0f4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-curl2_1.6.2_windows_arm.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_windows_arm.zip",
+          "shasum": "13a61c838da38a6496fbf0b5c272aab621a1423382ff3581ead44fd4a39ec20a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-curl2_1.6.2_windows_arm64.zip",
+          "download_url": "https://github.com/mehulgohil/terraform-provider-curl2/releases/download/v1.6.2/terraform-provider-curl2_1.6.2_windows_arm64.zip",
+          "shasum": "fd423e2baf50ff3320d13a59584057edc7ff7cb0845c167fa8a30780d410ac2b"
+        }
+      ]
+    },
+    {
       "version": "1.6.1",
       "protocols": [
         "5.0"
