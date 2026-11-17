@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-flow_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_darwin_amd64.zip",
+          "shasum": "701e950b743b5cb7b66e7a355c371fb50e5babd6c58f3f1ddea9fdf0a09b28f9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-flow_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_darwin_arm64.zip",
+          "shasum": "87491f8259ffea99e48dc6449d6c9a79fbd158239c148d59ba8eacf5b39519c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-flow_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_freebsd_386.zip",
+          "shasum": "b94d4e095dc068925d96c5a30812518992e42766b139acf8975a1337e490e7cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-flow_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_freebsd_amd64.zip",
+          "shasum": "5383466f58d3dde36b71498cc2585cca3b41a9767dbd627604c66b30e760f4de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-flow_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_freebsd_arm.zip",
+          "shasum": "8e4b4a5e7383081b52f64975f0133804f0cf952b081ca030fa71fd2ab97fdc13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-flow_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_freebsd_arm64.zip",
+          "shasum": "a4471ad58cb516200c3b271842213068bd3f82780fbb9a8eabd3c46fa4810958"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-flow_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_linux_386.zip",
+          "shasum": "45dd372eabe2ede1e77d422fd7c411d06299695703f2c252c7b5670af6067fcc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-flow_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_linux_amd64.zip",
+          "shasum": "347876d53f585cd33beb280bb779d27629c56d0fc301fa446826a48b186c7da5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-flow_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_linux_arm.zip",
+          "shasum": "0d11982a9e0a92b0f48b5a44c07be9d75df1ee29183820feae9eab6c8717274b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-flow_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_linux_arm64.zip",
+          "shasum": "aab01ab345e0b930c449bc4a861e06e2847a1efa9d1e4546c9a23bcdcd9ddcce"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-flow_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_windows_386.zip",
+          "shasum": "9063f7bfecdad0873855a13e8a4d370776bbe5cce38a5e00ee1ecd8a65f3aa6d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-flow_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_windows_amd64.zip",
+          "shasum": "fd19b3d568b73222d0544ca82522e9bfccddb89626d29e33627fcc77c69639c1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-flow_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/flowswiss/terraform-provider-flow/releases/download/v2.0.0/terraform-provider-flow_2.0.0_windows_arm64.zip",
+          "shasum": "f47009537ecea538ced5aca9561a38d5ae660e90ed15a6de2656f78846386633"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
