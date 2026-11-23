@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.4.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-crczp_0.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_darwin_amd64.zip",
+          "shasum": "42724ad524250f5359b13c31adb2714e7caace18194d08816f3bea808baeb0f7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-crczp_0.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_darwin_arm64.zip",
+          "shasum": "977550dcf994be2b7400c99cfcb9c802e59258821f49106d3a25eea96bbedd0b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-crczp_0.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_freebsd_386.zip",
+          "shasum": "3b268068730e7b7db9ebe523a090a99205fb69e9caf0f5072cfdb59362fc5ca8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-crczp_0.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_freebsd_amd64.zip",
+          "shasum": "b516ccfad7456d3f1f42c33b749699b26f2c715cf0856d7da38033a4bd96323a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-crczp_0.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_freebsd_arm.zip",
+          "shasum": "029f63d425d67c73b7064e8ea445617db7b1a25e4d66ad6b41cf33d83d2d292f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-crczp_0.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_freebsd_arm64.zip",
+          "shasum": "6106cc12af834b24dcfe832f02300ec24a0aa0ed39aec8d6667c2d09da43c717"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-crczp_0.4.0_linux_386.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_linux_386.zip",
+          "shasum": "a941dff222fa1186d307f8b0eb9511992dadac099104033e964f5befdfa1dcfa"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-crczp_0.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_linux_amd64.zip",
+          "shasum": "fefea46c1bb3e97f682d67de330b046717ddf71e8117ea7eb09eba1aa461a6e4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-crczp_0.4.0_linux_arm.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_linux_arm.zip",
+          "shasum": "d97e8e0017d0dcb07ea0538f23a8470fd623a8f5be99341bb4215e168a33897c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-crczp_0.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_linux_arm64.zip",
+          "shasum": "7480084477e6f3bef395368ada3ea12763873aab56af821aa725b07fd6ba64a1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-crczp_0.4.0_windows_386.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_windows_386.zip",
+          "shasum": "a57c4661572cfecef59808afd24243ab9fd6f1ef9e5d199bbe79d6cf01522c77"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-crczp_0.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_windows_amd64.zip",
+          "shasum": "9789d7069966609955c0f18fbebcfe7ed38961e4c47388d8a0d85d7893614970"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-crczp_0.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/cyberrangecz/terraform-provider-crczp/releases/download/v0.4.0/terraform-provider-crczp_0.4.0_windows_arm64.zip",
+          "shasum": "939232115f56e73dd1d793c38f170f6a13c7d2f6204db45e810f3df2f8330eb0"
+        }
+      ]
+    },
+    {
       "version": "0.3.1",
       "protocols": [
         "6.0"
