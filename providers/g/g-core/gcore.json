@@ -1833,6 +1833,86 @@
       ]
     },
     {
+      "version": "0.37.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_0.37.3_darwin_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_darwin_amd64.zip",
+          "shasum": "eba4360f1e3ce7239f351e8ed6f7d28387818aca6f1097d6a08c6b6415ffa2e5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_0.37.3_darwin_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_darwin_arm64.zip",
+          "shasum": "706cf18c374ce9469f9aac7c9122dac676ef8a20a2b44ce331c3e27f4b6aaa0f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gcore_0.37.3_linux_386.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_linux_386.zip",
+          "shasum": "8f4bbc380eeb9bdf369e6d82d33379b104dedae858f8b9371f9eec7fc66fc80d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_0.37.3_linux_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_linux_amd64.zip",
+          "shasum": "8735a23ff89f5b390e5cf89ae999bc9938702ef1e4913f10c46f11aa83eea953"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gcore_0.37.3_linux_arm.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_linux_arm.zip",
+          "shasum": "afefb592eb76f2804ba2dab60ec8cb35236261d8ed4f988473647520173455fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_0.37.3_linux_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_linux_arm64.zip",
+          "shasum": "fc1774a1f3775f219c3b824289adaab41aae5bcc4ddc5fa6ce1eeb795e428e21"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gcore_0.37.3_windows_386.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_windows_386.zip",
+          "shasum": "f79f3539381bc9c08e0f10193bfa4275e3c924661670f7ec36e1170b3f81ace6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gcore_0.37.3_windows_amd64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_windows_amd64.zip",
+          "shasum": "9fbbb8da76331bb53a484c55428495c3b8d574f537ae2d6e84df8c34689bbc2c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-gcore_0.37.3_windows_arm.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_windows_arm.zip",
+          "shasum": "f1db33d7108cded2e8a9c516bc95c54599331f9fe38bffe341a59e50728cd2ca"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gcore_0.37.3_windows_arm64.zip",
+          "download_url": "https://github.com/g-core/terraform-provider-gcore/releases/download/v0.37.3/terraform-provider-gcore_0.37.3_windows_arm64.zip",
+          "shasum": "8333a5b7e140b22ce7c4baad5320dc4c7bf0a8a566872754f14b576157e74243"
+        }
+      ]
+    },
+    {
       "version": "0.37.2",
       "protocols": [
         "5.0"
