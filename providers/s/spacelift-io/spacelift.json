@@ -1,6 +1,58 @@
 {
   "versions": [
     {
+      "version": "1.61.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-spacelift_1.61.0_darwin_amd64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_darwin_amd64.zip",
+          "shasum": "70d82c30fe206831b992e0c536a48b9cb9eecd40f0bd9d6c73b2ce663ff7ee11"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-spacelift_1.61.0_darwin_arm64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_darwin_arm64.zip",
+          "shasum": "0c10b43e7e80226bffc5fe96992663ee1d9cc9c4d28cb25fe206e4ae3623b06c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-spacelift_1.61.0_linux_amd64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_linux_amd64.zip",
+          "shasum": "6c3976f40a7db09a5313cba301fdd8effb1f73e3ddf63d2f53c2a57a9ac9bf07"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-spacelift_1.61.0_linux_arm64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_linux_arm64.zip",
+          "shasum": "042b73432db8c94c5967a5f917bbc13b95f7ae7adfdca34e8048c1bf1475923b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-spacelift_1.61.0_windows_amd64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_windows_amd64.zip",
+          "shasum": "43fe4dbac5ff9d4ec506e666f9a38869b7f45b2dfea60d065efefd15d616d0a5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-spacelift_1.61.0_windows_arm64.zip",
+          "download_url": "https://github.com/spacelift-io/terraform-provider-spacelift/releases/download/v1.61.0/terraform-provider-spacelift_1.61.0_windows_arm64.zip",
+          "shasum": "1345acd730cd384f04f21c9a22b40193ab88cb1f5549527fa3b5edb37d07cbc9"
+        }
+      ]
+    },
+    {
       "version": "1.60.1",
       "protocols": [
         "6.0"
