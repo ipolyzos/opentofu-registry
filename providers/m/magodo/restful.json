@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.26.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-restful_0.26.0_darwin_amd64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_darwin_amd64.zip",
+          "shasum": "8649d8655ee451d85711d9aff0da80575a99d2cd64e40de7bf82fa8476f5f5da"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-restful_0.26.0_darwin_arm64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_darwin_arm64.zip",
+          "shasum": "170aada34fdec9b1957343ceebd8dab71166c8825e6cd7a3762f67bfc8d67cde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-restful_0.26.0_freebsd_386.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_freebsd_386.zip",
+          "shasum": "ac8ece1a834140f87674ccd84d2fa4009a8e7f3bb2a55c39d50a78740db3650b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-restful_0.26.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_freebsd_amd64.zip",
+          "shasum": "80b92b66a93510e7d82c344d390153cb1656f35fbe428918a1b2bca0f6ca614c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-restful_0.26.0_freebsd_arm.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_freebsd_arm.zip",
+          "shasum": "c8f5d468d07dbd5e0bebf52198b3d11550dc6aa559456ea6cd982c600ff17fc6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-restful_0.26.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_freebsd_arm64.zip",
+          "shasum": "8fbb7d87eebd04289a6e5f905aa8a0a0d0c8ee861e611ee58be96c4aee6dfef9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-restful_0.26.0_linux_386.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_linux_386.zip",
+          "shasum": "376f546a7e6956fca9b33b617740189b86a8569020eb73bb2579f6e87b9b7734"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-restful_0.26.0_linux_amd64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_linux_amd64.zip",
+          "shasum": "13c3f9a757e33db7b51aee6952a440887d5be4d8d637d15e228cec5496c9d994"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-restful_0.26.0_linux_arm.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_linux_arm.zip",
+          "shasum": "9c1221371b65c212b8f1a48462c52c48d6b0e94f9b438783cc3ebe02735423cb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-restful_0.26.0_linux_arm64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_linux_arm64.zip",
+          "shasum": "92e9310a27304464a26cde566593c4690eecc7f0fc60992b951ae7be5675ea9b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-restful_0.26.0_windows_386.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_windows_386.zip",
+          "shasum": "f2fa5873a1f3a2e1ee5b451e74c84f836d41d6c144699eb1f350ded083f05204"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-restful_0.26.0_windows_amd64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_windows_amd64.zip",
+          "shasum": "aa36f8cdca0556f1c0944039a468b91a732fb9c3e9954494dd715088ac974637"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-restful_0.26.0_windows_arm64.zip",
+          "download_url": "https://github.com/magodo/terraform-provider-restful/releases/download/v0.26.0/terraform-provider-restful_0.26.0_windows_arm64.zip",
+          "shasum": "ccfdae48202bc9b4f793d57e4f73fb93ec5c17c1341123f370964eb997865eff"
+        }
+      ]
+    },
+    {
       "version": "0.25.2",
       "protocols": [
         "6.0"
