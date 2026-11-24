@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.11.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-anypoint_1.11.7_darwin_amd64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_darwin_amd64.zip",
+          "shasum": "18eb82edfd6d436ad339f757a54246c4d44c0901ff4782fdff1defec4c68c1c9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-anypoint_1.11.7_darwin_arm64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_darwin_arm64.zip",
+          "shasum": "63c30f9cf3a21f0513a80743c36a0c31c435ee263abe89952dd55fd294b98097"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-anypoint_1.11.7_freebsd_386.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_freebsd_386.zip",
+          "shasum": "00a960a6c7dde2267ab95038a412527c74a393c4f8304ee00ba004ffce1534bd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-anypoint_1.11.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_freebsd_amd64.zip",
+          "shasum": "575920ea055903b74d83150965d07e969a3923614015594bd8fb56fca4d4ad22"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-anypoint_1.11.7_freebsd_arm.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_freebsd_arm.zip",
+          "shasum": "fbd56ab82ab654f9166dd16e914bfd2e94f3ce96ca4fd8deca6f4040a5101eb3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-anypoint_1.11.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_freebsd_arm64.zip",
+          "shasum": "960c19b2722814b4898fee839ba188581550f46a0a40e8e9ab413fd66707f12d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-anypoint_1.11.7_linux_386.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_linux_386.zip",
+          "shasum": "609aee63f943d1d50f43358c65af642562b03ecbcfb010c165046d6b968b2090"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-anypoint_1.11.7_linux_amd64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_linux_amd64.zip",
+          "shasum": "d2278d57027c0c48bdda12712addbbb21528501726e5753f3c6ac5116d8ba889"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-anypoint_1.11.7_linux_arm.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_linux_arm.zip",
+          "shasum": "e7cb9313bca7b0cc010740db170f3b03c79726ee21f6ae910c079a0b8e57d076"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-anypoint_1.11.7_linux_arm64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_linux_arm64.zip",
+          "shasum": "399dadcd3f6a483a9018b9bc5a593d62ed7081986df438d1756ebc511d025725"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-anypoint_1.11.7_windows_386.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_windows_386.zip",
+          "shasum": "76d1c9e564b8eae11ea3c3b8d9c2aa3da6b56e916dc210de18714fd0bdd6dff6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-anypoint_1.11.7_windows_amd64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_windows_amd64.zip",
+          "shasum": "8f90b45e65281a59a4654ede9fc8038375b03e0c09e6c2c8e87914008e28e600"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-anypoint_1.11.7_windows_arm64.zip",
+          "download_url": "https://github.com/mulesoft-anypoint/terraform-provider-anypoint/releases/download/v1.11.7/terraform-provider-anypoint_1.11.7_windows_arm64.zip",
+          "shasum": "07b87ade5d3eae7123ef5897aa1ea3de6371c2ab6ede61182dbd157771c0c55b"
+        }
+      ]
+    },
+    {
       "version": "1.11.6",
       "protocols": [
         "5.0"
