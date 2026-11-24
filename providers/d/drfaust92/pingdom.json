@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.7.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingdom_1.7.2_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_darwin_amd64.zip",
+          "shasum": "9d82835881b4b6be8583214f07afd037b8f9c112ece3d0b2d0592c93ab2dc14a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingdom_1.7.2_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_darwin_arm64.zip",
+          "shasum": "fc86f025fef6e00bc864d7c10be1037a825c9e5e1c931927106911542288bdbb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingdom_1.7.2_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_freebsd_386.zip",
+          "shasum": "236e15c91f1f0917873c2c158bd46ecfe527c39e732ab2e2047d2e9af9ce2334"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingdom_1.7.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_freebsd_amd64.zip",
+          "shasum": "35c2af00693c3c56b7bcd04e627375c5535abe040ab91ab8ce13798b1ebe4428"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingdom_1.7.2_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_freebsd_arm.zip",
+          "shasum": "10c3236e3c03add06474fb11d633d5752be7f0574a106b9c074d64fe1bbf75c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingdom_1.7.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_freebsd_arm64.zip",
+          "shasum": "a1e92ecb61638d55c293c07d30447c19767e38937f78a7eb05161245ac8dd522"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingdom_1.7.2_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_linux_386.zip",
+          "shasum": "a6ea0e0c8f764652df5b07b0021b5bbbf6aaeec4085b4aa4c565d6b18e7f8d61"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingdom_1.7.2_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_linux_amd64.zip",
+          "shasum": "63c061cba2510f6ae7bfc9fd2d3f180a2ac808646111ef5bf374d6a5e4360fdf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingdom_1.7.2_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_linux_arm.zip",
+          "shasum": "ee832baeda585e3bd7ec228a194ff263fdb3ec15648fb0847203717649d2accd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingdom_1.7.2_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_linux_arm64.zip",
+          "shasum": "8c157d12bfa08eff3f774fc2bd991fc53493181fab50533491e8cd44b93b83e3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingdom_1.7.2_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_windows_386.zip",
+          "shasum": "d4a94809be0b0d4cd356d6bd88de948c79a7f3b34edd487ebcfebd882bc52c83"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingdom_1.7.2_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_windows_amd64.zip",
+          "shasum": "485e4fbc59365af506ffa623b0732da808aaf0a8d1fd6157e54335d64d19afbc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingdom_1.7.2_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-pingdom/releases/download/v1.7.2/terraform-provider-pingdom_1.7.2_windows_arm64.zip",
+          "shasum": "1a4b71d0f73bfc97230a0fc99df6a98876c749a618825f1102e6aa485bce1233"
+        }
+      ]
+    },
+    {
       "version": "1.7.1",
       "protocols": [
         "5.0"
