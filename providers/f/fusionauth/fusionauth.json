@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.3.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.10_darwin_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_darwin_amd64.zip",
+          "shasum": "c3487c6b234d8109f2985d665886508bc3d0c6d74628ff75225b4f5eda8d2989"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.10_darwin_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_darwin_arm64.zip",
+          "shasum": "7dbe5360de02c23fc29f36c051e2bf0b76ce63ae1b9af8725875cf746a000c1b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.10_freebsd_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_freebsd_386.zip",
+          "shasum": "ccfc4cf054c144fee5cb0406f6de922df6ed2806888dddc644ad2f398f96ddf6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_freebsd_amd64.zip",
+          "shasum": "aed0506457436c1993460b21ca2fdea13c5d75dd88be764dbaaead049844d705"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.10_freebsd_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_freebsd_arm.zip",
+          "shasum": "6c4ef002f7c165c19558d74fee6859f32558d3ffb9e09227ae8a55ccb3369a27"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_freebsd_arm64.zip",
+          "shasum": "9f7f4467e764c2c8c110d1ea196cdff9a343a0ab630b0c083285b0ad2e104e2c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.10_linux_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_linux_386.zip",
+          "shasum": "f39b5b542ea331db0d974bd6df4e3c801fdb5a679fd6b9114be3373c06faab73"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.10_linux_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_linux_amd64.zip",
+          "shasum": "c4d024d8d3b1e92d9d7aefda7a6390a76d9c363dc54e56b0e098545118d054e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.10_linux_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_linux_arm.zip",
+          "shasum": "9c52f9b9090055b0166a0d58c5880b99c6fa9a6e0650dc9ac9ddd137bf7ab607"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.10_linux_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_linux_arm64.zip",
+          "shasum": "74c9b9102c5f7c469e4eb419acb7abed8aca460e463b9743117754925ba4cf57"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.10_windows_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_windows_386.zip",
+          "shasum": "6ae1394fd9461a1a07d8e3c970c8e92869bbcf203e196f5de7ddf2bf2401c561"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.10_windows_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_windows_amd64.zip",
+          "shasum": "de773351527f43669d97416605d554e5a7a6911facce0147bfe2d54f60da2945"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.10_windows_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_windows_arm.zip",
+          "shasum": "8b4ea2482d1197cdc63fb1a60cf2f83836508bd013a19931679591f3fe3e6345"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.10_windows_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.10/terraform-provider-fusionauth_1.3.10_windows_arm64.zip",
+          "shasum": "a0dd78f72e5ff3860b6f0f0f77ac73367f981bc4666339d69a50ec8fd12c0b95"
+        }
+      ]
+    },
+    {
       "version": "1.3.9",
       "protocols": [
         "5.0"
