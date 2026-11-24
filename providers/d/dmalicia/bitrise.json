@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitrise_2.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_darwin_amd64.zip",
+          "shasum": "fd9db5a529d8adbbabec0d3b2fbd25f201f1c2d3ed195c042d2624251bdd0b76"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitrise_2.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_darwin_arm64.zip",
+          "shasum": "bab93499bb0ab3f0131a7727c26d397fa013ce077b59c5c89160a70c08c42cad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bitrise_2.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_freebsd_386.zip",
+          "shasum": "bd2c03342f1227f1837e07137b5c6cc4d100066a2611e02ea91372d9ac932f7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitrise_2.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_freebsd_amd64.zip",
+          "shasum": "fdd7c3af7fa475d284fb964f0a4b42bccf05f56aa83e5c743f82831dd9b61a5a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bitrise_2.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_freebsd_arm.zip",
+          "shasum": "a8b48710487ebf0004fe0a78c419c8af2a628092389ac45f850393a4b4a6c8d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitrise_2.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_freebsd_arm64.zip",
+          "shasum": "219119298210b1061b1a84fb071ab14446f1f0b8cce2d982913893f0711b7d15"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bitrise_2.2.0_linux_386.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_linux_386.zip",
+          "shasum": "4c6fa855eafd20ac2d9154ac02cbe0ab53de118b7156dd596644d5e9f59029ef"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitrise_2.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_linux_amd64.zip",
+          "shasum": "5aefa568a4c74147bf42685345f0f86df04c3d6086a0f8bf10e7739387433e1f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bitrise_2.2.0_linux_arm.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_linux_arm.zip",
+          "shasum": "00385e83a8ee05495296c67963753be7be52f93f3ac0e29e00801323c6d8d08e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitrise_2.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_linux_arm64.zip",
+          "shasum": "67684ec37f350c027fcb4a33fd51bde2ab74f7e36a7988137b997a4d4d33f8d7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bitrise_2.2.0_windows_386.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_windows_386.zip",
+          "shasum": "4996a9ff0021501c20dc22efd03d68d12586a02e8ef8474b0b72f41b8dc9ff7c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bitrise_2.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_windows_amd64.zip",
+          "shasum": "b90281461598667babdbf49354056377e8ccd6d1066094bb091f950f37083eee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bitrise_2.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/dmalicia/terraform-provider-bitrise/releases/download/v2.2.0/terraform-provider-bitrise_2.2.0_windows_arm64.zip",
+          "shasum": "b298ef312ba99c47c000518d50779de20aa7428732f36f46dd462bbef1f8f788"
+        }
+      ]
+    },
+    {
       "version": "2.1.0",
       "protocols": [
         "6.0"
