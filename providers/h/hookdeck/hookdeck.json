@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hookdeck_3.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_darwin_amd64.zip",
+          "shasum": "bd0aa3461652e93f16f67e628d3ccbe3a1e87f66cfdac45e033e01e19cb486fd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hookdeck_3.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_darwin_arm64.zip",
+          "shasum": "ac4c65cb1e9b50ffe3f9cbb0c5db433c5d858ca208e45a67bd07a64bbefcbc72"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hookdeck_3.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_freebsd_386.zip",
+          "shasum": "e432af00543d0c78a925142f14cfc1372af1eef12172a149e260c6673430b914"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hookdeck_3.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_freebsd_amd64.zip",
+          "shasum": "d4c45d669005ecd87f57c145b4e74ccabd609e6e7a8c2941751b838621a2de66"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hookdeck_3.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_freebsd_arm.zip",
+          "shasum": "2e6fba7d03e5b4d2254b7a07daa7ed76ba6cd785ec34098dd03befe5fc5c62fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hookdeck_3.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_freebsd_arm64.zip",
+          "shasum": "07948ffe8d2b2f89696721b4721078860c2b8f6edf276f0ab0ff110f688bc4ce"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hookdeck_3.1.0_linux_386.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_linux_386.zip",
+          "shasum": "2f7538a9445a310757cfcd45c90be384860e882cc9bf8af42f7c41a537d80f16"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hookdeck_3.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_linux_amd64.zip",
+          "shasum": "73be819c1dae669642de6ee06e41e479a107ab766e5bfa419ccbdeb1a27eb542"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hookdeck_3.1.0_linux_arm.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_linux_arm.zip",
+          "shasum": "680b9cddce351529e4961be0942350ea2bee7786076783f964e038a17c18c538"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hookdeck_3.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_linux_arm64.zip",
+          "shasum": "deb827af8a9c02149a0e399b87b86e5e3d771e5719ce831786d075bf2ee8e898"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hookdeck_3.1.0_windows_386.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_windows_386.zip",
+          "shasum": "b4467f81143a98dca9185f39a535eb65fe3f6f756317ba505f143c4688369b31"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hookdeck_3.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_windows_amd64.zip",
+          "shasum": "dcf5415960fc9da12f35bd7c78b24ce42bae6978828c209ff31002389fc5ff05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hookdeck_3.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/hookdeck/terraform-provider-hookdeck/releases/download/v3.1.0/terraform-provider-hookdeck_3.1.0_windows_arm64.zip",
+          "shasum": "535faece87877b80f35ed64890806276ce506905ed51cd507ffd4868514b5513"
+        }
+      ]
+    },
+    {
       "version": "3.0.0",
       "protocols": [
         "6.0"
