@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.38.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-env0_1.38.1_darwin_amd64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_darwin_amd64.zip",
+          "shasum": "5297327eba9f74ff8dd5661a0cdfa60a6137e068a718b0c17c777625920ea64a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-env0_1.38.1_darwin_arm64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_darwin_arm64.zip",
+          "shasum": "82a388f2d4d0168307f4f111b69af5d9c738d2c8da0489247da08f4a28effb2a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-env0_1.38.1_freebsd_386.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_freebsd_386.zip",
+          "shasum": "f861f865b6dfa560da4fc85c46d64f844c90e0a38bf34075f23db63afe4093dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-env0_1.38.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_freebsd_amd64.zip",
+          "shasum": "42e80b605e6e34d16a23f9a32b9fc3b8b6ad8757da90b8eb6106071c495f3dd0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-env0_1.38.1_freebsd_arm.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_freebsd_arm.zip",
+          "shasum": "30d059f9bfeea622ea156c731e03fce8a2a26d1e2a1d5c0ec9bf54879000e2b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-env0_1.38.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_freebsd_arm64.zip",
+          "shasum": "d3be2ad57a27f40e81a5ecadcb8e184dd8658fe32ed4a1dc8f6a8eacb54ddb3e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-env0_1.38.1_linux_386.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_linux_386.zip",
+          "shasum": "4dd9235753c52d92116785dddd1cb163a3f84643fb6a52d468715ea4c12b2201"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-env0_1.38.1_linux_amd64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_linux_amd64.zip",
+          "shasum": "9300c848bdf841090e30366ae6e020eb55cf2c4dce442ad4d52e6d1849fdd36e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-env0_1.38.1_linux_arm.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_linux_arm.zip",
+          "shasum": "adae054475a58bab83814b406f0371375e2de4b365dab732169486951b0ef534"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-env0_1.38.1_linux_arm64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_linux_arm64.zip",
+          "shasum": "87a3e06de1f3b53118e41acead237ecb407d84645f0cc4e1ab53bba48b8081af"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-env0_1.38.1_windows_386.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_windows_386.zip",
+          "shasum": "cd533659e29dc3afc9d418c06812fb63be275562a1ed4c15aca3dbfb9525be28"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-env0_1.38.1_windows_amd64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_windows_amd64.zip",
+          "shasum": "0c08c2202e90f7f0856d3a491e03407284c2a3d921fbacb151ee36552eb9a03e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-env0_1.38.1_windows_arm64.zip",
+          "download_url": "https://github.com/env0/terraform-provider-env0/releases/download/v1.38.1/terraform-provider-env0_1.38.1_windows_arm64.zip",
+          "shasum": "b23478df551ca5a16c9805e26ed9594a8640001a4c5529846af72f2aa008ff54"
+        }
+      ]
+    },
+    {
       "version": "1.38.0",
       "protocols": [
         "5.0"
