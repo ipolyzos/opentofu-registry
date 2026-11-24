@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "8.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-okta_8.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_darwin_amd64.zip",
+          "shasum": "7f8082d15f979dd29dd4895919ad1c4140cc7f815dd60fbf6da4e4f1fcdc59c4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-okta_8.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_darwin_arm64.zip",
+          "shasum": "74ea10dd8f2b305f71d5cc0051829ac72cc51a604256eaab4beb77d2bbf7b4fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-okta_8.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_freebsd_386.zip",
+          "shasum": "dc5787802819e9f228dd8312b00d75c5d552279caab0af0040682208423550d5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-okta_8.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_freebsd_amd64.zip",
+          "shasum": "581d78d58fa4db431071aead6fce9ca710b1584236daca88673b18f78cdd3403"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-okta_8.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_freebsd_arm.zip",
+          "shasum": "5bce11385afaac693e05f1f2bd2ad4da997c1cec21c3e786e13ef2dc2f76f78c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-okta_8.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_freebsd_arm64.zip",
+          "shasum": "63de0926fbeb8f60de6324db3d31aebd38594020af002bb4bcc75aebfab90be1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-okta_8.0.0_linux_386.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_linux_386.zip",
+          "shasum": "b0148fbd5b7d6302391c04903774abd938bef850f3634aa2d24d5800461c2ec6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-okta_8.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_linux_amd64.zip",
+          "shasum": "4feb010762a7fc7d1cce92b8f0294062e0fb8aa02c5db4977d3e0dc44347982a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-okta_8.0.0_linux_arm.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_linux_arm.zip",
+          "shasum": "77a13408d16631126e73f7a7dafe18abed3a1178ef214880b152b77871150cd1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-okta_8.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_linux_arm64.zip",
+          "shasum": "200d7494e36c485b36800a1c8fdb94ece1850aaecf7828ad9025563fc881be3b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-okta_8.0.0_windows_386.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_windows_386.zip",
+          "shasum": "ed2d5dbce211c2f3efe4bda879230354a545de2bea7ae472b704fa85cd70b04a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-okta_8.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_windows_amd64.zip",
+          "shasum": "37578f8dde8f516c6d38d59d3b02da0b8ee4c235aaa6d665fd132cad92cf922f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-okta_8.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/okta/terraform-provider-okta/releases/download/v8.0.0/terraform-provider-okta_8.0.0_windows_arm64.zip",
+          "shasum": "b49bc736862f6fb0988992b487a13e94f1fe4dd55c1a41b3785bdde23a173fe5"
+        }
+      ]
+    },
+    {
       "version": "7.1.0",
       "protocols": [
         "5.0"
