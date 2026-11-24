@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudns_1.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_darwin_amd64.zip",
+          "shasum": "237ff895facf33c2026d75de6ec24dcbe1ca0760751488066b3e2c8ba4e01d60"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudns_1.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_darwin_arm64.zip",
+          "shasum": "820629e3bc4fca7364d8f9e748996cd53897d9c66d9c629e6a1d48dabf4010cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudns_1.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_freebsd_386.zip",
+          "shasum": "545ba038dbcd3f6b81fe93035c693ff160238bf561628e4bf8811111705cdf4f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudns_1.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_freebsd_amd64.zip",
+          "shasum": "479230d7bbd76d7055d45e00aaef35e797d8a999d0fed0012956c68d6d20f32d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudns_1.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_freebsd_arm.zip",
+          "shasum": "159b8ca9112c66d104d1206fc9516695e8b91c02a1560abbc5a58dcf7e2cbbdb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudns_1.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_freebsd_arm64.zip",
+          "shasum": "1a42ec2e533bb7182510b226b416b8fced7eba21f64ff08a707b5de3bf31556c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudns_1.4.0_linux_386.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_linux_386.zip",
+          "shasum": "e232e7779e668b64eb5e4d775e4fbe7d8be0c8c27bb53f5979c7a10bb59f48a9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudns_1.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_linux_amd64.zip",
+          "shasum": "b09bbb567cd1ef6074cd8bf87e9b0550bd166a741bbfc0992c4fff4c8a53398c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudns_1.4.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_linux_arm.zip",
+          "shasum": "6e807458f7511847e6124384ce0c62a9ee437cfc4396d40a04171c2abdead20b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudns_1.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_linux_arm64.zip",
+          "shasum": "d3973eb4009826fb2d92924f57d4af63b342947ff5efe15f5f564b180016f75b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudns_1.4.0_windows_386.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_windows_386.zip",
+          "shasum": "cf192f17292865c3bcd1b20847ffd103f03305e26bb3f114b52209a2963baa4d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudns_1.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_windows_amd64.zip",
+          "shasum": "233cea805f9dc78725d34a99608acdc5ea19fa894d552bd576db3ddef819627d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudns_1.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudns/terraform-provider-cloudns/releases/download/v1.4.0/terraform-provider-cloudns_1.4.0_windows_arm64.zip",
+          "shasum": "421b048e02eb1a3bb9ae75462f793a67e190dcf376ed3e754458b1e439f4def6"
+        }
+      ]
+    },
+    {
       "version": "1.3.3",
       "protocols": [
         "5.0"
