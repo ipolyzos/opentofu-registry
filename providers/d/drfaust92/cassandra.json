@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cassandra_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_darwin_amd64.zip",
+          "shasum": "c9a897b70c524b6cdf142442d352284a40827cc66f051155780251e226d4f375"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cassandra_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_darwin_arm64.zip",
+          "shasum": "aeb32343ac373251d46de7d3838bb72bd6e8ef943d77f543b4fd1198be6420ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cassandra_2.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_freebsd_386.zip",
+          "shasum": "68dd2d9edb73e9e8083d7a91996af6105d5a96ddffd95a76797b75784c66e961"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cassandra_2.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_freebsd_amd64.zip",
+          "shasum": "e958c194113fc20528709dd3252dd0ebd743e09daad0602cd4d791565c8f9e57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cassandra_2.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_freebsd_arm.zip",
+          "shasum": "3b19ff5b62daea340b397bae04a58ff3ffda7871dc16fe13f113c119361411c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cassandra_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_freebsd_arm64.zip",
+          "shasum": "0a92913508fda850333a268005228debf68c4566f56a5bd6ccecd8a2cce356bf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cassandra_2.1.0_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_linux_386.zip",
+          "shasum": "422f4aee356efb0f7d421516fcd4531c3c05a307c3c70f6f1aa198a43f41d4c9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cassandra_2.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_linux_amd64.zip",
+          "shasum": "adfecaef2f166237b9bfdf8050ba55001776f048920230fa20be2e762fa4eac8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cassandra_2.1.0_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_linux_arm.zip",
+          "shasum": "c5f7b61b0da15a575a601ecc22daf0b68b3dad01df77ee4b7f9b2a57d4fd68c3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cassandra_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_linux_arm64.zip",
+          "shasum": "62a30f5f8a9a466e36ed44a40119eaf6822ae6630c8f4fb0cdb069637de497ff"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cassandra_2.1.0_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_windows_386.zip",
+          "shasum": "7c832da65ef261bc69d3efc7206d3bb44eec8c17d8b0d61e495315dc51538220"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cassandra_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_windows_amd64.zip",
+          "shasum": "9177c9710337885baafd38873d809bfe637f5646e6755be239258a2d41227e4e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cassandra_2.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-cassandra/releases/download/v2.1.0/terraform-provider-cassandra_2.1.0_windows_arm64.zip",
+          "shasum": "7470eb4995874f2223d5d36cd19b0e4ef3816c89cf2b6511399848f927d4f5a8"
+        }
+      ]
+    },
+    {
       "version": "2.0.0",
       "protocols": [
         "6.0"
