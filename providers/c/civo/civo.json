@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "1.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-civo_1.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_darwin_amd64.zip",
+          "shasum": "a013936b11509ad370e7231e63c6d97ba2526e3b2e51a8dc48cb60fc7a08af84"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-civo_1.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_darwin_arm64.zip",
+          "shasum": "aa561ede21a23357368b1678932d21b74f01a562c0a4f60ff6f53d497c42acf6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-civo_1.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_freebsd_386.zip",
+          "shasum": "a197dc7f3570bcf8b4c388e3cc67ce8d51b13b3735d861596a510ce7f4daeb09"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-civo_1.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_freebsd_amd64.zip",
+          "shasum": "4ef3ac593b2ddb526a9e6a5876cc27f7cc4e662e15f1fa7e8149b6b7236efb51"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-civo_1.4.1_freebsd_arm.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_freebsd_arm.zip",
+          "shasum": "ff113eca4ddc18c28fb305cce3c0ef875ab439ca7a8af5563b4b60042489f83a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-civo_1.4.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_freebsd_arm64.zip",
+          "shasum": "663cd757058c89d5182baf5b0a0b8930f064175b03b8fa59d2d6e5487ef9a397"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-civo_1.4.1_linux_386.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_linux_386.zip",
+          "shasum": "932540a49bd53b9c638d6589e3054600aaf8be36c02481af0bfdae55668172a0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-civo_1.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_linux_amd64.zip",
+          "shasum": "000238773b75cf2c153c3599de6eca8c7e27cec7444451abc813c8b5051f0a60"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-civo_1.4.1_linux_arm.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_linux_arm.zip",
+          "shasum": "d2fbb571a1fcf82d8e5c70b2660c5b483c37619478daa94b10e1e1722ba78bb0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-civo_1.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_linux_arm64.zip",
+          "shasum": "59361c47846316212c2270f8b2c55d8bcb26fbef84a7ac261393309b3b4ba051"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-civo_1.4.1_windows_386.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_windows_386.zip",
+          "shasum": "fcc29e5c4f4d00bada3282e2cb9b98e95c6535c09a93657b0824dd7d55af1a1a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-civo_1.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/civo/terraform-provider-civo/releases/download/v1.4.1/terraform-provider-civo_1.4.1_windows_amd64.zip",
+          "shasum": "203274029eed730e72b9fd8db2f289128e538963b2a5325111b527194c989ea0"
+        }
+      ]
+    },
+    {
       "version": "1.4.0",
       "protocols": [
         "5.0"
