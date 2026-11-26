@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.7.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-openstatus_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_darwin_amd64.zip",
+          "shasum": "569141330226a457693549898469948a3ca2c80425521d6dc604b78ae1a319d5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-openstatus_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_darwin_arm64.zip",
+          "shasum": "ea655de471ea6c7a8135f4f1253e783679a0dc34ff5123736081871413bcb18a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-openstatus_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_freebsd_386.zip",
+          "shasum": "c2b36f7b5e087c773ff1088a1b0c355233a315c9f9e4df2d4c2269abb0707f10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-openstatus_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_freebsd_amd64.zip",
+          "shasum": "0fafd5e2fa8de905d3d68e813381f36f91ea0b7efe233c7804da82b7ee76ceff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-openstatus_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_freebsd_arm.zip",
+          "shasum": "d7b419c5f12a6f4519f0ebfde223d4f35448af520091a43456a1830c524b5a7f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-openstatus_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_freebsd_arm64.zip",
+          "shasum": "d1825ed67bb31f02a589bcfcfb672942cbc0d9c1bc4283120b1d8a735ef3bba3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-openstatus_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_linux_386.zip",
+          "shasum": "7eb88aeb08ecfe8ed8b7a8c528637969e75167224ae4787eccfa887889975ed1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-openstatus_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_linux_amd64.zip",
+          "shasum": "cd867eea28fb9dbf4ac247a14cb17975bfe2d67330213421296762330339ea3d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-openstatus_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_linux_arm.zip",
+          "shasum": "c14186c03ffb4e5fa4124af893d7ce66ef3b8f3476bd7b8c3402af006a71029f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-openstatus_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_linux_arm64.zip",
+          "shasum": "a6053c7baa930b8c430180cf8ef5d19b537c0756dcfb45c9f704209f06fabfa1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-openstatus_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_windows_386.zip",
+          "shasum": "6a5c4f9fe150230f56d1e92a99d0aedb4ef2af550fcdadcf2435644506dc6800"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-openstatus_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_windows_amd64.zip",
+          "shasum": "95f0b11d3dff6fe1df47046ebea079b277d855b6bff59f2e0bc0362c9f842299"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-openstatus_0.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/openstatushq/terraform-provider-openstatus/releases/download/v0.7.0/terraform-provider-openstatus_0.7.0_windows_arm64.zip",
+          "shasum": "c0603890d6125d9afb376e61fe9a415da40021ae47683a88dccc3dada79602f3"
+        }
+      ]
+    },
+    {
       "version": "0.6.0",
       "protocols": [
         "6.0"
