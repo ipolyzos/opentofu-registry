@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "0.5.14",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cosign_0.5.14_darwin_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_darwin_amd64.zip",
+          "shasum": "e6114637cfe8f4ecc7f08e87c853b671f917a9e9ea06eee3155aee49cfeafa2d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cosign_0.5.14_darwin_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_darwin_arm64.zip",
+          "shasum": "75f2a0ced1610f73442f571a45b8107483012de9799e31c95c8267ffa8d5b7fc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cosign_0.5.14_linux_amd64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_linux_amd64.zip",
+          "shasum": "e1f474671863c8d4a7a31bb5230abe685778c8ea0c6b0f88875088671de5cc58"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cosign_0.5.14_linux_arm64.zip",
+          "download_url": "https://github.com/chainguard-dev/terraform-provider-cosign/releases/download/v0.5.14/terraform-provider-cosign_0.5.14_linux_arm64.zip",
+          "shasum": "a5199e823ea5bde9ac5cd081567d58901255d331aea05a1563e50e569ce27e4b"
+        }
+      ]
+    },
+    {
       "version": "0.5.13",
       "protocols": [
         "6.0"
