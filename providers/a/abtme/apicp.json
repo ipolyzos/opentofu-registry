@@ -1,6 +1,125 @@
 {
   "versions": [
     {
+      "version": "0.5.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-apicp_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_darwin_amd64.zip",
+          "shasum": "d1c8bdc9d9cd7190f72ad69758a0ecf6492ccf74d5f5532b00226fe10c7ab124",
+          "h1": "h1:bmqnbZoE7LMSYpXY1yHz2CdsnGGojlp+e9ISL9gn8QY=",
+          "size": 7259319
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-apicp_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_darwin_arm64.zip",
+          "shasum": "ee9fa1291b2f6d2af41284f857102f02e210bf4027d9c657f5298934d0eafb22",
+          "h1": "h1:DoxankzJJO5dV1QTeeBGlEYvHx9FM4zh0HwJPMhyRc8=",
+          "size": 6717956
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-apicp_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_freebsd_386.zip",
+          "shasum": "ad58e831e996afff1fec6aaf7593082fe3dd3af26329157b0d8a25b2bbd81a03",
+          "h1": "h1:ODTR9XqQd0FO0y9IsLHq5gEilLY1GC5/vQOSenpE93s=",
+          "size": 6671296
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-apicp_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_freebsd_amd64.zip",
+          "shasum": "99159e79e57de357807b1cb6b017ecaf4d795f7ec93a46dee72331cc52cbf70f",
+          "h1": "h1:ONBDpfagSTPuF84wP+bhukNLpok5HutHE4yEW9cFCrE=",
+          "size": 7038789
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-apicp_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_freebsd_arm.zip",
+          "shasum": "e97ceae25e6c2fa6b56084775b394ae86ee794070c60d32be9e06f704760191b",
+          "h1": "h1:r6uJ+i5Eew0ehBreGTyIWcrc1Gby408H9Tshf46ZLs0=",
+          "size": 6641420
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-apicp_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_freebsd_arm64.zip",
+          "shasum": "30a984f3e8355cf3e2d203fa95f90783be5f44e1288a37f71ed58ed2a95113a3",
+          "h1": "h1:CdrkKCngIX2xtPGkeZsRyaYlWpT9tSeLL4ETtymJT40=",
+          "size": 6358471
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-apicp_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_linux_386.zip",
+          "shasum": "e1e52f2f7edba04d4b4f1c51b4676c1189f9f5e273bdf1e5bfa4cab047e1f8f0",
+          "h1": "h1:fqvTH6UVPVyPdtFqbixKvN2CbVMMxbvJokgONZZAs60=",
+          "size": 6704047
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-apicp_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_linux_amd64.zip",
+          "shasum": "ee2815e92473e5dd8f147a1b105f7bd674b458468ff7e08460b2141f728f1e20",
+          "h1": "h1:gKpOxeSO2r+dtkaOCz8244yPNdcA+3jtkdRHPzqpdEY=",
+          "size": 7064656
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-apicp_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_linux_arm.zip",
+          "shasum": "e1f027d833447c453f822a4e875ec5325985dcc1e5c64755a5efc7c46ae8211f",
+          "h1": "h1:nx/NggKcW7hU6venjqAWNpoX5khjkHI91STcTXLr06U=",
+          "size": 6667292
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-apicp_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_linux_arm64.zip",
+          "shasum": "04234bc495a99a701046e4377ff0190491918e8d56772b26370df422eb6834bc",
+          "h1": "h1:b26dEfgXeZbioDoXFOc13CQwvn8im1TqxnIqwjzDdkk=",
+          "size": 6381254
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-apicp_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_windows_386.zip",
+          "shasum": "125ad7da6db9e39e4947e1d9d8631058cf2a2ed3fd37597c6a4217654fa19ae2",
+          "h1": "h1:4GEEIqA8/pjW+OclXnNihBeXrpQfzCG8G60aq8bII3Y=",
+          "size": 7034406
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-apicp_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/abtme/terraform-provider-apicp/releases/download/v0.5.0/terraform-provider-apicp_0.5.0_windows_amd64.zip",
+          "shasum": "49e0425e9f2216804616f97e42b785b2d255059c85d9f38d810ba368800f2423",
+          "h1": "h1:nzHD1XVaBUbEspfhEiE6b3sIuRdUb5mwBHrxmurEUl8=",
+          "size": 7281109
+        }
+      ],
+      "discovered": "2026-11-28T16:57:47.883811038Z"
+    },
+    {
       "version": "0.4.0",
       "protocols": [
         "6.0"
@@ -2855,13 +2974,6 @@
         }
       ],
       "discovered": "2026-09-02T15:59:42.009342146Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.5.0",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-28T16:22:39.418670481Z"
     }
   ]
 }
