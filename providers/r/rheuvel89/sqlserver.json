@@ -1,6 +1,116 @@
 {
   "versions": [
     {
+      "version": "0.5.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_darwin_amd64.zip",
+          "shasum": "1bf49cca11c7350a6c0a0e70e07b38f985cd9c7847e0b4ef83b397a639c043bd",
+          "h1": "h1:PBKNn/jFPNzr0gYMxHOnObiGrILaXXK81oY1Xrz/2hU=",
+          "size": 9072371
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_darwin_arm64.zip",
+          "shasum": "691fb3f6388fc4cbc24ee1082d2cf59ccbafbca63545beb5fa38317414fd34d0",
+          "h1": "h1:6CD5ovdlWvEMq/nm7bSkySkTVssK0UP6zzwXW92gif8=",
+          "size": 8389896
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_freebsd_386.zip",
+          "shasum": "b7cbbaa9e4785cdb381fab2092728a00c990451a6fe0dbae8a3140589651ca4a",
+          "h1": "h1:h4BlLyiTC0nzJeATOyjIrv1c0frU117pIchRB72jems=",
+          "size": 8409046
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_freebsd_amd64.zip",
+          "shasum": "401bc21985cbd4adaaad5190d39158c8779119a7eab9784247756fd9c3015e43",
+          "h1": "h1:y2+bYihGf03bX/SNSiEF/bg0mZLoXIsDLqT8CrHI09I=",
+          "size": 8830540
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_linux_386.zip",
+          "shasum": "2ffdebbee810772738ae21274a8298c5b8b553c705e1939c76b71b2a90d8d6a7",
+          "h1": "h1:a0M8EZWHt6FyvbwpTwELPZ72ui7lqYdPWiTYLeFONZw=",
+          "size": 8448789
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_linux_amd64.zip",
+          "shasum": "9903ccc46a1c3f1d1ed5796aa028efb9fab4420f1a2e47ddda64820669c10322",
+          "h1": "h1:uWwNM3p9tSVVvCUVzxInLPBN01C7v9gcaaWwdLcIfH0=",
+          "size": 8865378
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sqlserver_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_linux_arm.zip",
+          "shasum": "85647aa388b918b7686b28ca3c80d2d77913859f7e1e714a79c6cdeda353d0f8",
+          "h1": "h1:AULzQHM6qpttbkKrvKaoEchY2DvG9vuk3s80CZMQDS0=",
+          "size": 8422601
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_linux_arm64.zip",
+          "shasum": "43254c1dcdfcc9c41c2ac71c8171ce264ef7c0094a8dba35a33a5ee0bb6f8d6b",
+          "h1": "h1:ATAhiZ5T1EXS6NSymqDybL2wIXZSxWH8pRxL6NIxz9k=",
+          "size": 8010656
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_windows_386.zip",
+          "shasum": "52b36ea4fb7b60f93a1f866b8329f53c7cc2ecef50f73224452031fa79694c7b",
+          "h1": "h1:y9ivjhkffqNBgO1IHitEgFWb91XODwRazocBd8cwAzk=",
+          "size": 8856849
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_windows_amd64.zip",
+          "shasum": "9952c260bef7c2aae90bdbf39ac01785bb3d0e6045f2c01f552bb23c17635d5c",
+          "h1": "h1:3yRCAz2uH2I2fE4mQwuA8exaUG0YCg18ZpKIKWH3MwI=",
+          "size": 9125252
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.5.2/terraform-provider-sqlserver_0.5.2_windows_arm64.zip",
+          "shasum": "37d06b751b5f68bf6954827882b3957e2c4a2c57c37c6caccff7a96d760d355c",
+          "h1": "h1:I+iwEV1AZL+9LlOf6phU2AXKCzuz/YsGjbKGovvXrsk=",
+          "size": 8126623
+        }
+      ],
+      "discovered": "2026-11-28T16:46:50.198676666Z"
+    },
+    {
       "version": "0.5.1",
       "protocols": [
         "5.0"
