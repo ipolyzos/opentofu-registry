@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2026.11.28",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-git_2026.11.28_darwin_amd64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_darwin_amd64.zip",
+          "shasum": "36c6ee05cbdb2134eda6f3c6d49e173fd47bdf1741d031589f2c7b1db770366a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-git_2026.11.28_darwin_arm64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_darwin_arm64.zip",
+          "shasum": "b879b9b3557772fb8b92fbaa2a792f973158f5e56d2cb6c11599b872745b73ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-git_2026.11.28_freebsd_386.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_freebsd_386.zip",
+          "shasum": "cd55fcb0a46a764103e36f187b34de6fcd25cec0fdd1fed72e900e19d1e90536"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-git_2026.11.28_freebsd_amd64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_freebsd_amd64.zip",
+          "shasum": "c2e207586acbdaec93a378fee20ef1a94f69223b21f00bff1f18df26183ba1cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-git_2026.11.28_freebsd_arm.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_freebsd_arm.zip",
+          "shasum": "879eca21c69f58d69fa32e19e7a1e59dfb4afb8ef7967ac2c1746643db275db3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-git_2026.11.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_freebsd_arm64.zip",
+          "shasum": "5a6135c23868de8118a049b2e5e64481f4a84a07340a0fcddba0e4bc36cde6ac"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-git_2026.11.28_linux_386.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_linux_386.zip",
+          "shasum": "641a412b3481ebcf069e325f7609b1e3f9dbef3b29ff85d11c4da3a5c376e9b0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-git_2026.11.28_linux_amd64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_linux_amd64.zip",
+          "shasum": "ace5063614252f0bc61331011434151250a8fcb7fa6afbdc364647d51e6b17a9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-git_2026.11.28_linux_arm.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_linux_arm.zip",
+          "shasum": "3f260bba47f3bc6ee51f9a9eca32d1e1ea201b3e3a1ccba4f6b32f6d47828a5d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-git_2026.11.28_linux_arm64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_linux_arm64.zip",
+          "shasum": "0229f15d24ad62a0846e20963dc571ca799ec641989dbecfad11df1d5f12f7f6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-git_2026.11.28_windows_386.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_windows_386.zip",
+          "shasum": "7e192c23b8db560d472578e68fdc2382113d89b73e4c205e2f7dcb9a97843c5a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-git_2026.11.28_windows_amd64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_windows_amd64.zip",
+          "shasum": "a29760945480dab1c6c9c5cb1162c5902f044aa5581e0465449b74e8973fec37"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-git_2026.11.28_windows_arm64.zip",
+          "download_url": "https://github.com/metio/terraform-provider-git/releases/download/2026.11.28/terraform-provider-git_2026.11.28_windows_arm64.zip",
+          "shasum": "e4ce1c8ae2da8bb128109f07c2d637cdb13d019407a1a6ddb42ce5baf18d9f1d"
+        }
+      ]
+    },
+    {
       "version": "2026.11.21",
       "protocols": [
         "6.0"
