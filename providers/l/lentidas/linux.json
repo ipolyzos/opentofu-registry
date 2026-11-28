@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "0.10.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-linux_0.10.1_darwin_amd64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_darwin_amd64.zip",
+          "shasum": "42b57113b320884669921e641ae37df146aa53f14a111181cd6c41b2839b406a",
+          "h1": "h1:Z/9GyYqp/E12/aqwvPmtC3QEekPEsNHIAGWZef8kOU0=",
+          "size": 8027585
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-linux_0.10.1_darwin_arm64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_darwin_arm64.zip",
+          "shasum": "4e012089939b3a07944124f5e6fc1dd25ee6b2d029792fb213d0b050848809f0",
+          "h1": "h1:dlOqCz+RBprF5LCeINFmbVUOEaJaVOeuJ9OZQvldGs8=",
+          "size": 7390591
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-linux_0.10.1_freebsd_386.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_freebsd_386.zip",
+          "shasum": "0eb4fa49b557ca39836c50bd8ca509f0f84579536481e5b7a7ad6bc9c75c519a",
+          "h1": "h1:4HfH0R+FjNikfHx8j4fvgJWITWFKFsVz69GtwEAk0I4=",
+          "size": 7442067
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-linux_0.10.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_freebsd_amd64.zip",
+          "shasum": "8024af934d28ef90a18bf4d363e077fb31b5fc1ad2c884d2de30bb93b9368559",
+          "h1": "h1:yszbijk52qW1kzlekRho7o/kvahPqfCCg3iOeyKxDDc=",
+          "size": 7804272
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-linux_0.10.1_freebsd_arm.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_freebsd_arm.zip",
+          "shasum": "9c502ca603c26a6b826f95ae1066d4f48c2d9144ef06c0dfa97567039577b5b0",
+          "h1": "h1:zcrwC8/hg7J9bQeetDWdyVPmB0IL6gzatke2xHyqT0M=",
+          "size": 7410218
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-linux_0.10.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_freebsd_arm64.zip",
+          "shasum": "dfbeda72d99d3ccf828a600cfd95c17f0ee7ed9724976bf0be51224a74bad477",
+          "h1": "h1:lnmwnR/F7+0I/o4jlRM7E6lnRbUaC+2fUCIwQ7FRlxU=",
+          "size": 7020945
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-linux_0.10.1_linux_386.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_linux_386.zip",
+          "shasum": "a402d5a169665e3e4ad987f7d3074b2068795e118e2705a1c46328edeeef0bf2",
+          "h1": "h1:X8dxu6VkcV69/iJiziqPHb8rG6seu1vpkqzU0RvvVeY=",
+          "size": 7478699
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-linux_0.10.1_linux_amd64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_linux_amd64.zip",
+          "shasum": "14e3e3a80a039541f2c03e562db7936b6f846a5faa1b5bdffc96bfa8bd98dc7f",
+          "h1": "h1:SuJxqztK4UPoZwNV2i4xIjuupl0FlCrzg4zHNUIMUko=",
+          "size": 7832193
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-linux_0.10.1_linux_arm.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_linux_arm.zip",
+          "shasum": "3f6813096c43a349cd81569f05d056b01b6feb5d0256f69328da8f3e2d20925e",
+          "h1": "h1:g1nuCiDsM0Z32etut0OhO4XI/jhKZt9Rv9nLnzYnj3w=",
+          "size": 7429066
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-linux_0.10.1_linux_arm64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_linux_arm64.zip",
+          "shasum": "3cbb841a69a76b56eb59cad03b1af9fc2256265f36d659cc9ac0228c15ff8861",
+          "h1": "h1:EDY/KaKx2pdku0mZGWbEL0DFf9Vz4n4pa6Tl1D2C2JA=",
+          "size": 7052941
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-linux_0.10.1_windows_386.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_windows_386.zip",
+          "shasum": "d8d982af8992d42c018caceb63293483a227b9a2347d23ffbf14ae87ebaad87a",
+          "h1": "h1:sdYCWJB93gSP7YhIZG992zhPkrS1Wht/ahcTDboud/o=",
+          "size": 7858442
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-linux_0.10.1_windows_amd64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_windows_amd64.zip",
+          "shasum": "4924858654cf1e04a926213715e62efcf34f15919ee384aad36a2efa31ab6204",
+          "h1": "h1:FwNbxYZ0PjhukLaPBk5nSTKs+Fr7jjPdx6exavoXe0M=",
+          "size": 8084282
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-linux_0.10.1_windows_arm64.zip",
+          "download_url": "https://github.com/lentidas/terraform-provider-linux/releases/download/v0.10.1/terraform-provider-linux_0.10.1_windows_arm64.zip",
+          "shasum": "1bff7aa81e7aebece56170b80a3fd035eb42defa2c6ebe9a1bdf20eedea32bfa",
+          "h1": "h1:kZuoH6ok2JHUGMAb8x2R73O47gKr2YTf9t4BlCGNAao=",
+          "size": 7170563
+        }
+      ],
+      "discovered": "2026-11-28T18:46:45.387925041Z"
+    },
+    {
       "version": "0.10.0",
       "protocols": [
         "5.0"
@@ -511,13 +639,6 @@
         }
       ],
       "discovered": "2026-11-26T07:51:02.368109755Z"
-    }
-  ],
-  "versions_errors": [
-    {
-      "version": "0.10.1",
-      "message": "checksums not found in release",
-      "utc_time": "2026-11-28T18:11:30.492951155Z"
     }
   ]
 }
