@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrui_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_darwin_amd64.zip",
+          "shasum": "bad7e1622b9640c04646c90c0ffc02f3ad0bdb2aab7c007acc99f913c1ec1057"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrui_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_darwin_arm64.zip",
+          "shasum": "91b32b894d6ae962bf171e187714d741d904f565e36b8ea12a9fd1d610e27156"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hrui_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_freebsd_386.zip",
+          "shasum": "c898a02007035c0b65302893dd09e44de56a652fc96b2941f271105362721d53"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrui_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_freebsd_amd64.zip",
+          "shasum": "ee12966246b60995dc66052a0ef216c11b6ecc2a5ab3b0b9c67e17f445507304"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hrui_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_freebsd_arm.zip",
+          "shasum": "596148ec2dfaab59cd4129ba45787d66cf0c6b2cc10ce88d6df26f458a691fed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrui_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_freebsd_arm64.zip",
+          "shasum": "626362652b22bf43f27914d51d20c8a8992f70128818ed54f6cf340b82d4ea45"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hrui_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_linux_386.zip",
+          "shasum": "d61b0345e24172a4448390d2ecdd3f430461a9048a47a95c09a4aba547c0f6c3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrui_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_linux_amd64.zip",
+          "shasum": "c396248620069fcc83cb32051dfb24640ab14c00df576bafb9eae2ee389615a1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hrui_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_linux_arm.zip",
+          "shasum": "bd3657b7163d16efffbb35654c750ccd9eb0cc5e660da4f0ff25237ba5753b06"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrui_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_linux_arm64.zip",
+          "shasum": "3e3b240eed5008770278d4523cefc5ba2ccbef7eab4ce1509077a9032d631a77"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hrui_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_windows_386.zip",
+          "shasum": "fde6c955e6d9f8f7ebafaedcd0f88d137ebf01284c41dd3679c6c482b3097e87"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hrui_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_windows_amd64.zip",
+          "shasum": "63608b1d2afe98a3a9b0dd41538587a4adf2d2b437ed603b0da21667278e410b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hrui_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/brennoo/terraform-provider-hrui/releases/download/v0.2.0/terraform-provider-hrui_0.2.0_windows_arm64.zip",
+          "shasum": "08b6f28097d5b0a71b9b0929d70f4f73df09cfd8fdce3c351245bbad15646617"
+        }
+      ]
+    },
+    {
       "version": "0.1.4",
       "protocols": [
         "6.0"
