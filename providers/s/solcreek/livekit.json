@@ -297,6 +297,11 @@
       "version": "0.2.0",
       "message": "checksums not found in release",
       "utc_time": "2026-11-26T00:12:52.657293426Z"
+    },
+    {
+      "version": "0.2.0",
+      "message": "checksums not found in release",
+      "utc_time": "2026-11-28T16:16:57.764082846Z"
     }
   ]
 }
