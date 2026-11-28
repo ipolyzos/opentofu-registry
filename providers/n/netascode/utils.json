@@ -1,6 +1,134 @@
 {
   "versions": [
     {
+      "version": "2.5.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_2.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_darwin_amd64.zip",
+          "shasum": "bc7e8283350d8940231d60f9593a82b0226aeae94ff6bef204bd103bb35f6262",
+          "h1": "h1:Oci2K6LX/CwT1is5v6oZGRcS71yS4JiFGpp1N3NNglg=",
+          "size": 7728201
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_2.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_darwin_arm64.zip",
+          "shasum": "352b3b918e02d9a0f8ec6c1fd636999424374ae493b5dd0680b293371dabf7c4",
+          "h1": "h1:Tuw4DvsFfEwlU3ZxN3ZRWW9iHhD9/iIbwMXBiL5rugQ=",
+          "size": 7126460
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-utils_2.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_freebsd_386.zip",
+          "shasum": "f413687efa724f123ae3cf6954ce10540c68a5c0dfecc654a4c8e9214cf71831",
+          "h1": "h1:FzbenDlhe/VhZUNZkue2TdyUCjUYwkhl967hNIElMAQ=",
+          "size": 7114067
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_2.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_freebsd_amd64.zip",
+          "shasum": "5a1282bc40293e9c2828c4cb9e76c7a07a0b842d926f16494ba842e7e51e14d5",
+          "h1": "h1:+1sf7ja5u9W/n95AfKfcctacHHw+JgwbqQ9e0tRsiCA=",
+          "size": 7517207
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_2.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_freebsd_arm.zip",
+          "shasum": "ba946ebabe3fb3b9b78c181749a4ef5647f660e8cbf9170d212be11e258d005e",
+          "h1": "h1:aL17HkhtxshrHtrswF8GszNbYyhjk9G80OTioiW3918=",
+          "size": 7078706
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_2.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_freebsd_arm64.zip",
+          "shasum": "070a51956631ba241852049f5f75dbfb8d5d4cf04046a6157fcb9b1526902eaa",
+          "h1": "h1:ZZ+SGaa1tWtbt6qMUgW7Rjw6N0eHtjOqRZqS1AyJuEo=",
+          "size": 6760643
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-utils_2.5.0_linux_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_linux_386.zip",
+          "shasum": "1029007ea1ed830bc787c0cc6389be797b0d31ae78bf186b07e07c99c3fda052",
+          "h1": "h1:bd5dmQlZ0HiiM2mp0nQQNDbRRk4fH3Vlyocdf2DLCvU=",
+          "size": 7147760
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_2.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_linux_amd64.zip",
+          "shasum": "3ceda3f3050d4b33ca4568fa021c0b422e289b08b46272be5e30f56a01e7c42b",
+          "h1": "h1:GJuu094PNK+bTb3uXu6qnurq0UaN8Dq3KjFOCxGKhaQ=",
+          "size": 7544566
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-utils_2.5.0_linux_arm.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_linux_arm.zip",
+          "shasum": "10c1001f72af15d0f3ffbc31d44c08497e1065bbfd501ebb1e7457acbcdbae1a",
+          "h1": "h1:mZlkHl9vbCTRITue+36FfN8/Sv1OsivbWKf5q7pLDNU=",
+          "size": 7101935
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_2.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_linux_arm64.zip",
+          "shasum": "1a01599a86bcfa12187c763eb52e5424c9eb23d1292dfd2000f7c26bc35d93f5",
+          "h1": "h1:6yfVKBz1sdesVcjbn9cBYP7mVd64Ii05+gHuxKJ8it8=",
+          "size": 6784190
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-utils_2.5.0_windows_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_windows_386.zip",
+          "shasum": "2864bd9ec1a89d36af50dd0e756ba6a7fcf901223c9b6633ee56a4b1fd458157",
+          "h1": "h1:xJfUtBFQqd4mOwGMbzi1xZOtPx5jcgVkDW04rMrTTzA=",
+          "size": 7477861
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-utils_2.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_windows_amd64.zip",
+          "shasum": "cd3a30836d45aab413e4756c20e31adc4ed96433aea7616c2f9b74269584cf0b",
+          "h1": "h1:a8dcZlmZyHc7RVTwQHu4hUoL6lxRFOlIGWS1E3uLFKk=",
+          "size": 7756438
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-utils_2.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-utils/releases/download/v2.5.0/terraform-provider-utils_2.5.0_windows_arm64.zip",
+          "shasum": "e3b2cb2c98386a0ca368e1a133361962864d45a35f17bf8c7e30b89f7aeec7bb",
+          "h1": "h1:Re1WE4WuORB5lp8X+gQU8nYWewz6HCUeclSWMV0ZMvA=",
+          "size": 6873303
+        }
+      ],
+      "discovered": "2026-11-28T17:16:39.485230816Z"
+    },
+    {
       "version": "2.4.0",
       "protocols": [
         "6.0"
